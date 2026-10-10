@@ -1,0 +1,12 @@
+{
+  "id": "po_azul",
+  "name": "Pó Azul",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 150,
+  "espacos": 0.5,
+  "description": "Composto estimulante de mana que permite recuperar 1d4 PM quando consumido.",
+  "page": 398,
+  "livro_id": "ameacas_de_arton"
+}

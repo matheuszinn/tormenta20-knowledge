@@ -1,0 +1,35 @@
+{
+  "id": "quitina_razza",
+  "name": "Quitina Razza",
+  "type": "material_especial",
+  "description": "Quitina ultrarresistente do temível razza'kham, troféu supremo de caçadores de monstros.",
+  "precos_adicionais": {
+    "arma": 3000,
+    "armadura_leve": 1500,
+    "armadura_pesada": 4500,
+    "escudo": 1500,
+    "esoterico": 3000
+  },
+  "efeitos": {
+    "arma": {
+      "dado_extra_no_maximo": true
+    },
+    "armadura_leve": {
+      "percepcao": 2,
+      "defesa": 1
+    },
+    "armadura_pesada": {
+      "percepcao": 5,
+      "defesa": 2
+    },
+    "escudo": {
+      "percepcao": 2,
+      "defesa": 1
+    },
+    "esoterico": {
+      "dado_extra_dano_magia_no_maximo": true
+    }
+  },
+  "page": 401,
+  "livro_id": "ameacas_de_arton"
+}

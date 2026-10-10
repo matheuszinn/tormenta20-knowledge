@@ -1,0 +1,11 @@
+{
+  "id": "gema_de_forca",
+  "name": "Gema de Força",
+  "type": "item",
+  "categoria": "equipamento_de_aventura",
+  "preco": 200,
+  "espacos": 1,
+  "description": "Engenho da Supremacia com 1d4 cargas. Permite produzir domo como o efeito básico de Campo de Força ou reduzir em -2 PM o custo dessa magia.",
+  "page": 396,
+  "livro_id": "ameacas_de_arton"
+}

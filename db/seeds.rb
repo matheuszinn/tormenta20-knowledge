@@ -316,6 +316,15 @@ module Tormenta20
             data[:category] ||= data.delete(:categoria)
             data[:price]    ||= data.delete(:preco)
             data[:weight]   ||= data.delete(:espacos)
+            # Animal partner blocks (parceiro, besta_de_carga, alternativo,
+            # restricoes, isento_restricao_cavalgar_combate) live in JSON but
+            # only become queryable via the DB if we merge them into effects.
+            effects_data = data[:effects].is_a?(Hash) ? data[:effects].dup : {}
+            %i[parceiro besta_de_carga alternativo restricoes].each do |key|
+              effects_data[key] = data.delete(key) if data.key?(key)
+            end
+            effects_data[:isento_restricao_cavalgar_combate] = true if data.delete(:isento_restricao_cavalgar_combate)
+            data[:effects] = effects_data unless effects_data.empty?
             data
           }
         )

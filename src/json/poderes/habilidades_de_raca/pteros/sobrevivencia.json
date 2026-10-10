@@ -1,0 +1,10 @@
+{
+  "id": "sobrevivencia",
+  "name": "Sobrevivência",
+  "type": "habilidade_de_raca",
+  "race": "pteros",
+  "description": "Longevidade. Normal.",
+  "effects": {},
+  "page": 267,
+  "livro_id": "ameacas_de_arton"
+}

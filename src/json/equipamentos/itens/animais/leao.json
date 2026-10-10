@@ -1,0 +1,42 @@
+{
+  "id": "leao",
+  "name": "Leão",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 800,
+  "espacos": 0,
+  "description": "Grande felino de juba majestosa treinado como montaria de combate.",
+  "page": 398,
+  "livro_id": "ameacas_de_arton",
+  "parceiro": {
+    "tipo": ["montaria"],
+    "porte": "grande",
+    "pagina_criatura": 220,
+    "patamares": {
+      "iniciante": {
+        "movement": [
+          { "type": "caminhada", "value": 12, "unit": "m" }
+        ],
+        "damage": [
+          { "type": "bonus_dano_corporal", "value": "1d6", "frequency": "1x_rodada" }
+        ]
+      },
+      "veterano": {
+        "movement": [
+          { "type": "caminhada", "value": 12, "unit": "m" }
+        ],
+        "damage": [
+          { "type": "bonus_dano_corporal", "value": "1d6", "frequency": "1x_rodada", "trigger": "investida", "multiplier": 2, "condition": "quando faz uma investida, o bônus dobra" }
+        ]
+      },
+      "mestre": {
+        "movement": [
+          { "type": "caminhada", "value": 15, "unit": "m" }
+        ],
+        "damage": [
+          { "type": "bonus_dano_corporal", "value": "1d10", "frequency": "1x_rodada" }
+        ]
+      }
+    }
+  }
+}

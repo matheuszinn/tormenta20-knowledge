@@ -1,0 +1,30 @@
+{
+  "id": "nezumi",
+  "name": "Nezumi",
+  "description": "Humanoides ratos sobreviventes nativos das ilhas de Tamu-ra, conhecidos pela resiliência, velocidade e engenho rústico.",
+  "size": "pequeno",
+  "movement": 9,
+  "vision": "visao_na_penumbra",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "constituicao": 2,
+    "destreza": 1,
+    "inteligencia": -1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "empunhadura_poderosa",
+    "roedor",
+    "sentidos_murideos"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "arsenal",
+    "megalokk",
+    "tenebra"
+  ],
+  "page": 162,
+  "livro_id": "ameacas_de_arton"
+}

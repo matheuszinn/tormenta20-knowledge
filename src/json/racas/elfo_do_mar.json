@@ -1,0 +1,32 @@
+{
+  "id": "elfo_do_mar",
+  "name": "Elfo-do-Mar",
+  "description": "Primos aquáticos dos elfos terrestres adaptados às profundezas do Grande Oceano, com brânquias e pele em tons oceânicos.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_na_penumbra",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "destreza": 2,
+    "constituicao": 1,
+    "inteligencia": -1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "arsenal_do_oceano",
+    "cria_das_aguas",
+    "dependencia_de_agua"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "x2",
+  "devotos": [
+    "allihanna",
+    "arsenal",
+    "hyninn",
+    "megalokk",
+    "oceano"
+  ],
+  "page": 316,
+  "livro_id": "ameacas_de_arton"
+}

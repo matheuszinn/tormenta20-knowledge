@@ -1,0 +1,37 @@
+{
+  "id": "katana_celestial",
+  "name": "Katana Celestial",
+  "type": "divina",
+  "circle": "5",
+  "school": "evoc",
+  "execution": "padrão",
+  "range": "pessoal",
+  "area": "linha de 60m ou duas linhas de 30m em V",
+  "duration": "instantânea",
+  "resistence": {
+    "effect": "Reflexos parcial",
+    "skill": "reflexos"
+  },
+  "description": "Golpe sagrado dos céus. Causa 12d8 pontos de dano de luz (12d12 em mortos-vivos) e deixa os alvos cegos e surdos até o fim da cena (Reflexos reduz à metade e evita as condições).",
+  "enhancements": [
+    {
+      "cost": 3,
+      "type": "aumenta",
+      "description": "aumenta o dano em +2d8 (+2d12 contra mortos-vivos)."
+    },
+    {
+      "cost": 6,
+      "type": "muda",
+      "description": "muda a área para linha de 120m ou quatro linhas de 30m em X."
+    }
+  ],
+  "effects": [
+    {
+      "type": "dano",
+      "amount": "12d8",
+      "damage_type": "luz"
+    }
+  ],
+  "page": 406,
+  "livro_id": "ameacas_de_arton"
+}

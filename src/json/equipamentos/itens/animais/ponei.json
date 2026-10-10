@@ -5,20 +5,53 @@
   "categoria": "animal",
   "preco": 30,
   "espacos": 0,
-  "parceiro": {
-    "tipo": "montaria",
-    "nivel": "iniciante",
-    "tamanhos_cavaleiro": [
-      "pequeno"
-    ]
-  },
-  "combate": {
-    "teste_cavalgar": {
-      "cd": 20,
-      "frequencia": "por rodada"
-    },
-    "motivo": "Pôneis sem treinamento se assustam facilmente"
-  },
   "description": "A montaria mais comum entre raças Pequenas. Pode ser usado como parceiro montaria. Pôneis sem treinamento se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante um combate.",
-  "page": 168
+  "page": 168,
+  "parceiro": {
+    "tipo": ["montaria"],
+    "porte": "medio",
+    "tamanhos_cavaleiro": ["pequeno"],
+    "pagina_criatura": 268,
+    "patamares": {
+      "iniciante": {
+        "movement": [
+          { "type": "caminhada", "value": 12, "unit": "m" }
+        ],
+        "extra_actions": [
+          { "type": "acao_movimento_extra", "frequency": "por_turno", "condition": "apenas_deslocar" }
+        ]
+      },
+      "veterano": {
+        "movement": [
+          { "type": "caminhada", "value": 15, "unit": "m" }
+        ],
+        "extra_actions": [
+          { "type": "acao_movimento_extra", "frequency": "por_turno", "condition": "apenas_deslocar" }
+        ],
+        "attack": [
+          { "type": "bonus_ataque_corporal", "value": 2, "target": "cavaleiro" }
+        ]
+      },
+      "mestre": {
+        "movement": [
+          { "type": "caminhada", "value": 15, "unit": "m" }
+        ],
+        "extra_actions": [
+          { "type": "acao_movimento_extra", "frequency": "por_turno", "condition": "apenas_deslocar", "count": 2 }
+        ],
+        "attack": [
+          { "type": "bonus_ataque_corporal", "value": 2, "target": "cavaleiro" }
+        ]
+      }
+    }
+  },
+  "restricoes": [
+    {
+      "trigger": "combate",
+      "teste": "Cavalgar",
+      "cd": 20,
+      "frequencia": "por_rodada",
+      "motivo": "Pôneis sem treinamento se assustam facilmente"
+    }
+  ]
 }

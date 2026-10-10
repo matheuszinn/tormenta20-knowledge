@@ -1,0 +1,14 @@
+{
+  "id": "multifuncional",
+  "name": "Multifuncional",
+  "type": "melhoria",
+  "applicable_to": ["ferramenta", "vestuario"],
+  "price": null,
+  "prerequisites": [],
+  "effects": {
+    "requisito": "Item que modifica uma perícia (fornecendo bônus ou reduzindo penalidade). Escolha outra perícia que usa o mesmo atributo-chave; o item passa a funcionar também para a segunda perícia escolhida (mas não se aplica a testes de ataque)."
+  },
+  "description": "Esta melhoria só pode ser aplicada em um item que modifica uma perícia (fornecendo bônus ou reduzindo penalidade). Escolha outra perícia que usa o mesmo atributo-chave; o item passa a funcionar também para a segunda perícia escolhida (mas não se aplica a testes de ataque).",
+  "page": 401,
+  "livro_id": "ameacas_de_arton"
+}

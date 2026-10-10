@@ -388,6 +388,10 @@ CREATE TABLE IF NOT EXISTS racas (
   racial_abilities JSON DEFAULT '[]',
   chosen_abilities_amount INTEGER DEFAULT 0,
   available_chosen_abilities JSON DEFAULT '[]',
+  page INTEGER,
+  livro_id TEXT,
+  longevidade TEXT,
+  devotos JSON DEFAULT '[]',
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
   updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );

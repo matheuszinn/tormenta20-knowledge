@@ -78,7 +78,17 @@ export function seed(): void {
 
 function seedRacas(insert: ReturnType<typeof Database.prototype.transaction>): void {
   const racas = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "racas"))
-  insert("racas", racas)
+  insert("racas", racas.map((r) => ({
+    id: r.id, name: r.name, description: r.description ?? null,
+    size: r.size, movement: r.movement, vision: r.vision ?? "normal",
+    vision_range: r.vision_range ?? null,
+    attribute_bonuses: r.attribute_bonuses ?? {}, skill_bonuses: r.skill_bonuses ?? [],
+    racial_abilities: r.racial_abilities ?? [],
+    chosen_abilities_amount: r.chosen_abilities_amount ?? 0,
+    available_chosen_abilities: r.available_chosen_abilities ?? [],
+    page: r.page ?? null, livro_id: r.livro_id ?? null,
+    longevidade: r.longevidade ?? null, devotos: r.devotos ?? [],
+  })))
 }
 
 function seedOrigens(insert: ReturnType<typeof Database.prototype.transaction>): void {
@@ -262,13 +272,27 @@ function seedEquipamentos(insert: ReturnType<typeof Database.prototype.transacti
   })))
 
   const itens = loadJsonFiles<Record<string, unknown>>(join(eqDir, "itens"))
-  insert("itens", itens.map((i) => ({
-    id: i.id, name: i.name, category: i.category ?? null,
-    price: i.preco ?? i.price ?? 0,
-    weight: i.espacos ?? i.weight ?? 0,
-    description: i.description ?? null,
-    effects: i.effects ?? {},
-  })))
+  insert("itens", itens.map((i) => {
+    const effects: Record<string, unknown> =
+      (i.effects as Record<string, unknown> | undefined) ?? {}
+    // Animal partner blocks (parceiro, besta_de_carga, alternativo, restricoes,
+    // isento_restricao_cavalgar_combate) live in JSON but only become queryable
+    // via the DB if we copy them into the effects JSON column here.
+    if (i.parceiro !== undefined) effects.parceiro = i.parceiro
+    if (i.besta_de_carga !== undefined) effects.besta_de_carga = i.besta_de_carga
+    if (i.alternativo !== undefined) effects.alternativo = i.alternativo
+    if (i.restricoes !== undefined) effects.restricoes = i.restricoes
+    if (i.isento_restricao_cavalgar_combate === true) {
+      effects.isento_restricao_cavalgar_combate = true
+    }
+    return {
+      id: i.id, name: i.name, category: i.category ?? null,
+      price: i.preco ?? i.price ?? 0,
+      weight: i.espacos ?? i.weight ?? 0,
+      description: i.description ?? null,
+      effects,
+    }
+  }))
 }
 
 function seedItensSuperiores(insert: ReturnType<typeof Database.prototype.transaction>): void {

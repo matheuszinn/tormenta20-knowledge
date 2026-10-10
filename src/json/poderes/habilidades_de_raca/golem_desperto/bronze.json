@@ -1,0 +1,10 @@
+{
+  "id": "bronze",
+  "name": "Bronze",
+  "type": "habilidade_de_raca",
+  "race": "golem_desperto",
+  "description": "+1 em dois atributos. Seu deslocamento não é reduzido por armaduras pesadas ou excesso de carga. Sua armadura não é acoplada ao seu corpo; você pode removê-la e colocá-la no tempo normal, mas ela conta em seu limite de itens vestidos. Golem de Espelhos e Habilidades de Classe O chassi de espelhos permite que um golem copie habilidades de classe de outras criaturas. Habilidades de classe são explicadas em detalhes em Tormenta20, Capítulo 1. Lembre-se de que cada magia fornecida por uma classe é uma habilidade individual. É possível também copiar habilidades de ameaças. Qualquer magia fornecida pela habilidade Magias, bem como qualquer habilidade com o mesmo nome de uma habilidade de classe, é considerada uma habilidade de classe. despertos",
+  "effects": {},
+  "page": 134,
+  "livro_id": "ameacas_de_arton"
+}

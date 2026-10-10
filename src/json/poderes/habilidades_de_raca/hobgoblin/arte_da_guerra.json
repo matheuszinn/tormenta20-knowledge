@@ -1,0 +1,10 @@
+{
+  "id": "arte_da_guerra",
+  "name": "Arte da Guerra",
+  "type": "habilidade_de_raca",
+  "race": "hobgoblin",
+  "description": "Você é treinado em Guerra e recebe proficiência em armas marciais. Se receber essa proficiência novamente, recebe +2 em rolagens de dano com essas armas.",
+  "effects": {},
+  "page": 84,
+  "livro_id": "ameacas_de_arton"
+}

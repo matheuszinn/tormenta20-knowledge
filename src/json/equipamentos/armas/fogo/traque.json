@@ -1,0 +1,23 @@
+{
+  "id": "traque",
+  "name": "Traque",
+  "type": "arma",
+  "proficiencia": "fogo",
+  "proposito": "ataque_a_distancia",
+  "empunhadura": "leve",
+  "preco": 75,
+  "dano": "2d6",
+  "critico": "19/x3",
+  "alcance": "curto",
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": [
+    "disparo"
+  ],
+  "especial": {
+    "defeito_resultado_impar": "emperra"
+  },
+  "description": "Arma de fogo rústica feita com sucata e materiais de segunda mão, suscetível a falhar. Se errar um ataque com resultado ímpar no d20, emperra até ser desarmada.",
+  "page": 394,
+  "livro_id": "ameacas_de_arton"
+}

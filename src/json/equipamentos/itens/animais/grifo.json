@@ -1,0 +1,48 @@
+{
+  "id": "grifo",
+  "name": "Grifo",
+  "type": "item",
+  "categoria": "animal",
+  "preco": null,
+  "espacos": 0,
+  "description": "Esta fera majestosa é muito cobiçada por heróis.",
+  "page": 268,
+  "livro_id": "t20_eja",
+  "parceiro": {
+    "tipo": ["montaria"],
+    "porte": "grande",
+    "pagina_criatura": 268,
+    "patamares": {
+      "iniciante": {
+        "damage": [
+          { "type": "bonus_dano_corporal", "value": "1d8", "frequency": "1x_rodada" }
+        ],
+        "special": [
+          { "type": "filhote_nao_pode_ser_montado" }
+        ]
+      },
+      "veterano": {
+        "damage": [
+          { "type": "bonus_dano_corporal", "value": "1d8", "frequency": "1x_rodada" }
+        ],
+        "movement": [
+          { "type": "voo", "value": 18, "unit": "m" }
+        ],
+        "special": [
+          { "type": "pode_ser_usado_como_montaria" }
+        ]
+      },
+      "mestre": {
+        "damage": [
+          { "type": "bonus_dano_corporal", "value": "1d8", "frequency": "1x_rodada" }
+        ],
+        "movement": [
+          { "type": "voo", "value": 18, "unit": "m" }
+        ],
+        "extra_actions": [
+          { "type": "acao_movimento_extra", "frequency": "por_turno", "condition": "apenas_deslocar" }
+        ]
+      }
+    }
+  }
+}

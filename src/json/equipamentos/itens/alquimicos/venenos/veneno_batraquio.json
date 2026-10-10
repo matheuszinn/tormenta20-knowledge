@@ -1,0 +1,12 @@
+{
+  "id": "veneno_batraquio",
+  "name": "Veneno Batráquio",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "veneno",
+  "preco": 30,
+  "espacos": 0.5,
+  "description": "Secretado por sapos atrozes (Fortitude CD 16). Causa 2d6 pontos de dano de veneno e a condição lento por 1 rodada.",
+  "page": 398,
+  "livro_id": "ameacas_de_arton"
+}

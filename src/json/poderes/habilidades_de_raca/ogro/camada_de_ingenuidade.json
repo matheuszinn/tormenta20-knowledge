@@ -1,0 +1,10 @@
+{
+  "id": "camada_de_ingenuidade",
+  "name": "Camada de Ingenuidade",
+  "type": "habilidade_de_raca",
+  "race": "ogro",
+  "description": "Você sofre –5 em",
+  "effects": {},
+  "page": 40,
+  "livro_id": "ameacas_de_arton"
+}

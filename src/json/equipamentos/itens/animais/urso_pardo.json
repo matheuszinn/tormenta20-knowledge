@@ -1,0 +1,36 @@
+{
+  "id": "urso_pardo",
+  "name": "Urso Pardo",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 300,
+  "espacos": 0,
+  "description": "Predador corpulento das florestas e colinas do norte, treinado para montaria pesada.",
+  "page": 398,
+  "livro_id": "ameacas_de_arton",
+  "parceiro": {
+    "tipo": ["montaria"],
+    "porte": "grande",
+    "pagina_criatura": 225,
+    "patamares": {
+      "iniciante": {
+        "movement": [
+          { "type": "caminhada", "value": 12, "unit": "m" }
+        ],
+        "damage": [
+          { "type": "bonus_dano_corporal", "value": "1d6", "frequency": "1x_rodada" }
+        ]
+      },
+      "veterano": {
+        "maneuvers": [
+          { "manobra": "agarrar", "action": "livre", "frequency": "1x_rodada", "condition": "uma mão permanece livre; apenas um inimigo agarrado por vez" }
+        ]
+      },
+      "mestre": {
+        "damage": [
+          { "type": "bonus_dano_corporal", "value": "1d10", "frequency": "1x_rodada" }
+        ]
+      }
+    }
+  }
+}

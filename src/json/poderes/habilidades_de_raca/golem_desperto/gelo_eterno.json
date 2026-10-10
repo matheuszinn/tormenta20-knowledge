@@ -1,0 +1,10 @@
+{
+  "id": "gelo_eterno",
+  "name": "Gelo Eterno",
+  "type": "habilidade_de_raca",
+  "race": "golem_desperto",
+  "description": "Constituição +2. Seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Você recebe imunidade a frio e redução de fogo 10, mas não pode escolher elemental (fogo) ou vapor como sua fonte de energia (veja Golem de Nor na página 348).",
+  "effects": {},
+  "page": 134,
+  "livro_id": "ameacas_de_arton"
+}

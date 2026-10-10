@@ -1,0 +1,36 @@
+{
+  "id": "rinoceronte",
+  "name": "Rinoceronte",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 600,
+  "espacos": 0,
+  "description": "Besta encouraçada das savanas com chifre frontal intimidador.",
+  "page": 398,
+  "livro_id": "ameacas_de_arton",
+  "parceiro": {
+    "tipo": ["montaria"],
+    "porte": "grande",
+    "pagina_criatura": 221,
+    "patamares": {
+      "iniciante": {
+        "movement": [
+          { "type": "caminhada", "value": 12, "unit": "m" }
+        ],
+        "attack": [
+          { "type": "bonus_ataque_corporal", "value": 2, "trigger": "investida" }
+        ]
+      },
+      "veterano": {
+        "powers": [
+          { "id": "carga_de_cavalaria", "condition": "if already possessed: bonus dano investida +1d8" }
+        ]
+      },
+      "mestre": {
+        "special": [
+          { "type": "deslocamento_nao_afetado_por", "terrain": ["gelo", "neve"] }
+        ]
+      }
+    }
+  }
+}

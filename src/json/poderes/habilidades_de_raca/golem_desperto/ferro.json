@@ -1,0 +1,10 @@
+{
+  "id": "ferro",
+  "name": "Ferro",
+  "type": "habilidade_de_raca",
+  "race": "golem_desperto",
+  "description": "Força +1 e Constituição +1. Seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Você recebe +2 na Defesa, mas possui penalidade de armadura –2.",
+  "effects": {},
+  "page": 134,
+  "livro_id": "ameacas_de_arton"
+}

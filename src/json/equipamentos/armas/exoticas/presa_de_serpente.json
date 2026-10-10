@@ -1,0 +1,21 @@
+{
+  "id": "presa_de_serpente",
+  "name": "Presa de Serpente",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 1000,
+  "dano": "1d8",
+  "critico": "17",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": [
+    "agil"
+  ],
+  "especial": {},
+  "description": "Lâmina curva feita da mandíbula de monstros ofídicos, afiada a níveis moleculares com margem de ameaça 17.",
+  "page": 394,
+  "livro_id": "ameacas_de_arton"
+}

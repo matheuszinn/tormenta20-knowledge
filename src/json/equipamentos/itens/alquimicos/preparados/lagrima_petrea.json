@@ -1,0 +1,12 @@
+{
+  "id": "lagrima_petrea",
+  "name": "Lágrima Pétrea",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 30,
+  "espacos": 0.5,
+  "description": "Substância mineral que ao ser ingerida endurece a pele, fornecendo +2 na Defesa por 1 hora.",
+  "page": 398,
+  "livro_id": "ameacas_de_arton"
+}

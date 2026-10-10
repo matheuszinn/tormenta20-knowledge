@@ -1,0 +1,10 @@
+{
+  "id": "talentos_do_bando",
+  "name": "Talentos do Bando",
+  "type": "habilidade_de_raca",
+  "race": "kobolds",
+  "description": "Escolham dois dos poderes a seguir. Uma vez por patamar, vocês podem escolher outro desses poderes no lugar de um poder de classe.",
+  "effects": {},
+  "page": 182,
+  "livro_id": "ameacas_de_arton"
+}

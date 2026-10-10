@@ -1,0 +1,10 @@
+{
+  "id": "arma_elemental",
+  "name": "Arma Elemental",
+  "type": "habilidade_de_raca",
+  "race": "mashin",
+  "description": "Você pode gastar uma ação de movimento e 2 PM para fazer uma arma que esteja empunhando causar +1d6 pontos de dano do tipo de sua fonte elemental até o fim da cena. Pré-requisito: Fonte de Energia (elemental).",
+  "effects": {},
+  "page": 160,
+  "livro_id": "ameacas_de_arton"
+}

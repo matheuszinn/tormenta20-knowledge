@@ -1,0 +1,11 @@
+{
+  "id": "dente_de_wisphago",
+  "name": "Dente de Wisphago",
+  "type": "item",
+  "categoria": "equipamento_de_aventura",
+  "preco": 100,
+  "espacos": 1,
+  "description": "Vestido como amuleto. Em teste de resistência contra magia arcana, pode ser gasto para rolar novamente com +2 de bônus (se desfaz após o uso).",
+  "page": 396,
+  "livro_id": "ameacas_de_arton"
+}

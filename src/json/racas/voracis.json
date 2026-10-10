@@ -1,0 +1,31 @@
+{
+  "id": "voracis",
+  "name": "Voracis",
+  "description": "Predadores bípedes ferozes com garras afiadas e dentes serrilhados, caçadores implacáveis de presas grandes.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_na_penumbra",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "destreza": 2,
+    "constituicao": 1,
+    "inteligencia": -1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "garras",
+    "rainha_da_selva",
+    "sentidos_selvagens",
+    "devocao"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "allihanna",
+    "arsenal",
+    "megalokk"
+  ],
+  "page": 270,
+  "livro_id": "ameacas_de_arton"
+}

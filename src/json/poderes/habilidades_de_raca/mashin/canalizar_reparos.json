@@ -1,0 +1,10 @@
+{
+  "id": "canalizar_reparos",
+  "name": "Canalizar Reparos",
+  "type": "habilidade_de_raca",
+  "race": "mashin",
+  "description": "Como uma ação completa, você pode gastar pontos de mana para recuperar pontos de vida, à taxa de 5 PV por PM.",
+  "effects": {},
+  "page": 160,
+  "livro_id": "ameacas_de_arton"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "marfim_de_mamute",
+  "name": "Marfim de Mamute",
+  "type": "material_especial",
+  "description": "Presas maciças de mamutes e bestas das Uivantes, fáceis de esculpir e incrivelmente duras.",
+  "precos_adicionais": {
+    "arma": 1200,
+    "esoterico": 1500
+  },
+  "efeitos": {
+    "arma": {
+      "critico_multiplicador": "+1 em investida"
+    },
+    "esoterico": {
+      "magias_frio_dano": 2
+    }
+  },
+  "page": 402,
+  "livro_id": "ameacas_de_arton"
+}

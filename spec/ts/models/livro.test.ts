@@ -19,4 +19,11 @@ describe("Livro", () => {
     expect(h.nome).toBe(l.name)
     expect(h.nome_curto).toBe(l.nomeCurto)
   })
+
+  it("loads Ameaças de Arton", () => {
+    const ameacas = Livro.find("ameacas_de_arton")
+    expect(ameacas).toBeDefined()
+    expect(ameacas?.name).toBe("Tormenta 20 - Ameaças de Arton")
+    expect(ameacas?.nomeCurto).toBe("T20 - Ameaças")
+  })
 })

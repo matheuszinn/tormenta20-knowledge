@@ -1,0 +1,21 @@
+{
+  "id": "couro_de_bulette",
+  "name": "Couro de Bulette",
+  "type": "material_especial",
+  "description": "Este couro raramente é encontrado à venda; quando não é curtido e tratado logo após a extração, perde suas qualidades especiais.",
+  "precos_adicionais": {},
+  "efeitos": {
+    "armadura_leve": {
+      "deslocamento_escavacao": "metade_do_normal",
+      "reducao_acido": 5,
+      "pecas_necessarias": 1
+    },
+    "armadura_pesada": {
+      "deslocamento_escavacao": "metade_do_normal",
+      "reducao_acido": 10,
+      "pecas_necessarias": 3
+    }
+  },
+  "page": 401,
+  "livro_id": "ameacas_de_arton"
+}

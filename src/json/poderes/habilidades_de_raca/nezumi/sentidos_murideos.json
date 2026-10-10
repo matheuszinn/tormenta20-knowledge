@@ -1,0 +1,10 @@
+{
+  "id": "sentidos_murideos",
+  "name": "Sentidos Murídeos",
+  "type": "habilidade_de_raca",
+  "race": "nezumi",
+  "description": "Você recebe faro e visão na penumbra.",
+  "effects": {},
+  "page": 162,
+  "livro_id": "ameacas_de_arton"
+}

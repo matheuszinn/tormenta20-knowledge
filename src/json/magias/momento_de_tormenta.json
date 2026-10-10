@@ -1,0 +1,31 @@
+{
+  "id": "momento_de_tormenta",
+  "name": "Momento de Tormenta",
+  "type": "universal",
+  "circle": "2",
+  "school": "conv",
+  "execution": "completa",
+  "range": "pessoal",
+  "area": "cubo de 30m",
+  "duration": "sustentada",
+  "description": "Nuvem rubra surge acima do conjurador. Como ação de movimento a cada turno manifesta chuva ácida (6d4 ácido), neblina venenosa (2d12 perda PV), raios escarlates (6d8 eletricidade em até 6 alvos) ou pesadelos reais (4d6 psíquico e perde 1d4 PM).",
+  "enhancements": [
+    {
+      "cost": 3,
+      "type": "aumenta",
+      "description": "aumenta o dano em +1 dado do mesmo tipo."
+    },
+    {
+      "cost": 5,
+      "type": "especial",
+      "description": "criaturas na área ficam alquebradas enquanto permanecerem nela."
+    },
+    {
+      "cost": 5,
+      "type": "especial",
+      "description": "(Apenas Aharadak) muda área para círculo de 1km de raio."
+    }
+  ],
+  "page": 406,
+  "livro_id": "ameacas_de_arton"
+}

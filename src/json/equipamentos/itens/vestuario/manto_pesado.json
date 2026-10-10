@@ -1,0 +1,11 @@
+{
+  "id": "manto_pesado",
+  "name": "Manto Pesado",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 10,
+  "espacos": 1,
+  "description": "Veste pesada com capuz que protege contra sol e claridade em excesso. Concede imunidade à condição ofuscado e desconsidera luz solar.",
+  "page": 396,
+  "livro_id": "ameacas_de_arton"
+}

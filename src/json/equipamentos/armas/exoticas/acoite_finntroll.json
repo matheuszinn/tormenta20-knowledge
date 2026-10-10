@@ -1,0 +1,22 @@
+{
+  "id": "acoite_finntroll",
+  "name": "Açoite Finntroll",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 30,
+  "dano": "1d8",
+  "critico": "x2",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": [
+    "alongada",
+    "desarmar"
+  ],
+  "especial": {},
+  "description": "Chicote espinhoso e pesado forjado com técnicas cruéis dos trolls nobres de Finntroll.",
+  "page": 394,
+  "livro_id": "ameacas_de_arton"
+}

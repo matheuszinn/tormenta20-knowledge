@@ -1,0 +1,20 @@
+{
+  "id": "osso_de_megalokk",
+  "name": "Osso de Megalokk",
+  "type": "material_especial",
+  "description": "Ossos fossilizados imbuídos com a fúria primal do Deus dos Monstros.",
+  "precos_adicionais": {
+    "arma": 1800,
+    "armadura": 1200
+  },
+  "efeitos": {
+    "arma": {
+      "dano_adicional_furia": 2
+    },
+    "armadura": {
+      "intimidacao": 2
+    }
+  },
+  "page": 402,
+  "livro_id": "ameacas_de_arton"
+}

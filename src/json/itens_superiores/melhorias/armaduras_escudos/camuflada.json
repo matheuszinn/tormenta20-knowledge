@@ -1,0 +1,13 @@
+{
+  "id": "camuflada",
+  "name": "Camuflada",
+  "type": "melhoria",
+  "categoria": "armaduras_escudos",
+  "efeito": {
+    "furtividade_em_terreno": 2
+  },
+  "prerequisitos": null,
+  "description": "Tratada com padrões de camuflagem ou tinturas naturais. Fornece +2 em Furtividade no terreno escolhido durante a fabricação.",
+  "page": 401,
+  "livro_id": "ameacas_de_arton"
+}

@@ -5,18 +5,57 @@
   "categoria": "animal",
   "preco": 25,
   "espacos": 0,
-  "parceiro": {
-    "tipo": "perseguidor",
-    "nivel": "iniciante",
-    "requisito_pericia": "Adestramento",
-    "alternativo": {
-      "tipo": "montaria",
-      "tamanhos_cavaleiro": [
-        "pequeno",
-        "minusculo"
-      ]
-    }
-  },
   "description": "Este cachorro valente e leal pode ser usado como parceiro perseguidor por personagens treinados em Adestramento ou montaria por personagens Pequenos e Minúsculos.",
-  "page": 168
+  "page": 168,
+  "parceiro": {
+    "tipo": ["perseguidor", "montaria"],
+    "porte": "medio",
+    "tamanhos_cavaleiro": ["pequeno", "minusculo"],
+    "requisito_pericia": "Adestramento",
+    "pagina_criatura": 268,
+    "patamares": {
+      "iniciante": {
+        "movement": [
+          { "type": "caminhada", "value": 9, "unit": "m" }
+        ],
+        "senses": [
+          { "type": "faro" }
+        ],
+        "extra_actions": [
+          { "type": "acao_movimento_extra", "frequency": "por_turno", "condition": "apenas_deslocar" }
+        ]
+      },
+      "veterano": {
+        "movement": [
+          { "type": "caminhada", "value": 12, "unit": "m" }
+        ],
+        "senses": [
+          { "type": "faro" }
+        ],
+        "extra_actions": [
+          { "type": "acao_movimento_extra", "frequency": "por_turno", "condition": "apenas_deslocar" }
+        ],
+        "defense": [
+          { "type": "bonus_defesa", "target": "cavaleiro", "value": 2 }
+        ]
+      },
+      "mestre": {
+        "movement": [
+          { "type": "caminhada", "value": 12, "unit": "m" }
+        ],
+        "senses": [
+          { "type": "faro" }
+        ],
+        "extra_actions": [
+          { "type": "acao_movimento_extra", "frequency": "por_turno", "condition": "apenas_deslocar" }
+        ],
+        "defense": [
+          { "type": "bonus_defesa", "target": "cavaleiro", "value": 2 }
+        ],
+        "maneuvers": [
+          { "manobra": "derrubar", "action": "livre", "frequency": "1x_rodada", "trigger": "ao_acertar_ataque_corpo_a_corpo" }
+        ]
+      }
+    }
+  }
 }

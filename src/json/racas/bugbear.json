@@ -1,0 +1,30 @@
+{
+  "id": "bugbear",
+  "name": "Bugbear",
+  "description": "Grandes goblinoides brutais e peludos, com sentidos predatórios aguçados e apetite pelo terror de suas presas.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "forca": 2,
+    "destreza": 1,
+    "carisma": -1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "empunhadura_poderosa",
+    "saborear_pavor",
+    "sentidos_de_predador"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "arsenal",
+    "megalokk",
+    "tenebra"
+  ],
+  "page": 79,
+  "livro_id": "ameacas_de_arton"
+}

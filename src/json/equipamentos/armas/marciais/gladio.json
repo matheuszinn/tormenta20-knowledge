@@ -1,0 +1,21 @@
+{
+  "id": "gladio",
+  "name": "Gládio",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 12,
+  "dano": "1d6",
+  "critico": "19/x3",
+  "alcance": null,
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": [
+    "versatil"
+  ],
+  "especial": {},
+  "description": "Espada curta e reta com ponta reforçada usada pelas legiões do Império de Tauron. Causa golpes penetrantes devastadores.",
+  "page": 394,
+  "livro_id": "ameacas_de_arton"
+}

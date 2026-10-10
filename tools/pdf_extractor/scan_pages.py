@@ -48,27 +48,41 @@ DIR_TO_TABLE = {
 }
 
 # Page ranges for known sections (helps disambiguate common names)
-# Based on TOC from the EJA edition
 SECTION_PAGE_RANGES = {
-    "racas":       (24, 37),
-    "classes":     (38, 90),
-    "origens":     (91, 101),
-    "divindades":  (102, 111),
-    "pericias":    (120, 129),
-    "poderes":     (133, 143),
-    "armas":       (152, 157),
-    "armaduras":   (160, 160),
-    "escudos":     (160, 160),
-    "itens":       (161, 169),
-    "magias":      (184, 217),
-    "condicoes":   (400, 401),
-    "materiais_especiais": (172, 173),
-    "melhorias":   (170, 173),
-    "encantamentos": (341, 351),
-    "pocoes":      (347, 351),
-    "acessorios_magicos": (348, 355),
-    "regras":      (144, 245),
-    "tabelas":     (120, 405),
+    "t20_eja": {
+        "racas":       (24, 37),
+        "classes":     (38, 90),
+        "origens":     (91, 101),
+        "divindades":  (102, 111),
+        "pericias":    (120, 129),
+        "poderes":     (133, 143),
+        "armas":       (152, 157),
+        "armaduras":   (160, 160),
+        "escudos":     (160, 160),
+        "itens":       (161, 169),
+        "magias":      (184, 217),
+        "condicoes":   (400, 401),
+        "materiais_especiais": (172, 173),
+        "melhorias":   (170, 173),
+        "encantamentos": (341, 351),
+        "pocoes":      (347, 351),
+        "acessorios_magicos": (348, 355),
+        "regras":      (144, 245),
+        "tabelas":     (120, 405),
+    },
+    "ameacas_de_arton": {
+        "racas":       (31, 356),
+        "poderes":     (16, 356),
+        "armas":       (394, 396),
+        "armaduras":   (395, 397),
+        "escudos":     (395, 397),
+        "itens":       (396, 401),
+        "melhorias":   (401, 402),
+        "materiais_especiais": (401, 404),
+        "acessorios_magicos": (404, 405),
+        "magias":      (405, 407),
+        "regras":      (14, 420),
+    }
 }
 
 
@@ -97,8 +111,8 @@ def normalize(text: str) -> str:
     return text
 
 
-def load_all_entities(json_base: Path) -> List[dict]:
-    """Load all JSON entities from src/json/."""
+def load_all_entities(json_base: Path, livro_id: Optional[str] = None) -> List[dict]:
+    """Load all JSON entities from src/json/, optionally filtered by livro_id."""
     entities = []
 
     for rel_dir, table in DIR_TO_TABLE.items():
@@ -117,6 +131,10 @@ def load_all_entities(json_base: Path) -> List[dict]:
                 name = data.get("name")
                 entity_id = data.get("id")
                 if not name or not entity_id:
+                    continue
+
+                item_livro = data.get("livro_id") or data.get("book_id") or "t20_eja"
+                if livro_id and item_livro != livro_id:
                     continue
 
                 entities.append({
@@ -163,6 +181,7 @@ def find_entity_page(
     toc_lookup: Dict[str, int],
     page_texts: Dict[int, str],
     description: Optional[str] = None,
+    livro_id: str = "t20_eja",
 ) -> Optional[int]:
     """
     Find the page for an entity using:
@@ -186,7 +205,8 @@ def find_entity_page(
             return toc_lookup[name_norm + suffix]
 
     # 2. Fall back to text search within section range
-    page_range = SECTION_PAGE_RANGES.get(table)
+    book_ranges = SECTION_PAGE_RANGES.get(livro_id, SECTION_PAGE_RANGES["t20_eja"])
+    page_range = book_ranges.get(table)
     if page_range:
         start_p, end_p = page_range
         
@@ -297,22 +317,32 @@ def main():
     print(f"   {len(page_texts)} pages indexed\n")
 
     print("📂 Loading JSON entities...")
-    entities = load_all_entities(json_base)
-    print(f"   {len(entities)} entities found\n")
+    entities = load_all_entities(json_base, args.livro_id)
+    print(f"   {len(entities)} entities found for book '{args.livro_id}'\n")
 
-    already_has_page = 0
-    needs_page = entities
+    index_entries = []
+    for entity in entities:
+        p = entity["data"].get("page") or entity["data"].get("pagina")
+        if p:
+            index_entries.append({
+                "termo": entity["name"],
+                "pagina": int(p),
+                "tabela": entity["table"],
+                "registro_id": entity["id"],
+            })
+
+    already_has_page = len([e for e in entities if e["has_page"]])
+    needs_page = [e for e in entities if not e["has_page"]]
     print(f"   {already_has_page} already have page numbers")
     print(f"   {len(needs_page)} need page numbers\n")
 
     print("🔍 Scanning PDF for entity names...")
     found = 0
     not_found = 0
-    index_entries = []
 
     for entity in needs_page:
         desc = entity["data"].get("description") or entity["data"].get("descricao")
-        page = find_entity_page(entity["name"], entity["table"], toc_lookup, page_texts, description=desc)
+        page = find_entity_page(entity["name"], entity["table"], toc_lookup, page_texts, description=desc, livro_id=args.livro_id)
         if page:
             found += 1
             entity["found_page"] = page

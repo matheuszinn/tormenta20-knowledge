@@ -1,0 +1,30 @@
+{
+  "id": "kaijin",
+  "name": "Kaijin",
+  "description": "Nascidos da contaminação da Tormenta em Tamu-ra, com couraças avermelhadas e força monstruosa, buscando honra ou redenção.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "forca": 2,
+    "constituicao": 1,
+    "carisma": -2
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "couraca_rubra",
+    "cria_da_tormenta",
+    "disforme",
+    "terror_vivo"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "arsenal",
+    "lin_wu"
+  ],
+  "page": 157,
+  "livro_id": "ameacas_de_arton"
+}

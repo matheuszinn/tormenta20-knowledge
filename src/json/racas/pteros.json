@@ -1,0 +1,35 @@
+{
+  "id": "pteros",
+  "name": "Pteros",
+  "description": "Membros alados dos povos-trovão de Galrasia, sábios exploradores dos céus e observadores atentos da natureza.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_na_penumbra",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "sabedoria": 2,
+    "destreza": 1,
+    "inteligencia": -1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "ligacao_natural",
+    "maos_rudimentares",
+    "pes_rapinantes",
+    "senhor_dos_ceus",
+    "sentidos_rapinantes",
+    "sobrevivencia",
+    "devocao"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "allihanna",
+    "lena",
+    "marah",
+    "wynna"
+  ],
+  "page": 267,
+  "livro_id": "ameacas_de_arton"
+}

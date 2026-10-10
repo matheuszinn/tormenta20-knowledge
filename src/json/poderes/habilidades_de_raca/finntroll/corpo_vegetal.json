@@ -1,0 +1,10 @@
+{
+  "id": "corpo_vegetal",
+  "name": "Corpo Vegetal",
+  "type": "habilidade_de_raca",
+  "race": "finntroll",
+  "description": "Você é uma criatura do tipo monstro e recebe natureza vegetal e visão no escuro.",
+  "effects": {},
+  "page": 339,
+  "livro_id": "ameacas_de_arton"
+}

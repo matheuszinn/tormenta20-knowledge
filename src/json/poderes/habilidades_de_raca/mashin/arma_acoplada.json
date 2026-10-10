@@ -1,0 +1,10 @@
+{
+  "id": "arma_acoplada",
+  "name": "Arma Acoplada",
+  "type": "habilidade_de_raca",
+  "race": "mashin",
+  "description": "Você possui uma arma acoplada ao seu corpo. Ela fica recolhida em um compartimento e não pode ser desarmada, e você conta como se tivesse",
+  "effects": {},
+  "page": 160,
+  "livro_id": "ameacas_de_arton"
+}

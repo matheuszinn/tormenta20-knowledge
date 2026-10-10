@@ -1,0 +1,13 @@
+{
+  "id": "anatomia_monstruosa",
+  "name": "Anatomia Monstruosa",
+  "type": "melhoria",
+  "categoria": "armaduras_escudos",
+  "efeito": {
+    "adaptada_a_monstros": "Adaptada à fisiologia de criaturas com anatomia não humana (centauros, nagahs, trogs, etc.), sem penalidade de uso."
+  },
+  "prerequisitos": null,
+  "description": "A armadura ou escudo é forjada sob medida para criaturas com caudas, asas, múltiplos membros ou formatos corporais atípicos.",
+  "page": 401,
+  "livro_id": "ameacas_de_arton"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tomo_de_guerra",
+  "name": "Tomo de Guerra",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 300,
+  "espacos": 1,
+  "description": "Quando lança uma magia de evocação, você recebe +1 PM para gastar em aprimoramentos.",
+  "page": 396,
+  "livro_id": "ameacas_de_arton"
+}

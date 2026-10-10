@@ -1,0 +1,18 @@
+{
+  "id": "hippion",
+  "name": "Hippion",
+  "title": null,
+  "description": null,
+  "beliefs_objectives": [],
+  "holy_symbol": null,
+  "energy": "qualquer",
+  "preferred_weapon": null,
+  "devotees": {
+    "races": [],
+    "classes": []
+  },
+  "granted_powers": [],
+  "obligations_restrictions": null,
+  "page": null,
+  "needs_review": "Stub; dados completos serão enviados depois"
+}

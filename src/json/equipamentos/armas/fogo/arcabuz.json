@@ -1,0 +1,21 @@
+{
+  "id": "arcabuz",
+  "name": "Arcabuz",
+  "type": "arma",
+  "proficiencia": "fogo",
+  "proposito": "ataque_a_distancia",
+  "empunhadura": "duas_maos",
+  "preco": 800,
+  "dano": "2d10",
+  "critico": "19/x3",
+  "alcance": "medio",
+  "tipo_dano": "perfuracao",
+  "espacos": 2,
+  "habilidades": [
+    "disparo"
+  ],
+  "especial": {},
+  "description": "Arma longa de fogo primitiva, antecessora do mosquete, com cano pesado e boca alargada, disparando projéteis de alto impacto.",
+  "page": 394,
+  "livro_id": "ameacas_de_arton"
+}

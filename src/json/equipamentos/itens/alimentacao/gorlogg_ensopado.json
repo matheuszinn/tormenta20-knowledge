@@ -1,0 +1,11 @@
+{
+  "id": "gorlogg_ensopado",
+  "name": "Gorlogg Ensopado",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 6,
+  "espacos": 0,
+  "description": "Ensopado altamente nutritivo criado em Yuvalin. Em sua próxima noite de sono, aumenta a recuperação de PV e PM em +1 por nível.",
+  "page": 398,
+  "livro_id": "ameacas_de_arton"
+}

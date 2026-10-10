@@ -1,0 +1,27 @@
+{
+  "id": "pena_de_kraken",
+  "name": "Pena de Kraken",
+  "type": "material_especial",
+  "description": "Este material vítreo extraído da concha interna de um kraken é extremamente afiado. Em seu estado bruto, é quebradiço e difícil de transportar sem equipamento adequado, sendo assim raramente encontrado à venda.",
+  "precos_adicionais": {},
+  "efeitos": {
+    "arma": {
+      "acerto_critico_dano_aumento": "dois_passos_antes_multiplicacao",
+      "pecas_necessarias": 1
+    },
+    "armadura_leve": {
+      "atacante_erra_ataque_corporal_perde_pv": 5,
+      "pecas_necessarias": 1
+    },
+    "armadura_pesada": {
+      "atacante_erra_ataque_corporal_perde_pv": 10,
+      "pecas_necessarias": 3
+    },
+    "escudo": {
+      "atacante_erra_ataque_corporal_perde_pv": 5,
+      "pecas_necessarias": 1
+    }
+  },
+  "page": 402,
+  "livro_id": "ameacas_de_arton"
+}

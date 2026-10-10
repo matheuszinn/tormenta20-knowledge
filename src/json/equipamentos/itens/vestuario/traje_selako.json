@@ -1,0 +1,11 @@
+{
+  "id": "traje_selako",
+  "name": "Traje Selako",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 90,
+  "espacos": 1,
+  "description": "Feito de couro de selako. Fornece +2 em testes de Atletismo para nadar e +3m no deslocamento de natação.",
+  "page": 396,
+  "livro_id": "ameacas_de_arton"
+}

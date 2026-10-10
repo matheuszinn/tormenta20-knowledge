@@ -1,0 +1,12 @@
+{
+  "id": "eter_elemental",
+  "name": "Éter Elemental",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 60,
+  "espacos": 0.5,
+  "description": "Extraído de elementais. Beber concede resistência 10 contra o elemento do preparado até o fim da cena.",
+  "page": 396,
+  "livro_id": "ameacas_de_arton"
+}

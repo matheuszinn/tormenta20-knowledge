@@ -1,0 +1,24 @@
+{
+  "id": "pistola_punhal",
+  "name": "Pistola-Punhal",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "leve",
+  "preco": 300,
+  "dano": "1d4 / 2d6",
+  "critico": "19 / 19/x3",
+  "alcance": "curto",
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": [
+    "dupla",
+    "disparo"
+  ],
+  "especial": {
+    "arma_combinada": "punhal corpo a corpo acoplado a pistola de disparo único"
+  },
+  "description": "Arma híbrida engenhosa combinando a lâmina de um punhal com o cano de uma pistola.",
+  "page": 394,
+  "livro_id": "ameacas_de_arton"
+}

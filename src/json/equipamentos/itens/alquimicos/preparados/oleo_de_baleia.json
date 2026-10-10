@@ -1,0 +1,12 @@
+{
+  "id": "oleo_de_baleia",
+  "name": "Óleo de Baleia",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 30,
+  "espacos": 0.5,
+  "description": "Óleo isolante térmico que protege contra frio intenso e concede resistência a frio 5 por 1 hora.",
+  "page": 398,
+  "livro_id": "ameacas_de_arton"
+}

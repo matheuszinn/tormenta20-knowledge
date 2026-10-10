@@ -1,0 +1,12 @@
+{
+  "id": "isca_putrefata",
+  "name": "Isca Putrefata",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 60,
+  "espacos": 0.5,
+  "description": "Frasco de restos mortais diluídos arremessável em alcance médio. Atrai mortos-vivos e predadores que priorizam o alvo atingido.",
+  "page": 397,
+  "livro_id": "ameacas_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "medo_de_altura",
+  "name": "Medo de Altura",
+  "type": "habilidade_de_raca",
+  "race": "ceratops",
+  "description": "Se estiver adjacente a uma queda de 3m ou mais (como um buraco ou penhasco), você fica abalado.",
+  "effects": {},
+  "page": 265,
+  "livro_id": "ameacas_de_arton"
+}

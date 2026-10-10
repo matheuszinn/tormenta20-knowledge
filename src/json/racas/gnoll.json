@@ -1,0 +1,34 @@
+{
+  "id": "gnoll",
+  "name": "Gnoll",
+  "description": "Humanoides hienídeos agressivos e gregários que caçam em matilhas implacáveis e respeitam a força.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_na_penumbra",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "constituicao": 2,
+    "sabedoria": 1,
+    "inteligencia": -1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "faro",
+    "mordida",
+    "oportunista",
+    "rendicao"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "allihanna",
+    "hyninn",
+    "marah",
+    "megalokk",
+    "nimb",
+    "tenebra"
+  ],
+  "page": 115,
+  "livro_id": "ameacas_de_arton"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "ceratops",
+  "name": "Ceratops",
+  "description": "Povo-trovão robusto com gola óssea e chifres frontais imponentes, leais e defensores inabaláveis de suas tribos.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_na_penumbra",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "constituicao": 2,
+    "forca": 1,
+    "destreza": -1,
+    "inteligencia": -1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "chifres",
+    "papel_tribal",
+    "paquidermico",
+    "medo_de_altura",
+    "devocao"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "allihanna",
+    "arsenal",
+    "azgher",
+    "lena",
+    "megalokk"
+  ],
+  "page": 265,
+  "livro_id": "ameacas_de_arton"
+}

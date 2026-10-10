@@ -1,0 +1,41 @@
+{
+  "id": "regras_adicionais_de_ameacas",
+  "name": "Regras Adicionais de Ameaças",
+  "description": "Regras sobre combate, CDs, morte, ND S/S+ e magias em criaturas no papel de ameaças (Capítulo 2).",
+  "page": 376,
+  "livro_id": "ameacas_de_arton",
+  "topicos": [
+    {
+      "titulo": "Criaturas e Ataques",
+      "descricao": "Luta e Pontaria são consideradas iguais aos ataques listados. Ataque desarmado rápido causa 1d3 + bônus de dano principal (com passos ajustados pelo tamanho). Armas empunhadas perdem modificações especiais se empunhadas por personagens."
+    },
+    {
+      "titulo": "CD de Habilidades",
+      "descricao": "Diretrizes para determinar o atributo-chave da CD: Habilidades Atléticas usam Força ou Destreza; Habilidades Fisiológicas (venenos, sopros, doenças) usam Constituição; Habilidades de Controle/Mentais usam Carisma; Magias usam o atributo de conjuração (Int/Car para arcanos)."
+    },
+    {
+      "titulo": "Ameaças e Morte",
+      "descricao": "Por padrão morrem com 0 PV. Ameaças importantes, chefes e NPCs notáveis podem seguir a regra de sangramento de personagens jogadores."
+    },
+    {
+      "titulo": "Condições de Itens",
+      "descricao": "Equipamentos de ameaças muitas vezes estão danificados ou improvisados. Podem ter a melhoria Traque ou estar sob desgaste."
+    },
+    {
+      "titulo": "Parceiros de Ameaças",
+      "descricao": "Ameaças podem possuir parceiros integrados à ficha ou tratados como criaturas separadas pelo mestre com ND próprio."
+    },
+    {
+      "titulo": "Recompensas por Vários Inimigos",
+      "descricao": "Em combates com múltiplos inimigos, a XP e tesouro podem ser unificados calculando com base no ND total do encontro."
+    },
+    {
+      "titulo": "Criaturas S e S+",
+      "descricao": "Status especial de ameaças épicas acima de ND 20 que não podem ser derrotadas apenas com força bruta. Estatísticas não listadas contam como ND 20, mas seu ND efetivo para poderes de outras criaturas é superior a 20."
+    },
+    {
+      "titulo": "Magias sem Custo e Simuladas",
+      "descricao": "Algumas ameaças possuem habilidades mágicas naturais sem gasto de PM ou que simulam efeitos de magias específicas com parâmetros fixos."
+    }
+  ]
+}

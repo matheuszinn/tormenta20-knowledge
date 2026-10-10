@@ -1,0 +1,12 @@
+{
+  "id": "peconha_irritante",
+  "name": "Peçonha Irritante",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "veneno",
+  "preco": 10,
+  "espacos": 0.5,
+  "description": "Veneno de contato leve (Fortitude CD 12). Causa coceira e distração severa, impondo a condição vulnerável por 1 rodada.",
+  "page": 398,
+  "livro_id": "ameacas_de_arton"
+}

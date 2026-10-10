@@ -1,0 +1,11 @@
+{
+  "id": "garra_feroz",
+  "name": "Garra Feroz",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 60,
+  "espacos": 1,
+  "description": "Pinças de insetos gigantes presas com tiras de couro. Funciona como manopla e seus benefícios se aplicam a armas naturais ou garras de Forma Selvagem.",
+  "page": 396,
+  "livro_id": "ameacas_de_arton"
+}

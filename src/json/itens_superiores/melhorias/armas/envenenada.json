@@ -1,0 +1,14 @@
+{
+  "id": "envenenada",
+  "name": "Envenenada",
+  "type": "melhoria",
+  "categoria": "armas",
+  "efeito": {
+    "doses_veneno_armazenadas": 1,
+    "acao_aplicacao": "livre"
+  },
+  "prerequisitos": null,
+  "description": "Possui canaletas e reservatório interno capaz de armazenar uma dose de veneno que pode ser liberada na lâmina como ação livre.",
+  "page": 401,
+  "livro_id": "ameacas_de_arton"
+}

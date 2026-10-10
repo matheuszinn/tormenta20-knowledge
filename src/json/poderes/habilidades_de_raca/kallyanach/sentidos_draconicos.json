@@ -1,0 +1,10 @@
+{
+  "id": "sentidos_draconicos",
+  "name": "Sentidos Dracônicos",
+  "type": "habilidade_de_raca",
+  "race": "kallyanach",
+  "description": "Seus sentidos são impregnados com poder dracônico. Você recebe faro e visão no escuro.",
+  "effects": {},
+  "page": 151,
+  "livro_id": "ameacas_de_arton"
+}

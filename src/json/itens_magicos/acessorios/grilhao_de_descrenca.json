@@ -1,0 +1,13 @@
+{
+  "id": "grilhao_de_descrenca",
+  "name": "Grilhão de Descrença",
+  "categoria": "maior",
+  "preco": 50000,
+  "description": "Corrente pesada forjada por hereges puristas. Uma criatura presa pelos grilhões não pode lançar magias divinas, canalizar energia ou usar poderes concedidos de deuses.",
+  "page": 404,
+  "efeito": {
+    "bloqueio_magia_divina": true,
+    "bloqueio_poderes_concedidos": true
+  },
+  "livro_id": "ameacas_de_arton"
+}

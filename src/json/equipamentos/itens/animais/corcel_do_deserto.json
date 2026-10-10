@@ -1,0 +1,39 @@
+{
+  "id": "corcel_do_deserto",
+  "name": "Corcel do Deserto",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 150,
+  "espacos": 0,
+  "description": "Cavalo adaptado ao calor causticante do Deserto da Perdição. Parceiro montaria Grande veloz em climas áridos.",
+  "page": 398,
+  "livro_id": "ameacas_de_arton",
+  "parceiro": {
+    "tipo": ["montaria"],
+    "porte": "grande",
+    "pagina_criatura": 217,
+    "patamares": {
+      "iniciante": {
+        "movement": [
+          { "type": "caminhada", "value": 12, "unit": "m" }
+        ],
+        "terreno": [
+          { "type": "ignora", "terrain": "terreno_dificil_natural" }
+        ]
+      },
+      "veterano": {
+        "damage": [
+          { "type": "bonus_dano_impacto", "value": "2d6", "range": "adjacente", "custo_pm": 1, "frequency": "1x_rodada" }
+        ]
+      },
+      "mestre": {
+        "movement": [
+          { "type": "caminhada", "value": 15, "unit": "m" }
+        ],
+        "saving_throw": [
+          { "type": "teste_resistencia", "value": 5, "condition": "contra efeitos de clima (calor, frio, metabólicos)" }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "oceano",
+  "name": "Oceano",
+  "type": "habilidade_de_raca",
+  "race": "kappa",
+  "description": "Embora não sejam extremamente cruéis, kappa são pouco honrados e muito inquietos. É possível negociar com eles usando de diplomacia e paciência, com muito cuidado para não os aborrecer. Quando cooperativos, podem prover informações importantes sobre a região. Caso se enfureça, contudo, um kappa ataca e tenta afogar seus inimigos, derrubando-os e segurando-os sob a água com manobras de artes marciais. Kappa Kappa",
+  "effects": {},
+  "page": 158,
+  "livro_id": "ameacas_de_arton"
+}

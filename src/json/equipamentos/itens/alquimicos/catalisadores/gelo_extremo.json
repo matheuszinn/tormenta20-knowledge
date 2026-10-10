@@ -1,0 +1,12 @@
+{
+  "id": "gelo_extremo",
+  "name": "Gelo Extremo",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 150,
+  "espacos": 0.5,
+  "description": "Cristais minerais que eliminam todo o calor ao redor. Aumenta os dados de dano de magias de frio em uma categoria: d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (máximo).",
+  "page": 399,
+  "livro_id": "ameacas_de_arton"
+}

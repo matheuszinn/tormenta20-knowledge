@@ -1,0 +1,17 @@
+{
+  "id": "obsidiana_de_doherimm",
+  "name": "Obsidiana de Doherimm",
+  "type": "material_especial",
+  "description": "Vidro vulcânico das profundezas subterrâneas dos anões com lâminas de fio molecular.",
+  "precos_adicionais": {
+    "arma": 2500
+  },
+  "efeitos": {
+    "arma": {
+      "margem_ameaca": 1,
+      "dano_sangramento": 1
+    }
+  },
+  "page": 402,
+  "livro_id": "ameacas_de_arton"
+}

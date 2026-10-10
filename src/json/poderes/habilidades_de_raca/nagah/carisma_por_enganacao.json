@@ -1,0 +1,10 @@
+{
+  "id": "carisma_por_enganacao",
+  "name": "Carisma por Enganação",
+  "type": "habilidade_de_raca",
+  "race": "nagah",
+  "description": "Presentes de Sszzaas. Você recebe visão na penumbra, +1 na Defesa e resistência a veneno +5.",
+  "effects": {},
+  "page": 333,
+  "livro_id": "ameacas_de_arton"
+}

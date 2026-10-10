@@ -1,0 +1,10 @@
+{
+  "id": "praga_monstruosa",
+  "name": "Praga Monstruosa",
+  "type": "habilidade_de_raca",
+  "race": "kobolds",
+  "description": "Vocês são criaturas do tipo monstro e recebem visão no escuro e +2 em",
+  "effects": {},
+  "page": 182,
+  "livro_id": "ameacas_de_arton"
+}

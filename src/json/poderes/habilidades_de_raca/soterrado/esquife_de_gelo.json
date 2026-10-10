@@ -1,0 +1,10 @@
+{
+  "id": "esquife_de_gelo",
+  "name": "Esquife de Gelo",
+  "type": "habilidade_de_raca",
+  "race": "soterrado",
+  "description": "Você recebe redução de corte e perfuração 5 e redução de frio 10. Entretanto, sofre 1 ponto de dano adicional por dado de dano de fogo. Soterrado",
+  "effects": {},
+  "page": 354,
+  "livro_id": "ameacas_de_arton"
+}

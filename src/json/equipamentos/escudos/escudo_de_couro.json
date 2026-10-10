@@ -1,0 +1,17 @@
+{
+  "id": "escudo_de_couro",
+  "name": "Escudo de Couro",
+  "type": "escudo",
+  "categoria": "leve",
+  "preco": 3,
+  "bonus_defesa": 1,
+  "penalidade_armadura": -1,
+  "espacos": 1,
+  "especial": {
+    "bonus_defesa_ataques_distancia": 2,
+    "nao_pode_atacar": true
+  },
+  "description": "Armação de madeira esticando couro flexível amarrado ao braço. Contra ataques à distância seu bônus na Defesa aumenta em +2.",
+  "page": 395,
+  "livro_id": "ameacas_de_arton"
+}

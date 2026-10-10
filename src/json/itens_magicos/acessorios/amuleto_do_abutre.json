@@ -1,0 +1,15 @@
+{
+  "id": "amuleto_do_abutre",
+  "name": "Amuleto do Abutre",
+  "categoria": "artefato",
+  "preco": 0,
+  "description": "Artefato do Arquilich Ferren Asloth. Concede +50 PM (após 1 dia de uso), +5 na CD de magias arcanas e a habilidade Conhecimento Sequestrado. Funciona como segundo filactério de Ferren; falhas em Vontade diária (CD 20+) corrompem e destroem a alma do portador.",
+  "page": 405,
+  "efeito": {
+    "pm_extra": 50,
+    "cd_magias_arcanas": 5,
+    "conhecimento_sequestrado": true,
+    "maldicao_filacterio": "Vontade CD 20+1 por dia"
+  },
+  "livro_id": "ameacas_de_arton"
+}

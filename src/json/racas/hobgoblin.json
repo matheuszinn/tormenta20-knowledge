@@ -1,0 +1,30 @@
+{
+  "id": "hobgoblin",
+  "name": "Hobgoblin",
+  "description": "Goblinoides disciplinados e militaristas da Aliança Negra, criados para a guerra, estratégia e lealdade hierárquica.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "constituicao": 2,
+    "destreza": 1,
+    "carisma": -1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "arte_da_guerra",
+    "metalurgia_hobgoblin",
+    "taticas_de_guerrilha"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "arsenal",
+    "megalokk",
+    "tenebra"
+  ],
+  "page": 84,
+  "livro_id": "ameacas_de_arton"
+}

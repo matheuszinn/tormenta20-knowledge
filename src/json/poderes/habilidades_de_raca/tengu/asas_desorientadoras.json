@@ -1,0 +1,10 @@
+{
+  "id": "asas_desorientadoras",
+  "name": "Asas Desorientadoras",
+  "type": "habilidade_de_raca",
+  "race": "tengu",
+  "description": "Quando estão livres, suas asas podem ser usadas para distrair seus oponentes. Se não estiver usando-as para voar, você recebe os benefícios de Finta",
+  "effects": {},
+  "page": 164,
+  "livro_id": "ameacas_de_arton"
+}

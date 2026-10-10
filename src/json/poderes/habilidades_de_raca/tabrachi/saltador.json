@@ -1,0 +1,10 @@
+{
+  "id": "saltador",
+  "name": "Saltador",
+  "type": "habilidade_de_raca",
+  "race": "tabrachi",
+  "description": "Você recebe +10 em testes de",
+  "effects": {},
+  "page": 37,
+  "livro_id": "ameacas_de_arton"
+}

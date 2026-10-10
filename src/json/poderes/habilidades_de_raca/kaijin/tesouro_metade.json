@@ -1,0 +1,10 @@
+{
+  "id": "tesouro_metade",
+  "name": "Tesouro Metade",
+  "type": "habilidade_de_raca",
+  "race": "kaijin",
+  "description": "Kaijin Ninja Monstro (kaijin) Médio Iniciativa +17, Percepção +12 Defesa 36, Fort +20, Ref +26, Von +12, evasão, redução de dano 5, resistência a lefeu e Tormenta +5 Pontos de Vida 450 Deslocamento 12m (8q), escalada 9m (6q) Pontos de Mana 48 Corpo a Corpo Espada curta x3 +32 (2d6+20, 19). À Distância Zarabatana +34 (1d4+15, x3, mais veneno). Ataque Furtivo +6d6. Sangue Corrosivo Uma vez por",
+  "effects": {},
+  "page": 157,
+  "livro_id": "ameacas_de_arton"
+}

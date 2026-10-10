@@ -2,19 +2,12 @@
   "id": "espinhosa",
   "name": "Espinhosa",
   "type": "melhoria",
-  "categoria": "armadura",
+  "categoria": "armaduras_escudos",
   "efeito": {
-    "dano_ao_agarrar": {
-      "valor": "Força",
-      "tipo": "perfuracao",
-      "quando": [
-        "ao fazer manobra agarrar",
-        "ao ser agarrado",
-        "inicio de cada turno enquanto mantida"
-      ]
-    }
+    "dano_agarrar": "1d6 perfuração"
   },
   "prerequisitos": null,
-  "description": "Uma armadura coberta de espinhos é uma visão impressionante — principalmente se os espinhos estiverem banhados com o sangue dos inimigos! Se o usuário agarrar ou for agarrado por uma criatura, causa dano de perfuração nesta criatura igual a sua Força. O dano é causado quando a manobra é feita e no início de cada turno do personagem, enquanto ela for mantida.",
-  "page": 171
+  "description": "Cravejada com espinhos de metal ou ossos afiados. Causa 1d6 pontos de dano de perfuração ao usar a manobra agarrar ou a quem agarrar você.",
+  "page": 401,
+  "livro_id": "ameacas_de_arton"
 }

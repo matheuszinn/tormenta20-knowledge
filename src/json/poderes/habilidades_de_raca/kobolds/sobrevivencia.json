@@ -1,0 +1,10 @@
+{
+  "id": "sobrevivencia",
+  "name": "Sobrevivência",
+  "type": "habilidade_de_raca",
+  "race": "kobolds",
+  "description": "Sensibilidade a Luz. Quando expostos à luz do sol ou similar, vocês ficam ofuscados.",
+  "effects": {},
+  "page": 182,
+  "livro_id": "ameacas_de_arton"
+}

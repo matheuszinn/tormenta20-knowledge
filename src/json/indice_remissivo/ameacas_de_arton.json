@@ -1,0 +1,1610 @@
+[
+  {
+    "termo": "Abraço Gélido",
+    "pagina": 354,
+    "tabela": "poderes",
+    "registro_id": "abraco_gelido"
+  },
+  {
+    "termo": "Açoite Finntroll",
+    "pagina": 394,
+    "tabela": "armas",
+    "registro_id": "acoite_finntroll"
+  },
+  {
+    "termo": "Açoite Flamejante",
+    "pagina": 406,
+    "tabela": "magias",
+    "registro_id": "acoite_flamejante"
+  },
+  {
+    "termo": "Adaptação Elemental",
+    "pagina": 160,
+    "tabela": "poderes",
+    "registro_id": "adaptacao_elemental"
+  },
+  {
+    "termo": "Adaptável",
+    "pagina": 31,
+    "tabela": "poderes",
+    "registro_id": "adaptavel"
+  },
+  {
+    "termo": "Ajuntamento Escamoso",
+    "pagina": 182,
+    "tabela": "poderes",
+    "registro_id": "ajuntamento_escamoso"
+  },
+  {
+    "termo": "Algravia",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "algravia"
+  },
+  {
+    "termo": "Alma da Água",
+    "pagina": 158,
+    "tabela": "poderes",
+    "registro_id": "alma_da_agua"
+  },
+  {
+    "termo": "Amontoados",
+    "pagina": 182,
+    "tabela": "poderes",
+    "registro_id": "amontoados"
+  },
+  {
+    "termo": "Amuleto do Abutre",
+    "pagina": 405,
+    "tabela": "acessorios_magicos",
+    "registro_id": "amuleto_do_abutre"
+  },
+  {
+    "termo": "Anatomia Monstruosa",
+    "pagina": 401,
+    "tabela": "melhorias",
+    "registro_id": "anatomia_monstruosa"
+  },
+  {
+    "termo": "Ankh Solar",
+    "pagina": 396,
+    "tabela": "itens",
+    "registro_id": "ankh_solar"
+  },
+  {
+    "termo": "Aprimorada",
+    "pagina": 164,
+    "tabela": "poderes",
+    "registro_id": "aprimorada"
+  },
+  {
+    "termo": "Arcabuz",
+    "pagina": 394,
+    "tabela": "armas",
+    "registro_id": "arcabuz"
+  },
+  {
+    "termo": "Arma Acoplada",
+    "pagina": 160,
+    "tabela": "poderes",
+    "registro_id": "arma_acoplada"
+  },
+  {
+    "termo": "Arma Elemental",
+    "pagina": 160,
+    "tabela": "poderes",
+    "registro_id": "arma_elemental"
+  },
+  {
+    "termo": "Armadilha Terrível",
+    "pagina": 182,
+    "tabela": "poderes",
+    "registro_id": "armadilha_terrivel"
+  },
+  {
+    "termo": "Armadura de Ossos",
+    "pagina": 395,
+    "tabela": "armaduras",
+    "registro_id": "armadura_de_ossos"
+  },
+  {
+    "termo": "Armadura de Quitina",
+    "pagina": 395,
+    "tabela": "armaduras",
+    "registro_id": "armadura_de_quitina"
+  },
+  {
+    "termo": "Armamento Kallyanach",
+    "pagina": 151,
+    "tabela": "poderes",
+    "registro_id": "armamento_kallyanach"
+  },
+  {
+    "termo": "Arpão",
+    "pagina": 394,
+    "tabela": "armas",
+    "registro_id": "arpao"
+  },
+  {
+    "termo": "Arsenal do Oceano",
+    "pagina": 316,
+    "tabela": "poderes",
+    "registro_id": "arsenal_do_oceano"
+  },
+  {
+    "termo": "Arte da Guerra",
+    "pagina": 84,
+    "tabela": "poderes",
+    "registro_id": "arte_da_guerra"
+  },
+  {
+    "termo": "Asas de Abutre",
+    "pagina": 201,
+    "tabela": "poderes",
+    "registro_id": "asas_de_abutre"
+  },
+  {
+    "termo": "Asas Desorientadoras",
+    "pagina": 164,
+    "tabela": "poderes",
+    "registro_id": "asas_desorientadoras"
+  },
+  {
+    "termo": "Asas Dracônicas",
+    "pagina": 151,
+    "tabela": "poderes",
+    "registro_id": "asas_draconicas"
+  },
+  {
+    "termo": "Atletismo para saltar",
+    "pagina": 37,
+    "tabela": "poderes",
+    "registro_id": "atletismo_para_saltar"
+  },
+  {
+    "termo": "Através de Espinheiros",
+    "pagina": 268,
+    "tabela": "poderes",
+    "registro_id": "atraves_de_espinheiros"
+  },
+  {
+    "termo": "Auxílio de Mira",
+    "pagina": 160,
+    "tabela": "poderes",
+    "registro_id": "auxilio_de_mira"
+  },
+  {
+    "termo": "Avantajado",
+    "pagina": 105,
+    "tabela": "poderes",
+    "registro_id": "avantajado"
+  },
+  {
+    "termo": "Bacamarte",
+    "pagina": 394,
+    "tabela": "armas",
+    "registro_id": "bacamarte"
+  },
+  {
+    "termo": "Bálsamo de Drogadora",
+    "pagina": 396,
+    "tabela": "itens",
+    "registro_id": "balsamo_de_drogadora"
+  },
+  {
+    "termo": "Banquete de Canceronte",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "banquete_de_canceronte"
+  },
+  {
+    "termo": "Barro",
+    "pagina": 134,
+    "tabela": "poderes",
+    "registro_id": "barro"
+  },
+  {
+    "termo": "Batráquio",
+    "pagina": 37,
+    "tabela": "poderes",
+    "registro_id": "batraquio"
+  },
+  {
+    "termo": "Bênção de Kallyadranoch",
+    "pagina": 151,
+    "tabela": "poderes",
+    "registro_id": "bencao_de_kallyadranoch"
+  },
+  {
+    "termo": "Bomba de Fumaça",
+    "pagina": 396,
+    "tabela": "itens",
+    "registro_id": "bomba_de_fumaca"
+  },
+  {
+    "termo": "Bronze",
+    "pagina": 134,
+    "tabela": "poderes",
+    "registro_id": "bronze"
+  },
+  {
+    "termo": "Bugbear",
+    "pagina": 79,
+    "tabela": "racas",
+    "registro_id": "bugbear"
+  },
+  {
+    "termo": "Bulette",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "bulette"
+  },
+  {
+    "termo": "Caixa de Voz",
+    "pagina": 396,
+    "tabela": "itens",
+    "registro_id": "caixa_de_voz"
+  },
+  {
+    "termo": "Camada de Ingenuidade",
+    "pagina": 40,
+    "tabela": "poderes",
+    "registro_id": "camada_de_ingenuidade"
+  },
+  {
+    "termo": "Caminhante do Céu",
+    "pagina": 164,
+    "tabela": "poderes",
+    "registro_id": "caminhante_do_ceu"
+  },
+  {
+    "termo": "Caminho da Perfeição",
+    "pagina": 160,
+    "tabela": "poderes",
+    "registro_id": "caminho_da_perfeicao"
+  },
+  {
+    "termo": "Camuflada",
+    "pagina": 401,
+    "tabela": "melhorias",
+    "registro_id": "camuflada"
+  },
+  {
+    "termo": "Canalizar Reparos",
+    "pagina": 160,
+    "tabela": "poderes",
+    "registro_id": "canalizar_reparos"
+  },
+  {
+    "termo": "Canhão Energético",
+    "pagina": 160,
+    "tabela": "poderes",
+    "registro_id": "canhao_energetico"
+  },
+  {
+    "termo": "Capivara",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "capivara"
+  },
+  {
+    "termo": "Carapaça Kappa",
+    "pagina": 158,
+    "tabela": "poderes",
+    "registro_id": "carapaca_kappa"
+  },
+  {
+    "termo": "Carisma por Enganação",
+    "pagina": 333,
+    "tabela": "poderes",
+    "registro_id": "carisma_por_enganacao"
+  },
+  {
+    "termo": "Carne",
+    "pagina": 134,
+    "tabela": "poderes",
+    "registro_id": "carne"
+  },
+  {
+    "termo": "Casca de Carapaça",
+    "pagina": 401,
+    "tabela": "materiais_especiais",
+    "registro_id": "casca_de_carapaca"
+  },
+  {
+    "termo": "Cascos",
+    "pagina": 105,
+    "tabela": "poderes",
+    "registro_id": "cascos"
+  },
+  {
+    "termo": "Cauda",
+    "pagina": 333,
+    "tabela": "poderes",
+    "registro_id": "cauda"
+  },
+  {
+    "termo": "Centauro",
+    "pagina": 105,
+    "tabela": "racas",
+    "registro_id": "centauro"
+  },
+  {
+    "termo": "Ceratops",
+    "pagina": 265,
+    "tabela": "racas",
+    "registro_id": "ceratops"
+  },
+  {
+    "termo": "Chassi",
+    "pagina": 134,
+    "tabela": "poderes",
+    "registro_id": "chassi"
+  },
+  {
+    "termo": "Chifre de Unicórnio",
+    "pagina": 404,
+    "tabela": "acessorios_magicos",
+    "registro_id": "chifre_de_unicornio"
+  },
+  {
+    "termo": "Chifres",
+    "pagina": 265,
+    "tabela": "poderes",
+    "registro_id": "chifres"
+  },
+  {
+    "termo": "Coc-au-Triz",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "coc_au_triz"
+  },
+  {
+    "termo": "Concha do Dragão-Marinho",
+    "pagina": 401,
+    "tabela": "materiais_especiais",
+    "registro_id": "concha_do_dragao_marinho"
+  },
+  {
+    "termo": "Coral de Namalkah",
+    "pagina": 401,
+    "tabela": "materiais_especiais",
+    "registro_id": "coral_de_namalkah"
+  },
+  {
+    "termo": "Corcel do Deserto",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "corcel_do_deserto"
+  },
+  {
+    "termo": "Corda de Teia",
+    "pagina": 396,
+    "tabela": "itens",
+    "registro_id": "corda_de_teia"
+  },
+  {
+    "termo": "Corpo Vegetal",
+    "pagina": 339,
+    "tabela": "poderes",
+    "registro_id": "corpo_vegetal"
+  },
+  {
+    "termo": "Corrosivo Mineral",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "corrosivo_mineral"
+  },
+  {
+    "termo": "Couraça Rubra",
+    "pagina": 157,
+    "tabela": "poderes",
+    "registro_id": "couraca_rubra"
+  },
+  {
+    "termo": "Couro de Lendas",
+    "pagina": 402,
+    "tabela": "materiais_especiais",
+    "registro_id": "couro_de_lendas"
+  },
+  {
+    "termo": "Cozido de Serpe",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "cozido_de_serpe"
+  },
+  {
+    "termo": "Cria da Tormenta",
+    "pagina": 157,
+    "tabela": "poderes",
+    "registro_id": "cria_da_tormenta"
+  },
+  {
+    "termo": "Cria das Águas",
+    "pagina": 316,
+    "tabela": "poderes",
+    "registro_id": "cria_das_aguas"
+  },
+  {
+    "termo": "Cria de Masmorra",
+    "pagina": 201,
+    "tabela": "poderes",
+    "registro_id": "cria_de_masmorra"
+  },
+  {
+    "termo": "Criatura Artificial",
+    "pagina": 134,
+    "tabela": "poderes",
+    "registro_id": "criatura_artificial"
+  },
+  {
+    "termo": "Criatura das Profundezas",
+    "pagina": 31,
+    "tabela": "poderes",
+    "registro_id": "criatura_das_profundezas"
+  },
+  {
+    "termo": "Cura das Águas",
+    "pagina": 158,
+    "tabela": "poderes",
+    "registro_id": "cura_das_aguas"
+  },
+  {
+    "termo": "Dardo Gélido",
+    "pagina": 406,
+    "tabela": "magias",
+    "registro_id": "dardo_gelido"
+  },
+  {
+    "termo": "Dente de Wisphago",
+    "pagina": 396,
+    "tabela": "itens",
+    "registro_id": "dente_de_wisphago"
+  },
+  {
+    "termo": "Dependência de Água",
+    "pagina": 316,
+    "tabela": "poderes",
+    "registro_id": "dependencia_de_agua"
+  },
+  {
+    "termo": "Devoção",
+    "pagina": 265,
+    "tabela": "poderes",
+    "registro_id": "devocao"
+  },
+  {
+    "termo": "Devoção",
+    "pagina": 267,
+    "tabela": "poderes",
+    "registro_id": "devocao"
+  },
+  {
+    "termo": "Devoção",
+    "pagina": 268,
+    "tabela": "poderes",
+    "registro_id": "devocao"
+  },
+  {
+    "termo": "Devoção",
+    "pagina": 270,
+    "tabela": "poderes",
+    "registro_id": "devocao"
+  },
+  {
+    "termo": "Diferentão",
+    "pagina": 182,
+    "tabela": "poderes",
+    "registro_id": "diferentao"
+  },
+  {
+    "termo": "Diplomacia e Investigação",
+    "pagina": 175,
+    "tabela": "poderes",
+    "registro_id": "diplomacia_e_investigacao"
+  },
+  {
+    "termo": "Disforme",
+    "pagina": 157,
+    "tabela": "poderes",
+    "registro_id": "disforme"
+  },
+  {
+    "termo": "Dromedário",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "dromedario"
+  },
+  {
+    "termo": "Elefante",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "elefante"
+  },
+  {
+    "termo": "Elfo-do-Mar",
+    "pagina": 316,
+    "tabela": "racas",
+    "registro_id": "elfo_do_mar"
+  },
+  {
+    "termo": "Elixir Quimérico",
+    "pagina": 396,
+    "tabela": "itens",
+    "registro_id": "elixir_quimerico"
+  },
+  {
+    "termo": "Empunhadura Poderosa",
+    "pagina": 79,
+    "tabela": "poderes",
+    "registro_id": "empunhadura_poderosa"
+  },
+  {
+    "termo": "Empunhadura Poderosa",
+    "pagina": 162,
+    "tabela": "poderes",
+    "registro_id": "empunhadura_poderosa"
+  },
+  {
+    "termo": "Envenenada",
+    "pagina": 401,
+    "tabela": "melhorias",
+    "registro_id": "envenenada"
+  },
+  {
+    "termo": "Equipamento Katana",
+    "pagina": 164,
+    "tabela": "poderes",
+    "registro_id": "equipamento_katana"
+  },
+  {
+    "termo": "Escamas de Wyrm",
+    "pagina": 402,
+    "tabela": "materiais_especiais",
+    "registro_id": "escamas_de_wyrm"
+  },
+  {
+    "termo": "Escamas Elementais",
+    "pagina": 151,
+    "tabela": "poderes",
+    "registro_id": "escamas_elementais"
+  },
+  {
+    "termo": "Escudo de Couro",
+    "pagina": 395,
+    "tabela": "escudos",
+    "registro_id": "escudo_de_couro"
+  },
+  {
+    "termo": "Espada Vespa",
+    "pagina": 394,
+    "tabela": "armas",
+    "registro_id": "espada_vespa"
+  },
+  {
+    "termo": "Espelhos",
+    "pagina": 134,
+    "tabela": "poderes",
+    "registro_id": "espelhos"
+  },
+  {
+    "termo": "Espinhosa",
+    "pagina": 401,
+    "tabela": "melhorias",
+    "registro_id": "espinhosa"
+  },
+  {
+    "termo": "Espírito Corvino",
+    "pagina": 164,
+    "tabela": "poderes",
+    "registro_id": "espirito_corvino"
+  },
+  {
+    "termo": "Esporos de Cogumelo",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "esporos_de_cogumelo"
+  },
+  {
+    "termo": "Esquife de Gelo",
+    "pagina": 354,
+    "tabela": "poderes",
+    "registro_id": "esquife_de_gelo"
+  },
+  {
+    "termo": "Éter Elemental",
+    "pagina": 396,
+    "tabela": "itens",
+    "registro_id": "eter_elemental"
+  },
+  {
+    "termo": "Ex-Familiar",
+    "pagina": 182,
+    "tabela": "poderes",
+    "registro_id": "exfamiliar"
+  },
+  {
+    "termo": "Faro",
+    "pagina": 115,
+    "tabela": "poderes",
+    "registro_id": "faro"
+  },
+  {
+    "termo": "Faro",
+    "pagina": 175,
+    "tabela": "poderes",
+    "registro_id": "faro"
+  },
+  {
+    "termo": "Feroz",
+    "pagina": 33,
+    "tabela": "poderes",
+    "registro_id": "feroz"
+  },
+  {
+    "termo": "Ferro",
+    "pagina": 134,
+    "tabela": "poderes",
+    "registro_id": "ferro"
+  },
+  {
+    "termo": "Finntroll",
+    "pagina": 339,
+    "tabela": "racas",
+    "registro_id": "finntroll"
+  },
+  {
+    "termo": "Fio de Seda-Monstro",
+    "pagina": 402,
+    "tabela": "materiais_especiais",
+    "registro_id": "fio_de_seda_monstro"
+  },
+  {
+    "termo": "Fragmento de Filactério",
+    "pagina": 404,
+    "tabela": "acessorios_magicos",
+    "registro_id": "fragmento_de_filacterio"
+  },
+  {
+    "termo": "Fraquezas Ofídicas",
+    "pagina": 333,
+    "tabela": "poderes",
+    "registro_id": "fraquezas_ofidicas"
+  },
+  {
+    "termo": "Garra Feroz",
+    "pagina": 396,
+    "tabela": "itens",
+    "registro_id": "garra_feroz"
+  },
+  {
+    "termo": "Garras",
+    "pagina": 270,
+    "tabela": "poderes",
+    "registro_id": "garras"
+  },
+  {
+    "termo": "Gelo Eterno",
+    "pagina": 134,
+    "tabela": "poderes",
+    "registro_id": "gelo_eterno"
+  },
+  {
+    "termo": "Gelo Extremo",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "gelo_extremo"
+  },
+  {
+    "termo": "Gema de Força",
+    "pagina": 396,
+    "tabela": "itens",
+    "registro_id": "gema_de_forca"
+  },
+  {
+    "termo": "Ginete Natural",
+    "pagina": 105,
+    "tabela": "poderes",
+    "registro_id": "ginete_natural"
+  },
+  {
+    "termo": "Gládio",
+    "pagina": 394,
+    "tabela": "armas",
+    "registro_id": "gladio"
+  },
+  {
+    "termo": "Gnoll",
+    "pagina": 115,
+    "tabela": "racas",
+    "registro_id": "gnoll"
+  },
+  {
+    "termo": "Golem Desperto",
+    "pagina": 134,
+    "tabela": "racas",
+    "registro_id": "golem_desperto"
+  },
+  {
+    "termo": "Gorlogg Ensopado",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "gorlogg_ensopado"
+  },
+  {
+    "termo": "Grilhão de Descrença",
+    "pagina": 404,
+    "tabela": "acessorios_magicos",
+    "registro_id": "grilhao_de_descrenca"
+  },
+  {
+    "termo": "Grito Aterrorizante",
+    "pagina": 201,
+    "tabela": "poderes",
+    "registro_id": "grito_aterrorizante"
+  },
+  {
+    "termo": "Habilidades Gerais de Ameaças",
+    "pagina": 16,
+    "tabela": "regras",
+    "registro_id": "habilidades_gerais_de_ameacas"
+  },
+  {
+    "termo": "Habitante das Cavernas",
+    "pagina": 33,
+    "tabela": "poderes",
+    "registro_id": "habitante_das_cavernas"
+  },
+  {
+    "termo": "Harpia",
+    "pagina": 201,
+    "tabela": "racas",
+    "registro_id": "harpia"
+  },
+  {
+    "termo": "Herança",
+    "pagina": 303,
+    "tabela": "poderes",
+    "registro_id": "heranca"
+  },
+  {
+    "termo": "Herança Dracônica",
+    "pagina": 151,
+    "tabela": "poderes",
+    "registro_id": "heranca_draconica"
+  },
+  {
+    "termo": "Híbrido Mecânico",
+    "pagina": 300,
+    "tabela": "poderes",
+    "registro_id": "hibrido_mecanico"
+  },
+  {
+    "termo": "Hiena",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "hiena"
+  },
+  {
+    "termo": "Hobgoblin",
+    "pagina": 84,
+    "tabela": "racas",
+    "registro_id": "hobgoblin"
+  },
+  {
+    "termo": "Improvável",
+    "pagina": 401,
+    "tabela": "melhorias",
+    "registro_id": "improvavel"
+  },
+  {
+    "termo": "Inocência Dissimulada",
+    "pagina": 333,
+    "tabela": "poderes",
+    "registro_id": "inocencia_dissimulada"
+  },
+  {
+    "termo": "Intolerância a Luz",
+    "pagina": 339,
+    "tabela": "poderes",
+    "registro_id": "intolerancia_a_luz"
+  },
+  {
+    "termo": "Intuição e Vontade",
+    "pagina": 40,
+    "tabela": "poderes",
+    "registro_id": "intuicao_e_vontade"
+  },
+  {
+    "termo": "Invocar Fagulha Elemental",
+    "pagina": 406,
+    "tabela": "magias",
+    "registro_id": "invocar_fagulha_elemental"
+  },
+  {
+    "termo": "Isca Putrefata",
+    "pagina": 397,
+    "tabela": "itens",
+    "registro_id": "isca_putrefata"
+  },
+  {
+    "termo": "Jato Corrosivo",
+    "pagina": 406,
+    "tabela": "magias",
+    "registro_id": "jato_corrosivo"
+  },
+  {
+    "termo": "Kaijin",
+    "pagina": 157,
+    "tabela": "racas",
+    "registro_id": "kaijin"
+  },
+  {
+    "termo": "Kallyanach",
+    "pagina": 151,
+    "tabela": "racas",
+    "registro_id": "kallyanach"
+  },
+  {
+    "termo": "Kappa",
+    "pagina": 158,
+    "tabela": "racas",
+    "registro_id": "kappa"
+  },
+  {
+    "termo": "Katana Celestial",
+    "pagina": 406,
+    "tabela": "magias",
+    "registro_id": "katana_celestial"
+  },
+  {
+    "termo": "Kobolds",
+    "pagina": 182,
+    "tabela": "racas",
+    "registro_id": "kobolds"
+  },
+  {
+    "termo": "Lágrima Pétrea",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "lagrima_petrea"
+  },
+  {
+    "termo": "Lança de Fogo",
+    "pagina": 394,
+    "tabela": "armas",
+    "registro_id": "lanca_de_fogo"
+  },
+  {
+    "termo": "Leão",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "leao"
+  },
+  {
+    "termo": "Ligação Natural",
+    "pagina": 267,
+    "tabela": "poderes",
+    "registro_id": "ligacao_natural"
+  },
+  {
+    "termo": "Linguarudo",
+    "pagina": 37,
+    "tabela": "poderes",
+    "registro_id": "linguarudo"
+  },
+  {
+    "termo": "Macabra",
+    "pagina": 401,
+    "tabela": "melhorias",
+    "registro_id": "macabra"
+  },
+  {
+    "termo": "Madeira de Tronco-de-Ferro",
+    "pagina": 402,
+    "tabela": "materiais_especiais",
+    "registro_id": "madeira_de_tronco_de_ferro"
+  },
+  {
+    "termo": "Manto do Mantor",
+    "pagina": 396,
+    "tabela": "itens",
+    "registro_id": "manto_do_mantor"
+  },
+  {
+    "termo": "Manto Pesado",
+    "pagina": 396,
+    "tabela": "itens",
+    "registro_id": "manto_pesado"
+  },
+  {
+    "termo": "Mãos Rudimentares",
+    "pagina": 267,
+    "tabela": "poderes",
+    "registro_id": "maos_rudimentares"
+  },
+  {
+    "termo": "Maravilha Mecânica",
+    "pagina": 160,
+    "tabela": "poderes",
+    "registro_id": "maravilha_mecanica"
+  },
+  {
+    "termo": "Marfim de Mamute",
+    "pagina": 402,
+    "tabela": "materiais_especiais",
+    "registro_id": "marfim_de_mamute"
+  },
+  {
+    "termo": "Mashin",
+    "pagina": 160,
+    "tabela": "racas",
+    "registro_id": "mashin"
+  },
+  {
+    "termo": "Medo de Altura",
+    "pagina": 105,
+    "tabela": "poderes",
+    "registro_id": "medo_de_altura"
+  },
+  {
+    "termo": "Medo de Altura",
+    "pagina": 265,
+    "tabela": "poderes",
+    "registro_id": "medo_de_altura"
+  },
+  {
+    "termo": "Meio-Orc",
+    "pagina": 31,
+    "tabela": "racas",
+    "registro_id": "meio_orc"
+  },
+  {
+    "termo": "Mente Aberta",
+    "pagina": 175,
+    "tabela": "poderes",
+    "registro_id": "mente_aberta"
+  },
+  {
+    "termo": "Metade",
+    "pagina": 39,
+    "tabela": "poderes",
+    "registro_id": "metade"
+  },
+  {
+    "termo": "Metal Meteórico",
+    "pagina": 402,
+    "tabela": "materiais_especiais",
+    "registro_id": "metal_meteorico"
+  },
+  {
+    "termo": "Metalurgia Hobgoblin",
+    "pagina": 84,
+    "tabela": "poderes",
+    "registro_id": "metalurgia_hobgoblin"
+  },
+  {
+    "termo": "Minauro",
+    "pagina": 175,
+    "tabela": "racas",
+    "registro_id": "minauro"
+  },
+  {
+    "termo": "Momento de Tormenta",
+    "pagina": 406,
+    "tabela": "magias",
+    "registro_id": "momento_de_tormenta"
+  },
+  {
+    "termo": "Mordida",
+    "pagina": 115,
+    "tabela": "poderes",
+    "registro_id": "mordida"
+  },
+  {
+    "termo": "Mordida do Diabo",
+    "pagina": 394,
+    "tabela": "armas",
+    "registro_id": "mordida_do_diabo"
+  },
+  {
+    "termo": "Moreau",
+    "pagina": 303,
+    "tabela": "racas",
+    "registro_id": "moreau"
+  },
+  {
+    "termo": "Nagah",
+    "pagina": 333,
+    "tabela": "racas",
+    "registro_id": "nagah"
+  },
+  {
+    "termo": "Natureza Orgânica",
+    "pagina": 300,
+    "tabela": "poderes",
+    "registro_id": "natureza_organica"
+  },
+  {
+    "termo": "Neko-te",
+    "pagina": 394,
+    "tabela": "armas",
+    "registro_id": "neko_te"
+  },
+  {
+    "termo": "Nezumi",
+    "pagina": 162,
+    "tabela": "racas",
+    "registro_id": "nezumi"
+  },
+  {
+    "termo": "O Ousado",
+    "pagina": 182,
+    "tabela": "poderes",
+    "registro_id": "o_ousado"
+  },
+  {
+    "termo": "Obsidiana de Doherimm",
+    "pagina": 402,
+    "tabela": "materiais_especiais",
+    "registro_id": "obsidiana_de_doherimm"
+  },
+  {
+    "termo": "Oceano",
+    "pagina": 158,
+    "tabela": "poderes",
+    "registro_id": "oceano"
+  },
+  {
+    "termo": "Ogro",
+    "pagina": 40,
+    "tabela": "racas",
+    "registro_id": "ogro"
+  },
+  {
+    "termo": "Óleo de Baleia",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "oleo_de_baleia"
+  },
+  {
+    "termo": "Óleo de Besouro",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "oleo_de_besouro"
+  },
+  {
+    "termo": "Omelete Monstruosa",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "omelete_monstruosa"
+  },
+  {
+    "termo": "Oportunista",
+    "pagina": 115,
+    "tabela": "poderes",
+    "registro_id": "oportunista"
+  },
+  {
+    "termo": "Orc",
+    "pagina": 33,
+    "tabela": "racas",
+    "registro_id": "orc"
+  },
+  {
+    "termo": "Organizadinhos",
+    "pagina": 182,
+    "tabela": "poderes",
+    "registro_id": "organizadinhos"
+  },
+  {
+    "termo": "Os do Fundo",
+    "pagina": 182,
+    "tabela": "poderes",
+    "registro_id": "os_do_fundo"
+  },
+  {
+    "termo": "Osso de Megalokk",
+    "pagina": 402,
+    "tabela": "materiais_especiais",
+    "registro_id": "osso_de_megalokk"
+  },
+  {
+    "termo": "Papel Tribal",
+    "pagina": 265,
+    "tabela": "poderes",
+    "registro_id": "papel_tribal"
+  },
+  {
+    "termo": "Paquidérmico",
+    "pagina": 265,
+    "tabela": "poderes",
+    "registro_id": "paquidermico"
+  },
+  {
+    "termo": "Peças Metálicas",
+    "pagina": 300,
+    "tabela": "poderes",
+    "registro_id": "pecas_metalicas"
+  },
+  {
+    "termo": "Peçonha Anciã",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "peconha_ancia"
+  },
+  {
+    "termo": "Peçonha Irritante",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "peconha_irritante"
+  },
+  {
+    "termo": "Pedaço de Língua",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "pedaco_de_lingua"
+  },
+  {
+    "termo": "Pederneira Vulcânica",
+    "pagina": 402,
+    "tabela": "materiais_especiais",
+    "registro_id": "pederneira_vulcanica"
+  },
+  {
+    "termo": "Pedra",
+    "pagina": 134,
+    "tabela": "poderes",
+    "registro_id": "pedra"
+  },
+  {
+    "termo": "Pés Rapinantes",
+    "pagina": 201,
+    "tabela": "poderes",
+    "registro_id": "pes_rapinantes"
+  },
+  {
+    "termo": "Pés Rapinantes",
+    "pagina": 267,
+    "tabela": "poderes",
+    "registro_id": "pes_rapinantes"
+  },
+  {
+    "termo": "Pestes Oportunistas",
+    "pagina": 182,
+    "tabela": "poderes",
+    "registro_id": "pestes_oportunistas"
+  },
+  {
+    "termo": "Pilão Conspurcado",
+    "pagina": 405,
+    "tabela": "acessorios_magicos",
+    "registro_id": "pilao_conspurcado"
+  },
+  {
+    "termo": "Pistola Demoníaca",
+    "pagina": 405,
+    "tabela": "acessorios_magicos",
+    "registro_id": "pistola_demoniaca"
+  },
+  {
+    "termo": "Pistola-Punhal",
+    "pagina": 394,
+    "tabela": "armas",
+    "registro_id": "pistola_punhal"
+  },
+  {
+    "termo": "Pó Azul",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "po_azul"
+  },
+  {
+    "termo": "Porrete",
+    "pagina": 394,
+    "tabela": "armas",
+    "registro_id": "porrete"
+  },
+  {
+    "termo": "Praga Monstruosa",
+    "pagina": 182,
+    "tabela": "poderes",
+    "registro_id": "praga_monstruosa"
+  },
+  {
+    "termo": "Prata Dracônica",
+    "pagina": 402,
+    "tabela": "materiais_especiais",
+    "registro_id": "prata_draconica"
+  },
+  {
+    "termo": "Prática Arcana",
+    "pagina": 151,
+    "tabela": "poderes",
+    "registro_id": "pratica_arcana"
+  },
+  {
+    "termo": "Presa de Serpente",
+    "pagina": 394,
+    "tabela": "armas",
+    "registro_id": "presa_de_serpente"
+  },
+  {
+    "termo": "Presença Arcana",
+    "pagina": 339,
+    "tabela": "poderes",
+    "registro_id": "presenca_arcana"
+  },
+  {
+    "termo": "Pteros",
+    "pagina": 267,
+    "tabela": "racas",
+    "registro_id": "pteros"
+  },
+  {
+    "termo": "Quase Anão",
+    "pagina": 39,
+    "tabela": "poderes",
+    "registro_id": "quase_anao"
+  },
+  {
+    "termo": "Quitina Razza",
+    "pagina": 401,
+    "tabela": "materiais_especiais",
+    "registro_id": "quitina_razza"
+  },
+  {
+    "termo": "Rainha da Selva",
+    "pagina": 270,
+    "tabela": "poderes",
+    "registro_id": "rainha_da_selva"
+  },
+  {
+    "termo": "Raio Cristalizado",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "raio_cristalizado"
+  },
+  {
+    "termo": "Regeneração Vegetal",
+    "pagina": 339,
+    "tabela": "poderes",
+    "registro_id": "regeneracao_vegetal"
+  },
+  {
+    "termo": "Regras Adicionais de Ameaças",
+    "pagina": 376,
+    "tabela": "regras",
+    "registro_id": "regras_adicionais_de_ameacas"
+  },
+  {
+    "termo": "Regras de Parceiros e Besta de Carga",
+    "pagina": 418,
+    "tabela": "regras",
+    "registro_id": "regras_de_parceiros"
+  },
+  {
+    "termo": "Rendição",
+    "pagina": 115,
+    "tabela": "poderes",
+    "registro_id": "rendicao"
+  },
+  {
+    "termo": "Rinoceronte",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "rinoceronte"
+  },
+  {
+    "termo": "Roedor",
+    "pagina": 162,
+    "tabela": "poderes",
+    "registro_id": "roedor"
+  },
+  {
+    "termo": "Rompedor da Realidade",
+    "pagina": 405,
+    "tabela": "acessorios_magicos",
+    "registro_id": "rompedor_da_realidade"
+  },
+  {
+    "termo": "Saborear Pavor",
+    "pagina": 79,
+    "tabela": "poderes",
+    "registro_id": "saborear_pavor"
+  },
+  {
+    "termo": "Saltador",
+    "pagina": 37,
+    "tabela": "poderes",
+    "registro_id": "saltador"
+  },
+  {
+    "termo": "Sangue Orc",
+    "pagina": 31,
+    "tabela": "poderes",
+    "registro_id": "sangue_orc"
+  },
+  {
+    "termo": "Saque Rápido para usá-la",
+    "pagina": 160,
+    "tabela": "poderes",
+    "registro_id": "saque_rapido_para_usala"
+  },
+  {
+    "termo": "Sashimi de Kraken",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "sashimi_de_kraken"
+  },
+  {
+    "termo": "Sedenta",
+    "pagina": 401,
+    "tabela": "melhorias",
+    "registro_id": "sedenta"
+  },
+  {
+    "termo": "Senhor dos Céus",
+    "pagina": 267,
+    "tabela": "poderes",
+    "registro_id": "senhor_dos_ceus"
+  },
+  {
+    "termo": "Sentidos de Predador",
+    "pagina": 79,
+    "tabela": "poderes",
+    "registro_id": "sentidos_de_predador"
+  },
+  {
+    "termo": "Sentidos Dracônicos",
+    "pagina": 151,
+    "tabela": "poderes",
+    "registro_id": "sentidos_draconicos"
+  },
+  {
+    "termo": "Sentidos Murídeos",
+    "pagina": 162,
+    "tabela": "poderes",
+    "registro_id": "sentidos_murideos"
+  },
+  {
+    "termo": "Sentidos Rapinantes",
+    "pagina": 267,
+    "tabela": "poderes",
+    "registro_id": "sentidos_rapinantes"
+  },
+  {
+    "termo": "Sentidos Selvagens",
+    "pagina": 268,
+    "tabela": "poderes",
+    "registro_id": "sentidos_selvagens"
+  },
+  {
+    "termo": "Sentidos Selvagens",
+    "pagina": 270,
+    "tabela": "poderes",
+    "registro_id": "sentidos_selvagens"
+  },
+  {
+    "termo": "Shuriken",
+    "pagina": 394,
+    "tabela": "armas",
+    "registro_id": "shuriken"
+  },
+  {
+    "termo": "Sobrevivência",
+    "pagina": 182,
+    "tabela": "poderes",
+    "registro_id": "sobrevivencia"
+  },
+  {
+    "termo": "Sobrevivência",
+    "pagina": 267,
+    "tabela": "poderes",
+    "registro_id": "sobrevivencia"
+  },
+  {
+    "termo": "Sombreiro",
+    "pagina": 396,
+    "tabela": "itens",
+    "registro_id": "sombreiro"
+  },
+  {
+    "termo": "Somos Explosivos",
+    "pagina": 182,
+    "tabela": "poderes",
+    "registro_id": "somos_explosivos"
+  },
+  {
+    "termo": "Sopro de Dragão",
+    "pagina": 151,
+    "tabela": "poderes",
+    "registro_id": "sopro_de_dragao"
+  },
+  {
+    "termo": "Soterrado",
+    "pagina": 354,
+    "tabela": "racas",
+    "registro_id": "soterrado"
+  },
+  {
+    "termo": "Sucata",
+    "pagina": 134,
+    "tabela": "poderes",
+    "registro_id": "sucata"
+  },
+  {
+    "termo": "Tabrachi",
+    "pagina": 37,
+    "tabela": "racas",
+    "registro_id": "tabrachi"
+  },
+  {
+    "termo": "Talentos do Bando",
+    "pagina": 182,
+    "tabela": "poderes",
+    "registro_id": "talentos_do_bando"
+  },
+  {
+    "termo": "Táticas de Guerrilha",
+    "pagina": 84,
+    "tabela": "poderes",
+    "registro_id": "taticas_de_guerrilha"
+  },
+  {
+    "termo": "Tengu",
+    "pagina": 164,
+    "tabela": "racas",
+    "registro_id": "tengu"
+  },
+  {
+    "termo": "Terror Vivo",
+    "pagina": 157,
+    "tabela": "poderes",
+    "registro_id": "terror_vivo"
+  },
+  {
+    "termo": "Tesouro Metade",
+    "pagina": 157,
+    "tabela": "poderes",
+    "registro_id": "tesouro_metade"
+  },
+  {
+    "termo": "Tesouro Metade",
+    "pagina": 300,
+    "tabela": "poderes",
+    "registro_id": "tesouro_metade"
+  },
+  {
+    "termo": "Tesouro Padrão",
+    "pagina": 31,
+    "tabela": "poderes",
+    "registro_id": "tesouro_padrao"
+  },
+  {
+    "termo": "Tetsubo",
+    "pagina": 394,
+    "tabela": "armas",
+    "registro_id": "tetsubo"
+  },
+  {
+    "termo": "Tigela D’água",
+    "pagina": 158,
+    "tabela": "poderes",
+    "registro_id": "tigela_dagua"
+  },
+  {
+    "termo": "Tipos de Criaturas",
+    "pagina": 14,
+    "tabela": "regras",
+    "registro_id": "tipos_de_criaturas"
+  },
+  {
+    "termo": "Tomo de Guerra",
+    "pagina": 396,
+    "tabela": "itens",
+    "registro_id": "tomo_de_guerra"
+  },
+  {
+    "termo": "Tomo do Rancor",
+    "pagina": 396,
+    "tabela": "itens",
+    "registro_id": "tomo_do_rancor"
+  },
+  {
+    "termo": "Traje Selako",
+    "pagina": 396,
+    "tabela": "itens",
+    "registro_id": "traje_selako"
+  },
+  {
+    "termo": "Transformação em Dragão",
+    "pagina": 407,
+    "tabela": "magias",
+    "registro_id": "transformacao_em_dragao"
+  },
+  {
+    "termo": "Traque",
+    "pagina": 394,
+    "tabela": "armas",
+    "registro_id": "traque"
+  },
+  {
+    "termo": "Trog Anão",
+    "pagina": 39,
+    "tabela": "racas",
+    "registro_id": "trog_anao"
+  },
+  {
+    "termo": "Urso Pardo",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "urso_pardo"
+  },
+  {
+    "termo": "Uyzrrak da'Ukthra",
+    "pagina": 405,
+    "tabela": "acessorios_magicos",
+    "registro_id": "uyzrrak_daukthra"
+  },
+  {
+    "termo": "Vegetal",
+    "pagina": 339,
+    "tabela": "poderes",
+    "registro_id": "vegetal"
+  },
+  {
+    "termo": "Velocis",
+    "pagina": 268,
+    "tabela": "racas",
+    "registro_id": "velocis"
+  },
+  {
+    "termo": "Velocista da Planície",
+    "pagina": 268,
+    "tabela": "poderes",
+    "registro_id": "velocista_da_planicie"
+  },
+  {
+    "termo": "Veneno Batráquio",
+    "pagina": 398,
+    "tabela": "itens",
+    "registro_id": "veneno_batraquio"
+  },
+  {
+    "termo": "Veste de Teia de Aranha",
+    "pagina": 395,
+    "tabela": "armaduras",
+    "registro_id": "veste_de_teia_de_aranha"
+  },
+  {
+    "termo": "Vigor Brutal",
+    "pagina": 33,
+    "tabela": "poderes",
+    "registro_id": "vigor_brutal"
+  },
+  {
+    "termo": "Voracis",
+    "pagina": 270,
+    "tabela": "racas",
+    "registro_id": "voracis"
+  },
+  {
+    "termo": "Wynna",
+    "pagina": 267,
+    "tabela": "poderes",
+    "registro_id": "wynna"
+  },
+  {
+    "termo": "Yidishan",
+    "pagina": 300,
+    "tabela": "racas",
+    "registro_id": "yidishan"
+  },
+  {
+    "termo": "Zarabatana",
+    "pagina": 394,
+    "tabela": "armas",
+    "registro_id": "zarabatana"
+  }
+]

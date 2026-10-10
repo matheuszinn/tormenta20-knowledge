@@ -1,0 +1,11 @@
+{
+  "id": "ankh_solar",
+  "name": "Ankh Solar",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 450,
+  "espacos": 1,
+  "description": "Pode ser usado como arma leve simples (1d6, 19, corte). Suas magias com teste de resistência ganham o aprimoramento (+2 PM: alvos que falham não podem recuperar PV por 1 rodada).",
+  "page": 396,
+  "livro_id": "ameacas_de_arton"
+}

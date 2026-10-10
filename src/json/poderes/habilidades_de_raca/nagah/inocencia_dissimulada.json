@@ -1,0 +1,10 @@
+{
+  "id": "inocencia_dissimulada",
+  "name": "Inocência Dissimulada",
+  "type": "habilidade_de_raca",
+  "race": "nagah",
+  "description": "Você recebe +2 em Enganação e pode gastar 2 PM para substituir um teste de perícia originalmente baseada em Inteligência, Sabedoria ou",
+  "effects": {},
+  "page": 333,
+  "livro_id": "ameacas_de_arton"
+}

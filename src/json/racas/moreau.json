@@ -1,0 +1,25 @@
+{
+  "id": "moreau",
+  "name": "Moreau",
+  "description": "Habitantes dos Reinos de Moreania abençoados pelos Doze Deuses Animais, com traços da herança de seu clã ancestral.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_na_penumbra",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "heranca": 1,
+    "outros_dois": 1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "heranca"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "qualquer"
+  ],
+  "page": 303,
+  "livro_id": "ameacas_de_arton"
+}

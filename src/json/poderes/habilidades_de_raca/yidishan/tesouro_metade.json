@@ -1,0 +1,10 @@
+{
+  "id": "tesouro_metade",
+  "name": "Tesouro Metade",
+  "type": "habilidade_de_raca",
+  "race": "yidishan",
+  "description": "",
+  "effects": {},
+  "page": 300,
+  "livro_id": "ameacas_de_arton"
+}

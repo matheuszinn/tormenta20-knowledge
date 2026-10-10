@@ -1,0 +1,12 @@
+{
+  "id": "bomba_de_fumaca",
+  "name": "Bomba de Fumaça",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 15,
+  "espacos": 0.5,
+  "description": "Emite nuvem de fumaça espessa de 6m de raio que obscurece a visão até o fim da cena (camuflagem leve até 1,5m e total a partir de 3m).",
+  "page": 396,
+  "livro_id": "ameacas_de_arton"
+}

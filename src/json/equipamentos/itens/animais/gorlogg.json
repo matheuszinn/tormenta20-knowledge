@@ -1,0 +1,42 @@
+{
+  "id": "gorlogg",
+  "name": "Gorlogg",
+  "type": "item",
+  "categoria": "animal",
+  "preco": null,
+  "espacos": 0,
+  "description": "Esta besta primitiva é usada como montaria pelos mais selvagens.",
+  "page": 268,
+  "livro_id": "t20_eja",
+  "parceiro": {
+    "tipo": ["montaria"],
+    "porte": "grande",
+    "pagina_criatura": 268,
+    "patamares": {
+      "iniciante": {
+        "movement": [
+          { "type": "caminhada", "value": 12, "unit": "m" }
+        ],
+        "damage": [
+          { "type": "bonus_dano_corporal", "value": "1d6", "frequency": "1x_rodada" }
+        ]
+      },
+      "veterano": {
+        "movement": [
+          { "type": "caminhada", "value": 12, "unit": "m" }
+        ],
+        "damage": [
+          { "type": "bonus_dano_corporal", "value": "1d10", "frequency": "1x_rodada" }
+        ]
+      },
+      "mestre": {
+        "movement": [
+          { "type": "caminhada", "value": 15, "unit": "m" }
+        ],
+        "damage": [
+          { "type": "bonus_dano_corporal", "value": "2d8", "frequency": "1x_rodada" }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "uyzrrak_daukthra",
+  "name": "Uyzrrak da'Ukthra",
+  "categoria": "maior",
+  "preco": 80000,
+  "description": "Cetro ancestral dos sacerdotes lefeu feito de quitina avermelhada pulsante. Suas magias causam +1d8 de dano de matéria vermelha e concedem 1 ponto de Tormenta temporário ao usuário na cena.",
+  "page": 405,
+  "efeito": {
+    "dano_materia_vermelha": "1d8",
+    "afinidade_tormenta": true
+  },
+  "livro_id": "ameacas_de_arton"
+}

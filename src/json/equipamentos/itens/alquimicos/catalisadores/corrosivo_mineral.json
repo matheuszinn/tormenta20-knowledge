@@ -1,0 +1,12 @@
+{
+  "id": "corrosivo_mineral",
+  "name": "Corrosivo Mineral",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 150,
+  "espacos": 0.5,
+  "description": "Pasta mineral corrosiva produzida com ingredientes naturais. Aumenta os dados de dano de magias de ácido em uma categoria: d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (máximo).",
+  "page": 399,
+  "livro_id": "ameacas_de_arton"
+}

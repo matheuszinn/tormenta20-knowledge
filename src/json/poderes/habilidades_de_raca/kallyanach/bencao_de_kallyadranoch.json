@@ -1,0 +1,10 @@
+{
+  "id": "bencao_de_kallyadranoch",
+  "name": "Bênção de Kallyadranoch",
+  "type": "habilidade_de_raca",
+  "race": "kallyanach",
+  "description": "Escolha dois dos poderes a seguir. Uma vez por patamar, você pode escolher uma bênção no lugar de um poder de classe.",
+  "effects": {},
+  "page": 151,
+  "livro_id": "ameacas_de_arton"
+}

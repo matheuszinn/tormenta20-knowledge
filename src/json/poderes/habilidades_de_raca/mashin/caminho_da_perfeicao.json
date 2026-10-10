@@ -1,0 +1,10 @@
+{
+  "id": "caminho_da_perfeicao",
+  "name": "Caminho da Perfeição",
+  "type": "habilidade_de_raca",
+  "race": "mashin",
+  "description": "Escolha uma de suas perícias treinadas. Você recebe +2 nessa perícia.",
+  "effects": {},
+  "page": 160,
+  "livro_id": "ameacas_de_arton"
+}

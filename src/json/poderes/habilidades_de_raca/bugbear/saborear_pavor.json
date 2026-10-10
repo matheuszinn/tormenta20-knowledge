@@ -1,0 +1,10 @@
+{
+  "id": "saborear_pavor",
+  "name": "Saborear Pavor",
+  "type": "habilidade_de_raca",
+  "race": "bugbear",
+  "description": "Você pode usar Força como atributo-chave de Intimidação (em vez de Carisma). Além disso, se estiver em alcance curto de outra criatura abalada ou apavorada, você recebe um bônus em testes de ataque igual à penalidade causada pela condição.",
+  "effects": {},
+  "page": 79,
+  "livro_id": "ameacas_de_arton"
+}

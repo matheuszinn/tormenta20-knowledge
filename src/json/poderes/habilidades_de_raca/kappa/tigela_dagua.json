@@ -1,0 +1,10 @@
+{
+  "id": "tigela_dagua",
+  "name": "Tigela D’água",
+  "type": "habilidade_de_raca",
+  "race": "kappa",
+  "description": "Sempre que falhar por 5 ou mais em um teste para evitar ser agarrado, derrubado ou empurrado, você derrama a água de sua cabeça. Você fica enjoado até encher a tigela novamente (o que exige uma fonte de água e uma ação padrão).",
+  "effects": {},
+  "page": 158,
+  "livro_id": "ameacas_de_arton"
+}

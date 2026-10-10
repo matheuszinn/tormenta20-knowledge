@@ -1,0 +1,13 @@
+{
+  "id": "pilao_conspurcado",
+  "name": "Pilão Conspurcado",
+  "categoria": "medio",
+  "preco": 24000,
+  "description": "Pequeno pilão de madeira com símbolos místicos e fragmentos de ossos. Conta como uma costela de lich para magias de trevas e aumenta em +1d6 o dano de preparados corrosivos e venenos nele macerados.",
+  "page": 405,
+  "efeito": {
+    "aprimoramento_alquimia_venenos": "+1d6 dano",
+    "foco_trevas": true
+  },
+  "livro_id": "ameacas_de_arton"
+}

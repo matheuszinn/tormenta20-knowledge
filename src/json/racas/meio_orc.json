@@ -1,0 +1,27 @@
+{
+  "id": "meio_orc",
+  "name": "Meio-Orc",
+  "description": "Descendentes da união entre humanos e orcs, combinando a versatilidade humana com a ferocidade e resistência orc.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "forca": 2,
+    "outro": 1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "adaptavel",
+    "criatura_das_profundezas",
+    "sangue_orc"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "qualquer"
+  ],
+  "page": 31,
+  "livro_id": "ameacas_de_arton"
+}

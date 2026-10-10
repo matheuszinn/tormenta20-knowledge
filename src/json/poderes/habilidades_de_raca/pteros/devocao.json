@@ -1,0 +1,10 @@
+{
+  "id": "devocao",
+  "name": "Devoção",
+  "type": "habilidade_de_raca",
+  "race": "pteros",
+  "description": "Allihanna, Lena, Marah,",
+  "effects": {},
+  "page": 267,
+  "livro_id": "ameacas_de_arton"
+}

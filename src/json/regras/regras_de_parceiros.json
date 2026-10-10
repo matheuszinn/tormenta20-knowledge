@@ -1,0 +1,20 @@
+{
+  "id": "regras_de_parceiros",
+  "name": "Regras de Parceiros e Besta de Carga",
+  "description": "Regras para emprego de ameaças como parceiros de personagens jogadores e montarias (Apêndice A).",
+  "page": 418,
+  "livro_id": "ameacas_de_arton",
+  "regras": {
+    "parceiros_especiais": "Um parceiro especial fornece benefícios listados em sua descrição e conta como o tipo indicado para poderes que exigem aquele tipo (ex: hiena conta como perseguidor para Companheiro Animal). Se tiver mais de um tipo, é escolhido no momento da criação.",
+    "natacao_e_parceiros": "Exceto quando indicado, parceiros com deslocamento de natação não permitem ao cavaleiro respirar ou falar debaixo d'água nem anulam penalidades padrão de submersão.",
+    "novo_tipo_besta_de_carga": {
+      "nome": "Besta de Carga",
+      "descricao": "Criatura capaz de carregar peso, como um boi, burro ou mula.",
+      "niveis": {
+        "iniciante": "Pode carregar 10 espaços de itens.",
+        "veterano": "Pode carregar 15 espaços de itens.",
+        "mestre": "Pode carregar 20 espaços de itens."
+      }
+    }
+  }
+}

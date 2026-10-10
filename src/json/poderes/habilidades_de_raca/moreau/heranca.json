@@ -1,0 +1,10 @@
+{
+  "id": "heranca",
+  "name": "Herança",
+  "type": "habilidade_de_raca",
+  "race": "moreau",
+  "description": "Escolha uma das heranças descritas a seguir. Ela representa sua ascendência e determina suas demais habilidades de raça. Além disso, você é considerado também um humano para quaisquer fins.",
+  "effects": {},
+  "page": 303,
+  "livro_id": "ameacas_de_arton"
+}

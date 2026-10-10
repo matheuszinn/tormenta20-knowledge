@@ -1,0 +1,31 @@
+{
+  "id": "ogro",
+  "name": "Ogro",
+  "description": "Gigantescos e musculosos habitantes das montanhas e ermos artonianos com força avassaladora e compleição intimidadora.",
+  "size": "grande",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "forca": 3,
+    "constituicao": 2,
+    "inteligencia": -1,
+    "carisma": -1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "camada_de_ingenuidade",
+    "intuicao_e_vontade"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "allihanna",
+    "arsenal",
+    "megalokk",
+    "tenebra"
+  ],
+  "page": 40,
+  "livro_id": "ameacas_de_arton"
+}

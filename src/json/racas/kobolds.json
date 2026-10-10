@@ -1,0 +1,41 @@
+{
+  "id": "kobolds",
+  "name": "Kobolds",
+  "description": "Um personagem kobolds é um ajuntamento de pequenos répteis que agem e lutam em conjunto como uma única entidade engenhosa.",
+  "size": "pequeno",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "destreza": 2,
+    "forca": -1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "ajuntamento_escamoso",
+    "praga_monstruosa",
+    "sobrevivencia",
+    "talentos_do_bando",
+    "amontoados",
+    "armadilha_terrivel",
+    "diferentao",
+    "exfamiliar",
+    "o_ousado",
+    "os_do_fundo",
+    "organizadinhos",
+    "pestes_oportunistas",
+    "somos_explosivos"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "kallyadranoch",
+    "khalmyr",
+    "lena",
+    "megalokk",
+    "tenebra"
+  ],
+  "page": 182,
+  "livro_id": "ameacas_de_arton"
+}

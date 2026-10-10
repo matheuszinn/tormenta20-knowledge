@@ -1,0 +1,29 @@
+{
+  "id": "yidishan",
+  "name": "Yidishan",
+  "description": "Híbridos mecânico-orgânicos que combinam carne e componentes metálicos ou mecânicos em simbiose.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "carisma": -2,
+    "outros_tres": 1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "hibrido_mecanico",
+    "natureza_organica",
+    "pecas_metalicas"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "x5",
+  "devotos": [
+    "arsenal",
+    "megalokk",
+    "nimb"
+  ],
+  "page": 300,
+  "livro_id": "ameacas_de_arton"
+}

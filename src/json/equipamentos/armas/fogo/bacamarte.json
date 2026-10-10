@@ -1,0 +1,23 @@
+{
+  "id": "bacamarte",
+  "name": "Bacamarte",
+  "type": "arma",
+  "proficiencia": "fogo",
+  "proposito": "ataque_a_distancia",
+  "empunhadura": "duas_maos",
+  "preco": 450,
+  "dano": "4d6",
+  "critico": "19/x3",
+  "alcance": "especial",
+  "tipo_dano": "perfuracao",
+  "espacos": 2,
+  "habilidades": [
+    "disparo"
+  ],
+  "especial": {
+    "cone_ou_dispersao": "atinge todos em cone curto de 4,5m"
+  },
+  "description": "Arma de fogo curta de cano largo que dispara estilhaços em área cônica curta, devastadora a curta distância.",
+  "page": 394,
+  "livro_id": "ameacas_de_arton"
+}

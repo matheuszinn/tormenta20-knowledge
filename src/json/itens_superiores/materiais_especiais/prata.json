@@ -1,0 +1,30 @@
+{
+  "id": "prata",
+  "name": "Prata",
+  "type": "material_especial",
+  "description": "Embora seja muito maleável, a prata pode ser usada para revestir objetos e conceder propriedades quase mágicas. Por ser usada como revestimento, prata pode ser combinada com um segundo material especial (cada um contando como uma melhoria separada).",
+  "precos_adicionais": {
+    "arma": 600,
+    "armadura_leve": 1500,
+    "armadura_pesada": 3000,
+    "escudo": 1500,
+    "esoterico": 400
+  },
+  "efeitos": {
+    "arma": {
+      "dano_bonus_espiritos_e_mortos_vivos": 2,
+      "considerada_magica_contra_espiritos_e_mortos_vivos": true
+    },
+    "armadura_leve": {
+      "reducao_dano_espiritos_e_mortos_vivos": 5
+    },
+    "armadura_pesada": {
+      "reducao_dano_espiritos_e_mortos_vivos": 10
+    },
+    "escudo": {
+      "reducao_dano_espiritos_e_mortos_vivos": 5
+    }
+  },
+  "page": 402,
+  "livro_id": "ameacas_de_arton"
+}

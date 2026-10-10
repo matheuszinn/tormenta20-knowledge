@@ -1,0 +1,23 @@
+{
+  "id": "neko_te",
+  "name": "Neko-te",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "leve",
+  "preco": 10,
+  "dano": "1d4",
+  "critico": "19",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": [
+    "agil"
+  ],
+  "especial": {
+    "esconder_bonus": 5
+  },
+  "description": "Luva de couro com garras metálicas afiadas nas pontas dos dedos, típica de Tamu-ra. É uma arma ágil e pode ser escondida facilmente com +5 em testes de Ladinagem.",
+  "page": 394,
+  "livro_id": "ameacas_de_arton"
+}

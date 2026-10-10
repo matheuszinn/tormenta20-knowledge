@@ -1,0 +1,33 @@
+{
+  "id": "tabrachi",
+  "name": "Tabrachi",
+  "description": "Guerreiros anfibios robustos semelhantes a sapos antropomórficos, mestres da luta com salto e camuflagem pantaneira.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_na_penumbra",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "constituicao": 2,
+    "forca": 1,
+    "carisma": -1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "batraquio",
+    "linguarudo",
+    "saltador",
+    "atletismo_para_saltar"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "allihanna",
+    "megalokk",
+    "nimb",
+    "sszzaas",
+    "tenebra"
+  ],
+  "page": 37,
+  "livro_id": "ameacas_de_arton"
+}

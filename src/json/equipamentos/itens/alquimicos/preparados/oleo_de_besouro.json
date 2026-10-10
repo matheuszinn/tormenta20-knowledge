@@ -1,0 +1,12 @@
+{
+  "id": "oleo_de_besouro",
+  "name": "Óleo de Besouro",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 50,
+  "espacos": 0.5,
+  "description": "Substância luminescente que reage ao calor, iluminando áreas escuras sem gerar fumaça por 4 horas.",
+  "page": 398,
+  "livro_id": "ameacas_de_arton"
+}

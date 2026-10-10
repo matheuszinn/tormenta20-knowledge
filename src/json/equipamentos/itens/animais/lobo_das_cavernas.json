@@ -1,0 +1,51 @@
+{
+  "id": "lobo_das_cavernas",
+  "name": "Lobo-das-cavernas",
+  "type": "item",
+  "categoria": "animal",
+  "preco": null,
+  "espacos": 0,
+  "description": "Primos primitivos e maiores dos lobos comuns, lobos-das-cavernas são usados como montaria por goblinoides e aventureiros selvagens. Estas estatísticas também se aplicam a lobos comuns (tamanho Médio).",
+  "page": 268,
+  "livro_id": "t20_eja",
+  "parceiro": {
+    "tipo": ["montaria"],
+    "porte": "grande",
+    "pagina_criatura": 268,
+    "patamares": {
+      "iniciante": {
+        "movement": [
+          { "type": "caminhada", "value": 12, "unit": "m" }
+        ],
+        "extra_actions": [
+          { "type": "acao_movimento_extra", "frequency": "por_turno", "condition": "apenas_deslocar" }
+        ]
+      },
+      "veterano": {
+        "movement": [
+          { "type": "caminhada", "value": 15, "unit": "m" }
+        ],
+        "extra_actions": [
+          { "type": "acao_movimento_extra", "frequency": "por_turno", "condition": "apenas_deslocar" }
+        ],
+        "damage": [
+          { "type": "bonus_dano_corporal", "value": "1d8", "frequency": "1x_rodada" }
+        ]
+      },
+      "mestre": {
+        "movement": [
+          { "type": "caminhada", "value": 15, "unit": "m" }
+        ],
+        "extra_actions": [
+          { "type": "acao_movimento_extra", "frequency": "por_turno", "condition": "apenas_deslocar" }
+        ],
+        "damage": [
+          { "type": "bonus_dano_corporal", "value": "1d8", "frequency": "1x_rodada" }
+        ],
+        "maneuvers": [
+          { "manobra": "derrubar", "action": "livre", "frequency": "1x_rodada" }
+        ]
+      }
+    }
+  }
+}

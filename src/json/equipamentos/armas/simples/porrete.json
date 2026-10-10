@@ -1,0 +1,19 @@
+{
+  "id": "porrete",
+  "name": "Porrete",
+  "type": "arma",
+  "proficiencia": "simples",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "leve",
+  "preco": 2,
+  "dano": "1d6",
+  "critico": "x2",
+  "alcance": null,
+  "tipo_dano": "impacto",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": {},
+  "description": "Um pedaço de madeira pesado e tosco, comum entre bandidos, capangas e povos rústicos.",
+  "page": 394,
+  "livro_id": "ameacas_de_arton"
+}

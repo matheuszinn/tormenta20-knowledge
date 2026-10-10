@@ -1,0 +1,46 @@
+{
+  "id": "elefante",
+  "name": "Elefante",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 1500,
+  "espacos": 0,
+  "description": "Paquiderme gigantesco treinado para guerra e transporte pesado.",
+  "page": 398,
+  "livro_id": "ameacas_de_arton",
+  "parceiro": {
+    "tipo": ["montaria", "besta_de_carga"],
+    "porte": "enorme",
+    "pagina_criatura": 218,
+    "patamares": {
+      "iniciante": {
+        "movement": [
+          { "type": "caminhada", "value": 12, "unit": "m" }
+        ],
+        "terreno": [
+          { "type": "ignora", "terrain": "terreno_dificil" }
+        ]
+      },
+      "veterano": {
+        "special": [
+          { "type": "acao_livre_sacar_ou_pegar_item", "range": "4,5m", "frequency": "1x_rodada" }
+        ]
+      },
+      "mestre": {
+        "maneuvers": [
+          { "manobra": "atropelar", "bonus": 5 },
+          { "type": "ataque_extra", "trigger": "apos_atropelar_sucesso", "custo_pm": 1 }
+        ]
+      }
+    }
+  },
+  "besta_de_carga": {
+    "needs_review": true,
+    "_comment": "Book says 'capacidade massiva de carga' without exact number; canonical patamares map would apply if bought as besta de carga",
+    "patamares_disponiveis": {
+      "iniciante": 10,
+      "veterano": 15,
+      "mestre": 20
+    }
+  }
+}

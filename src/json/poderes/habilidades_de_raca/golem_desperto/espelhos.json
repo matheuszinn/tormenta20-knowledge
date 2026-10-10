@@ -1,0 +1,10 @@
+{
+  "id": "espelhos",
+  "name": "Espelhos",
+  "type": "habilidade_de_raca",
+  "race": "golem_desperto",
+  "description": "Carisma +2, Sabedoria +1, Constituição –1. Quando uma criatura em alcance curto usa uma habilidade de classe que você possa ver, você pode gastar 1 PM para copiar essa habilidade. Até o fim do seu próximo turno, você pode usá-la como uma habilidade de raça (se ela usar um atributo para algo, use seu Carisma). Se copiar outra habilidade, você perde a anterior.",
+  "effects": {},
+  "page": 134,
+  "livro_id": "ameacas_de_arton"
+}

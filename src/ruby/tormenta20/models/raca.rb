@@ -36,6 +36,16 @@ module Tormenta20
     #   @return [Integer] Number of abilities the player selects at character creation
     # @!attribute [rw] available_chosen_abilities
     #   @return [Array] Pool of ability IDs to choose from
+    # @!attribute [rw] page
+    #   @return [Integer, nil] Printed-book page reference
+    # @!attribute [rw] livro_id
+    #   @return [String, nil] Source book slug (+nil+ for the basic book)
+    # @!attribute [rw] longevidade
+    #   @return [String, nil] Lifespan category from the race stat block
+    #   (+nil+ when the book gives none)
+    # @!attribute [rw] devotos
+    #   @return [Array<String>] Deity slugs commonly worshipped;
+    #   +["qualquer"]+ means any deity, +[]+ means unknown
     class Raca < Base
       self.table_name = "racas"
 
@@ -87,7 +97,11 @@ module Tormenta20
           skill_bonuses: skill_bonuses || [],
           racial_abilities: racial_abilities || [],
           chosen_abilities_amount: chosen_abilities_amount || 0,
-          available_chosen_abilities: available_chosen_abilities || []
+          available_chosen_abilities: available_chosen_abilities || [],
+          page: page,
+          livro_id: livro_id,
+          longevidade: longevidade,
+          devotos: devotos || []
         }.compact
       end
     end

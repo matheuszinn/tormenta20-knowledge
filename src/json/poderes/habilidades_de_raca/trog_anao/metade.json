@@ -1,0 +1,10 @@
+{
+  "id": "metade",
+  "name": "Metade",
+  "type": "habilidade_de_raca",
+  "race": "trog_anao",
+  "description": "Trog Anão Eremita Monstro (trog) Médio Iniciativa +7, Percepção +18, visão no escuro Defesa 33, Fort +22, Ref +6, Von +16 Pontos de Vida 330 Deslocamento 6m (4q) Corpo a Corpo Machado de guerra +26 (3d6+20, x3) e mordida +26 (2d6+18). Armadura Fúngica (Reação) Quando o trog anão eremita sofre dano, todas as criaturas adjacentes perdem 2d12 pontos de vida. Veneno. Gosto por Tripas O trog recebe +2 em rolagens de dano contra criaturas em que já tenha causado dano na cena. Mau Cheiro (Padrão) Fortitude CD 26 evita. Sobrevivente Quando faz um teste de resistência, o trog rola dois dados e usa o melhor resultado. For 7, Des –1, Con 6, Int 0, Sab 2, Car –2 Perícias Sobrevivência +20. Equipamento Machado de guerra atroz. Tesouro Metade. ND 8",
+  "effects": {},
+  "page": 39,
+  "livro_id": "ameacas_de_arton"
+}

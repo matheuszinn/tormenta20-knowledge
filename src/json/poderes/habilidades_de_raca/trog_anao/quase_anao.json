@@ -1,0 +1,10 @@
+{
+  "id": "quase_anao",
+  "name": "Quase Anão",
+  "type": "habilidade_de_raca",
+  "race": "trog_anao",
+  "description": "Você é uma criatura do tipo monstro e recebe visão no escuro e +1 PV por nível. Além disso, seu deslocamento é 6m (em vez de 9m), mas não é reduzido por uso de armadura ou excesso de carga. Sobrevivente Quando faz um teste de resistência, o trog anão bruto rola dois dados e usa o melhor resultado. For 3, Des 0, Con 4, Int –2, Sab 0, Car –1 Perícias Sobrevivência +7. Equipamento Loriga segmentada, machado de guerra. Tesouro",
+  "effects": {},
+  "page": 39,
+  "livro_id": "ameacas_de_arton"
+}

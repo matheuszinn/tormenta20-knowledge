@@ -1,0 +1,32 @@
+{
+  "id": "mashin",
+  "name": "Mashin",
+  "description": "Golens esguios e artísticos de Tamu-ra imbuídos com espíritos ancestrais, integrando precisão e tradição oriental.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "forca": 1,
+    "carisma": -1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "maravilha_mecanica",
+    "adaptacao_elemental",
+    "arma_acoplada",
+    "saque_rapido_para_usala",
+    "arma_elemental",
+    "auxilio_de_mira",
+    "caminho_da_perfeicao",
+    "canalizar_reparos",
+    "canhao_energetico"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": null,
+  "devotos": null,
+  "needs_review": "Longevidade/Devotos não localizados no PDF; verificar livro impresso",
+  "page": 160,
+  "livro_id": "ameacas_de_arton"
+}

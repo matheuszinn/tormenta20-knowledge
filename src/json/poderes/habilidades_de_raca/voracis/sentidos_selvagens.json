@@ -1,0 +1,10 @@
+{
+  "id": "sentidos_selvagens",
+  "name": "Sentidos Selvagens",
+  "type": "habilidade_de_raca",
+  "race": "voracis",
+  "description": "Você recebe +2 em Sobrevivência, visão na penumbra e faro (contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha).",
+  "effects": {},
+  "page": 270,
+  "livro_id": "ameacas_de_arton"
+}

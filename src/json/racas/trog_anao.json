@@ -1,0 +1,27 @@
+{
+  "id": "trog_anao",
+  "name": "Trog Anão",
+  "description": "Variante reptiliana menor dos trogs com a resistência obstinada dos anões e mau cheiro característico.",
+  "size": "pequeno",
+  "movement": 6,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "constituicao": 2,
+    "forca": 1,
+    "destreza": -1,
+    "inteligencia": -1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "quase_anao",
+    "metade"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": null,
+  "devotos": null,
+  "needs_review": "Longevidade/Devotos não localizados no PDF; verificar livro impresso",
+  "page": 39,
+  "livro_id": "ameacas_de_arton"
+}

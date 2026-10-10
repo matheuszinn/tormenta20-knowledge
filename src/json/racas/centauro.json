@@ -1,0 +1,31 @@
+{
+  "id": "centauro",
+  "name": "Centauro",
+  "description": "Nômades orgulhosos com tronco humanoide e corpo inferior de cavalo, mestres da cavalaria e das planícies.",
+  "size": "grande",
+  "movement": 12,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "sabedoria": 2,
+    "forca": 1,
+    "inteligencia": -1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "avantajado",
+    "cascos",
+    "ginete_natural",
+    "medo_de_altura"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "allihanna",
+    "hippion",
+    "megalokk"
+  ],
+  "page": 105,
+  "livro_id": "ameacas_de_arton"
+}

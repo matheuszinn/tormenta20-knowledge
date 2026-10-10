@@ -1,0 +1,35 @@
+{
+  "id": "nagah",
+  "name": "Nagah",
+  "description": "Povo serpentino com tronco humanoide e cauda de cobra em vez de pernas, sutis e ágeis no combate.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_na_penumbra",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "forca": 1,
+    "destreza": 1,
+    "constituicao": 1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "cauda",
+    "inocencia_dissimulada",
+    "carisma_por_enganacao",
+    "fraquezas_ofidicas"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "allihanna",
+    "hyninn",
+    "kallyadranoch",
+    "megalokk",
+    "sszzaas",
+    "tenebra",
+    "wynna"
+  ],
+  "page": 333,
+  "livro_id": "ameacas_de_arton"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "caixa_de_voz",
+  "name": "Caixa de Voz",
+  "type": "item",
+  "categoria": "equipamento_de_aventura",
+  "preco": 50,
+  "espacos": 1,
+  "description": "Complexo mecanismo da Supremacia com 1d4 cargas. Permite aumentar o alcance de uma habilidade de bardo ou nobre em um passo ao gastar uma carga.",
+  "page": 396,
+  "livro_id": "ameacas_de_arton"
+}

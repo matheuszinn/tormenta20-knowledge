@@ -1,0 +1,20 @@
+{
+  "id": "coral_de_namalkah",
+  "name": "Coral de Namalkah",
+  "type": "material_especial",
+  "description": "Coral sagrado petrificado das bacias marinhas abençoadas pelo Oceano.",
+  "precos_adicionais": {
+    "arma": 1500,
+    "esoterico": 2000
+  },
+  "efeitos": {
+    "arma": {
+      "dano_perfuracao_adicional": 2
+    },
+    "esoterico": {
+      "recuperacao_pm_curas": 1
+    }
+  },
+  "page": 401,
+  "livro_id": "ameacas_de_arton"
+}

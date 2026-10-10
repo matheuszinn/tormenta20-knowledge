@@ -1,0 +1,27 @@
+{
+  "id": "minauro",
+  "name": "Minauro",
+  "description": "Descendentes da mistura de minotauros com humanos ou outras raças, mantendo chifres e determinação mas sem a fobia de labirintos.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_na_penumbra",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "forca": 1,
+    "outros_dois": 1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "faro",
+    "mente_aberta",
+    "diplomacia_e_investigacao"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "qualquer"
+  ],
+  "page": 175,
+  "livro_id": "ameacas_de_arton"
+}

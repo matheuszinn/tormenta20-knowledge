@@ -1,0 +1,23 @@
+{
+  "id": "arpao",
+  "name": "Arpão",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "ataque_a_distancia",
+  "empunhadura": "uma_mao",
+  "preco": 30,
+  "dano": "1d10",
+  "critico": "x3",
+  "alcance": "curto",
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": [
+    "arremesso"
+  ],
+  "especial": {
+    "fisgar": "Se causar dano, o alvo fica fisgado e preso pela corda"
+  },
+  "description": "Lança de pesca pesada farpada com corda presa à empunhadura, usada para fisgar e puxar criaturas marinhas e inimigos.",
+  "page": 394,
+  "livro_id": "ameacas_de_arton"
+}

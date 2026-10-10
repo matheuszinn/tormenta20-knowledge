@@ -1,0 +1,31 @@
+{
+  "id": "harpia",
+  "name": "Harpia",
+  "description": "Criaturas aladas predadoras com asas emplumadas e garras rapinantes nos pés, capazes de voar e aterrorizar com seus gritos estridentes.",
+  "size": "médio",
+  "movement": 12,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "destreza": 2,
+    "carisma": 1,
+    "inteligencia": -1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "asas_de_abutre",
+    "cria_de_masmorra",
+    "grito_aterrorizante",
+    "pes_rapinantes"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "hyninn",
+    "megalokk",
+    "tenebra"
+  ],
+  "page": 201,
+  "livro_id": "ameacas_de_arton"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "metal_meteorico",
+  "name": "Metal Meteórico",
+  "type": "material_especial",
+  "description": "Fragmentos estelares colhidos de bólidos caídos dos céus artonianos.",
+  "precos_adicionais": {
+    "arma": 4000,
+    "armadura_pesada": 4000
+  },
+  "efeitos": {
+    "arma": {
+      "dano_espiritos_monstros": "1d8 essência"
+    },
+    "armadura_pesada": {
+      "rd_magica": 5
+    }
+  },
+  "page": 402,
+  "livro_id": "ameacas_de_arton"
+}

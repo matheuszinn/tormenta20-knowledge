@@ -1,0 +1,37 @@
+{
+  "id": "capivara",
+  "name": "Capivara",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 60,
+  "espacos": 0,
+  "description": "Grande roedor semiaquático pacífico e resistente. Pode ser usado como parceiro montaria Médio com excelente capacidade de natação.",
+  "page": 398,
+  "livro_id": "ameacas_de_arton",
+  "parceiro": {
+    "tipo": ["montaria"],
+    "porte": "medio",
+    "pagina_criatura": 213,
+    "patamares": {
+      "iniciante": {
+        "movement": [
+          { "type": "caminhada", "value": 9, "unit": "m" },
+          { "type": "natacao", "value": 12, "unit": "m" }
+        ],
+        "extra_actions": [
+          { "type": "acao_movimento_extra", "frequency": "por_turno", "condition": "apenas_deslocar" }
+        ]
+      },
+      "veterano": {
+        "powers": [
+          { "id": "aparencia_inofensiva", "condition": "if already possessed: CD to resist +2" }
+        ]
+      },
+      "mestre": {
+        "damage": [
+          { "type": "bonus_dano_corporal", "value": "1d6", "frequency": "1x_rodada" }
+        ]
+      }
+    }
+  }
+}

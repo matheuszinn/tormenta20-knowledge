@@ -1,0 +1,20 @@
+{
+  "id": "pederneira_vulcanica",
+  "name": "Pederneira Vulcânica",
+  "type": "material_especial",
+  "description": "Rocha mineral ígnea de vulcões ativos que faisca calor constante.",
+  "precos_adicionais": {
+    "arma": 1000,
+    "arma_de_fogo": 1500
+  },
+  "efeitos": {
+    "arma": {
+      "dano_fogo": "1d4"
+    },
+    "arma_de_fogo": {
+      "recarregar_acao": "reduz um passo"
+    }
+  },
+  "page": 402,
+  "livro_id": "ameacas_de_arton"
+}

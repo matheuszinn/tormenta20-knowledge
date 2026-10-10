@@ -1,0 +1,10 @@
+{
+  "id": "equipamento_katana",
+  "name": "Equipamento Katana",
+  "type": "habilidade_de_raca",
+  "race": "tengu",
+  "description": "Tesouro Padrão. Daitengu Espírito (tengu) Médio Iniciativa +14, Percepção +11, visão no escuro Defesa 32, Fort +8, Ref +21, Von +15 Pontos de Vida 222 Deslocamento 9m (6q), voo 12m (8q) Pontos de Magia 64 Corpo a Corpo Duas katanas +26 (2d10+24, 19). Asas Desorientadoras Se não estiver usando suas asas para voar, o daitengu pode fintar como ação de movimento. Ataque Reflexo (Reação) Uma vez por rodada, o daitengu pode fazer um ataque corpo a corpo contra um alvo em seu alcance natural que esteja desprevenido ou que se mova voluntariamente para fora desse alcance. ND 8 Tengu: Habilidades de Raça Destreza +2, Inteligência +1.",
+  "effects": {},
+  "page": 164,
+  "livro_id": "ameacas_de_arton"
+}

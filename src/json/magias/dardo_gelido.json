@@ -1,0 +1,40 @@
+{
+  "id": "dardo_gelido",
+  "name": "Dardo Gélido",
+  "type": "arcana",
+  "circle": "1",
+  "school": "evoc",
+  "execution": "padrão",
+  "range": "curto",
+  "target": {
+    "amount": 1,
+    "type": "criatura"
+  },
+  "duration": "instantânea",
+  "resistence": {
+    "effect": "Fortitude parcial",
+    "skill": "fortitude"
+  },
+  "description": "Você dispara um dardo de gelo que causa 2d6 pontos de dano de frio e deixa o alvo lento por 1 rodada (Fortitude reduz dano à metade e evita a condição).",
+  "enhancements": [
+    {
+      "cost": 1,
+      "type": "aumenta",
+      "description": "aumenta o dano em +1d6."
+    },
+    {
+      "cost": 1,
+      "type": "aumenta",
+      "description": "aumenta o número de alvos em +1 (limitado pelo círculo máximo)."
+    }
+  ],
+  "effects": [
+    {
+      "type": "dano",
+      "amount": "2d6",
+      "damage_type": "frio"
+    }
+  ],
+  "page": 406,
+  "livro_id": "ameacas_de_arton"
+}

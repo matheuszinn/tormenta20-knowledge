@@ -1,0 +1,30 @@
+{
+  "id": "cristal_de_sol",
+  "name": "Cristal de Sol",
+  "type": "material_especial",
+  "description": "Utilizados pelos ursos das neves para armazenar calor, estes cristais perdem suas propriedades em algumas semanas quando não utilizados, tornando difícil encontrá-los à venda.",
+  "precos_adicionais": {},
+  "efeitos": {
+    "arma": {
+      "dano_fogo_bonus": 2,
+      "restricao": "corte_ou_perfuracao",
+      "pecas_necessarias": 1
+    },
+    "armadura_leve": {
+      "teste_resistencia_frio_rerola_dados": 2
+    },
+    "armadura_pesada": {
+      "teste_resistencia_frio_rerola_dados": 2
+    },
+    "escudo": {
+      "teste_resistencia_frio_rerola_dados": 2
+    },
+    "esoterico": {
+      "magia_fogo_alvo_em_chamas": true,
+      "se_ja_em_chamas_dano_chamas_bonus": "1d6 cumulativo",
+      "custo_pm": 1
+    }
+  },
+  "page": 402,
+  "livro_id": "ameacas_de_arton"
+}

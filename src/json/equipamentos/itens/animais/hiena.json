@@ -1,0 +1,59 @@
+{
+  "id": "hiena",
+  "name": "Hiena",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 220,
+  "espacos": 0,
+  "description": "Predador das savanas com mordida trituradora e risada inquietante.",
+  "page": 398,
+  "livro_id": "ameacas_de_arton",
+  "parceiro": {
+    "tipo": ["especial", "montaria"],
+    "porte": "medio",
+    "pagina_criatura": 122,
+    "patamares": {
+      "iniciante": {
+        "skill_bonus": [
+          { "skill": "Furtividade", "value": 2 },
+          { "skill": "Sobrevivência", "value": 2 }
+        ]
+      },
+      "veterano": {
+        "powers": [
+          { "id": "oportunismo", "condition": "if already possessed: -1 PM custo" }
+        ]
+      },
+      "mestre": {
+        "powers": [
+          { "id": "sentidos_aguçados" }
+        ]
+      }
+    }
+  },
+  "alternativo": {
+    "tipo": ["montaria"],
+    "porte": "grande",
+    "estatisticas_referem_a": "hienodonte",
+    "patamares": {
+      "iniciante": {
+        "movement": [
+          { "type": "caminhada", "value": 12, "unit": "m" }
+        ],
+        "extra_actions": [
+          { "type": "acao_movimento_extra", "frequency": "por_turno", "condition": "apenas_deslocar" }
+        ]
+      },
+      "veterano": {
+        "powers": [
+          { "id": "oportunismo", "condition": "if already possessed: -1 PM custo" }
+        ]
+      },
+      "mestre": {
+        "maneuvers": [
+          { "manobra": "derrubar", "action": "livre", "frequency": "1x_rodada" }
+        ]
+      }
+    }
+  }
+}

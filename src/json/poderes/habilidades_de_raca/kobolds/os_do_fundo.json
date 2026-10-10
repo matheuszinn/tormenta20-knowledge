@@ -1,0 +1,10 @@
+{
+  "id": "os_do_fundo",
+  "name": "Os do Fundo",
+  "type": "habilidade_de_raca",
+  "race": "kobolds",
+  "description": "Vocês conseguem formar o equivalente a um terceiro braço, que pode empunhar um objeto (mas não concede ações extras). Se usarem-no para empunhar uma arma leve, uma vez por rodada, quando usam a ação agredir para atacar com outra arma, podem gastar 1 PM para fazer um ataque corpo a corpo extra com essa arma. Pré-requisito: Organizadinhos.",
+  "effects": {},
+  "page": 182,
+  "livro_id": "ameacas_de_arton"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "tomo_do_rancor",
+  "name": "Tomo do Rancor",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 750,
+  "espacos": 1,
+  "description": "Suas magias de dano recebem aprimoramento (+2 PM: causa +2d8+2 pontos de dano de corte, impacto ou perfuração a sua escolha).",
+  "page": 396,
+  "livro_id": "ameacas_de_arton"
+}

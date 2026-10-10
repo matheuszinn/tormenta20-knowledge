@@ -1,0 +1,11 @@
+{
+  "id": "sombreiro",
+  "name": "Sombreiro",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 10,
+  "espacos": 1,
+  "description": "Chapéu com abas muito largas comum perto de Smokestone. Fornece resistência a efeitos de sentidos +2.",
+  "page": 396,
+  "livro_id": "ameacas_de_arton"
+}

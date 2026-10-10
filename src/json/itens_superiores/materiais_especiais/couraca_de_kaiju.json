@@ -1,0 +1,29 @@
+{
+  "id": "couraca_de_kaiju",
+  "name": "Couraça de Kaiju",
+  "type": "material_especial",
+  "description": "Ainda mais raro que couro dracônico, este material pode ser empregado para fabricar itens superiores de grande poder. Jamais encontrado à venda, sendo obtido apenas a partir de um kaiju abatido.",
+  "precos_adicionais": {},
+  "efeitos": {
+    "arma": {
+      "dano_aumento": "um_passo",
+      "ignora_efeitos_reducao_dano_com_pm": 2
+    },
+    "armadura_leve": {
+      "reducao_dano": "10/magico"
+    },
+    "armadura_pesada": {
+      "reducao_dano": "20/magico",
+      "pecas_necessarias": 3
+    },
+    "escudo": {
+      "reducao_dano": "10/magico"
+    },
+    "esoterico": {
+      "ignora_efeitos_reducao_dano_magia_com_pm": 2,
+      "exclui_reducao_dano_e_resistencia": true
+    }
+  },
+  "page": 401,
+  "livro_id": "ameacas_de_arton"
+}

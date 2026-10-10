@@ -1,0 +1,10 @@
+{
+  "id": "taticas_de_guerrilha",
+  "name": "Táticas de Guerrilha",
+  "type": "habilidade_de_raca",
+  "race": "hobgoblin",
+  "description": "Você recebe visão no escuro e +2 em Furtividade.",
+  "effects": {},
+  "page": 84,
+  "livro_id": "ameacas_de_arton"
+}

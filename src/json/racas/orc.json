@@ -1,0 +1,32 @@
+{
+  "id": "orc",
+  "name": "Orc",
+  "description": "Guerreiros subterrâneos fortes e honrados, forjados pelas agruras das profundezas e pela tradição tribal.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "forca": 2,
+    "constituicao": 1,
+    "inteligencia": -1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "feroz",
+    "habitante_das_cavernas",
+    "vigor_brutal"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "allihanna",
+    "arsenal",
+    "megalokk",
+    "nimb",
+    "tenebra"
+  ],
+  "page": 33,
+  "livro_id": "ameacas_de_arton"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "lanajuste",
+  "name": "Lanajuste",
+  "type": "material_especial",
+  "description": "Também chamado de coral-de-ferro, é encontrado em paredões afiados banhados pelo mar em Khubar. Mais conhecido por seu uso em lâminas afiadas, o lanajuste também é empregado em outros itens.",
+  "precos_adicionais": {
+    "arma": 600,
+    "armadura_leve": 1500,
+    "armadura_pesada": 3000,
+    "escudo": 1500,
+    "esoterico": 3000
+  },
+  "efeitos": {
+    "arma": {
+      "ignora_penalidades_combate_submerso": true,
+      "apto_devotos_oceano": true
+    },
+    "armadura_leve": {
+      "reducao_corte": 5
+    },
+    "armadura_pesada": {
+      "reducao_corte": 10
+    },
+    "escudo": {
+      "reducao_corte": 5
+    },
+    "esoterico": {
+      "magia_dano_corte_rerola_1": true
+    }
+  },
+  "page": 402,
+  "livro_id": "ameacas_de_arton"
+}

@@ -5,15 +5,55 @@
   "categoria": "animal",
   "preco": 200,
   "espacos": 0,
-  "parceiro": {
-    "tipo": "montaria",
-    "nivel": "iniciante"
-  },
-  "usos": [
-    "montaria",
-    "carga",
-    "tracao"
-  ],
   "description": "Estas enormes aves, também chamadas de pássaros-touros, são parecidas com avestruzes com chifres, couro e cascos. Não têm asas. Possuem poucas penas, que servem apenas como ornamento. Muito dóceis, trobos são usados em áreas rurais como animais de carga e tração, mas também podem ser usados como montaria.",
-  "page": 169
+  "page": 169,
+  "parceiro": {
+    "tipo": ["montaria", "besta_de_carga"],
+    "porte": "grande",
+    "pagina_criatura": 268,
+    "patamares": {
+      "iniciante": {
+        "movement": [
+          { "type": "caminhada", "value": 9, "unit": "m" }
+        ],
+        "extra_actions": [
+          { "type": "acao_movimento_extra", "frequency": "por_turno", "condition": "apenas_deslocar" }
+        ],
+        "saving_throw": [
+          { "type": "teste_resistencia", "value": 1, "target": "cavaleiro" }
+        ]
+      },
+      "veterano": {
+        "movement": [
+          { "type": "caminhada", "value": 12, "unit": "m" }
+        ],
+        "extra_actions": [
+          { "type": "acao_movimento_extra", "frequency": "por_turno", "condition": "apenas_deslocar" }
+        ],
+        "saving_throw": [
+          { "type": "teste_resistencia", "value": 2, "target": "cavaleiro" }
+        ]
+      },
+      "mestre": {
+        "movement": [
+          { "type": "caminhada", "value": 12, "unit": "m" }
+        ],
+        "extra_actions": [
+          { "type": "acao_movimento_extra", "frequency": "por_turno", "condition": "apenas_deslocar" }
+        ],
+        "saving_throw": [
+          { "type": "teste_resistencia", "value": 5, "target": "cavaleiro" }
+        ]
+      }
+    }
+  },
+  "besta_de_carga": {
+    "patamar": "iniciante",
+    "capacidade_espacos": 10,
+    "patamares_disponiveis": {
+      "iniciante": 10,
+      "veterano": 15,
+      "mestre": 20
+    }
+  }
 }

@@ -1,0 +1,12 @@
+{
+  "id": "peconha_ancia",
+  "name": "Peçonha Anciã",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "veneno",
+  "preco": 1800,
+  "espacos": 0.5,
+  "description": "Extraída de vermes e monstros milenares (Fortitude CD 25). Causa 4d12 pontos de dano de veneno e a condição paralisado por 1 rodada.",
+  "page": 398,
+  "livro_id": "ameacas_de_arton"
+}

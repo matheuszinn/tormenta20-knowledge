@@ -1,0 +1,10 @@
+{
+  "id": "natureza_organica",
+  "name": "Natureza Orgânica",
+  "type": "habilidade_de_raca",
+  "race": "yidishan",
+  "description": "Você se torna treinado em uma perícia (que não precisa ser da sua classe) ou recebe um poder geral a sua escolha. Como alternativa, você pode ser um yidishan de outra raça humanoide além de humano. Neste caso, você ganha uma habilidade dessa raça a sua escolha. Se a raça era de tamanho diferente de Médio, você também possui sua categoria de tamanho.",
+  "effects": {},
+  "page": 300,
+  "livro_id": "ameacas_de_arton"
+}

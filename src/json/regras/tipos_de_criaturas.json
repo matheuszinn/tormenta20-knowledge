@@ -1,0 +1,33 @@
+{
+  "id": "tipos_de_criaturas",
+  "name": "Tipos de Criaturas",
+  "description": "Definição e traços dos 6 grandes tipos de criaturas do sistema Tormenta 20.",
+  "page": 14,
+  "livro_id": "ameacas_de_arton",
+  "tipos": [
+    {
+      "tipo": "Construtos",
+      "descricao": "Objetos inanimados que ganharam vida por magia ou tecnologia. Imunes a cansaço, efeitos de metabolismo, trevas e veneno; não recuperam PV por descanso nem por cura mágica convencional (exigem testes de Ofício ou magias de conserto)."
+    },
+    {
+      "tipo": "Espíritos",
+      "descricao": "Seres nativos de outros Planos conectados às forças primordiais ou aspectos dos deuses. Geralmente possuem visão no escuro."
+    },
+    {
+      "tipo": "Humanoides",
+      "descricao": "Seres com anatomia semelhante a humanos, inteligentes e membros de culturas/sociedades com raça ou subtipo definido."
+    },
+    {
+      "tipo": "Monstros",
+      "descricao": "Criaturas de anatomia aberrante, criaturas da Tormenta, quimeras ou criações selvagens dos deuses, frequentemente com habilidades mágicas ou sobrenaturais."
+    },
+    {
+      "tipo": "Mortos-Vivos",
+      "descricao": "Cadáveres animados por energia negativa. Possuem visão no escuro; imunidade a cansaço, metabolismo, trevas e veneno; sofrem dano por cura de luz e recuperam PV com energia negativa."
+    },
+    {
+      "tipo": "Animais",
+      "descricao": "Feras e criaturas naturais sem inteligência civilizada (Int nula ou -4/-5). Podem ser domesticados ou treinados como parceiros."
+    }
+  ]
+}

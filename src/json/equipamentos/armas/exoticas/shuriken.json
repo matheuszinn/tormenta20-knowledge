@@ -1,0 +1,23 @@
+{
+  "id": "shuriken",
+  "name": "Shuriken",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "ataque_a_distancia",
+  "empunhadura": "leve",
+  "preco": 1,
+  "dano": "1d4",
+  "critico": "x2",
+  "alcance": "curto",
+  "tipo_dano": "perfuracao",
+  "espacos": 0.5,
+  "habilidades": [
+    "arremesso"
+  ],
+  "especial": {
+    "ataque_adicional": "Uma vez por rodada ao atacar com shuriken, gaste 1 PM para um ataque adicional contra o mesmo alvo."
+  },
+  "description": "Projéteis de arremesso em forma de estrela. Permite desferir rajadas rápidas contra o mesmo alvo.",
+  "page": 394,
+  "livro_id": "ameacas_de_arton"
+}

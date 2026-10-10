@@ -1,0 +1,10 @@
+{
+  "id": "canhao_energetico",
+  "name": "Canhão Energético",
+  "type": "habilidade_de_raca",
+  "race": "mashin",
+  "description": "Se sua arma acoplada for uma arma de fogo, você pode gastar uma ação de movimento e 1 PM para energizá-la. Até o fim da cena, seu próximo ataque com ela causa +1 dado de dano do mesmo tipo. Múltiplos usos deste poder são cumulativos (limitado por sua Constituição). Pré-requisito: Arma Acoplada. (Continua…)",
+  "effects": {},
+  "page": 160,
+  "livro_id": "ameacas_de_arton"
+}

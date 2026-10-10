@@ -1,0 +1,25 @@
+{
+  "id": "soterrado",
+  "name": "Soterrado",
+  "description": "Variante da raça osteon preservada pelo gelo perpétuo das Uivantes, imbuída com o frio da morte.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "constituicao": -1,
+    "outros_tres": 1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "abraco_gelido",
+    "esquife_de_gelo"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": null,
+  "devotos": null,
+  "needs_review": "Longevidade/Devotos não localizados no PDF; verificar livro impresso",
+  "page": 354,
+  "livro_id": "ameacas_de_arton"
+}

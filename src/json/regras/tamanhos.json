@@ -1,0 +1,67 @@
+{
+  "id": "tamanhos",
+  "name": "Tamanho de Criaturas",
+  "description": "Toda criatura possui uma categoria de tamanho que define seu espaço ocupado, alcance natural e modificadores de furtividade e manobras. Esses valores são apresentados em ordem, do menor para o maior.",
+  "page": 13,
+  "livro_id": "ameacas_de_arton",
+  "categorias": [
+    {
+      "id": "minusculo",
+      "name": "Minúsculo",
+      "exemplos": ["Falcão", "rato", "sílfide"],
+      "espaco_ocupado": 1.5,
+      "modificador_furtividade": 5,
+      "modificador_manobras": -5,
+      "ordem": 1
+    },
+    {
+      "id": "pequeno",
+      "name": "Pequeno",
+      "exemplos": ["Cão", "goblin", "hynne"],
+      "espaco_ocupado": 1.5,
+      "modificador_furtividade": 2,
+      "modificador_manobras": -2,
+      "ordem": 2
+    },
+    {
+      "id": "medio",
+      "name": "Médio",
+      "exemplos": ["Humano", "anão", "elfo"],
+      "espaco_ocupado": 1.5,
+      "modificador_furtividade": 0,
+      "modificador_manobras": 0,
+      "ordem": 3
+    },
+    {
+      "id": "grande",
+      "name": "Grande",
+      "exemplos": ["Cavalo", "ogro", "serpe"],
+      "espaco_ocupado": 3.0,
+      "modificador_furtividade": -2,
+      "modificador_manobras": 2,
+      "ordem": 4
+    },
+    {
+      "id": "enorme",
+      "name": "Enorme",
+      "exemplos": ["Ente", "gigante", "hidra"],
+      "espaco_ocupado": 4.5,
+      "modificador_furtividade": -5,
+      "modificador_manobras": 5,
+      "ordem": 5
+    },
+    {
+      "id": "colossal",
+      "name": "Colossal",
+      "exemplos": ["Colosso", "dragão", "kraken"],
+      "espaco_ocupado": 9.0,
+      "modificador_furtividade": -10,
+      "modificador_manobras": 10,
+      "ordem": 6
+    }
+  ],
+  "notas": {
+    "espaco_ocupado_e_alcance": "O valor de espaço ocupado também representa o alcance natural da criatura em metros para ataques corpo a corpo.",
+    "modificadores_compostos": "A tabela original apresenta os modificadores de furtividade e manobras como valor composto (+X/−Y); aqui eles estão separados em dois campos numéricos (modificador_furtividade, modificador_manobras) para facilitar consultas."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "sashimi_de_kraken",
+  "name": "Sashimi de Kraken",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 60,
+  "espacos": 0,
+  "description": "Iguaria de Tamu-ra servida crua. Concede +2 em Diplomacia (cumulativo) e 5 PM temporários.",
+  "page": 398,
+  "livro_id": "ameacas_de_arton"
+}

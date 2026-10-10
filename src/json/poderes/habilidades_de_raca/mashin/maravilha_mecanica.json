@@ -1,0 +1,10 @@
+{
+  "id": "maravilha_mecanica",
+  "name": "Maravilha Mecânica",
+  "type": "habilidade_de_raca",
+  "race": "mashin",
+  "description": "Se escolher uma maravilha mecânica, você recebe um dos poderes a seguir. Uma vez por patamar, você pode escolher uma maravilha mecânica no lugar de um poder de classe.",
+  "effects": {},
+  "page": 160,
+  "livro_id": "ameacas_de_arton"
+}

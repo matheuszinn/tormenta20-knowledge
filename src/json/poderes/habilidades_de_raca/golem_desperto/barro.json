@@ -1,0 +1,10 @@
+{
+  "id": "barro",
+  "name": "Barro",
+  "type": "habilidade_de_raca",
+  "race": "golem_desperto",
+  "description": "Constituição +2. Seu deslocamento não é afetado por terreno difícil e você passa automaticamente em testes de Acrobacia para passar por espaços apertados. Se permanecer mais de um dia sem contato com água, você não recupera PM com descanso até voltar para a água.",
+  "effects": {},
+  "page": 134,
+  "livro_id": "ameacas_de_arton"
+}

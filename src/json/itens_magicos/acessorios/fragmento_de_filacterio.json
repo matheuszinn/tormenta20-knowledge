@@ -1,0 +1,13 @@
+{
+  "id": "fragmento_de_filacterio",
+  "name": "Fragmento de Filactério",
+  "categoria": "maior",
+  "preco": 90000,
+  "description": "Fragmento do receptáculo da alma de um lich. Concede +2 na CD para resistir a magias de necromancia e permite lançar Toque Vampírico como reação ao sofrer dano (3 vezes por dia).",
+  "page": 404,
+  "efeito": {
+    "cd_necromancia": 2,
+    "reacao_toque_vampirico": 3
+  },
+  "livro_id": "ameacas_de_arton"
+}

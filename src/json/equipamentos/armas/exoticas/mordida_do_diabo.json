@@ -1,0 +1,23 @@
+{
+  "id": "mordida_do_diabo",
+  "name": "Mordida do Diabo",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "leve",
+  "preco": 30,
+  "dano": "1d4",
+  "critico": "x2",
+  "alcance": null,
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": [
+    "agil"
+  ],
+  "especial": {
+    "prender_arma": "concede bônus em testes de desarmar e quebrar armas"
+  },
+  "description": "Adaga com lâminas móveis acionadas por mola que se abrem ao atingir o alvo ou para prender armas inimigas.",
+  "page": 394,
+  "livro_id": "ameacas_de_arton"
+}

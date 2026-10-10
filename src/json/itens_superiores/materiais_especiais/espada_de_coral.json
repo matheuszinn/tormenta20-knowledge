@@ -1,0 +1,19 @@
+{
+  "id": "espada_de_coral",
+  "name": "Espada de Coral",
+  "type": "material_especial",
+  "description": "Fabricada com uma técnica secreta mantida pela Irmandade dos Pescadores, uma espada de coral é uma cimitarra feita de lanajuste. Além dos benefícios do material especial, ela tem fio extremamente agudo; em um acerto crítico, deixa a vítima sangrando. Quando aplicado desta forma, este material especial custa +T$ 1.800 (em vez de T$ 600).",
+  "precos_adicionais": {
+    "arma_alternativo": 1800
+  },
+  "efeitos": {
+    "arma": {
+      "acerto_critico": "deixa_vitima_sangrando",
+      "tipo_arma": "cimitarra",
+      "material_base": "lanajuste"
+    },
+    "nota_preco": "Como cimitarra de lanajuste custa +T$ 600; quando aplicada como espada de coral para o efeito de sangramento em crítico, custa +T$ 1.800 adicionais."
+  },
+  "page": 402,
+  "livro_id": "ameacas_de_arton"
+}

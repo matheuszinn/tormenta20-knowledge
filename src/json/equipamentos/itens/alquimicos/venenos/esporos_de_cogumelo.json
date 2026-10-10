@@ -1,0 +1,12 @@
+{
+  "id": "esporos_de_cogumelo",
+  "name": "Esporos de Cogumelo",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "veneno",
+  "preco": 75,
+  "espacos": 0.5,
+  "description": "Veneno inalável (Fortitude CD 18). Causa alucinações e a condição confuso por 1d4 rodadas.",
+  "page": 398,
+  "livro_id": "ameacas_de_arton"
+}

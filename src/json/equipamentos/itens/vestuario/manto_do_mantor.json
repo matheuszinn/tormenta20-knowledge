@@ -1,0 +1,11 @@
+{
+  "id": "manto_do_mantor",
+  "name": "Manto do Mantor",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 450,
+  "espacos": 1,
+  "description": "Manto feito com couro de mantor. Na escuridão completa, fornece camuflagem total mesmo contra criaturas que vejam no escuro.",
+  "page": 396,
+  "livro_id": "ameacas_de_arton"
+}

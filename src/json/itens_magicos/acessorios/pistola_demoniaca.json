@@ -1,0 +1,14 @@
+{
+  "id": "pistola_demoniaca",
+  "name": "Pistola Demoníaca",
+  "categoria": "maior",
+  "preco": 75000,
+  "description": "Pistola forjada em pacto com um demônio da pólvora. Está sempre carregada e não precisa de munição. Dispara chamas sulfurosas (2d6 perfuração + 2d6 fogo). Exige teste de Vontade CD 25 diário para resistir ao impulso homicida.",
+  "page": 405,
+  "efeito": {
+    "municao_infinita": true,
+    "dano_fogo_extra": "2d6",
+    "maldicao_impulso_homicida": "Vontade CD 25"
+  },
+  "livro_id": "ameacas_de_arton"
+}

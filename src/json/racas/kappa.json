@@ -1,0 +1,32 @@
+{
+  "id": "kappa",
+  "name": "Kappa",
+  "description": "Espíritos aquáticos anfíbios com carapaça de tartaruga e prato d'água no topo da cabeça, travessos e leais a promessas.",
+  "size": "pequeno",
+  "movement": 9,
+  "vision": "visao_na_penumbra",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "destreza": 2,
+    "constituicao": 1,
+    "carisma": -1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "alma_da_agua",
+    "carapaca_kappa",
+    "cura_das_aguas",
+    "tigela_dagua"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "x2",
+  "devotos": [
+    "hyninn",
+    "lena",
+    "lin_wu",
+    "oceano"
+  ],
+  "page": 158,
+  "livro_id": "ameacas_de_arton"
+}

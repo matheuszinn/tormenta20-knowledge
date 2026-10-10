@@ -1,0 +1,20 @@
+{
+  "id": "madeira_de_tronco_de_ferro",
+  "name": "Madeira de Tronco-de-Ferro",
+  "type": "material_especial",
+  "description": "Madeira milenar de árvores fossilizadas das florestas de Galrasia tão densa quanto ferro fundido.",
+  "precos_adicionais": {
+    "arma": 800,
+    "escudo": 500
+  },
+  "efeitos": {
+    "arma": {
+      "dano_impacto": 1
+    },
+    "escudo": {
+      "rd_fogo": 5
+    }
+  },
+  "page": 402,
+  "livro_id": "ameacas_de_arton"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "escamas_de_wyrm",
+  "name": "Escamas de Wyrm",
+  "type": "material_especial",
+  "description": "Escamas sobrepostas impenetráveis de dragões anciões.",
+  "precos_adicionais": {
+    "armadura_pesada": 5000,
+    "escudo": 2500
+  },
+  "efeitos": {
+    "armadura_pesada": {
+      "reducao_dano_elemental": 10
+    },
+    "escudo": {
+      "reducao_dano_elemental": 5
+    }
+  },
+  "page": 402,
+  "livro_id": "ameacas_de_arton"
+}

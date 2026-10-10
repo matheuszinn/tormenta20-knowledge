@@ -1,0 +1,13 @@
+{
+  "id": "improvavel",
+  "name": "Improvável",
+  "type": "melhoria",
+  "categoria": "armas",
+  "efeito": {
+    "disfarce_de_outro_objeto": true
+  },
+  "prerequisitos": null,
+  "description": "Construída para aparentar ser um objeto inofensivo cotidiano (bengala, livro, ferramenta). Testes para identificá-la como arma sofrem -5.",
+  "page": 401,
+  "livro_id": "ameacas_de_arton"
+}

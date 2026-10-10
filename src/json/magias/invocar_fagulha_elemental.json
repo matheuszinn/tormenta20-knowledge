@@ -1,0 +1,25 @@
+{
+  "id": "invocar_fagulha_elemental",
+  "name": "Invocar Fagulha Elemental",
+  "type": "arcana",
+  "circle": "2",
+  "school": "conv",
+  "execution": "completa",
+  "range": "curto",
+  "duration": "sustentada",
+  "description": "Transforma porção inerte de elemento em elemental Pequeno (ar, água, fogo ou terra) que funciona como familiar comum ou elemental, auxiliando apenas você sem contar no limite de parceiros.",
+  "enhancements": [
+    {
+      "cost": 1,
+      "type": "especial",
+      "description": "além do normal, fornece redução 10 contra o dano correspondente."
+    },
+    {
+      "cost": 2,
+      "type": "especial",
+      "description": "recebe a habilidade de dois familiares, um comum e um elemental."
+    }
+  ],
+  "page": 406,
+  "livro_id": "ameacas_de_arton"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "balsamo_de_drogadora",
+  "name": "Bálsamo de Drogadora",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 60,
+  "espacos": 0.5,
+  "description": "Pasta gosmenta dos povos-trovão. Aplicá-la é uma ação completa e cura 4d6+4 PV.",
+  "page": 396,
+  "livro_id": "ameacas_de_arton"
+}

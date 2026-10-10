@@ -1,0 +1,13 @@
+{
+  "id": "macabra",
+  "name": "Macabra",
+  "type": "melhoria",
+  "categoria": "armaduras_escudos",
+  "efeito": {
+    "intimidacao_bonus": 2
+  },
+  "prerequisitos": null,
+  "description": "Decorada com crânios, garras e símbolos aterradores. Concede +2 em testes de Intimidação.",
+  "page": 401,
+  "livro_id": "ameacas_de_arton"
+}

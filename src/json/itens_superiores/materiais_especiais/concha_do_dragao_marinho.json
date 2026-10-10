@@ -1,0 +1,22 @@
+{
+  "id": "concha_do_dragao_marinho",
+  "name": "Concha do Dragão-Marinho",
+  "type": "material_especial",
+  "description": "Concha iridescente lendária encontrada apenas em fossas abissais oceânicas.",
+  "precos_adicionais": {
+    "armadura": 3000,
+    "escudo": 2000,
+    "esoterico": 3000
+  },
+  "efeitos": {
+    "armadura": {
+      "resistencia_frio": 5,
+      "resistencia_eletricidade": 5
+    },
+    "esoterico": {
+      "magias_agua_frio_cd": 1
+    }
+  },
+  "page": 401,
+  "livro_id": "ameacas_de_arton"
+}

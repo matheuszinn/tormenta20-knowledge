@@ -1,0 +1,12 @@
+{
+  "id": "elixir_quimerico",
+  "name": "Elixir Quimérico",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 120,
+  "espacos": 0.5,
+  "description": "Beber concede arma natural de mordida (1d6, x2, perfuração) até o fim da cena e permite ataque extra de mordida por 1 PM na ação agredir.",
+  "page": 396,
+  "livro_id": "ameacas_de_arton"
+}

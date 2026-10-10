@@ -1,0 +1,10 @@
+{
+  "id": "o_ousado",
+  "name": "O Ousado",
+  "type": "habilidade_de_raca",
+  "race": "kobolds",
+  "description": "Uma vez por cena, vocês podem gastar 1 PM e uma ação de movimento para que um membro do bando se afaste e aja sozinho. Ele age a partir da sua próxima rodada, tem deslocamento 9m e pode gastar uma ação padrão para causar 2d4 pontos de dano de corte em uma criatura adjacente (a cada patamar além de iniciante, cada dado desse dano aumenta em um passo). Ele é Pequeno, tem as mesmas características do restante do bando, 1 PV, e retorna ao bando quando “morto” ou ao fim da cena. Usos criativos para o ousado ficam a critério do mestre.",
+  "effects": {},
+  "page": 182,
+  "livro_id": "ameacas_de_arton"
+}

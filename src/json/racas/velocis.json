@@ -1,0 +1,31 @@
+{
+  "id": "velocis",
+  "name": "Velocis",
+  "description": "Povo-trovão velociraptor veloz e caçador implacável das savanas e florestas densas de Galrasia.",
+  "size": "médio",
+  "movement": 12,
+  "vision": "visao_na_penumbra",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "destreza": 2,
+    "sabedoria": 1,
+    "inteligencia": -1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "atraves_de_espinheiros",
+    "sentidos_selvagens",
+    "velocista_da_planicie",
+    "devocao"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "allihanna",
+    "lena",
+    "marah"
+  ],
+  "page": 268,
+  "livro_id": "ameacas_de_arton"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "casca_de_carapaca",
+  "name": "Casca de Carapaça",
+  "type": "material_especial",
+  "description": "Placas rígidas extraídas de carapaças de insetos colossais e crustáceos das profundezas.",
+  "precos_adicionais": {
+    "arma": 1000,
+    "armadura_leve": 500,
+    "armadura_pesada": 1500,
+    "escudo": 500
+  },
+  "efeitos": {
+    "arma": {
+      "dano_contra_construcoes": "+1d8"
+    },
+    "armadura": {
+      "resistencia_impacto": 2
+    },
+    "escudo": {
+      "resistencia_impacto": 2
+    }
+  },
+  "page": 401,
+  "livro_id": "ameacas_de_arton"
+}

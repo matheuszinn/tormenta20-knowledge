@@ -1,0 +1,17 @@
+{
+  "id": "veste_de_teia_de_aranha",
+  "name": "Veste de Teia de Aranha",
+  "type": "armadura",
+  "categoria": "leve",
+  "preco": 3000,
+  "bonus_defesa": 4,
+  "penalidade_armadura": 0,
+  "espacos": 2,
+  "especial": {
+    "furtividade_bonus": 5,
+    "sem_material_especial": true
+  },
+  "description": "Feita de teia de aranha gigante, maleável, silenciosa e forte como aço. Fornece +5 em Furtividade.",
+  "page": 395,
+  "livro_id": "ameacas_de_arton"
+}

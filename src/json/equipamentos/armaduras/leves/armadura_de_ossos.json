@@ -1,0 +1,17 @@
+{
+  "id": "armadura_de_ossos",
+  "name": "Armadura de Ossos",
+  "type": "armadura",
+  "categoria": "leve",
+  "preco": 120,
+  "bonus_defesa": 3,
+  "penalidade_armadura": -2,
+  "espacos": 2,
+  "especial": {
+    "intimidacao_bonus": 1,
+    "cd_medo_bonus": 1
+  },
+  "description": "Produzida por nezumi e xamãs tribais com ossadas trabalhadas. Fornece +1 em Intimidação e na CD de seus efeitos de medo.",
+  "page": 395,
+  "livro_id": "ameacas_de_arton"
+}

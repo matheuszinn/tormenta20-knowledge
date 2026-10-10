@@ -1,0 +1,10 @@
+{
+  "id": "atletismo_para_saltar",
+  "name": "Atletismo para saltar",
+  "type": "habilidade_de_raca",
+  "race": "tabrachi",
+  "description": "Longevidade. Normal.",
+  "effects": {},
+  "page": 37,
+  "livro_id": "ameacas_de_arton"
+}

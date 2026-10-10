@@ -1,0 +1,33 @@
+{
+  "id": "transformacao_em_dragao",
+  "name": "Transformação em Dragão",
+  "type": "arcana",
+  "circle": "4",
+  "school": "trans",
+  "execution": "completa",
+  "range": "pessoal",
+  "target": {
+    "type": "voce"
+  },
+  "duration": "sustentada",
+  "description": "Invoca o poder de um dragão. Recebe +2 em Força, Constituição, Inteligência e Carisma, +5 na Defesa, redução 30 contra o elemento do sopro e pode exalar cone de 9m causando 8d6+8 de dano como ação padrão.",
+  "enhancements": [
+    {
+      "cost": 3,
+      "type": "aumenta",
+      "description": "aumenta o bônus nos atributos para +4, a Defesa para +10 e o dano do sopro para 12d6+12. Requer 5º círculo."
+    }
+  ],
+  "effects": [
+    {
+      "type": "modificador_atributo",
+      "amount": 2
+    },
+    {
+      "type": "defesa",
+      "amount": 5
+    }
+  ],
+  "page": 407,
+  "livro_id": "ameacas_de_arton"
+}

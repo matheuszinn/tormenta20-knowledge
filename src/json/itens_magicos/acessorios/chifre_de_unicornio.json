@@ -1,0 +1,17 @@
+{
+  "id": "chifre_de_unicornio",
+  "name": "Chifre de Unicórnio",
+  "categoria": "maior",
+  "preco": 120000,
+  "description": "Poderoso item de cura. Se estiver empunhando, pode lançar Curar Ferimentos e Purificação (-1 PM caso já conheça). Permite lançar Segunda Chance uma única vez (perde poderes). Pode ser empunhado como espada curta formidável ou moído em 12 doses de pó de chifre.",
+  "page": 404,
+  "efeito": {
+    "magias_concedidas": [
+      "curar_ferimentos",
+      "purificacao",
+      "segunda_chance"
+    ],
+    "arma": "espada_curta_formidavel"
+  },
+  "livro_id": "ameacas_de_arton"
+}

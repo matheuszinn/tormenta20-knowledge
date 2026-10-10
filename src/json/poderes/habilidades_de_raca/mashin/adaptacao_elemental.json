@@ -1,0 +1,10 @@
+{
+  "id": "adaptacao_elemental",
+  "name": "Adaptação Elemental",
+  "type": "habilidade_de_raca",
+  "race": "mashin",
+  "description": "Quando sofre dano de ácido, eletricidade, fogo, frio, luz ou trevas, você pode gastar 2 PM para receber redução 10 contra esse tipo de dano até o fim da cena.",
+  "effects": {},
+  "page": 160,
+  "livro_id": "ameacas_de_arton"
+}

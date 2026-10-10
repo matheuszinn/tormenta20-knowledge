@@ -1,0 +1,10 @@
+{
+  "id": "exfamiliar",
+  "name": "Ex-Familiar",
+  "type": "habilidade_de_raca",
+  "race": "kobolds",
+  "description": "Vocês recebem +2 PM e os benefícios de um tipo de familiar, escolhidos entre os familiares básicos de arcanista (veja Tormenta20, p. 38). Se não tiverem um atributo-chave para conjuração, para efeitos desta habilidade vocês usam Carisma.",
+  "effects": {},
+  "page": 182,
+  "livro_id": "ameacas_de_arton"
+}

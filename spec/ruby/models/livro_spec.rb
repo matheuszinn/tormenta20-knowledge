@@ -20,6 +20,13 @@ RSpec.describe Tormenta20::Models::Livro do
         expect(l.nome_curto).to be_present
       end
     end
+
+    it "loads Ameaças de Arton" do
+      ameacas = described_class.find("ameacas_de_arton")
+      expect(ameacas).not_to be_nil
+      expect(ameacas.nome).to eq("Tormenta 20 - Ameaças de Arton")
+      expect(ameacas.nome_curto).to eq("T20 - Ameaças")
+    end
   end
 
   describe "instance methods" do

@@ -1,0 +1,34 @@
+{
+  "id": "golem_desperto",
+  "name": "Golem Desperto",
+  "description": "Golens que despertaram consciência além do modelo de ferro básico, podendo ser construídos com chassis de barro, bronze ou espelhos.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "forca": 1,
+    "carisma": -1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "chassi",
+    "barro",
+    "bronze",
+    "carne",
+    "espelhos",
+    "ferro",
+    "gelo_eterno",
+    "pedra",
+    "sucata",
+    "criatura_artificial"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Indefinida",
+  "devotos": [
+    "qualquer"
+  ],
+  "page": 134,
+  "livro_id": "ameacas_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "auxilio_de_mira",
+  "name": "Auxílio de Mira",
+  "type": "habilidade_de_raca",
+  "race": "mashin",
+  "description": "Quando faz um ataque à distância, você pode pagar 1 PM para aumentar em +2 a margem de ameaça desse ataque.",
+  "effects": {},
+  "page": 160,
+  "livro_id": "ameacas_de_arton"
+}

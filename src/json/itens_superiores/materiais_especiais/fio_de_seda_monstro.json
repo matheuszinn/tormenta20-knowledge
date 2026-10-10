@@ -1,0 +1,18 @@
+{
+  "id": "fio_de_seda_monstro",
+  "name": "Fio de Seda-Monstro",
+  "type": "material_especial",
+  "description": "Fio fiado por aranhas gigantes e lagartas abissais, mais resistente que aço temperado.",
+  "precos_adicionais": {
+    "armadura_leve": 1500,
+    "vestuario": 1000
+  },
+  "efeitos": {
+    "armadura_leve": {
+      "penalidade_armadura": 0,
+      "defesa": 1
+    }
+  },
+  "page": 402,
+  "livro_id": "ameacas_de_arton"
+}

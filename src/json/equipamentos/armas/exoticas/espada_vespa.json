@@ -1,0 +1,21 @@
+{
+  "id": "espada_vespa",
+  "name": "Espada Vespa",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 75,
+  "dano": "2d4",
+  "critico": "18",
+  "alcance": null,
+  "tipo_dano": "corte ou perfuracao",
+  "espacos": 1,
+  "habilidades": [
+    "agil"
+  ],
+  "especial": {},
+  "description": "Lâmina sinuosa extremamente leve e rápida com dentes de serrilha invertida, criada por duelistas e assassinos.",
+  "page": 394,
+  "livro_id": "ameacas_de_arton"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "zarabatana",
+  "name": "Zarabatana",
+  "type": "arma",
+  "proficiencia": "simples",
+  "proposito": "ataque_a_distancia",
+  "empunhadura": "uma_mao",
+  "preco": 5,
+  "dano": "1d3",
+  "critico": "x2",
+  "alcance": "curto",
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": [
+    "disparo"
+  ],
+  "especial": {
+    "inoculacao_veneno_bonus_cd": 2
+  },
+  "description": "Tubo longo através do qual pequenos dardos são soprados. Ideal para inocular venenos; a CD para resistir ao veneno dos dardos aumenta em +2.",
+  "page": 394,
+  "livro_id": "ameacas_de_arton"
+}

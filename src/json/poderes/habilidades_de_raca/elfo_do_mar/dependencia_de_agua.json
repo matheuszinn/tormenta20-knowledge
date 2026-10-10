@@ -1,0 +1,10 @@
+{
+  "id": "dependencia_de_agua",
+  "name": "Dependência de Água",
+  "type": "habilidade_de_raca",
+  "race": "elfo_do_mar",
+  "description": "Se permanecer mais de um dia sem contato com água, você não recupera PM com descanso até voltar para a água (ou, pelo menos, tomar um bom banho!).",
+  "effects": {},
+  "page": 316,
+  "livro_id": "ameacas_de_arton"
+}

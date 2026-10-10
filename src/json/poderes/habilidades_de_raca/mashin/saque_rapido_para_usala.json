@@ -1,0 +1,10 @@
+{
+  "id": "saque_rapido_para_usala",
+  "name": "Saque Rápido para usá-la",
+  "type": "habilidade_de_raca",
+  "race": "mashin",
+  "description": "Um personagem treinado em Ofício (artesão) pode substituir essa arma com uma hora de trabalho e o gasto de T$ 100.",
+  "effects": {},
+  "page": 160,
+  "livro_id": "ameacas_de_arton"
+}

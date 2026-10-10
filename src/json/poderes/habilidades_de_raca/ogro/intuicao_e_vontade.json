@@ -1,0 +1,10 @@
+{
+  "id": "intuicao_e_vontade",
+  "name": "Intuição e Vontade",
+  "type": "habilidade_de_raca",
+  "race": "ogro",
+  "description": "Longevidade. Normal.",
+  "effects": {},
+  "page": 40,
+  "livro_id": "ameacas_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "devocao",
+  "name": "Devoção",
+  "type": "habilidade_de_raca",
+  "race": "voracis",
+  "description": "Allihanna,",
+  "effects": {},
+  "page": 270,
+  "livro_id": "ameacas_de_arton"
+}

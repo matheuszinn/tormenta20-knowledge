@@ -1,0 +1,10 @@
+{
+  "id": "heranca_draconica",
+  "name": "Herança Dracônica",
+  "type": "habilidade_de_raca",
+  "race": "kallyanach",
+  "description": "Você pode lançar essa magia (atributo-chave Inteligência). Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Você pode escolher esta bênção mais de uma vez para outras magias. e",
+  "effects": {},
+  "page": 151,
+  "livro_id": "ameacas_de_arton"
+}

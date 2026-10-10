@@ -1,0 +1,10 @@
+{
+  "id": "intolerancia_a_luz",
+  "name": "Intolerância a Luz",
+  "type": "habilidade_de_raca",
+  "race": "finntroll",
+  "description": "Você recebe sensibilidade a luz e, quando exposto à luz do sol ou similar, não consegue ativar sua Regeneração",
+  "effects": {},
+  "page": 339,
+  "livro_id": "ameacas_de_arton"
+}

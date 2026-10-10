@@ -1,0 +1,10 @@
+{
+  "id": "mente_aberta",
+  "name": "Mente Aberta",
+  "type": "habilidade_de_raca",
+  "race": "minauro",
+  "description": "Você recebe +2 em",
+  "effects": {},
+  "page": 175,
+  "livro_id": "ameacas_de_arton"
+}

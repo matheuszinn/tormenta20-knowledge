@@ -1,0 +1,12 @@
+{
+  "id": "pedaco_de_lingua",
+  "name": "Pedaço de Língua",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 30,
+  "espacos": 0.5,
+  "description": "Glândulas que podem ser usadas como catalisador que fornece +1 na CD dos testes de Fortitude para resistir a suas magias.",
+  "page": 399,
+  "livro_id": "ameacas_de_arton"
+}

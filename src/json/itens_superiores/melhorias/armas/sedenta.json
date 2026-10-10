@@ -1,0 +1,13 @@
+{
+  "id": "sedenta",
+  "name": "Sedenta",
+  "type": "melhoria",
+  "categoria": "armas",
+  "efeito": {
+    "dano_sangramento": "1d4 por rodada em crítico"
+  },
+  "prerequisitos": null,
+  "description": "Possui serrilhas cruéis que rasgam a carne. Em caso de acerto crítico, causa 1d4 de dano de sangramento por rodada.",
+  "page": 401,
+  "livro_id": "ameacas_de_arton"
+}

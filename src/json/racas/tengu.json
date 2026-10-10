@@ -1,0 +1,33 @@
+{
+  "id": "tengu",
+  "name": "Tengu",
+  "description": "Humanoides com feições e asas de corvo de Tamu-ra, esgrimistas graciosos e ilusionistas naturais.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_na_penumbra",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "destreza": 2,
+    "inteligencia": 1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "asas_desorientadoras",
+    "aprimorada",
+    "caminhante_do_ceu",
+    "espirito_corvino"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "arsenal",
+    "khalmyr",
+    "lin_wu",
+    "tanna_toh",
+    "valkaria",
+    "wynna"
+  ],
+  "page": 164,
+  "livro_id": "ameacas_de_arton"
+}

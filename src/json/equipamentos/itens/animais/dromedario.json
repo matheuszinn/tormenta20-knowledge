@@ -1,0 +1,48 @@
+{
+  "id": "dromedario",
+  "name": "Dromedário",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 75,
+  "espacos": 0,
+  "description": "Animal de tração e montaria resistente que aguenta dias sem água no deserto.",
+  "page": 398,
+  "livro_id": "ameacas_de_arton",
+  "parceiro": {
+    "tipo": ["montaria", "besta_de_carga"],
+    "porte": "grande",
+    "pagina_criatura": 217,
+    "patamares": {
+      "iniciante": {
+        "movement": [
+          { "type": "caminhada", "value": 12, "unit": "m" }
+        ],
+        "terreno": [
+          { "type": "ignora", "terrain": "terreno_dificil_natural" }
+        ]
+      },
+      "veterano": {
+        "damage": [
+          { "type": "bonus_dano_impacto", "value": "2d6", "range": "adjacente", "custo_pm": 1, "frequency": "1x_rodada" }
+        ]
+      },
+      "mestre": {
+        "movement": [
+          { "type": "caminhada", "value": 15, "unit": "m" }
+        ],
+        "saving_throw": [
+          { "type": "teste_resistencia", "value": 5, "condition": "contra efeitos de clima (calor, frio, metabólicos)" }
+        ]
+      }
+    }
+  },
+  "besta_de_carga": {
+    "patamar": "iniciante",
+    "capacidade_espacos": 10,
+    "patamares_disponiveis": {
+      "iniciante": 10,
+      "veterano": 15,
+      "mestre": 20
+    }
+  }
+}

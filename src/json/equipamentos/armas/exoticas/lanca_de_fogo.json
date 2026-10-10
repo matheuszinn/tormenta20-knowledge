@@ -1,0 +1,23 @@
+{
+  "id": "lanca_de_fogo",
+  "name": "Lança de Fogo",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 1000,
+  "dano": "1d8 / 2d8",
+  "critico": "x3 / 19/x3",
+  "alcance": "curto",
+  "tipo_dano": "perfuracao e fogo",
+  "espacos": 2,
+  "habilidades": [
+    "alongada"
+  ],
+  "especial": {
+    "disparo_acoplado": "+1d8 de fogo contra oponente adjacente; exige proficiência em armas de fogo para disparar"
+  },
+  "description": "Lança longa equipada com um tubo de pólvora na ponta, capaz de desferir ataques perfurantes e rajadas flamejantes.",
+  "page": 394,
+  "livro_id": "ameacas_de_arton"
+}

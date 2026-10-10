@@ -1,0 +1,10 @@
+{
+  "id": "pratica_arcana",
+  "name": "Prática Arcana",
+  "type": "habilidade_de_raca",
+  "race": "kallyanach",
+  "description": "Escolha uma magia arcana de 1º círculo que cause dano do mesmo tipo de sua",
+  "effects": {},
+  "page": 151,
+  "livro_id": "ameacas_de_arton"
+}

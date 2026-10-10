@@ -1,0 +1,10 @@
+{
+  "id": "carne",
+  "name": "Carne",
+  "type": "habilidade_de_raca",
+  "race": "golem_desperto",
+  "description": "Constituição +2, Força +1, Carisma –1. Seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Você recebe imunidade a metamorfose e trevas, mas não pode escolher elemental (água ou fogo) ou vapor como sua fonte de energia, e dano mágico de fogo e frio o deixa lento por 1d4 rodadas.",
+  "effects": {},
+  "page": 134,
+  "livro_id": "ameacas_de_arton"
+}

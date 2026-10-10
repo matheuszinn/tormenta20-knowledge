@@ -1,0 +1,41 @@
+{
+  "id": "acoite_flamejante",
+  "name": "Açoite Flamejante",
+  "type": "arcana",
+  "circle": "1",
+  "school": "conv",
+  "execution": "padrão",
+  "range": "pessoal",
+  "duration": "sustentada",
+  "resistence": {
+    "effect": "Reflexos reduz parcial",
+    "skill": "reflexos"
+  },
+  "description": "Um açoite de fogo surge em sua mão. Como ação padrão causa 2d6 pontos de dano de fogo em alcance curto e deixa o alvo em chamas e enredado enquanto durarem as chamas (Reflexos reduz à metade e evita chamas).",
+  "enhancements": [
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "muda a execução para movimento."
+    },
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "muda o dano para 4d6. Requer 2º círculo."
+    },
+    {
+      "cost": 5,
+      "type": "muda",
+      "description": "muda o dano para 6d6. Requer 3º círculo."
+    }
+  ],
+  "effects": [
+    {
+      "type": "dano",
+      "amount": "2d6",
+      "damage_type": "fogo"
+    }
+  ],
+  "page": 406,
+  "livro_id": "ameacas_de_arton"
+}

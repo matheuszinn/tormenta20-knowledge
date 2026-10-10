@@ -1,0 +1,10 @@
+{
+  "id": "pestes_oportunistas",
+  "name": "Pestes Oportunistas",
+  "type": "habilidade_de_raca",
+  "race": "kobolds",
+  "description": "Uma vez por rodada, quando causam dano em uma criatura que já sofreu dano nessa rodada, vocês causam +1d6 pontos de dano do mesmo tipo. A cada patamar além de iniciante, esse dano extra aumenta em um passo.",
+  "effects": {},
+  "page": 182,
+  "livro_id": "ameacas_de_arton"
+}

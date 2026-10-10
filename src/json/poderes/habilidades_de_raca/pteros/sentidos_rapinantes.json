@@ -1,0 +1,10 @@
+{
+  "id": "sentidos_rapinantes",
+  "name": "Sentidos Rapinantes",
+  "type": "habilidade_de_raca",
+  "race": "pteros",
+  "description": "Você recebe visão na penumbra e +2 em Percepção e",
+  "effects": {},
+  "page": 267,
+  "livro_id": "ameacas_de_arton"
+}

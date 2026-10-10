@@ -1,0 +1,33 @@
+{
+  "id": "finntroll",
+  "name": "Finntroll",
+  "description": "Trolls nobres cultos e cruéis com fisiologia vegetal regenerativa, mestres de magia e escravagistas temidos.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": {
+    "inteligencia": 2,
+    "constituicao": 1,
+    "forca": -1
+  },
+  "skill_bonuses": [],
+  "racial_abilities": [
+    "corpo_vegetal",
+    "presenca_arcana",
+    "regeneracao_vegetal",
+    "intolerancia_a_luz",
+    "vegetal"
+  ],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devotos": [
+    "kallyadranoch",
+    "megalokk",
+    "sszzaas",
+    "tenebra"
+  ],
+  "page": 339,
+  "livro_id": "ameacas_de_arton"
+}

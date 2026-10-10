@@ -1,0 +1,20 @@
+{
+  "id": "prata_draconica",
+  "name": "Prata Dracônica",
+  "type": "material_especial",
+  "description": "Liga metálica ancestral purificada sob o fogo de dragões de prata.",
+  "precos_adicionais": {
+    "arma": 2000,
+    "esoterico": 2000
+  },
+  "efeitos": {
+    "arma": {
+      "dano_mortos_vivos_licantropos": "1d6 luz"
+    },
+    "esoterico": {
+      "magias_luz_dano": 2
+    }
+  },
+  "page": 402,
+  "livro_id": "ameacas_de_arton"
+}

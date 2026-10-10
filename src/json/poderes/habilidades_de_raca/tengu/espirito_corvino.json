@@ -1,0 +1,10 @@
+{
+  "id": "espirito_corvino",
+  "name": "Espírito Corvino",
+  "type": "habilidade_de_raca",
+  "race": "tengu",
+  "description": "Você é uma criatura do tipo espírito e recebe visão no escuro e +2 em Percepção.",
+  "effects": {},
+  "page": 164,
+  "livro_id": "ameacas_de_arton"
+}

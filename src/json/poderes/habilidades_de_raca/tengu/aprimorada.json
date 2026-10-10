@@ -1,0 +1,10 @@
+{
+  "id": "aprimorada",
+  "name": "Aprimorada",
+  "type": "habilidade_de_raca",
+  "race": "tengu",
+  "description": "Se tiver esse poder, em vez disso o bônus em Enganação para fintar aumenta para +5.",
+  "effects": {},
+  "page": 164,
+  "livro_id": "ameacas_de_arton"
+}

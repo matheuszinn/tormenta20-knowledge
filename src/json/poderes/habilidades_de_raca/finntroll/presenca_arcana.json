@@ -1,0 +1,10 @@
+{
+  "id": "presenca_arcana",
+  "name": "Presença Arcana",
+  "type": "habilidade_de_raca",
+  "race": "finntroll",
+  "description": "Você recebe +2 em Misticismo e resistência a magia +2.",
+  "effects": {},
+  "page": 339,
+  "livro_id": "ameacas_de_arton"
+}

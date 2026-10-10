@@ -1,0 +1,10 @@
+{
+  "id": "faro",
+  "name": "Faro",
+  "type": "habilidade_de_raca",
+  "race": "minauro",
+  "description": "Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha.",
+  "effects": {},
+  "page": 175,
+  "livro_id": "ameacas_de_arton"
+}

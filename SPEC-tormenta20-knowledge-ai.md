@@ -30,8 +30,8 @@ Resposta esperada: resultados encontrados nos dados da biblioteca, com descriç�
 
 ### MVP — incluído
 
-- Auditar e normalizar as referências a livro/página já adicionadas ao repositório.
 - **Adicionar o livro "Ameaças de Arton" à base de dados**, incluindo criaturas, monstros e NPCs com seus atributos, habilidades, estatísticas e referências bibliográficas.
+- Auditar e normalizar as referências a livro/página já adicionadas ao repositório.
 - API TypeScript de consulta local ao SQLite distribuído com a biblioteca.
 - Busca por nome, texto, categoria/tipo e filtros simples.
 - Resultados com identificador, tipo, descrição, relevância e fontes.

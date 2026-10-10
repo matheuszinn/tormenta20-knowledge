@@ -1,0 +1,10 @@
+{
+  "id": "devocao",
+  "name": "Devoção",
+  "type": "habilidade_de_raca",
+  "race": "ceratops",
+  "description": "",
+  "effects": {},
+  "page": 265,
+  "livro_id": "ameacas_de_arton"
+}

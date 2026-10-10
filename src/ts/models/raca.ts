@@ -41,6 +41,20 @@ export class Raca extends BaseModel {
   get chosenAbilitiesAmount(): number { return (this._row.chosen_abilities_amount as number) ?? 0 }
   /** Pool of ability IDs the player chooses from. */
   get availableChosenAbilities(): unknown[] { return BaseModel.json(this._row.available_chosen_abilities, []) }
+  /** Printed-book page reference. */
+  get page(): number | null { return (this._row.page as number) ?? null }
+  /** Source book slug, or `null` for the basic book. */
+  get livroId(): string | null { return (this._row.livro_id as string) ?? null }
+  /**
+   * Lifespan category from the race stat block (`"Normal"`, `"x2"`, `"x5"`,
+   * `"Indefinida"`), or `null` when the book gives none.
+   */
+  get longevidade(): string | null { return (this._row.longevidade as string) ?? null }
+  /**
+   * Deity slugs this race commonly worships. `["qualquer"]` means any deity;
+   * `[]` means the book lists none / unknown.
+   */
+  get devotos(): string[] { return BaseModel.json(this._row.devotos, []) }
 
   /**
    * Returns the racial attribute bonus for the given attribute key (e.g. `"FOR"`, `"DES"`).
@@ -67,6 +81,8 @@ export class Raca extends BaseModel {
       skill_bonuses: this.skillBonuses, racial_abilities: this.racialAbilities,
       chosen_abilities_amount: this.chosenAbilitiesAmount,
       available_chosen_abilities: this.availableChosenAbilities,
+      page: this.page, livro_id: this.livroId,
+      longevidade: this.longevidade, devotos: this.devotos,
     }
   }
 

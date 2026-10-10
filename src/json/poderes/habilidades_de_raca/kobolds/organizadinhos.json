@@ -1,0 +1,10 @@
+{
+  "id": "organizadinhos",
+  "name": "Organizadinhos",
+  "type": "habilidade_de_raca",
+  "race": "kobolds",
+  "description": "Vocês podem usar Destreza para estabelecer seu limite de carga (em vez de Força) e podem se beneficiar de um item vestido adicional.",
+  "effects": {},
+  "page": 182,
+  "livro_id": "ameacas_de_arton"
+}

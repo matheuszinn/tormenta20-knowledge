@@ -1,0 +1,10 @@
+{
+  "id": "garras",
+  "name": "Garras",
+  "type": "habilidade_de_raca",
+  "race": "voracis",
+  "description": "Suas mãos são duas armas naturais de garras (dano 1d6 cada, crítico x2, corte). Uma vez por rodada, quando usa a ação agredir para atacar com uma arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com uma das garras, desde que ela esteja livre e não tenha sido usada para atacar neste turno. Como alternativa, se tiver habilidades que exijam uma arma secundária (como Estilo de Duas Armas), você pode usá-las com suas garras.",
+  "effects": {},
+  "page": 270,
+  "livro_id": "ameacas_de_arton"
+}
