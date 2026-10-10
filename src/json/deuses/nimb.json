@@ -14,8 +14,19 @@
   "preferred_weapon": "Nenhuma e todas",
   "preferred_weapon_note": "Ao usar um efeito que dependa de arma preferida, qualquer arma (ou outro objeto!) pode aparecer, de acordo com o mestre",
   "devotees": {
-    "races": ["goblins", "qareen", "sílfides"],
-    "classes": ["arcanistas", "bárbaros", "bardos", "bucaneiros", "inventores", "ladinos"]
+    "races": [
+      "goblins",
+      "qareen",
+      "sílfides"
+    ],
+    "classes": [
+      "arcanistas",
+      "bárbaros",
+      "bardos",
+      "bucaneiros",
+      "inventores",
+      "ladinos"
+    ]
   },
   "granted_powers": [
     "extase_da_loucura",
@@ -23,5 +34,6 @@
     "sorte_dos_loucos",
     "transmissao_da_loucura"
   ],
-  "obligations_restrictions": "Por serem incapazes de seguir regras, estes devotos não têm \"obrigações\" verdadeiras (portanto, nunca perdem PM por descumprirem suas O&R). No entanto, sofrem certas restrições que não podem ignorar. Devotos de Nimb são loucos (ou agem como se fossem), não conseguindo convencer ninguém de coisa alguma. Você sofre –5 em testes de perícias baseadas em Carisma. Além disso, no início de cada cena de ação, role 1d6. Com um resultado 1, você fica confuso (mesmo que seja imune a esta condição)."
+  "obligations_restrictions": "Por serem incapazes de seguir regras, estes devotos não têm \"obrigações\" verdadeiras (portanto, nunca perdem PM por descumprirem suas O&R). No entanto, sofrem certas restrições que não podem ignorar. Devotos de Nimb são loucos (ou agem como se fossem), não conseguindo convencer ninguém de coisa alguma. Você sofre –5 em testes de perícias baseadas em Carisma. Além disso, no início de cada cena de ação, role 1d6. Com um resultado 1, você fica confuso (mesmo que seja imune a esta condição).",
+  "page": 103
 }

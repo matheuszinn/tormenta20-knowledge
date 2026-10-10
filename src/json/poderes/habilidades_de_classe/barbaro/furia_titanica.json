@@ -5,7 +5,7 @@
   "sub_type": "poder_de_barbaro",
   "description": "No 20º nível, o bônus que você recebe nos testes de ataque e rolagens de dano quando usa Fúria é dobrado. Por exemplo, se gastar 8 PM, em vez de um bônus de +5, recebe um bônus de +10.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "soft",
       "value": 20

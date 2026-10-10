@@ -14,13 +14,13 @@
   "effects": [
     {
       "type": "damage_improvement",
-      "value":"2d8" 
+      "value": "2d8"
     }
   ],
   "costs": [
     {
-    "value": 2,
-    "type": "PM"
+      "value": 2,
+      "type": "PM"
     }
   ]
 }

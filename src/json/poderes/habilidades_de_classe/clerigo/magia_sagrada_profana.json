@@ -14,13 +14,16 @@
   "effects": [
     {
       "type": "switch_damage_type",
-      "damage_type": ["luz", "trevas"]
+      "damage_type": [
+        "luz",
+        "trevas"
+      ]
     }
   ],
   "costs": [
     {
-    "value": 1,
-    "type": "PM"
+      "value": 1,
+      "type": "PM"
     }
   ]
 }

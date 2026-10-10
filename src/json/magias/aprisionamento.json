@@ -22,8 +22,8 @@
     "effect": "anula",
     "skill": "vontade"
   },
-    "description": "Você cria uma prisão mágica. Se o alvo falhar no teste de resistência, fica preso; se passar, fica imune a esta magia por uma semana. Enquanto estiver preso, o alvo não precisa respirar e alimentar-se e não envelhece. Magias de adivinhação não conseguem localizar ou perceber o alvo. Ao lançar a magia, você escolhe uma forma de prisão, entre acorrentamento, contenção mínima, prisão dimensional, sepultamento e sono eterno (veja a carta de continuação para a descrição completa das formas de prisão). O componente material varia, mas todos custam T$ 1.000. Quando a magia é lançada, você deve especificar uma condição que fará com que ela termine e solte o alvo. A condição pode ser tão específica ou elaborada quanto você quiser, mas deve ser possível de acontecer. As condições podem se basear no nome, identidade ou divindade padroeira de uma criatura, ou em ações ou qualidades observáveis, mas nunca em estatísticas intangíveis, como nível, classe ou pontos de vida. O mestre tem a palavra final sobre se uma condição é válida ou não. Dissipar Magia pode dissipar o efeito, mas deve ser conjurada com o aprimoramento de 5º círculo e alvo na prisão (possível neste caso). Anular a Luz e Dispersar as Trevas não afetam a prisão.",
-    "extra_details": [
+  "description": "Você cria uma prisão mágica. Se o alvo falhar no teste de resistência, fica preso; se passar, fica imune a esta magia por uma semana. Enquanto estiver preso, o alvo não precisa respirar e alimentar-se e não envelhece. Magias de adivinhação não conseguem localizar ou perceber o alvo. Ao lançar a magia, você escolhe uma forma de prisão, entre acorrentamento, contenção mínima, prisão dimensional, sepultamento e sono eterno (veja a carta de continuação para a descrição completa das formas de prisão). O componente material varia, mas todos custam T$ 1.000. Quando a magia é lançada, você deve especificar uma condição que fará com que ela termine e solte o alvo. A condição pode ser tão específica ou elaborada quanto você quiser, mas deve ser possível de acontecer. As condições podem se basear no nome, identidade ou divindade padroeira de uma criatura, ou em ações ou qualidades observáveis, mas nunca em estatísticas intangíveis, como nível, classe ou pontos de vida. O mestre tem a palavra final sobre se uma condição é válida ou não. Dissipar Magia pode dissipar o efeito, mas deve ser conjurada com o aprimoramento de 5º círculo e alvo na prisão (possível neste caso). Anular a Luz e Dispersar as Trevas não afetam a prisão.",
+  "extra_details": [
     {
       "type": "Acorrentamento",
       "description": "o alvo é preso por correntes firmemente enraizadas no chão, que o mantém no lugar. O alvo fica paralisado e não pode se mover ou ser movido por qualquer meio.",
@@ -73,5 +73,6 @@
       "resistence_requirement": "vontade",
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 186
 }

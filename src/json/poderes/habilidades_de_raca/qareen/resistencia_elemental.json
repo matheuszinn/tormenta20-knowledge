@@ -8,5 +8,12 @@
     "damage_reduction": 10,
     "damage_type": "chosen"
   },
-  "choices": ["frio", "eletricidade", "fogo", "acido", "luz", "trevas"]
+  "choices": [
+    "frio",
+    "eletricidade",
+    "fogo",
+    "acido",
+    "luz",
+    "trevas"
+  ]
 }

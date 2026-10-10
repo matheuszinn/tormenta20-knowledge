@@ -8,6 +8,8 @@
     "creature_type": "monstro",
     "vision": "visao_no_escuro",
     "defense_bonus": 1,
-    "skill_bonus_unarmored": { "furtividade": 5 }
+    "skill_bonus_unarmored": {
+      "furtividade": 5
+    }
   }
 }

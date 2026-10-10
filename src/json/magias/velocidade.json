@@ -40,7 +40,7 @@
       "description": "muda o alcance para pessoal e o alvo para você. Você acelera sua mente, além de seu corpo. A ação adicional pode ser usada para lançar magias e ativar engenhocas. Requer 4º círculo.",
       "extra_details": {
         "range": "pessoal",
-         "target": {
+        "target": {
           "amount": null,
           "up_to": null,
           "type": "voce"
@@ -57,5 +57,6 @@
       "resistence_requirement": null,
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 216
 }

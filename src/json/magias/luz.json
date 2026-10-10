@@ -94,7 +94,8 @@
       "extra_details": {
         "requirement": "divinos_2_circulo"
       }
-    },{
+    },
+    {
       "cost": 5,
       "type": "muda",
       "description": "muda o alcance para toque e o alvo para 1 criatura. Em vez do normal, o alvo é envolto por um halo de luz, recebendo +10 em Diplomacia e resistência a trevas 10. Requer 2º círculo.",
@@ -117,5 +118,6 @@
       "resistence_requirement": "vontade",
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 203
 }

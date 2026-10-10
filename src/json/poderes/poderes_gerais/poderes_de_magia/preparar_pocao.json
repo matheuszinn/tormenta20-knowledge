@@ -8,9 +8,12 @@
     {
       "type": "magic_circle",
       "sub_type": "soft",
-      "circle": ["1","2"]
+      "circle": [
+        "1",
+        "2"
+      ]
     },
-     {
+    {
       "type": "class_feature",
       "sub_type": "hard",
       "id": "magias"
@@ -30,8 +33,12 @@
     {
       "type": "create_item",
       "item": "pocao",
-      "create": ["pag_121", "pag_327"],
+      "create": [
+        "pag_121",
+        "pag_327"
+      ],
       "requirement": "cohecer_a_magia_desejada"
     }
-  ]
+  ],
+  "page": 137
 }

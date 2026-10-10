@@ -17,16 +17,56 @@
     "completo": "Formato completo especifica ambos (ex: '19/x3')"
   },
   "regras": {
-    "bonus_nao_multiplicados": ["bônus numéricos fixos", "dados extras como Ataque Furtivo"]
+    "bonus_nao_multiplicados": [
+      "bônus numéricos fixos",
+      "dados extras como Ataque Furtivo"
+    ]
   },
   "margens": [
-    { "valor": 20, "representacao": "20", "valores_naturais": [20], "descricao": "Apenas 20 natural" },
-    { "valor": 19, "representacao": "19", "valores_naturais": [19, 20], "descricao": "19 ou 20 natural" },
-    { "valor": 18, "representacao": "18", "valores_naturais": [18, 19, 20], "descricao": "18, 19 ou 20 natural" }
+    {
+      "valor": 20,
+      "representacao": "20",
+      "valores_naturais": [
+        20
+      ],
+      "descricao": "Apenas 20 natural"
+    },
+    {
+      "valor": 19,
+      "representacao": "19",
+      "valores_naturais": [
+        19,
+        20
+      ],
+      "descricao": "19 ou 20 natural"
+    },
+    {
+      "valor": 18,
+      "representacao": "18",
+      "valores_naturais": [
+        18,
+        19,
+        20
+      ],
+      "descricao": "18, 19 ou 20 natural"
+    }
   ],
   "multiplicadores": [
-    { "valor": 2, "representacao": "x2", "descricao": "Dano dobrado" },
-    { "valor": 3, "representacao": "x3", "descricao": "Dano triplicado" },
-    { "valor": 4, "representacao": "x4", "descricao": "Dano quadruplicado" }
-  ]
+    {
+      "valor": 2,
+      "representacao": "x2",
+      "descricao": "Dano dobrado"
+    },
+    {
+      "valor": 3,
+      "representacao": "x3",
+      "descricao": "Dano triplicado"
+    },
+    {
+      "valor": 4,
+      "representacao": "x4",
+      "descricao": "Dano quadruplicado"
+    }
+  ],
+  "page": 148
 }

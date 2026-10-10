@@ -1,0 +1,28 @@
+{
+  "id": "acao_completa",
+  "name": "Ações Completas",
+  "description": "Ações completas exigem muito tempo e esforço. Para uma ação completa, você deve abrir mão de sua ação padrão e de sua ação de movimento.",
+  "sub_rules": [
+    {
+      "id": "corrida",
+      "name": "Corrida",
+      "description": "Você corre mais rapidamente que seu deslocamento normal. Veja a perícia Atletismo."
+    },
+    {
+      "id": "golpe_de_misericordia",
+      "name": "Golpe de Misericórdia",
+      "description": "Você desfere um golpe letal em um oponente adjacente e indefeso. Um golpe de misericórdia é um acerto crítico automático. Além de sofrer dano, a vítima tem uma chance de morrer instantaneamente. Esta chance é de 25% (1 em 1d4) para personagens e NPCs importantes e de 75% (1 a 3 em 1d4) para NPCs secundários."
+    },
+    {
+      "id": "investida",
+      "name": "Investida",
+      "description": "Você avança até o dobro de seu deslocamento (e no mínimo 3m) em linha reta e, no fim do movimento, faz um ataque corpo a corpo. Você recebe +2 no teste de ataque, mas sofre –2 na Defesa até o seu próximo turno, porque sua guarda fica aberta. Você não pode fazer uma investida em terreno difícil. Durante uma investida, você pode fazer a manobra atropelar como uma ação livre (mas não pode atropelar e atacar o mesmo alvo)."
+    },
+    {
+      "id": "lancar_uma_magia_completa",
+      "name": "Lançar uma Magia",
+      "description": "Ao lançar magias com execução maior do que uma ação completa, você gasta uma ação completa a cada rodada."
+    }
+  ],
+  "page": 241
+}

@@ -19,7 +19,10 @@
   "effects": [
     {
       "type": "proficiency",
-      "proficiency": ["armadura_pesada", "escudos"]
+      "proficiency": [
+        "armadura_pesada",
+        "escudos"
+      ]
     },
     {
       "type": "use_defense_attr",

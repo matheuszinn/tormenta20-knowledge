@@ -8,5 +8,6 @@
   "description": "Você recebe +5 PM (somente após um dia de uso).",
   "efeito": {
     "bonus_pm": 5
-  }
+  },
+  "page": 349
 }

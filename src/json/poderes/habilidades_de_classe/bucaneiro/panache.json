@@ -5,7 +5,7 @@
   "sub_type": "poder_de_bucaneiro",
   "description": "A partir do 5º nível, sempre que faz um acerto crítico em combate ou reduz um inimigo a 0 PV, você recupera 1 PM.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 5
@@ -25,5 +25,5 @@
       "value": 1
     }
   ],
-  "costs":null
+  "costs": null
 }

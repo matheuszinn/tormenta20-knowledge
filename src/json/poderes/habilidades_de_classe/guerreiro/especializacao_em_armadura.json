@@ -5,7 +5,7 @@
   "sub_type": "poder_de_guerreiro",
   "description": "Você recebe resistência a dano 5 se estiver usando uma armadura pesada.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 12

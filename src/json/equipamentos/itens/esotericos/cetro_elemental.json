@@ -9,14 +9,27 @@
   "requer_misticismo": true,
   "uso": "empunhado",
   "variantes": [
-    {"pedra": "esmeralda", "tipo_dano": "ácido"},
-    {"pedra": "topázio", "tipo_dano": "eletricidade"},
-    {"pedra": "rubi", "tipo_dano": "fogo"},
-    {"pedra": "safira", "tipo_dano": "frio"}
+    {
+      "pedra": "esmeralda",
+      "tipo_dano": "ácido"
+    },
+    {
+      "pedra": "topázio",
+      "tipo_dano": "eletricidade"
+    },
+    {
+      "pedra": "rubi",
+      "tipo_dano": "fogo"
+    },
+    {
+      "pedra": "safira",
+      "tipo_dano": "frio"
+    }
   ],
   "efeito": {
     "dado_dano_extra": "mesmo tipo da pedra",
     "condicao": "magia que causa dano do tipo da pedra"
   },
-  "description": "Este cetro possui uma pedra preciosa em sua ponta: esmeralda (ácido), topázio (eletricidade), rubi (fogo) ou safira (frio). Quando lança uma magia que causa dano do tipo da pedra, o dano aumenta em um dado do mesmo tipo."
+  "description": "Este cetro possui uma pedra preciosa em sua ponta: esmeralda (ácido), topázio (eletricidade), rubi (fogo) ou safira (frio). Quando lança uma magia que causa dano do tipo da pedra, o dano aumenta em um dado do mesmo tipo.",
+  "page": 166
 }

@@ -26,10 +26,17 @@
     "escapar": {
       "acao": "completa",
       "testes": [
-        { "pericia": "Acrobacia", "cd": 30 },
-        { "pericia": "Força", "cd": 25 }
+        {
+          "pericia": "Acrobacia",
+          "cd": 30
+        },
+        {
+          "pericia": "Força",
+          "cd": 25
+        }
       ]
     }
   },
-  "description": "Um par de algemas para criaturas Médias. Prender uma criatura que não esteja indefesa exige empunhar a algema, agarrar o alvo e vencer um novo teste de agarrar contra ela."
+  "description": "Um par de algemas para criaturas Médias. Prender uma criatura que não esteja indefesa exige empunhar a algema, agarrar o alvo e vencer um novo teste de agarrar contra ela.",
+  "page": 161
 }

@@ -18,5 +18,6 @@
       "dano": "1d12"
     }
   },
-  "description": "Planta cuja ingestão pode causar náusea, dores e até morte. Ingestão, perde 1d12 PV por rodada durante 3 rodadas (perde 1d12 PV)."
+  "description": "Planta cuja ingestão pode causar náusea, dores e até morte. Ingestão, perde 1d12 PV por rodada durante 3 rodadas (perde 1d12 PV).",
+  "page": 167
 }

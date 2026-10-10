@@ -7,5 +7,6 @@
     "aumento_cd_magias": 1
   },
   "prerequisitos": null,
-  "description": "A CD para resistir a suas magias aumenta em +1."
+  "description": "A CD para resistir a suas magias aumenta em +1.",
+  "page": 172
 }

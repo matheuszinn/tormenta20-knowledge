@@ -6,6 +6,9 @@
 /spec/reports/
 /tmp/
 /node_modules/
+vendor/
+books/
+.venv/
 
 # rspec failure tracking
 .rspec_status

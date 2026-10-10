@@ -5,7 +5,7 @@
   "sub_type": "poder_de_nobre",
   "description": "Você pode gastar uma ação padrão e 6 PM para gerar o efeito da magia Enfeitiçar com os aprimoramentos de sugerir ação e afetar todas as criaturas dentro do alcance (CD Car). Esta não é uma habilidade mágica e provém de sua capacidade de influenciar outras pessoas.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 8
@@ -24,11 +24,11 @@
   ],
   "costs": [
     {
-    "value": 5,
-    "type": "PM"
+      "value": 5,
+      "type": "PM"
     },
     {
-    "type": "acao_padrao"
+      "type": "acao_padrao"
     }
   ]
 }

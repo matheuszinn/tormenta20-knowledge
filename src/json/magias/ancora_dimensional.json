@@ -31,12 +31,12 @@
       "type": "muda",
       "description": "muda o alcance para médio, a área para esfera de 3m de raio e o alvo para criaturas escolhidas.",
       "extra_details": {
-       "target": "criaturas_escolhidas",
-       "range" : "médio_30m_20q",
+        "target": "criaturas_escolhidas",
+        "range": "médio_30m_20q",
         "range_details": {
-        "shape": "esfera",
-        "dimention": "raio",
-        "size": "3m"
+          "shape": "esfera",
+          "dimention": "raio",
+          "size": "3m"
         }
       }
     },
@@ -59,18 +59,19 @@
         "effect": "corrente_de_energia",
         "dimention": "extensão",
         "size": "3m",
-        "counterspell": "julgamento_divino_libertação_do_paladino"}
+        "counterspell": "julgamento_divino_libertação_do_paladino"
+      }
     },
     {
       "cost": 4,
       "type": "muda",
       "description": "muda o alvo para área de cubo de 9m, a duração para permanente e adiciona componente material (chave de esmeralda no valor de T$ 2.000). Em vez do normal, nenhum tipo de movimento planar pode ser feito para entrar ou sair da área.",
       "extra_details": {
-      "effect": "área",
+        "effect": "área",
         "effect_details": {
-        "shape": "cubo",
-        "dimention": "lado",
-        "size": "9m"
+          "shape": "cubo",
+          "dimention": "lado",
+          "size": "9m"
         },
         "extra_costs": {
           "material_component": "Chave de Esmeralda",
@@ -83,7 +84,7 @@
       "type": "muda",
       "description": "muda o alcance para médio, a área para esfera de 3m de raio e o alvo para criaturas escolhidas. Cria um fio de energia (veja acima) que prende todos os alvos ao centro da área.",
       "extra_details": {
-        "range" :"médio",
+        "range": "médio",
         "effect": "esfera",
         "dimention": "raio",
         "size": "3m",
@@ -99,5 +100,6 @@
       "resistence_requirement": null,
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 185
 }

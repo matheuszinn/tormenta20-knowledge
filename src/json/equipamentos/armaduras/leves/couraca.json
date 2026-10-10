@@ -9,5 +9,6 @@
   "espacos": 2,
   "especial": null,
   "vestir_remover": "acao_completa",
-  "description": "A mais robusta das armaduras leves, formada por uma placa metálica que protege o peito e as costas, presa sobre um casaco de couro."
+  "description": "A mais robusta das armaduras leves, formada por uma placa metálica que protege o peito e as costas, presa sobre um casaco de couro.",
+  "page": 160
 }

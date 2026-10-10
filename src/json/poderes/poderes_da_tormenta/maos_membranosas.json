@@ -5,14 +5,23 @@
   "effects": {
     "type": "passive",
     "skill_bonuses": [
-      {"skill": "Atletismo", "base": 1, "scaling": "+1 por cada 2 outros poderes da Tormenta"}
+      {
+        "skill": "Atletismo",
+        "base": 1,
+        "scaling": "+1 por cada 2 outros poderes da Tormenta"
+      }
     ],
     "save_bonuses": [
-      {"save": "Fortitude", "base": 1, "scaling": "+1 por cada 2 outros poderes da Tormenta"}
+      {
+        "save": "Fortitude",
+        "base": 1,
+        "scaling": "+1 por cada 2 outros poderes da Tormenta"
+      }
     ],
     "grapple_bonus": {
       "base": 1,
       "scaling": "+1 por cada 2 outros poderes da Tormenta"
     }
-  }
+  },
+  "page": 143
 }

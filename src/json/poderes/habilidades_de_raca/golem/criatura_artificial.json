@@ -7,7 +7,11 @@
   "effects": {
     "creature_type": "construto",
     "vision": "visao_no_escuro",
-    "immunities": ["cansaço", "metabólico", "veneno"],
+    "immunities": [
+      "cansaço",
+      "metabólico",
+      "veneno"
+    ],
     "no_mundane_healing": true,
     "recharge_hours": 8
   }

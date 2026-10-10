@@ -5,7 +5,7 @@
   "sub_type": "poder_de_inventor",
   "description": "Ao ativar uma engenhoca com ação padrão, você pode pagar 2 PM para ativá-la com uma ação de movimento, ao invés disto.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 7
@@ -24,8 +24,8 @@
   ],
   "costs": [
     {
-    "value": 2,
-    "type": "PM"
+      "value": 2,
+      "type": "PM"
     }
   ]
 }

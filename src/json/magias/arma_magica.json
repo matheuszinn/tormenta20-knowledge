@@ -18,7 +18,7 @@
   "duration": "cena",
   "duration_details": null,
   "resistence": null,
-  "extra_costs": null,  
+  "extra_costs": null,
   "description": "A arma fornece um bônus de +1 nos testes de ataque e rolagens de dano e é considerada mágica. Caso você esteja empunhando a arma, pode usar seu atributo-chave de magias em vez do atributo original nos testes de ataque.",
   "enhancements": [
     {
@@ -31,7 +31,8 @@
       "cost": 2,
       "type": "dano",
       "description": "a arma passa a causar +1d6 de dano de ácido, eletricidade, fogo ou frio, escolhido no momento em que a magia é lançada.",
-       "extra_details": null
+      "extra_details": null
     }
-  ]
+  ],
+  "page": 187
 }

@@ -35,7 +35,7 @@
         "duration": "permanente",
         "extra_costs": {
           "material_component": null,
-          "material_component_cost":null,
+          "material_component_cost": null,
           "pm_debuff": null,
           "pm_sacrifice": 1
         }
@@ -64,5 +64,6 @@
       "resistence_requirement": null,
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 205
 }

@@ -1,4 +1,3 @@
-
 {
   "id": "armadura_arcana",
   "name": "Armadura Arcana",
@@ -74,5 +73,6 @@
       "resistence_requirement": null,
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 187
 }

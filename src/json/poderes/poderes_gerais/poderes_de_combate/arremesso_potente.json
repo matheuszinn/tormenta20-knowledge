@@ -14,7 +14,9 @@
     {
       "type": "weapon_type",
       "sub_type": "soft",
-      "weapons": ["arma_leve_de_arremesso"]
+      "weapons": [
+        "arma_leve_de_arremesso"
+      ]
     },
     {
       "type": "feature",
@@ -33,14 +35,14 @@
       "attr": "for"
     },
     {
-    "type": "switch_weapon_type",
-    "requirements": [
+      "type": "switch_weapon_type",
+      "requirements": [
         {
-        "type": "feature",
-        "id": "ataque_poderoso",
-        "weapons": "armas_de_arremesso"
+          "type": "feature",
+          "id": "ataque_poderoso",
+          "weapons": "armas_de_arremesso"
         }
-    ]
-    }  
+      ]
+    }
   ]
 }

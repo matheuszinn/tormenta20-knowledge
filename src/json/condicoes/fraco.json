@@ -7,5 +7,6 @@
     "Se ficar fraco novamente → fica debilitado"
   ],
   "condition_type": null,
-  "escalates_to": "debilitado"
+  "escalates_to": "debilitado",
+  "page": 400
 }

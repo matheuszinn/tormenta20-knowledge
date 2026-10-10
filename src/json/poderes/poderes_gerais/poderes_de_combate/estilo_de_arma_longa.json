@@ -22,7 +22,10 @@
       "type": "attack_improvement",
       "value": 2,
       "duration": "permanente",
-      "requirements": { "weapon": "arma_longa" }
+      "requirements": {
+        "weapon": "arma_longa"
+      }
     }
-  ]
+  ],
+  "page": 134
 }

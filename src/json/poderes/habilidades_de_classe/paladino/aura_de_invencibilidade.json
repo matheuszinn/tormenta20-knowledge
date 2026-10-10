@@ -5,7 +5,7 @@
   "sub_type": "poder_de_paladino",
   "description": "Enquanto sua aura estiver ativa, você ignora o primeiro dano que sofrer na cena. O mesmo se aplica a seus aliados dentro da aura.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 18

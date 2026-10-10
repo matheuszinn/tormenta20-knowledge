@@ -8,7 +8,10 @@
     {
       "type": "weapon_type",
       "sub_type": "soft",
-      "weapon": ["leve", "agil"]
+      "weapon": [
+        "leve",
+        "agil"
+      ]
     },
     {
       "type": "attr_value",

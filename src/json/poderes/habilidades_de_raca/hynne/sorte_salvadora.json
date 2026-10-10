@@ -6,6 +6,8 @@
   "description": "Quando faz um teste de resistência, você pode gastar 1 PM para rolar este teste novamente.",
   "effects": {
     "reroll": "resistencia",
-    "cost": { "pm": 1 }
+    "cost": {
+      "pm": 1
+    }
   }
 }

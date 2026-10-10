@@ -5,10 +5,16 @@
   "sub_type": "poder_de_paladino",
   "description": "A partir do 2º nível, você pode gastar uma ação de movimento e 1 PM para curar 1d8+1 pontos de vida de um alvo em alcance corpo a corpo (incluindo você). A cada quatro níveis, você pode gastar +1 PM para aumentar os PV curados em +1d8+1.\nA partir do 6º nível, você pode gastar +1 PM quando usa Cura pelas Mãos para anular uma condição afetando o alvo, entre abalado, apavorado, atordoado, cego, doente, exausto, fatigado ou surdo.\nEsta habilidade também pode causar dano de luz a mortos-vivos, exigindo um ataque desarmado.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
-      "value": [2,6,10,14,18]
+      "value": [
+        2,
+        6,
+        10,
+        14,
+        18
+      ]
     },
     {
       "type": "range_target",
@@ -24,8 +30,8 @@
   ],
   "costs": [
     {
-    "value": 1,
-    "type": "PM"
+      "value": 1,
+      "type": "PM"
     }
   ]
 }

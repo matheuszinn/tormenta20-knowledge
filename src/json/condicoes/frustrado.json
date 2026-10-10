@@ -7,5 +7,6 @@
     "Se ficar frustrado novamente → fica esmorecido"
   ],
   "condition_type": "mental",
-  "escalates_to": "esmorecido"
+  "escalates_to": "esmorecido",
+  "page": 401
 }

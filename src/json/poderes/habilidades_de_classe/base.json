@@ -5,7 +5,7 @@
   "sub_type": "poder_de_paladino",
   "description": "",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 0
@@ -44,7 +44,10 @@
     {
       "type": "caminho_do_arcanista",
       "sub_type": "hard",
-      "id": ["bruxo", "mago"]
+      "id": [
+        "bruxo",
+        "mago"
+      ]
     }
   ],
   "effects": [
@@ -60,7 +63,10 @@
     },
     {
       "type": "manouver_improvement",
-      "manouver": ["derrubar", "empurrar"],
+      "manouver": [
+        "derrubar",
+        "empurrar"
+      ],
       "action": "livre"
     },
     {
@@ -85,8 +91,8 @@
   ],
   "costs": [
     {
-    "value": 1,
-    "type": "PM"
+      "value": 1,
+      "type": "PM"
     }
   ]
 }

@@ -8,13 +8,16 @@
   "effects": [
     {
       "type": "rerol_skill_test",
-      "skill": ["nobraza", "diplomacia"]
+      "skill": [
+        "nobraza",
+        "diplomacia"
+      ]
     }
   ],
   "costs": [
     {
-    "value": 1,
-    "type": "PM"
+      "value": 1,
+      "type": "PM"
     }
   ]
 }

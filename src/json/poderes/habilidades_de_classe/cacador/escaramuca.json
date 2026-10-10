@@ -5,7 +5,7 @@
   "sub_type": "poder_de_cacador",
   "description": "Quando se move 6m ou mais, você recebe +2 em Defesa e Reflexos e +1d8 nas rolagens de dano de ataques corpo a corpo e à distância em alcance curto até o início de seu próximo turno. Você não pode usar esta habilidade se estiver vestindo armadura pesada.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 6
@@ -24,14 +24,16 @@
     {
       "type": "attack_type",
       "sub_type": "soft",
-      "attack": ["corpo_a_corpo", "a_distancia_curto"]
+      "attack": [
+        "corpo_a_corpo",
+        "a_distancia_curto"
+      ]
     },
     {
       "type": "armor_type",
       "sub_type": "soft",
       "armor": "leve"
     }
-
   ],
   "effects": [
     {

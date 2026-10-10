@@ -52,11 +52,11 @@
       "description": "aumenta o número de enxames em +1. Eles não podem ocupar o mesmo espaço. Requer 3º círculo.",
       "extra_details": {
         "target": {
-        "amount": 2,
-        "up_to": null,
-        "type": "enxames_medios"
-      },
-      "requirement": "3_circulo"
+          "amount": 2,
+          "up_to": null,
+          "type": "enxames_medios"
+        },
+        "requirement": "3_circulo"
       }
     },
     {
@@ -64,15 +64,15 @@
       "type": "muda",
       "description": "muda a resistência para Reflexos reduz à metade e o enxame para criaturas elementais. Ele causa 5d12 pontos do dano (a sua escolha entre ácido, eletricidade, fogo ou frio). O resto da magia segue normal. Requer 4º círculo.",
       "extra_details": {
-      "resistence": {
-        "effect": "reduz_à_metade",
-        "skill": "reflexos"
-       },  
-      "target": {
-        "amount": 1,
-        "up_to": null,
-        "type": "enxames_de_criaturas_elementais"
-      }  
+        "resistence": {
+          "effect": "reduz_à_metade",
+          "skill": "reflexos"
+        },
+        "target": {
+          "amount": 1,
+          "up_to": null,
+          "type": "enxames_de_criaturas_elementais"
+        }
       }
     }
   ],
@@ -84,5 +84,6 @@
       "resistence_requirement": "fortitude",
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 198
 }

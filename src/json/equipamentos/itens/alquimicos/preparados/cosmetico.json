@@ -9,10 +9,14 @@
   "cd_fabricacao": 15,
   "uso": "empunhado",
   "acao": "completa",
-  "tipos": ["perfume", "maquiagem"],
+  "tipos": [
+    "perfume",
+    "maquiagem"
+  ],
   "efeito": {
     "bonus_pericias_carisma": 2,
     "duracao": "fim da cena"
   },
-  "description": "Perfume ou maquiagem. Usá-lo é uma ação completa e fornece +2 em testes de perícias baseadas em Carisma até o fim da cena."
+  "description": "Perfume ou maquiagem. Usá-lo é uma ação completa e fornece +2 em testes de perícias baseadas em Carisma até o fim da cena.",
+  "page": 166
 }

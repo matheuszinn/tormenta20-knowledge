@@ -14,8 +14,14 @@
     "capacidade_condutores": 2,
     "capacidade_espacos": 80
   },
-  "tracao": ["2 cavalos", "1 trobo"],
-  "inclui": ["arreios"],
+  "tracao": [
+    "2 cavalos",
+    "1 trobo"
+  ],
+  "inclui": [
+    "arreios"
+  ],
   "cobertura": "leve",
-  "description": "Veículo de quatro rodas, capaz de transportar até quatro pessoas em uma cabine fechada, mais dois condutores do lado de fora. É puxada por dois cavalos ou um trobo. Inclui os arreios necessários para controlar os animais. Fornece cobertura leve a seus passageiros."
+  "description": "Veículo de quatro rodas, capaz de transportar até quatro pessoas em uma cabine fechada, mais dois condutores do lado de fora. É puxada por dois cavalos ou um trobo. Inclui os arreios necessários para controlar os animais. Fornece cobertura leve a seus passageiros.",
+  "page": 169
 }

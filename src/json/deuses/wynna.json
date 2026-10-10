@@ -12,8 +12,16 @@
   "energy": "qualquer",
   "preferred_weapon": "Adaga",
   "devotees": {
-    "races": ["elfos", "golens", "qareen", "sílfides"],
-    "classes": ["arcanistas", "bardos"]
+    "races": [
+      "elfos",
+      "golens",
+      "qareen",
+      "sílfides"
+    ],
+    "classes": [
+      "arcanistas",
+      "bardos"
+    ]
   },
   "granted_powers": [
     "bencao_do_mana",
@@ -21,5 +29,6 @@
     "escudo_magico",
     "teurgista_mistico"
   ],
-  "obligations_restrictions": "Assim como a magia jamais deva ser negada para quem a busca, devotos de Wynna devem praticar a bondade e a generosidade de sua deusa, jamais recusando um pedido de ajuda de alguém inocente. Além disso, devotos de Wynna são proibidos de matar seres mágicos (elfos, qareen, sílfides e outros a critério do mestre) e conjuradores arcanos."
+  "obligations_restrictions": "Assim como a magia jamais deva ser negada para quem a busca, devotos de Wynna devem praticar a bondade e a generosidade de sua deusa, jamais recusando um pedido de ajuda de alguém inocente. Além disso, devotos de Wynna são proibidos de matar seres mágicos (elfos, qareen, sílfides e outros a critério do mestre) e conjuradores arcanos.",
+  "page": 103
 }

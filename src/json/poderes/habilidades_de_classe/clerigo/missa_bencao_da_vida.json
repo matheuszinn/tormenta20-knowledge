@@ -18,12 +18,12 @@
   ],
   "costs": [
     {
-    "value": 1,
-    "type": "hora"
+      "value": 1,
+      "type": "hora"
     },
     {
-    "value": 25,
-    "type": "tibares"
+      "value": 25,
+      "type": "tibares"
     }
   ]
 }

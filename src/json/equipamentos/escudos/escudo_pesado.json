@@ -18,5 +18,6 @@
     "requer_proficiencia_marcial": true,
     "perde_bonus_defesa": true
   },
-  "description": "Normalmente feito de aço, este escudo é preso ao antebraço e também deve ser empunhado com firmeza, impedindo o usuário de usar aquela mão."
+  "description": "Normalmente feito de aço, este escudo é preso ao antebraço e também deve ser empunhado com firmeza, impedindo o usuário de usar aquela mão.",
+  "page": 160
 }

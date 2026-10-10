@@ -7,7 +7,12 @@
   "effects": {
     "creature_type": "morto-vivo",
     "vision": "visao_no_escuro",
-    "immunities": ["cansaço", "metabólico", "trevas", "veneno"],
+    "immunities": [
+      "cansaço",
+      "metabólico",
+      "trevas",
+      "veneno"
+    ],
     "light_healing_causes_damage": true,
     "darkness_damage_heals": true
   }

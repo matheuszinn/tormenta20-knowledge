@@ -6,5 +6,6 @@
   "efeito": {
     "descricao_curta": "Crítico: vítima fica atordoada por uma rodada (Fort evita, uma vez por cena)"
   },
-  "description": "A arma emite um trovão ribombante a cada golpe. Quando você faz um acerto crítico, a vítima fica atordoada por uma rodada (apenas uma vez por cena; Fort CD For ou Des, a sua escolha, evita)."
+  "description": "A arma emite um trovão ribombante a cada golpe. Quando você faz um acerto crítico, a vítima fica atordoada por uma rodada (apenas uma vez por cena; Fort CD For ou Des, a sua escolha, evita).",
+  "page": 342
 }

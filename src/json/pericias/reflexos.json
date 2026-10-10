@@ -6,5 +6,6 @@
   "armor_penalty": false,
   "resistance_skill": true,
   "description": "Você usa esta perícia para resistir a efeitos que exigem reação rápida, como armadilhas e explosões. A CD é determinada pelo efeito. Você também usa Reflexos para evitar fintas.",
-  "uses": []
+  "uses": [],
+  "page": 128
 }

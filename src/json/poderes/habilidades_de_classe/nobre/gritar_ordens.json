@@ -5,7 +5,7 @@
   "sub_type": "poder_de_nobre",
   "description": "A partir do 3º nível, você pode gastar uma quantidade de PM a sua escolha (limitado pelo seu bônus de Carisma). Até o início de seu próximo turno, todos os seus aliados em alcance curto recebem um bônus nos testes de perícia igual à quantidade de PM que você gastou.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 3
@@ -14,8 +14,9 @@
   "effects": "ver_texto",
   "costs": [
     {
-    "value": "a_sua_escolha",
-    "type": "PM"
+      "value": "a_sua_escolha",
+      "type": "PM"
     }
-  ]
+  ],
+  "page": 136
 }

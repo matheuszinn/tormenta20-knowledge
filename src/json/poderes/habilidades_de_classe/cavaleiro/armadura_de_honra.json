@@ -6,7 +6,7 @@
   "description": "No início de cada cena, você recebe uma quantidade de pontos de vida temporários igual a 5 + seu bônus de Carisma. Os PV temporários duram até o final da cena.",
   "requirements": null,
   "effects": [
-   {
+    {
       "type": "PV_improvement",
       "value": "5_mais_bonus_de_car",
       "duration": "cena"

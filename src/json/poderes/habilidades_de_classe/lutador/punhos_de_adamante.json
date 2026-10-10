@@ -5,7 +5,7 @@
   "sub_type": "poder_de_lutador",
   "description": "Seus ataques desarmados ignoram 10 pontos de resistência a dano do alvo, se houver.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 8

@@ -41,8 +41,9 @@
       "type": "dano,enjoo",
       "attribute": "pv,rodada",
       "amount": "1d6,1d4",
-      "resistence_requirement":"vontade",
+      "resistence_requirement": "vontade",
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 188
 }

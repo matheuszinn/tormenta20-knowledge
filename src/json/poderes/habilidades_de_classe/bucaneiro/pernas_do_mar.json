@@ -9,7 +9,10 @@
     {
       "type": "skill_improvement",
       "value": 2,
-      "duration": ["acrobacia", "atletismo"]
+      "duration": [
+        "acrobacia",
+        "atletismo"
+      ]
     }
   ],
   "costs": null

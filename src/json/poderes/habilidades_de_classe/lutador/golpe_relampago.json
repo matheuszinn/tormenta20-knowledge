@@ -5,7 +5,7 @@
   "sub_type": "poder_de_lutador",
   "description": "Quando usa a ação atacar para fazer um ataque desarmado, você pode gastar 1 PM para realizar um ataque desarmado adicional.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 1
@@ -19,13 +19,13 @@
   "effects": [
     {
       "type": "extra_attack",
-      "requirements": "desarmado" 
+      "requirements": "desarmado"
     }
   ],
   "costs": [
     {
-    "value": 1,
-    "type": "PM"
+      "value": 1,
+      "type": "PM"
     }
   ]
 }

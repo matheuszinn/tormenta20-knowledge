@@ -8,7 +8,10 @@
     {
       "type": "caminho_do_arcanista",
       "sub_type": "hard",
-      "id": ["bruxo", "mago"]
+      "id": [
+        "bruxo",
+        "mago"
+      ]
     }
   ],
   "effects": [

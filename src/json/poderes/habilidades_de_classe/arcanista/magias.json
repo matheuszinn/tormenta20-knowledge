@@ -5,11 +5,12 @@
   "sub_type": "poder_de_arcanista",
   "description": "Você pode lançar magias arcanas de 1º círculo. A cada quatro níveis, pode lançar magias de um círculo maior (2º círculo no 5º nível, 3º círculo no 9º nível e assim por diante).\nVocê começa com três magias de 1º círculo. A cada nível, aprende uma magia de qualquer círculo que possa lançar.\nSeu atributo-chave para lançar magias é definido pelo seu Caminho (veja acima) e você soma o bônus do atributo-chave no seu total de PM. Veja o Capítulo 4 para as regras de magia.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "soft",
       "value": 1
     }
   ],
-  "effects": null
+  "effects": null,
+  "page": 133
 }

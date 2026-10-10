@@ -14,13 +14,17 @@
   "effects": [
     {
       "type": "extra_action",
-      "action": ["padrão", "movimento"]
+      "action": [
+        "padrão",
+        "movimento"
+      ]
     }
   ],
   "costs": [
     {
-    "value": 5,
-    "type": "PM"
+      "value": 5,
+      "type": "PM"
     }
-  ]
+  ],
+  "page": 137
 }

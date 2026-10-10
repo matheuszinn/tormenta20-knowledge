@@ -17,5 +17,6 @@
   "especial": {
     "recarregar": "acao_padrao"
   },
-  "description": "A arma de fogo mais comum. Recarregar uma pistola é uma ação padrão."
+  "description": "A arma de fogo mais comum. Recarregar uma pistola é uma ação padrão.",
+  "page": 156
 }

@@ -8,7 +8,10 @@
   "vision_range": null,
   "attribute_bonuses": {},
   "skill_bonuses": [],
-  "racial_abilities": ["versatil"],
+  "racial_abilities": [
+    "versatil"
+  ],
   "chosen_abilities_amount": 0,
-  "available_chosen_abilities": []
+  "available_chosen_abilities": [],
+  "page": 25
 }

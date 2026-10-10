@@ -5,7 +5,10 @@
   "preco": 20,
   "quantidade": 20,
   "espacos": 1,
-  "armas_compativeis": ["pistola", "mosquete"],
+  "armas_compativeis": [
+    "pistola",
+    "mosquete"
+  ],
   "especial": {
     "inclui_polvora": true
   },

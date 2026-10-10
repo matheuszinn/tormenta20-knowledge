@@ -5,7 +5,7 @@
   "sub_type": "poder_de_paladino",
   "description": "O alcance da sua aura aumenta para médio.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 6

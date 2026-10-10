@@ -5,12 +5,12 @@
   "sub_type": "poder_de_cavaleiro",
   "description": "No 5º nível, escolha entre Bastião ou Montaria.\n• Bastião. Se estiver usando armadura pesada, você recebe resistência a dano 5 (cumulativa com a RD fornecida por Especialização em Armadura).\n• Montaria. Você recebe um cavalo de guerra com o qual possui +5 em testes de Adestramento e Cavalgar. Ele fornece os benefícios de um aliado iniciante de seu tipo. No 11º nível, passa a fornecer os benefícios de um aliado veterano e, no 17º nível, de um aliado mestre. De acordo com o mestre, você pode receber outro tipo de montaria. Veja a lista de aliados no Capítulo 6: O Mestre. Caso a montaria morra, você pode comprar outra pelo preço normal e treiná-la para receber os benefícios deste poder com uma semana de trabalho.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 5
     }
   ],
-  "effects":"ver_texto",
+  "effects": "ver_texto",
   "costs": null
 }

@@ -7,14 +7,25 @@
       "type": "choice",
       "text": "Ferramenta pesada",
       "options": [
-        { "text": "Ferramenta pesada (mesmas estatísticas de uma maça)" },
-        { "text": "Ferramenta pesada (mesmas estatísticas de uma lança)" }
+        {
+          "text": "Ferramenta pesada (mesmas estatísticas de uma maça)"
+        },
+        {
+          "text": "Ferramenta pesada (mesmas estatísticas de uma lança)"
+        }
       ]
     }
   ],
   "benefits": {
-    "skills": ["Atletismo", "Fortitude"],
-    "powers": ["Atlético", "Esforçado"]
+    "skills": [
+      "Atletismo",
+      "Fortitude"
+    ],
+    "powers": [
+      "Atlético",
+      "Esforçado"
+    ]
   },
-  "unique_power": "esforcado"
+  "unique_power": "esforcado",
+  "page": 101
 }

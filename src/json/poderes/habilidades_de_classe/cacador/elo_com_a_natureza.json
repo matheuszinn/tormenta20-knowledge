@@ -5,7 +5,7 @@
   "sub_type": "poder_de_cacador",
   "description": "Você soma seu bônus de Sabedoria em seu total de pontos de mana e aprende e pode lançar Caminhos da Natureza (atributo-chave Sabedoria).",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 3

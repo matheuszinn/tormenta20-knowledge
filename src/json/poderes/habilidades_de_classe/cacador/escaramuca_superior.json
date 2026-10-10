@@ -5,7 +5,7 @@
   "sub_type": "poder_de_cacador",
   "description": "Quando usa Escaramuça, seus bônus aumentam para +5 em Defesa e Reflexos e +1d12 em rolagens de dano. ",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 12
@@ -22,7 +22,7 @@
     }
   ],
   "effects": [
-      {
+    {
       "type": "attack_improvement",
       "value": "1d12",
       "duration": "turno"

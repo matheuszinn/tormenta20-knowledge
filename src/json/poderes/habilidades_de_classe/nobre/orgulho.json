@@ -5,7 +5,7 @@
   "sub_type": "poder_de_nobre",
   "description": "Quando faz um teste de perícia, você pode gastar uma quantidade de PM a sua escolha (limitado pelo seu modificador de Carisma). Para cada PM que gastar, recebe +2 no teste.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 1
@@ -19,8 +19,8 @@
   ],
   "costs": [
     {
-    "value": "a_sua_escolha",
-    "type": "PM"
+      "value": "a_sua_escolha",
+      "type": "PM"
     }
   ]
 }

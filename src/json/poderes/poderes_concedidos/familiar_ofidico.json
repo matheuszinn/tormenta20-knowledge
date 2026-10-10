@@ -1,7 +1,9 @@
 {
   "id": "familiar_ofidico",
   "name": "Familiar Ofídico",
-  "deities": ["sszzaas"],
+  "deities": [
+    "sszzaas"
+  ],
   "description": "Você recebe um familiar cobra que não conta em seu limite de parceiros.",
   "effects": {
     "type": "passive",
@@ -9,5 +11,6 @@
       "type": "cobra",
       "counts_toward_partner_limit": false
     }
-  }
+  },
+  "page": 133
 }

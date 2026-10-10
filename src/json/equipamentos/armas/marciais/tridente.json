@@ -11,12 +11,15 @@
   "alcance": "curto",
   "tipo_dano": "perfuracao",
   "espacos": 1,
-  "habilidades": ["versatil"],
+  "habilidades": [
+    "versatil"
+  ],
   "especial": {
     "arremessavel": true,
     "bonus_manobra": {
       "derrubar": 2
     }
   },
-  "description": "Uma lança com três pontas, favorita de povos marinhos e gladiadores e própria para prender as pernas do oponente. O tridente é uma arma versátil, fornecendo +2 em testes para derrubar. Um tridente pode ser arremessado."
+  "description": "Uma lança com três pontas, favorita de povos marinhos e gladiadores e própria para prender as pernas do oponente. O tridente é uma arma versátil, fornecendo +2 em testes para derrubar. Um tridente pode ser arremessado.",
+  "page": 156
 }

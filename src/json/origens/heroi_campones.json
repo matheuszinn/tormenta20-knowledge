@@ -7,15 +7,31 @@
       "type": "choice",
       "text": "Ferramenta de trabalho",
       "options": [
-        { "text": "Instrumentos de ofício (à sua escolha)" },
-        { "text": "Arma simples (à sua escolha)" }
+        {
+          "text": "Instrumentos de ofício (à sua escolha)"
+        },
+        {
+          "text": "Arma simples (à sua escolha)"
+        }
       ]
     },
-    { "type": "fixed", "text": "Traje de plebeu" }
+    {
+      "type": "fixed",
+      "text": "Traje de plebeu"
+    }
   ],
   "benefits": {
-    "skills": ["Adestramento", "Ofício"],
-    "powers": ["Coração Heroico", "Sortudo", "Surto Heroico", "Torcida"]
+    "skills": [
+      "Adestramento",
+      "Ofício"
+    ],
+    "powers": [
+      "Coração Heroico",
+      "Sortudo",
+      "Surto Heroico",
+      "Torcida"
+    ]
   },
-  "unique_power": "coracao_heroico"
+  "unique_power": "coracao_heroico",
+  "page": 97
 }

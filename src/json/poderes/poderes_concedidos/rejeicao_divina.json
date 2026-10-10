@@ -1,7 +1,9 @@
 {
   "id": "rejeicao_divina",
   "name": "Rejeição Divina",
-  "deities": ["aharadak"],
+  "deities": [
+    "aharadak"
+  ],
   "description": "Você recebe resistência a magia divina +5.",
   "effects": {
     "type": "passive",
@@ -9,5 +11,6 @@
       "type": "magia divina",
       "value": 5
     }
-  }
+  },
+  "page": 141
 }

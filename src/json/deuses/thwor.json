@@ -14,7 +14,9 @@
   "energy": "qualquer",
   "preferred_weapon": "Machado de guerra",
   "devotees": {
-    "races": ["duyshidakk"],
+    "races": [
+      "duyshidakk"
+    ],
     "classes": []
   },
   "granted_powers": [
@@ -23,5 +25,6 @@
     "olhar_amedrontador",
     "tropas_duyshidakk"
   ],
-  "obligations_restrictions": "Não importando sua raça, o devoto de Thwor deve ser duyshidakk — ou seja, aceito como membro do povo goblinoide. Também deve se esforçar para que o \"Mundo Como Deve Ser\" tome o continente. Deve sempre procurar fazer alianças com goblinoides e só lutar contra eles em último caso."
+  "obligations_restrictions": "Não importando sua raça, o devoto de Thwor deve ser duyshidakk — ou seja, aceito como membro do povo goblinoide. Também deve se esforçar para que o \"Mundo Como Deve Ser\" tome o continente. Deve sempre procurar fazer alianças com goblinoides e só lutar contra eles em último caso.",
+  "page": 110
 }

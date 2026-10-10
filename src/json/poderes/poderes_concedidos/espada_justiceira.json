@@ -1,7 +1,9 @@
 {
   "id": "espada_justiceira",
   "name": "Espada Justiceira",
-  "deities": ["khalmyr"],
+  "deities": [
+    "khalmyr"
+  ],
   "description": "Você pode gastar 1 PM para encantar sua espada (ou outra arma corpo a corpo de corte que esteja empunhando). Ela tem seu dano aumentado em um passo até o fim da cena.",
   "effects": {
     "type": "active",
@@ -9,5 +11,6 @@
     "target": "espada ou arma corpo a corpo de corte empunhada",
     "damage_step_increase": 1,
     "duration": "cena"
-  }
+  },
+  "page": 139
 }

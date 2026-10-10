@@ -1,7 +1,10 @@
 {
   "id": "olhar_amedrontador",
   "name": "Olhar Amedrontador",
-  "deities": ["megalokk", "thwor"],
+  "deities": [
+    "megalokk",
+    "thwor"
+  ],
   "description": "Você aprende e pode lançar Amedrontar. Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
   "effects": {
     "type": "passive",
@@ -10,5 +13,6 @@
       "spell": "Amedrontar",
       "reduction": 1
     }
-  }
+  },
+  "page": 140
 }

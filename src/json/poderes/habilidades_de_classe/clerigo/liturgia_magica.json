@@ -20,8 +20,8 @@
   ],
   "costs": [
     {
-    "value": 1,
-    "type": "acao_de_movimento"
+      "value": 1,
+      "type": "acao_de_movimento"
     }
   ]
 }

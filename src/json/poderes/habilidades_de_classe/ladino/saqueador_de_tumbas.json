@@ -9,8 +9,14 @@
     {
       "type": "skill_improvement",
       "value": 5,
-      "skill": ["investigacao", "reflexos"],
-      "requirements": ["encontrar_armadilhas", "fugir_de_armadilhas"]
+      "skill": [
+        "investigacao",
+        "reflexos"
+      ],
+      "requirements": [
+        "encontrar_armadilhas",
+        "fugir_de_armadilhas"
+      ]
     },
     {
       "type": "change_action_type",

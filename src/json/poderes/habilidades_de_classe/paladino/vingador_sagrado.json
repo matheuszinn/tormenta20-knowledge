@@ -5,7 +5,7 @@
   "sub_type": "poder_de_paladino",
   "description": "No 20º nível, você pode gastar uma ação completa e 10 PM para se cobrir de energia divina, assumindo a forma de um vingador sagrado até o fim da cena. Nesta forma, você recebe deslocamento de voo 18m, resistência a dano 20 e soma seu modificador de Carisma em seus testes de ataque e rolagens de dano corpo a corpo.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 20
@@ -31,11 +31,11 @@
   ],
   "costs": [
     {
-    "value": 10,
-    "type": "PM"
+      "value": 10,
+      "type": "PM"
     },
     {
-    "type": "acao_completa"
+      "type": "acao_completa"
     }
   ]
 }

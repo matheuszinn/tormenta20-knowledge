@@ -5,7 +5,10 @@
   "preco": 2,
   "quantidade": 20,
   "espacos": 1,
-  "armas_compativeis": ["besta_leve", "besta_pesada"],
+  "armas_compativeis": [
+    "besta_leve",
+    "besta_pesada"
+  ],
   "especial": {
     "recarregar_besta_leve": "acao_movimento",
     "recarregar_besta_pesada": "acao_padrao"

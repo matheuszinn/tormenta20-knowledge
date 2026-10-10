@@ -1,7 +1,9 @@
 {
   "id": "conhecimento_enciclopedico",
   "name": "Conhecimento Enciclopédico",
-  "deities": ["tanna_toh"],
+  "deities": [
+    "tanna_toh"
+  ],
   "description": "Você se torna treinado em duas perícias baseadas em Inteligência a sua escolha.",
   "effects": {
     "type": "passive",
@@ -9,5 +11,6 @@
       "quantity": 2,
       "restriction": "baseadas em Inteligência"
     }
-  }
+  },
+  "page": 138
 }

@@ -9,10 +9,15 @@
   "uso": "empunhado",
   "efeito": {
     "bonus_forca_abrir": 5,
-    "alvos": ["portas", "janelas", "baús fechados"]
+    "alvos": [
+      "portas",
+      "janelas",
+      "baús fechados"
+    ]
   },
   "como_arma": {
     "usa_estatisticas": "clava"
   },
-  "description": "Esta barra de ferro fornece +5 em testes de Força para abrir portas, janelas e baús fechados. Um pé de cabra pode ser usado como arma, com as estatísticas de uma clava."
+  "description": "Esta barra de ferro fornece +5 em testes de Força para abrir portas, janelas e baús fechados. Um pé de cabra pode ser usado como arma, com as estatísticas de uma clava.",
+  "page": 161
 }

@@ -5,7 +5,7 @@
   "sub_type": "poder_de_bardo",
   "description": "Quando usa Manipular, você pode gastar 2 PM extras. Se fizer isso, afeta todas as criaturas a sua escolha em alcance curto.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "soft",
       "value": 10
@@ -29,8 +29,8 @@
   ],
   "costs": [
     {
-    "value": 2,
-    "type": "PM"
+      "value": 2,
+      "type": "PM"
     }
   ]
 }

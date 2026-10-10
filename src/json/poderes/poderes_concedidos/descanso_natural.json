@@ -1,10 +1,13 @@
 {
   "id": "descanso_natural",
   "name": "Descanso Natural",
-  "deities": ["allihanna"],
+  "deities": [
+    "allihanna"
+  ],
   "description": "Para você, dormir ao relento conta como condição de descanso confortável.",
   "effects": {
     "type": "passive",
     "rest_benefit": "dormir ao relento conta como descanso confortável"
-  }
+  },
+  "page": 133
 }

@@ -5,7 +5,7 @@
   "sub_type": "poder_de_clerigo",
   "description": "Você possui uma posição formal em uma igreja reconhecida pelos outros membros de sua fé. Os efeitos deste poder variam de acordo com a igreja e o deus — clérigos de Khalmyr, por exemplo, possuem autoridade como juízes no Reinado — e ficam a cargo do mestre. Como regra geral, você recebe +5 em testes de Diplomacia ou Intimidação ao lidar com devotos de sua divindade e paga metade do preço de itens alquímicos, poções e serviços em templos de sua divindade.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 5
@@ -14,13 +14,20 @@
   "effects": [
     {
       "type": "reduce_item_price",
-      "item": ["pocao", "itens_alquimicos", "servicos_no_templo"],
+      "item": [
+        "pocao",
+        "itens_alquimicos",
+        "servicos_no_templo"
+      ],
       "amount": "metade_do_preco"
     },
     {
       "type": "skill_improvement",
       "value": 5,
-      "skill": ["diplomacia", "intimidacao"],
+      "skill": [
+        "diplomacia",
+        "intimidacao"
+      ],
       "requirements": "apenas_contra_devotos_da_sua_divindade"
     }
   ],

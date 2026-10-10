@@ -16,5 +16,6 @@
     },
     "motivo": "Cavalos sem treinamento se assustam facilmente"
   },
-  "description": "A montaria mais comum no Reinado. Pode ser usado como parceiro montaria. Cavalos sem treinamento se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante um combate."
+  "description": "A montaria mais comum no Reinado. Pode ser usado como parceiro montaria. Cavalos sem treinamento se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante um combate.",
+  "page": 168
 }

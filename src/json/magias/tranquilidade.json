@@ -41,7 +41,7 @@
       "type": "aumenta",
       "description": "aumenta o número de alvos em +1.",
       "extra_details": {
-         "target": {
+        "target": {
           "amount": 2,
           "up_to": false,
           "type": "animal_ou_humanoide"
@@ -77,5 +77,6 @@
       "resistence_requirement": null,
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 216
 }

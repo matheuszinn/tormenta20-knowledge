@@ -5,7 +5,7 @@
   "sub_type": "poder_de_cacador",
   "description": "Quando usa Ambidestria, você pode pagar 2 PM para fazer um ataque adicional com sua arma primária.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 12
@@ -34,8 +34,8 @@
   ],
   "costs": [
     {
-    "value": 2,
-    "type": "PM"
+      "value": 2,
+      "type": "PM"
     }
   ]
 }

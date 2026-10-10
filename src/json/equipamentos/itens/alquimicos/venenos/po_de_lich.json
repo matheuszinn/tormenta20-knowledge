@@ -19,5 +19,6 @@
       "dano": "4d12"
     }
   },
-  "description": "Veneno letal, usado para assassinar alvos poderosos. Ingestão, perde 4d12 PV por rodada durante 5 rodadas (perde 4d12 PV). A CD para fabricar e para resistir a este veneno aumenta em +5."
+  "description": "Veneno letal, usado para assassinar alvos poderosos. Ingestão, perde 4d12 PV por rodada durante 5 rodadas (perde 4d12 PV). A CD para fabricar e para resistir a este veneno aumenta em +5.",
+  "page": 163
 }

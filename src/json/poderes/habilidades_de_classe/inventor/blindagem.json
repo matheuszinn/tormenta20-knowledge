@@ -5,7 +5,7 @@
   "sub_type": "poder_de_inventor",
   "description": "Você pode somar o modificador de Inteligência na Defesa quando usa armadura pesada. Se fizer isso, não pode somar o modificador de Destreza, mesmo que outras habilidades ou efeitos permitam isso (como a modificação Delicada, por exemplo).",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 8

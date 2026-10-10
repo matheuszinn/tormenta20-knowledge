@@ -17,5 +17,6 @@
   "especial": {
     "recarregar": "acao_padrao"
   },
-  "description": "Uma arma de fogo de uso difícil, mas com poder devastador. Recarregar um mosquete é uma ação padrão."
+  "description": "Uma arma de fogo de uso difícil, mas com poder devastador. Recarregar um mosquete é uma ação padrão.",
+  "page": 156
 }

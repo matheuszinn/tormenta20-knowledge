@@ -13,7 +13,11 @@
     {
       "type": "execution_type",
       "sub_type": "soft",
-      "execution": ["movimento", "padrao", "completa"]
+      "execution": [
+        "movimento",
+        "padrao",
+        "completa"
+      ]
     },
     {
       "type": "expertise",
@@ -30,8 +34,9 @@
   ],
   "costs": [
     {
-    "value": 4,
-    "type": "PM"
+      "value": 4,
+      "type": "PM"
     }
-  ]
+  ],
+  "page": 137
 }

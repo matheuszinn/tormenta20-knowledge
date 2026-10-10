@@ -5,7 +5,10 @@
   "preco": 1,
   "quantidade": 20,
   "espacos": 1,
-  "armas_compativeis": ["arco_curto", "arco_longo"],
+  "armas_compativeis": [
+    "arco_curto",
+    "arco_longo"
+  ],
   "especial": {
     "recarregar": "acao_livre"
   },

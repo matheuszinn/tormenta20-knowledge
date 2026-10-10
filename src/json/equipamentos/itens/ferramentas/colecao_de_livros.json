@@ -9,8 +9,15 @@
   "uso": "consultado",
   "efeito": {
     "bonus_pericia": 1,
-    "pericias_validas": ["Conhecimento", "Guerra", "Misticismo", "Nobreza", "Religião"]
+    "pericias_validas": [
+      "Conhecimento",
+      "Guerra",
+      "Misticismo",
+      "Nobreza",
+      "Religião"
+    ]
   },
   "escolha_na_compra": "pericia",
-  "description": "Uma pequena coleção de tomos e tratados sobre um assunto. Fornece +1 em Conhecimento, Guerra, Misticismo, Nobreza ou Religião (definido quando o item é comprado ou fabricado)."
+  "description": "Uma pequena coleção de tomos e tratados sobre um assunto. Fornece +1 em Conhecimento, Guerra, Misticismo, Nobreza ou Religião (definido quando o item é comprado ou fabricado).",
+  "page": 164
 }

@@ -9,5 +9,6 @@
     "Se ficar exausto novamente → fica inconsciente"
   ],
   "condition_type": "cansaco",
-  "escalates_to": "inconsciente"
+  "escalates_to": "inconsciente",
+  "page": 400
 }

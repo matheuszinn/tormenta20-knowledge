@@ -5,7 +5,7 @@
   "sub_type": "poder_de_inventor",
   "description": "A quantidade de engenhocas que você pode manter aumenta em +3.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 5

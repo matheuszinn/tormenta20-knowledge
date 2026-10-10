@@ -5,7 +5,7 @@
   "sub_type": "poder_de_cavaleiro",
   "description": "Se estiver usando armadura pesada, você recebe resistência a dano 5 (cumulativa com a RD fornecida por Bastião).",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 12

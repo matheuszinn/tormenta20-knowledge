@@ -8,5 +8,6 @@
   "description": "Você recebe +2 em rolagens de dano com armas de ataque à distância (cumulativo com outros itens).",
   "efeito": {
     "bonus_dano_distancia": 2
-  }
+  },
+  "page": 348
 }

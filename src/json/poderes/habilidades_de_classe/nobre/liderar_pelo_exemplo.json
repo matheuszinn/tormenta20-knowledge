@@ -5,17 +5,17 @@
   "sub_type": "poder_de_nobre",
   "description": "Você pode pagar 2 PM para servir de inspiração. Até o início de seu próximo turno, sempre que você passar em um teste de perícia, aliados em alcance curto que fizerem um teste da mesma perícia podem usar o resultado total do seu teste em vez de rolar o dado.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 6
     }
   ],
-  "effects":"ver_texto",
+  "effects": "ver_texto",
   "costs": [
     {
-    "value": 2,
-    "type": "PM"
+      "value": 2,
+      "type": "PM"
     }
   ]
 }

@@ -3,12 +3,12 @@
   "name": "Escriba Arcano",
   "type": "habilidade_de_classe",
   "sub_type": "poder_de_arcanista",
-  "description": "Você pode aprender magias copiando os textos de pergaminhos e grimórios de outros magos. Aprender uma magia dessa forma exige um dia de trabalho e T$ 250 em matérias-primas por PM necessário para lançar a magia. Assim, aprender uma magia de 3º círculo (6 PM) exige 6 dias de trabalho e o gasto de T$ 1.500.", 
+  "description": "Você pode aprender magias copiando os textos de pergaminhos e grimórios de outros magos. Aprender uma magia dessa forma exige um dia de trabalho e T$ 250 em matérias-primas por PM necessário para lançar a magia. Assim, aprender uma magia de 3º círculo (6 PM) exige 6 dias de trabalho e o gasto de T$ 1.500.",
   "requirements": [
-     {
+    {
       "type": "caminho_do_arcanista",
       "sub_type": "soft",
-      "id": "mago" 
+      "id": "mago"
     },
     {
       "type": "skill_training",

@@ -15,8 +15,19 @@
   "energy": "negativa",
   "preferred_weapon": "Maça",
   "devotees": {
-    "races": ["goblins", "medusas", "minotauros", "sulfure", "trogs"],
-    "classes": ["bárbaros", "caçadores", "druidas", "lutadores"]
+    "races": [
+      "goblins",
+      "medusas",
+      "minotauros",
+      "sulfure",
+      "trogs"
+    ],
+    "classes": [
+      "bárbaros",
+      "caçadores",
+      "druidas",
+      "lutadores"
+    ]
   },
   "granted_powers": [
     "olhar_amedrontador",
@@ -24,5 +35,6 @@
     "urro_divino",
     "voz_dos_monstros"
   ],
-  "obligations_restrictions": "Devotos de Megalokk devem rejeitar os modos civilizados e se entregar à ferocidade, descontrole e impaciência. Você é proibido de usar perícias baseadas em Inteligência ou Carisma (exceto Adestramento e Intimidação) e não pode preparar uma ação, escolher 10 ou 20 em testes e sustentar efeitos (pois são ações que exigem foco e paciência)."
+  "obligations_restrictions": "Devotos de Megalokk devem rejeitar os modos civilizados e se entregar à ferocidade, descontrole e impaciência. Você é proibido de usar perícias baseadas em Inteligência ou Carisma (exceto Adestramento e Intimidação) e não pode preparar uma ação, escolher 10 ou 20 em testes e sustentar efeitos (pois são ações que exigem foco e paciência).",
+  "page": 103
 }

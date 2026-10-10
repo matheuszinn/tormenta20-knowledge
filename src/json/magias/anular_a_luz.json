@@ -45,10 +45,10 @@
       "type": "muda",
       "description": "muda o círculo máximo de magias dissipadas para 5º.",
       "extra_details": {
-      "requirements": "5º círculo"
+        "requirements": "5º círculo"
       }
     }
-    ],
+  ],
   "effects": [
     {
       "type": "anula",
@@ -64,5 +64,6 @@
       "resistence_requirement": null,
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 186
 }

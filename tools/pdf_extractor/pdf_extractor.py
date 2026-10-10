@@ -140,7 +140,7 @@ class PDFExtractor:
     def get_pages_range(self, start: int, end: int) -> str:
         """Retorna o texto de um intervalo de páginas."""
         return "\n".join(
-            p["text"] for p in self.pages
+            f"--- PÁGINA {p['number']} ---\n{p['text']}" for p in self.pages
             if start <= p["number"] <= end
         )
 
@@ -189,10 +189,16 @@ class PDFExtractor:
         for i, match in enumerate(matches):
             start = match.start()
             end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
+            
+            # Extract page number
+            text_before = text[:start]
+            page_matches = list(re.finditer(r'--- PÁGINA (\d+) ---', text_before))
+            page = int(page_matches[-1].group(1)) if page_matches else None
 
             yield {
                 "header": match.group().strip(),
-                "content": text[start:end].strip()
+                "content": text[start:end].strip(),
+                "page": page
             }
 
 

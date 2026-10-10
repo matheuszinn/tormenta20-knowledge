@@ -5,7 +5,7 @@
   "sub_type": "poder_de_bardo",
   "description": "Suas apresentações o tornaram famoso, fazendo com que você seja reconhecido e bem tratado por aqueles que apreciam a arte. Por outro lado, pode ser difícil passar despercebido, especialmente em grandes cidades. Quando usa Atuação para impressionar uma plateia, o bônus recebidoem perícias baseadas em Carisma aumenta para +5.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "soft",
       "value": 6

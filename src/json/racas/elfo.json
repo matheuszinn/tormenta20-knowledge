@@ -6,9 +6,18 @@
   "movement": 12,
   "vision": "baixa_luminosidade",
   "vision_range": null,
-  "attribute_bonuses": { "inteligencia": 2, "destreza": 1, "constituicao": -1 },
+  "attribute_bonuses": {
+    "inteligencia": 2,
+    "destreza": 1,
+    "constituicao": -1
+  },
   "skill_bonuses": [],
-  "racial_abilities": ["graca_de_glorienn", "sangue_magico", "sentidos_elficos"],
+  "racial_abilities": [
+    "graca_de_glorienn",
+    "sangue_magico",
+    "sentidos_elficos"
+  ],
   "chosen_abilities_amount": 0,
-  "available_chosen_abilities": []
+  "available_chosen_abilities": [],
+  "page": 28
 }

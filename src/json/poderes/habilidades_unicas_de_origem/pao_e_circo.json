@@ -5,7 +5,10 @@
   "description": "Por seu treino em combates de exibição, você sabe \"bater sem machucar\". Pode escolher causar dano não letal sem sofrer a penalidade de –5.",
   "effects": {
     "immunity_penalties": [
-      { "type": "ataque", "condition": "causar dano não letal" }
+      {
+        "type": "ataque",
+        "condition": "causar dano não letal"
+      }
     ]
   }
 }

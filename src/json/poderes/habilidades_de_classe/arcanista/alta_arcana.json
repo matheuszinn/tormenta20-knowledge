@@ -5,7 +5,7 @@
   "sub_type": "poder_de_arcanista",
   "description": "No 20º nível, seu domínio das artes arcanas é total. O custo em PM de suas magias arcanas é reduzido à metade (após aplicar aprimoramentos e quaisquer outros efeitos que reduzam custo).",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "soft",
       "value": 20

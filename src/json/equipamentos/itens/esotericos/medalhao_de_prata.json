@@ -12,5 +12,6 @@
     "reducao_custo_pm": 1,
     "condicao": "magias de alcance pessoal"
   },
-  "description": "Gravado com uma runa pessoal do conjurador, este medalhão de prata diminui em –1 PM o custo de magias de alcance pessoal."
+  "description": "Gravado com uma runa pessoal do conjurador, este medalhão de prata diminui em –1 PM o custo de magias de alcance pessoal.",
+  "page": 166
 }

@@ -16,5 +16,6 @@
   "especial": {
     "corpo_a_corpo_penalidade": -5
   },
-  "description": "Uma lança leve e flexível, própria para arremesso. Pode ser usada como arma corpo a corpo, mas você sofre uma penalidade de –5 no teste de ataque."
+  "description": "Uma lança leve e flexível, própria para arremesso. Pode ser usada como arma corpo a corpo, mas você sofre uma penalidade de –5 no teste de ataque.",
+  "page": 152
 }

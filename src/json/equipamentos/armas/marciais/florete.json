@@ -11,7 +11,10 @@
   "alcance": null,
   "tipo_dano": "perfuracao",
   "espacos": 1,
-  "habilidades": ["agil"],
+  "habilidades": [
+    "agil"
+  ],
   "especial": null,
-  "description": "A lâmina leve e fina desta espada torna a arma muito precisa. O florete é uma arma ágil."
+  "description": "A lâmina leve e fina desta espada torna a arma muito precisa. O florete é uma arma ágil.",
+  "page": 154
 }

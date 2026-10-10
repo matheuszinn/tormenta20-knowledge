@@ -43,17 +43,18 @@
       "description": "muda o alvo para 2 animais prestativos. Cada animal funciona como um aliado de um tipo diferente, e você pode receber a ajuda de ambos (mas ainda precisa seguir o limite de aliados de acordo com o seu nível de personagem). Requer 4º círculo.",
       "extra_details": {
         "requirements": "4º circulo",
-        "limitations" : "quantidade de aliados por nível"
+        "limitations": "quantidade de aliados por nível"
       }
     }
   ],
   "effects": [
     {
       "type": "outro",
-      "attribute":null,
+      "attribute": null,
       "amount": null,
       "resistence_requirement": null,
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 184
 }

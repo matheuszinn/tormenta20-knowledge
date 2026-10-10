@@ -5,7 +5,7 @@
   "sub_type": "poder_de_nobre",
   "description": "A presença de um nobre motiva as pessoas a realizarem façanhas impressionantes. Você pode gastar 5 PM para fazer um aliado em alcance curto ganhar uma ação padrão adicional no próximo turno dele. Você só pode usar esta habilidade uma vez por cena em cada aliado.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 8
@@ -24,8 +24,8 @@
   "effects": "ver_texto",
   "costs": [
     {
-    "value": 5,
-    "type": "PM"
+      "value": 5,
+      "type": "PM"
     }
   ]
 }

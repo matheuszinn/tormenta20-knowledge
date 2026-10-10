@@ -15,12 +15,12 @@
   ],
   "costs": [
     {
-    "value": 2,
-    "type": "PM"
+      "value": 2,
+      "type": "PM"
     },
     {
-     "action": "moviment",
-     "type": "acao" 
+      "action": "moviment",
+      "type": "acao"
     }
   ]
 }

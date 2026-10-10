@@ -21,17 +21,16 @@
       "type": "skill_training",
       "sub_type": "hard",
       "skill": "cura"
-    } 
+    }
   ],
   "effects": [
-    {
-      
-    }
+    {}
   ],
   "costs": [
     {
-    "value": 1,
-    "type": "acao_completa"
+      "value": 1,
+      "type": "acao_completa"
     }
-  ]
+  ],
+  "page": 136
 }

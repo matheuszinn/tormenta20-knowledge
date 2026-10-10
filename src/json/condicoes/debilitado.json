@@ -7,5 +7,6 @@
     "Se ficar debilitado novamente → fica inconsciente"
   ],
   "condition_type": null,
-  "escalates_to": "inconsciente"
+  "escalates_to": "inconsciente",
+  "page": 400
 }

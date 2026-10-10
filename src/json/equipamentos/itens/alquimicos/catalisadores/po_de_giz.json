@@ -14,5 +14,6 @@
     "reducao_custo_pm": 1,
     "escola": "convocação"
   },
-  "description": "Calcário esmagado em pó, uma substância comum que, usada como catalisador, diminui o custo de magias de convocação em –1 PM."
+  "description": "Calcário esmagado em pó, uma substância comum que, usada como catalisador, diminui o custo de magias de convocação em –1 PM.",
+  "page": 167
 }

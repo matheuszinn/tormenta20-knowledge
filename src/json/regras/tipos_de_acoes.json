@@ -1,0 +1,33 @@
+{
+  "id": "tipos_de_acoes",
+  "name": "Tipos de Ações",
+  "description": "No seu turno, você pode fazer uma ação padrão e uma ação de movimento, em qualquer ordem. Você pode trocar sua ação padrão por uma ação de movimento, para fazer duas ações de movimento, mas não pode fazer o inverso. Você também pode abrir mão das duas ações para fazer uma ação completa. Você também pode executar qualquer quantidade de ações livres e reações.",
+  "sub_rules": [
+    {
+      "id": "acao_padrao",
+      "name": "Ação Padrão",
+      "description": "Basicamente, uma ação padrão permite que você execute uma tarefa. Fazer um ataque ou lançar uma magia são as ações padrão mais comuns."
+    },
+    {
+      "id": "acao_de_movimento",
+      "name": "Ação de Movimento",
+      "description": "Esta ação representa algum tipo de movimento físico. Seu uso mais comum é percorrer uma distância igual a seu deslocamento. Levantar-se, sacar uma arma, pegar um item de sua mochila, abrir uma porta e subir numa montaria também são ações de movimento."
+    },
+    {
+      "id": "acao_completa",
+      "name": "Ação Completa",
+      "description": "Este tipo de ação exige todo o tempo e esforço normal de uma rodada. Para uma ação completa, você deve abrir mão de sua ação padrão e de sua ação de movimento — mas, normalmente, você ainda pode realizar ações extras, ações livres e reações."
+    },
+    {
+      "id": "acao_livre",
+      "name": "Ação Livre",
+      "description": "Esta ação não exige quase nenhum tempo e esforço, mas ainda só pode ser feita em seu turno. Jogar-se no chão ou gritar uma ordem são ações livres — mas o mestre pode decidir que algo é complicado demais para ser livre. Dar uma ordem curta é uma ação livre, explicar um plano inteiro, não!"
+    },
+    {
+      "id": "reacao",
+      "name": "Reação",
+      "description": "Uma reação acontece em resposta a outra coisa. Como ações livres, reações tomam tão pouco tempo que você pode realizar qualquer quantidade delas. A diferença é que uma ação livre é uma escolha consciente, executada no turno do personagem. Já uma reação é um reflexo ou uma resposta automática, que pode ocorrer mesmo fora do seu turno. Você pode reagir mesmo se não puder realizar ações normais, como quando estiver atordoado. Um teste de Percepção para perceber um troll escondido no pântano, ou um teste de Reflexos para escapar de uma explosão, são exemplos de reações."
+    }
+  ],
+  "page": 239
+}

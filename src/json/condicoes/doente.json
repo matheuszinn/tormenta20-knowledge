@@ -2,7 +2,9 @@
   "id": "doente",
   "name": "Doente",
   "description": "Você está acometido por uma doença. Os efeitos variam conforme a doença específica.",
-  "effects": ["Efeitos variam conforme a doença (veja a descrição da doença)"],
+  "effects": [
+    "Efeitos variam conforme a doença (veja a descrição da doença)"
+  ],
   "condition_type": "metabolismo",
   "escalates_to": null
 }

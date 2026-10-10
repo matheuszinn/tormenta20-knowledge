@@ -18,7 +18,10 @@
     },
     {
       "type": "manouver_improvement",
-      "manouver": ["derrubar", "empurrar"],
+      "manouver": [
+        "derrubar",
+        "empurrar"
+      ],
       "action": "livre"
     },
     {
@@ -39,8 +42,8 @@
   ],
   "costs": [
     {
-    "value": 1,
-    "type": "PM"
+      "value": 1,
+      "type": "PM"
     }
   ]
 }

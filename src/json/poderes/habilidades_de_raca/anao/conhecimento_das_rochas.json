@@ -7,8 +7,16 @@
   "effects": {
     "vision": "visao_no_escuro",
     "skill_bonus": [
-      { "skill": "percepcao", "value": 2, "condition": "subterraneo" },
-      { "skill": "sobrevivencia", "value": 2, "condition": "subterraneo" }
+      {
+        "skill": "percepcao",
+        "value": 2,
+        "condition": "subterraneo"
+      },
+      {
+        "skill": "sobrevivencia",
+        "value": 2,
+        "condition": "subterraneo"
+      }
     ]
   }
 }

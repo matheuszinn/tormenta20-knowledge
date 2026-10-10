@@ -6,6 +6,9 @@
   "description": "Quando faz um ataque à distância com uma funda ou uma arma de arremesso, seu dano aumenta em um passo.",
   "effects": {
     "damage_step_increase": 1,
-    "weapon_types": ["funda", "arremesso"]
+    "weapon_types": [
+      "funda",
+      "arremesso"
+    ]
   }
 }

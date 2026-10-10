@@ -11,5 +11,6 @@
     "ataque_desarmado_letal": true,
     "pode_receber_melhorias": true
   },
-  "description": "Luva metálica que permite socos mais perigosos — o dano de seus ataques desarmados torna-se letal. Uma manopla conta como uma arma para receber melhorias e encantos para usá-los em seus ataques desarmados."
+  "description": "Luva metálica que permite socos mais perigosos — o dano de seus ataques desarmados torna-se letal. Uma manopla conta como uma arma para receber melhorias e encantos para usá-los em seus ataques desarmados.",
+  "page": 165
 }

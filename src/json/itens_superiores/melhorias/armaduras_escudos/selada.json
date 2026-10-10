@@ -10,5 +10,6 @@
     "bonus_testes_resistencia": 1
   },
   "prerequisitos": null,
-  "description": "A armadura foi forjada de forma a proteger todo o corpo do usuário, sem deixar espaço para nem mesmo um alfinete! Esta melhoria fornece um bônus de +1 em testes de resistência, mas só pode ser aplicado em armaduras pesadas."
+  "description": "A armadura foi forjada de forma a proteger todo o corpo do usuário, sem deixar espaço para nem mesmo um alfinete! Esta melhoria fornece um bônus de +1 em testes de resistência, mas só pode ser aplicado em armaduras pesadas.",
+  "page": 172
 }

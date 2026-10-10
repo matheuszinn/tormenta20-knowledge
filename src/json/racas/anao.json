@@ -6,9 +6,19 @@
   "movement": 6,
   "vision": "visao_no_escuro",
   "vision_range": null,
-  "attribute_bonuses": { "constituicao": 2, "sabedoria": 1, "destreza": -1 },
+  "attribute_bonuses": {
+    "constituicao": 2,
+    "sabedoria": 1,
+    "destreza": -1
+  },
   "skill_bonuses": [],
-  "racial_abilities": ["conhecimento_das_rochas", "devagar_e_sempre", "duro_como_pedra", "tradicao_de_heredrimm"],
+  "racial_abilities": [
+    "conhecimento_das_rochas",
+    "devagar_e_sempre",
+    "duro_como_pedra",
+    "tradicao_de_heredrimm"
+  ],
   "chosen_abilities_amount": 0,
-  "available_chosen_abilities": []
+  "available_chosen_abilities": [],
+  "page": 26
 }

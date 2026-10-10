@@ -14,7 +14,13 @@
   "effects": [
     {
       "type": "damage_type_improvement",
-      "damage_type": ["acido", "eletricidade", "fogo", "frio", "trevas"]
+      "damage_type": [
+        "acido",
+        "eletricidade",
+        "fogo",
+        "frio",
+        "trevas"
+      ]
     }
   ],
   "costs": [

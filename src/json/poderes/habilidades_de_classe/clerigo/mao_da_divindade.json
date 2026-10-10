@@ -5,7 +5,7 @@
   "sub_type": "poder_de_clerigo",
   "description": "No 20º nível, você pode gastar uma ação completa e 15 PM para canalizar a energia de seu deus. Ao fazer isso, você lança três magias divinas quaisquer (de qualquer círculo, incluindo magias que você não conhece), como uma ação livre e sem gastar PM (mas ainda precisa pagar outros custos). Você pode aplicar aprimoramentos, mas precisa pagar por eles. Após usar esta habilidade, você fica atordoado por 1d4 rodadas. Corpos mortais não foram feitos para lidar com tanto poder.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 20
@@ -14,11 +14,11 @@
   "effects": "ver_texto",
   "costs": [
     {
-    "value": 15,
-    "type": "PM"
+      "value": 15,
+      "type": "PM"
     },
     {
-    "type": "acao_completa"
+      "type": "acao_completa"
     }
   ]
 }

@@ -38,7 +38,7 @@
         "range": "pessoal",
         "target": "voce",
         "duration": "cena",
-        "resistence": null 
+        "resistence": null
       }
     },
     {
@@ -55,10 +55,10 @@
       "description": "muda a duração para permanente e adiciona componente material (balança de prata no valor de T$ 5.000).",
       "extra_details": {
         "extra_costs": {
-         "material_component": "balança de prata",
-         "material_component_cost": "T$ 5000",
-         "pm_debuff": null,
-         "pm_sacrifice": null
+          "material_component": "balança de prata",
+          "material_component_cost": "T$ 5000",
+          "pm_debuff": null,
+          "pm_sacrifice": null
         }
       }
     }
@@ -71,5 +71,6 @@
       "resistence_requirement": "vontade",
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 189
 }

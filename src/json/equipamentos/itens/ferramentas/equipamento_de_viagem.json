@@ -6,7 +6,14 @@
   "preco": 10,
   "espacos": 1,
   "cd_fabricacao": 20,
-  "conteudo": ["pederneira", "panelas", "talheres", "anzol", "linha", "pequena pá"],
+  "conteudo": [
+    "pederneira",
+    "panelas",
+    "talheres",
+    "anzol",
+    "linha",
+    "pequena pá"
+  ],
   "efeito": {
     "evita_penalidade": {
       "pericia": "Sobrevivência",
@@ -14,6 +21,10 @@
       "penalidade_sem_item": -5
     }
   },
-  "nao_inclui": ["saco de dormir", "barraca"],
-  "description": "Um saco de lona contendo instrumentos úteis para sobreviver nos ermos, como pederneira (pedra para fazer fogo), panelas e talheres para cozinhar, anzol e linha para pescar e uma pequena pá. Um personagem sem este item sofre –5 em testes de Sobrevivência para fazer um acampamento. Não inclui saco de dormir ou barraca."
+  "nao_inclui": [
+    "saco de dormir",
+    "barraca"
+  ],
+  "description": "Um saco de lona contendo instrumentos úteis para sobreviver nos ermos, como pederneira (pedra para fazer fogo), panelas e talheres para cozinhar, anzol e linha para pescar e uma pequena pá. Um personagem sem este item sofre –5 em testes de Sobrevivência para fazer um acampamento. Não inclui saco de dormir ou barraca.",
+  "page": 162
 }

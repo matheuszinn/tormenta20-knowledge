@@ -8,5 +8,10 @@
     "damage_immunity": "chosen",
     "healing_from_chosen_damage": 0.5
   },
-  "choices": ["frio", "eletricidade", "fogo", "acido"]
+  "choices": [
+    "frio",
+    "eletricidade",
+    "fogo",
+    "acido"
+  ]
 }

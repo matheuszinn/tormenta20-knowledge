@@ -5,7 +5,7 @@
   "sub_type": "poder_de_lutador",
   "description": "Se estiver agarrando uma criatura e fizer um teste de manobra contra ela para causar dano, o dano desarmado aumenta em um passo.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 4
@@ -28,5 +28,6 @@
       "value": "um_passo"
     }
   ],
-  "costs": null
+  "costs": null,
+  "page": 137
 }

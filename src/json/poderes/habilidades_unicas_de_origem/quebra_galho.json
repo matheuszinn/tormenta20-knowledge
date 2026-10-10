@@ -6,9 +6,15 @@
   "effects": {
     "economy": {
       "buy_discount_percent": 50,
-      "location": ["cidades", "metrópoles"],
+      "location": [
+        "cidades",
+        "metrópoles"
+      ],
       "item_type": "mundano não superior",
-      "restrictions": ["não pode ser matéria-prima", "não pode revender"]
+      "restrictions": [
+        "não pode ser matéria-prima",
+        "não pode revender"
+      ]
     }
   }
 }

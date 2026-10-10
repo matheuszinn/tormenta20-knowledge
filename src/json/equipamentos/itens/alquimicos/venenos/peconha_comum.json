@@ -20,5 +20,6 @@
       "efeito": "anula"
     }
   },
-  "description": "Você pode gastar uma ação de movimento para cobrir uma arma com este veneno. A arma causa +1d6 pontos de dano de veneno (Fortitude CD 15 anula). A dose vale para 3 ataques."
+  "description": "Você pode gastar uma ação de movimento para cobrir uma arma com este veneno. A arma causa +1d6 pontos de dano de veneno (Fortitude CD 15 anula). A dose vale para 3 ataques.",
+  "page": 163
 }

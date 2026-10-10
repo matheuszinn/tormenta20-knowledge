@@ -14,5 +14,6 @@
     "dano_extra_magias": "1d6",
     "tipo_dano": "trevas"
   },
-  "description": "Um punhado de terra cinzenta, colhida à noite de um cemitério. Adiciona +1d6 de dano de trevas a magias."
+  "description": "Um punhado de terra cinzenta, colhida à noite de um cemitério. Adiciona +1d6 de dano de trevas a magias.",
+  "page": 167
 }

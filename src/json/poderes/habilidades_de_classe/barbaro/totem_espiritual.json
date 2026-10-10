@@ -5,7 +5,7 @@
   "sub_type": "poder_de_barbaro",
   "description": "Você soma seu bônus de Sabedoria no seu total de pontos de mana. Escolha um animal totêmico (veja o quadro). Você pode lançar uma magia definida pelo animal escolhido (atributo-chave Sabedoria).",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "soft",
       "value": 4

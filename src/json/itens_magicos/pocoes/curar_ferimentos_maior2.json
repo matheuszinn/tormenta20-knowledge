@@ -9,5 +9,6 @@
   "roll_min": 97,
   "roll_max": 100,
   "aprimoramento": null,
-  "description": "Poção que gera o efeito da magia Curar Ferimentos, curando 11d8+11 PV."
+  "description": "Poção que gera o efeito da magia Curar Ferimentos, curando 11d8+11 PV.",
+  "page": 347
 }

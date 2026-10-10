@@ -5,7 +5,7 @@
   "sub_type": "poder_de_inventor",
   "description": "A partir do 7º nível, você pode gastar uma ação de movimento e 2 PM para analisar um objeto em alcance curto. Se fizer isso, ignora a resistência a dano dele. Você também pode usar esta habilidade para encontrar uma fraqueza em um inimigo. Se ele estiver de armadura ou for um construto, você recebe +2 em seus testes de ataque contra ele. Os benefícios desta habilidade duram até o fim da cena.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 7
@@ -14,11 +14,11 @@
   "effects": "ver_texto",
   "costs": [
     {
-    "value": 2,
-    "type": "PM"
+      "value": 2,
+      "type": "PM"
     },
     {
-    "type": "acao_de_movimento"
+      "type": "acao_de_movimento"
     }
   ]
 }

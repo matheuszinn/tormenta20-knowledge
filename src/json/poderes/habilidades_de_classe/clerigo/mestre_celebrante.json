@@ -5,7 +5,7 @@
   "sub_type": "poder_de_clerigo",
   "description": "O número de pessoas que você afeta com uma missa aumenta em dez vezes e os benefícios que elas recebem dobram.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 12
@@ -13,7 +13,13 @@
     {
       "type": "feature",
       "sub_type": "hard",
-      "id": ["missa_bencao_da_vida", "missa_chamado_as_armas", "missa_elevacao_do_espirito", "missa_escudo_divino", "missa_superar_as_limitacoes"]
+      "id": [
+        "missa_bencao_da_vida",
+        "missa_chamado_as_armas",
+        "missa_elevacao_do_espirito",
+        "missa_escudo_divino",
+        "missa_superar_as_limitacoes"
+      ]
     }
   ],
   "effects": [

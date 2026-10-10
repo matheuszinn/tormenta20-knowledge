@@ -13,5 +13,6 @@
       "penalidade_sem_item": -5
     }
   },
-  "description": "Caixa de madeira com ervas, unguentos, bandagens e outros materiais úteis. Um personagem sem este item sofre –5 em Cura."
+  "description": "Caixa de madeira com ervas, unguentos, bandagens e outros materiais úteis. Um personagem sem este item sofre –5 em Cura.",
+  "page": 162
 }

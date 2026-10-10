@@ -5,7 +5,7 @@
   "sub_type": "poder_de_druida",
   "description": "Escolha um de seus companheiros animais. Esse animal recebe um segundo tipo diferente, entre destruidor ou médico, ganhando os bônus equivalentes.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 8

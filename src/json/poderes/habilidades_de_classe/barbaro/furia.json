@@ -5,10 +5,15 @@
   "sub_type": "poder_de_barbaro",
   "description": "Você pode gastar 2 PM para invocar uma fúria selvagem, tornando-se temível em combate. Você recebe +2 em testes de ataque e rolagens de dano corpo a corpo, mas não pode fazer nenhuma ação que exija calma e concentração (como usar a perícia Furtividade ou lançar magias). A cada cinco níveis, pode gastar +2 PM para aumentar os bônus em +1./nA Fúria termina se, ao fim da rodada, você não tiver atacado nem sido alvo de um efeito (ataque, habilidade, magia...) hostil.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "soft",
-      "value": [1, 6, 11, 16]
+      "value": [
+        1,
+        6,
+        11,
+        16
+      ]
     }
   ],
   "effects": [
@@ -35,8 +40,9 @@
   ],
   "costs": [
     {
-    "value": 2,
-    "type": "PM"
+      "value": 2,
+      "type": "PM"
     }
-  ]
+  ],
+  "page": 140
 }

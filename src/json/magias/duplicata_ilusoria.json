@@ -27,7 +27,7 @@
       "description": "cria uma cópia adicional.",
       "extra_details": null
     }
-    ],
+  ],
   "effects": [
     {
       "type": "outro",
@@ -36,5 +36,6 @@
       "resistence_requirement": null,
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 197
 }

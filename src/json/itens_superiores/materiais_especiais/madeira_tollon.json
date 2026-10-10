@@ -5,8 +5,18 @@
   "aparencia": "Madeira negra, dura como aço.",
   "origem": "Produzida na Floresta de Tollon.",
   "restricoes": {
-    "armas": ["arco_curto", "arco_longo", "bordao", "clava", "lanca", "pique", "tacape"],
-    "escudo": ["escudo_leve"],
+    "armas": [
+      "arco_curto",
+      "arco_longo",
+      "bordao",
+      "clava",
+      "lanca",
+      "pique",
+      "tacape"
+    ],
+    "escudo": [
+      "escudo_leve"
+    ],
     "esoterico": true,
     "armadura": false
   },
@@ -27,5 +37,6 @@
       "resistencia_magia": 2
     }
   },
-  "description": "A Floresta de Tollon produz um tipo de madeira negra, dura como aço e dotada de propriedades mágicas. Apenas armas de madeira — arcos, bordões, clavas, lanças, piques e tacapes —, escudos leves e esotéricos podem ser feitos com madeira Tollon."
+  "description": "A Floresta de Tollon produz um tipo de madeira negra, dura como aço e dotada de propriedades mágicas. Apenas armas de madeira — arcos, bordões, clavas, lanças, piques e tacapes —, escudos leves e esotéricos podem ser feitos com madeira Tollon.",
+  "page": 173
 }

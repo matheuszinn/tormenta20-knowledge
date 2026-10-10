@@ -5,7 +5,12 @@
   "race": "goblin",
   "description": "Você recebe +2 em Fortitude e sua recuperação de PV e PM nunca é inferior ao seu nível.",
   "effects": {
-    "skill_bonus": [{ "skill": "fortitude", "value": 2 }],
+    "skill_bonus": [
+      {
+        "skill": "fortitude",
+        "value": 2
+      }
+    ],
     "hp_pm_recovery_minimum": "character_level"
   }
 }

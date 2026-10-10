@@ -16,7 +16,10 @@
     {
       "type": "skill_improvement",
       "value": 5,
-      "skill": ["acrobacia", "atletismo"],
+      "skill": [
+        "acrobacia",
+        "atletismo"
+      ],
       "duration": "cena",
       "requirements": "suas_acoes_devem_estar_relacionadas_diretamente_a_fuga"
     },
@@ -29,11 +32,11 @@
   ],
   "costs": [
     {
-    "value": 1,
-    "type": "PM"
+      "value": 1,
+      "type": "PM"
     },
     {
-    "type": "acao_completa"
+      "type": "acao_completa"
     }
   ]
 }

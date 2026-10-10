@@ -13,8 +13,12 @@
   "energy": "negativa",
   "preferred_weapon": "Corrente de espinhos",
   "devotees": {
-    "races": ["qualquer"],
-    "classes": ["qualquer"]
+    "races": [
+      "qualquer"
+    ],
+    "classes": [
+      "qualquer"
+    ]
   },
   "granted_powers": [
     "afinidade_com_a_tormenta",
@@ -22,5 +26,6 @@
     "percepcao_temporal",
     "rejeicao_divina"
   ],
-  "obligations_restrictions": "Quase todos os cultistas de Aharadak são maníacos insanos, compelidos a praticar os atos mais abomináveis. No entanto, talvez devido à natureza alienígena e incompreensível deste deus, alguns devotos conseguem se resguardar. Preservam sua humanidade, abstendo-se de cometer crimes ou profanações. Ainda assim, o devoto paga um preço. No início de qualquer cena de ação, role 1d6. Com um resultado ímpar, você fica fascinado na primeira rodada, perdido em devaneios sobre a futilidade da vida (mesmo que seja imune a esta condição)."
+  "obligations_restrictions": "Quase todos os cultistas de Aharadak são maníacos insanos, compelidos a praticar os atos mais abomináveis. No entanto, talvez devido à natureza alienígena e incompreensível deste deus, alguns devotos conseguem se resguardar. Preservam sua humanidade, abstendo-se de cometer crimes ou profanações. Ainda assim, o devoto paga um preço. No início de qualquer cena de ação, role 1d6. Com um resultado ímpar, você fica fascinado na primeira rodada, perdido em devaneios sobre a futilidade da vida (mesmo que seja imune a esta condição).",
+  "page": 102
 }

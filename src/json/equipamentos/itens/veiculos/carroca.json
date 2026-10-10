@@ -14,7 +14,13 @@
     "capacidade_tamanho": "medio",
     "capacidade_espacos": 80
   },
-  "tracao": ["2 cavalos", "1 trobo"],
-  "inclui": ["arreios"],
-  "description": "Veículo de duas ou quatro rodas, aberto, normalmente usado para transportar cargas pesadas. É puxada por dois cavalos ou um trobo. Inclui os arreios necessários para controlar os animais."
+  "tracao": [
+    "2 cavalos",
+    "1 trobo"
+  ],
+  "inclui": [
+    "arreios"
+  ],
+  "description": "Veículo de duas ou quatro rodas, aberto, normalmente usado para transportar cargas pesadas. É puxada por dois cavalos ou um trobo. Inclui os arreios necessários para controlar os animais.",
+  "page": 169
 }

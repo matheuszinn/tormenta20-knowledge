@@ -17,7 +17,7 @@
       "type": "extra_attack",
       "requirement": [
         {
-          "weapon": "ao_menos_uma_leve" 
+          "weapon": "ao_menos_uma_leve"
         }
       ]
     },
@@ -26,5 +26,6 @@
       "value": -2
     }
   ],
-  "costs": null
+  "costs": null,
+  "page": 143
 }

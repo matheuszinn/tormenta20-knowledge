@@ -8,7 +8,10 @@
     {
       "type": "weapon_type",
       "sub_type": "hard",
-      "weapons": ["arma_corpo_a_corpo_de_uma_mao", "desarmado"]
+      "weapons": [
+        "arma_corpo_a_corpo_de_uma_mao",
+        "desarmado"
+      ]
     },
     {
       "type": "feature",
@@ -25,5 +28,6 @@
       "type": "critic_improvement",
       "value": 1
     }
-  ]
+  ],
+  "page": 134
 }

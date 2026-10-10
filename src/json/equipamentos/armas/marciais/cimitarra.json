@@ -11,7 +11,10 @@
   "alcance": null,
   "tipo_dano": "corte",
   "espacos": 1,
-  "habilidades": ["agil"],
+  "habilidades": [
+    "agil"
+  ],
   "especial": null,
-  "description": "Espada com a lâmina curva e muito afiada. A cimitarra é uma arma ágil."
+  "description": "Espada com a lâmina curva e muito afiada. A cimitarra é uma arma ágil.",
+  "page": 153
 }

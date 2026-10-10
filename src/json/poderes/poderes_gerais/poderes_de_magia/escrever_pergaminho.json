@@ -25,7 +25,11 @@
     {
       "type": "create_item",
       "item": "pergaminho",
-      "create": ["pag_121", "pag_327"]
+      "create": [
+        "pag_121",
+        "pag_327"
+      ]
     }
-  ]
+  ],
+  "page": 137
 }

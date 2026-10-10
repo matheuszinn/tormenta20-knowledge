@@ -15,8 +15,15 @@
   "energy": "qualquer",
   "preferred_weapon": "Katana",
   "devotees": {
-    "races": ["anões"],
-    "classes": ["cavaleiros", "guerreiros", "nobres", "paladinos"]
+    "races": [
+      "anões"
+    ],
+    "classes": [
+      "cavaleiros",
+      "guerreiros",
+      "nobres",
+      "paladinos"
+    ]
   },
   "granted_powers": [
     "coragem_total",
@@ -24,5 +31,6 @@
     "mente_vazia",
     "tradicao_de_lin_wu"
   ],
-  "obligations_restrictions": "Antigas proibições quanto a devotos estrangeiros ou do gênero feminino não mais se aplicam. No entanto, devotos de Lin-Wu ainda devem demonstrar comportamento honrado, jamais recorrendo a mentiras e subterfúgios. Em termos de jogo, são proibidos de tentar qualquer ação que exigiria um teste de Enganação, Furtividade ou Ladinagem."
+  "obligations_restrictions": "Antigas proibições quanto a devotos estrangeiros ou do gênero feminino não mais se aplicam. No entanto, devotos de Lin-Wu ainda devem demonstrar comportamento honrado, jamais recorrendo a mentiras e subterfúgios. Em termos de jogo, são proibidos de tentar qualquer ação que exigiria um teste de Enganação, Furtividade ou Ladinagem.",
+  "page": 103
 }

@@ -26,7 +26,7 @@
       "type": "muda",
       "description": "muda o alcance para toque e o alvo para 1 humanoide",
       "extra_details": {
-       "range": "toque",
+        "range": "toque",
         "target": {
           "amount": 1,
           "up_to": null,
@@ -54,5 +54,6 @@
       "resistence_requirement": null,
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 186
 }

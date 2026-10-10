@@ -1,7 +1,9 @@
 {
   "id": "voz_da_natureza",
   "name": "Voz da Natureza",
-  "deities": ["allihanna"],
+  "deities": [
+    "allihanna"
+  ],
   "description": "Você pode falar com animais (como o efeito da magia Voz Divina) e aprende e pode lançar Acalmar Animal, mas só contra animais. Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
   "effects": {
     "type": "passive",
@@ -14,5 +16,6 @@
       "spell": "Acalmar Animal",
       "reduction": 1
     }
-  }
+  },
+  "page": 142
 }

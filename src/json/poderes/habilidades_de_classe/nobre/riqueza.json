@@ -5,7 +5,7 @@
   "sub_type": "poder_de_nobre",
   "description": "No 2º nível, você passa a receber dinheiro de sua família, patrono ou negócios. Uma vez por aventura, você pode fazer um teste de Carisma com um bônus igual ao seu nível de nobre. Você recebe um número de Tibares de ouro igual ao resultado do teste. Por exemplo, um nobre de 5º nível com Carisma 18 (+4) que role um 13 no dado recebe 22 TO. O uso desta habilidade é condicionado a onde e quando você faz o teste, assim como a relação com sua família, patrono ou negócios. Por exemplo, um nobre viajando pelos ermos, isolado da civilização, dificilmente teria como receber dinheiro.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 2

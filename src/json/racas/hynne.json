@@ -6,9 +6,18 @@
   "movement": 6,
   "vision": "normal",
   "vision_range": null,
-  "attribute_bonuses": { "destreza": 2, "carisma": 1, "forca": -1 },
+  "attribute_bonuses": {
+    "destreza": 2,
+    "carisma": 1,
+    "forca": -1
+  },
   "skill_bonuses": [],
-  "racial_abilities": ["arremessador", "pequeno_e_rechonchudo", "sorte_salvadora"],
+  "racial_abilities": [
+    "arremessador",
+    "pequeno_e_rechonchudo",
+    "sorte_salvadora"
+  ],
   "chosen_abilities_amount": 0,
-  "available_chosen_abilities": []
+  "available_chosen_abilities": [],
+  "page": 33
 }

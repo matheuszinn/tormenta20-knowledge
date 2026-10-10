@@ -6,7 +6,10 @@
   "effects": {
     "social_benefits": {
       "political_influence": true,
-      "benefits": ["leniência pela guarda", "audiência com nobres locais"]
+      "benefits": [
+        "leniência pela guarda",
+        "audiência com nobres locais"
+      ]
     }
   }
 }

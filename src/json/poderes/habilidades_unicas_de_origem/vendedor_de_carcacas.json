@@ -6,7 +6,10 @@
   "effects": {
     "activity_bonus": {
       "activity": "extrair recursos de criaturas",
-      "time_reduction": { "from": "1 hora", "to": "1 minuto" },
+      "time_reduction": {
+        "from": "1 hora",
+        "to": "1 minuto"
+      },
       "test_bonus": 5
     }
   }

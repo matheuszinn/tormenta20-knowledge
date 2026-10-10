@@ -50,21 +50,21 @@
       }
     },
     {
-    "cost": 2,
+      "cost": 2,
       "type": "muda",
       "description": "muda o tipo do dano para essência. Requer 2º círculo.",
       "extra_details": {
         "requirements": "2º círculo"
-    }
-  },
-  {
-    "cost": 5,
+      }
+    },
+    {
+      "cost": 5,
       "type": "invoca",
       "description": "invoca duas armas, permitindo que você contra-ataque (ou ataque, se usar o aprimoramento acima) duas vezes por rodada. Requer 3º círculo.",
       "extra_details": {
         "requirements": "3º círculo"
+      }
     }
-  }
   ],
   "effects": [
     {
@@ -74,5 +74,6 @@
       "resistence_requirement": null,
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 186
 }

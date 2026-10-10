@@ -22,11 +22,11 @@
   ],
   "costs": [
     {
-    "value": 3,
-    "type": "PM"
+      "value": 3,
+      "type": "PM"
     },
     {
-    "type": "acao_completa"
+      "type": "acao_completa"
     }
   ]
 }

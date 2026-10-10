@@ -10,5 +10,6 @@
   "efeito": {
     "sacar_pergaminhos": "acao_livre"
   },
-  "description": "Um estojo de madeira ou couro rígido. Se você estiver vestindo um organizador de pergaminhos, pode sacar pergaminhos como uma ação livre."
+  "description": "Um estojo de madeira ou couro rígido. Se você estiver vestindo um organizador de pergaminhos, pode sacar pergaminhos como uma ação livre.",
+  "page": 161
 }

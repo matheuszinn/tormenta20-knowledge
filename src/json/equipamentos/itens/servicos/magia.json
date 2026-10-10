@@ -19,5 +19,6 @@
       "preco": 360
     }
   ],
-  "description": "Este é o preço para lançar uma magia em uma situação comum. Ou seja, você vai até o conjurador e lançar a magia não oferece risco para ele. Se você pedir ao conjurador para acompanhá-lo numa aventura, a resposta padrão será 'não, obrigado'."
+  "description": "Este é o preço para lançar uma magia em uma situação comum. Ou seja, você vai até o conjurador e lançar a magia não oferece risco para ele. Se você pedir ao conjurador para acompanhá-lo numa aventura, a resposta padrão será 'não, obrigado'.",
+  "page": 169
 }

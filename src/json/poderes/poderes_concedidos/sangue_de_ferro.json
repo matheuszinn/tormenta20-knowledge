@@ -1,7 +1,9 @@
 {
   "id": "sangue_de_ferro",
   "name": "Sangue de Ferro",
-  "deities": ["arsenal"],
+  "deities": [
+    "arsenal"
+  ],
   "description": "Você pode pagar 3 PM para receber +2 em rolagens de dano e redução de dano 5 até o fim da cena.",
   "effects": {
     "type": "active",
@@ -9,5 +11,6 @@
     "duration": "cena",
     "damage_bonus": 2,
     "damage_reduction": 5
-  }
+  },
+  "page": 141
 }

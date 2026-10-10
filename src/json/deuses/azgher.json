@@ -15,8 +15,19 @@
   "energy": "positiva",
   "preferred_weapon": "Cimitarra",
   "devotees": {
-    "races": ["aggelus", "qareen"],
-    "classes": ["arcanistas", "bárbaros", "caçadores", "cavaleiros", "guerreiros", "nobres", "paladinos"]
+    "races": [
+      "aggelus",
+      "qareen"
+    ],
+    "classes": [
+      "arcanistas",
+      "bárbaros",
+      "caçadores",
+      "cavaleiros",
+      "guerreiros",
+      "nobres",
+      "paladinos"
+    ]
   },
   "granted_powers": [
     "espada_solar",
@@ -24,5 +35,6 @@
     "habitante_do_deserto",
     "inimigo_de_tenebra"
   ],
-  "obligations_restrictions": "O devoto de Azgher deve manter o rosto sempre coberto (com uma máscara, capuz ou trapos). Sua face pode ser revelada apenas ao sumo-sacerdote ou em seu funeral. Devotos do Sol também devem doar para a igreja de Azgher 20% de qualquer tesouro obtido. Essa doação deve ser feita em ouro, seja na forma de moedas ou itens."
+  "obligations_restrictions": "O devoto de Azgher deve manter o rosto sempre coberto (com uma máscara, capuz ou trapos). Sua face pode ser revelada apenas ao sumo-sacerdote ou em seu funeral. Devotos do Sol também devem doar para a igreja de Azgher 20% de qualquer tesouro obtido. Essa doação deve ser feita em ouro, seja na forma de moedas ou itens.",
+  "page": 104
 }

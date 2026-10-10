@@ -7,17 +7,39 @@
       "type": "choice",
       "text": "Utensílio de cozinha",
       "options": [
-        { "text": "Rolo de macarrão (mesmas estatísticas de uma clava)" },
-        { "text": "Martelo de carne (mesmas estatísticas de uma clava)" }
+        {
+          "text": "Rolo de macarrão (mesmas estatísticas de uma clava)"
+        },
+        {
+          "text": "Martelo de carne (mesmas estatísticas de uma clava)"
+        }
       ]
     },
-    { "type": "fixed", "text": "Uma panela" },
-    { "type": "fixed", "text": "Um avental" },
-    { "type": "fixed", "text": "Uma caneca e um pano sujo" }
+    {
+      "type": "fixed",
+      "text": "Uma panela"
+    },
+    {
+      "type": "fixed",
+      "text": "Um avental"
+    },
+    {
+      "type": "fixed",
+      "text": "Uma caneca e um pano sujo"
+    }
   ],
   "benefits": {
-    "skills": ["Diplomacia", "Jogatina", "Ofício (cozinheiro)"],
-    "powers": ["Gororoba", "Proficiência", "Vitalidade"]
+    "skills": [
+      "Diplomacia",
+      "Jogatina",
+      "Ofício (cozinheiro)"
+    ],
+    "powers": [
+      "Gororoba",
+      "Proficiência",
+      "Vitalidade"
+    ]
   },
-  "unique_power": "gororoba"
+  "unique_power": "gororoba",
+  "page": 100
 }

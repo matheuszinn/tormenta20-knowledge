@@ -7,7 +7,12 @@
   "effects": {
     "spellcasting_attribute": "carisma",
     "choose_spells": 2,
-    "available_spells": ["criar_ilusao", "enfeiticar", "luz", "sono"],
+    "available_spells": [
+      "criar_ilusao",
+      "enfeiticar",
+      "luz",
+      "sono"
+    ],
     "pm_discount_if_relearned": 1
   }
 }

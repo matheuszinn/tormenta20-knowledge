@@ -26,7 +26,7 @@
       "type": "muda",
       "description": "muda o alvo para 1 cadáver e a duração para 1 semana. O cadáver não se decompõe nem pode ser transformado em morto-vivo pela duração da magia.",
       "extra_details": {
-        "target":{
+        "target": {
           "amount": 1,
           "type": "cadáver"
         },

@@ -5,7 +5,7 @@
   "sub_type": "poder_de_ladino",
   "description": "Quando você causa dano com um ataque furtivo em uma criatura, a criatura perde 1 ponto de mana para cada 1d6 de dano de seu ataque furtivo. Você recebe PM temporários iguais aos PM que a criatura perder. Você só pode usar este poder uma vez por cena contra cada criatura específica.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 7

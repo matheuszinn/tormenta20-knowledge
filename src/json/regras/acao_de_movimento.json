@@ -1,0 +1,33 @@
+{
+  "id": "acao_de_movimento",
+  "name": "Ações de Movimento",
+  "description": "Uma ação de movimento serve para mudar algo de posição — seja você, seja um item.",
+  "sub_rules": [
+    {
+      "id": "levantar_se",
+      "name": "Levantar-se",
+      "description": "Levantar do chão (ou de uma cama, cadeira...) exige uma ação de movimento."
+    },
+    {
+      "id": "manipular_item",
+      "name": "Manipular Item",
+      "description": "Muitas vezes, manipular um item exige uma ação de movimento. Pegar um objeto em uma mochila, abrir ou fechar uma porta e atirar uma corda para alguém são ações de movimento."
+    },
+    {
+      "id": "mirar",
+      "name": "Mirar",
+      "description": "Você mira em um alvo que possa ver, dentro do alcance de sua arma. Isso anula a penalidade de –5 em testes de Pontaria realizados neste turno contra aquele alvo caso ele esteja engajado em combate corpo a corpo."
+    },
+    {
+      "id": "movimentar_se",
+      "name": "Movimentar-se",
+      "description": "Você pode percorrer uma distância igual a seu deslocamento (tipicamente 9m para raças de tamanho Médio). Outros tipos de movimento, como nadar, escalar ou cavalgar, também usam esta ação."
+    },
+    {
+      "id": "sacar_ou_guardar_item",
+      "name": "Sacar ou Guardar Item",
+      "description": "Sacar ou guardar um item exige uma ação de movimento."
+    }
+  ],
+  "page": 240
+}

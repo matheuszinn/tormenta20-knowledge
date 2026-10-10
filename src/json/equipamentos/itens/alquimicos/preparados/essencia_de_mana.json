@@ -12,5 +12,6 @@
   "efeito": {
     "recupera_pm": "1d8+1"
   },
-  "description": "Um destilado azul brilhante. Quando você bebe este líquido, recupera 1d8+1 pontos de mana."
+  "description": "Um destilado azul brilhante. Quando você bebe este líquido, recupera 1d8+1 pontos de mana.",
+  "page": 162
 }

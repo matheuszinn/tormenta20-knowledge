@@ -7,14 +7,27 @@
       "type": "choice",
       "text": "Ferramenta de artista",
       "options": [
-        { "text": "Estojo de disfarces" },
-        { "text": "Instrumento musical (à sua escolha)" }
+        {
+          "text": "Estojo de disfarces"
+        },
+        {
+          "text": "Instrumento musical (à sua escolha)"
+        }
       ]
     }
   ],
   "benefits": {
-    "skills": ["Atuação", "Enganação"],
-    "powers": ["Atraente", "Dom Artístico", "Sortudo", "Torcida"]
+    "skills": [
+      "Atuação",
+      "Enganação"
+    ],
+    "powers": [
+      "Atraente",
+      "Dom Artístico",
+      "Sortudo",
+      "Torcida"
+    ]
   },
-  "unique_power": "dom_artistico"
+  "unique_power": "dom_artistico",
+  "page": 92
 }

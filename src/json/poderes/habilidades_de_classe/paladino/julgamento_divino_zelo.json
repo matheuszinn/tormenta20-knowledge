@@ -14,15 +14,15 @@
   "effects": [
     {
       "type": "displacement_improvement",
-      "value":"dobro",
+      "value": "dobro",
       "duration": "cena",
       "requirements": "se_mover_na_direcao_do_alvo"
     }
   ],
   "costs": [
     {
-    "value": 1,
-    "type": "PM"
+      "value": 1,
+      "type": "PM"
     }
   ]
 }

@@ -12,5 +12,6 @@
   "efeito": {
     "recupera_pv": "2d4"
   },
-  "description": "Uma pasta verde e fedorenta, feita de ervas medicinais. Usá-la é uma ação completa e recupera 2d4 pontos de vida."
+  "description": "Uma pasta verde e fedorenta, feita de ervas medicinais. Usá-la é uma ação completa e recupera 2d4 pontos de vida.",
+  "page": 166
 }

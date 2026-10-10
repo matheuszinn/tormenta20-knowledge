@@ -11,9 +11,12 @@
   "alcance": null,
   "tipo_dano": "corte",
   "espacos": 1,
-  "habilidades": ["adaptavel"],
+  "habilidades": [
+    "adaptavel"
+  ],
   "especial": {
     "uso_marcial_duas_maos": true
   },
-  "description": "Maior e mais pesada que a espada longa, esta arma é tradicionalmente usada pelos cavaleiros de Bielefeld. A espada bastarda é uma arma adaptável. É muito grande para ser usada com uma só mão sem treinamento especial; por isso é uma arma exótica. Ela pode ser usada como uma arma marcial de duas mãos."
+  "description": "Maior e mais pesada que a espada longa, esta arma é tradicionalmente usada pelos cavaleiros de Bielefeld. A espada bastarda é uma arma adaptável. É muito grande para ser usada com uma só mão sem treinamento especial; por isso é uma arma exótica. Ela pode ser usada como uma arma marcial de duas mãos.",
+  "page": 153
 }

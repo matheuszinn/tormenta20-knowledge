@@ -27,7 +27,7 @@
       "description": "aumenta o limite de peso em 100kg.",
       "extra_details": null
     }
-    ],
+  ],
   "effects": [
     {
       "type": "veja_texto",
@@ -36,5 +36,6 @@
       "resistence_requirement": null,
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 214
 }

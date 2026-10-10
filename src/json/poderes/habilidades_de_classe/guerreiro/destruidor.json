@@ -20,7 +20,7 @@
   "effects": [
     {
       "type": "reroll_dice",
-      "requeriment": "tirar_1_ou_2_no_primeiro_daddo"    
+      "requeriment": "tirar_1_ou_2_no_primeiro_daddo"
     }
   ],
   "costs": null

@@ -753,6 +753,32 @@ Notas:
 TEXTO DA CONDIÇÃO:
 """,
         "example": ""
+    },
+    
+    "regras": {
+        "instruction": """Extraia os dados da REGRA a seguir e retorne um JSON válido.
+
+Estrutura esperada:
+{
+  "id": "slug_regra",
+  "name": "Nome da Regra",
+  "description": "Descrição completa da regra principal...",
+  "sub_rules": [
+    {
+      "id": "slug_subregra",
+      "name": "Nome da Sub-Regra",
+      "description": "Descrição detalhada..."
+    }
+  ]
+}
+
+Notas:
+- Se houver várias regras menores na página, extraia a regra que faz sentido com o nome solicitado.
+- Se houver manobras de combate, coloque-as em sub_rules.
+
+TEXTO DA REGRA:
+""",
+        "example": ""
     }
 }
 

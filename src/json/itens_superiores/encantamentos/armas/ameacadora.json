@@ -6,5 +6,6 @@
   "efeito": {
     "descricao_curta": "Margem de ameaça duplica"
   },
-  "description": "A margem de ameaça da arma duplica. Efeitos que duplicam a margem de ameaça são aplicados antes de quaisquer efeitos que a aumentem."
+  "description": "A margem de ameaça da arma duplica. Efeitos que duplicam a margem de ameaça são aplicados antes de quaisquer efeitos que a aumentem.",
+  "page": 342
 }

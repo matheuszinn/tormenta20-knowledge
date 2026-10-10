@@ -17,8 +17,8 @@
   ],
   "costs": [
     {
-    "value": "a_sua_escolha_limitado_pelo_bonus_de_sabedoria",
-    "type": "PM"
+      "value": "a_sua_escolha_limitado_pelo_bonus_de_sabedoria",
+      "type": "PM"
     },
     {
       "type": "action_completa"

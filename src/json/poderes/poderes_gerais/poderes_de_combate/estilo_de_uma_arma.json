@@ -8,7 +8,10 @@
     {
       "type": "weapon_type",
       "sub_type": "soft",
-      "weapons": ["corpo_a_corpo", "desarmado"]
+      "weapons": [
+        "corpo_a_corpo",
+        "desarmado"
+      ]
     },
     {
       "type": "expertise",
@@ -30,5 +33,6 @@
       "value": 2,
       "duration": "permanente"
     }
-  ]
+  ],
+  "page": 134
 }

@@ -6,9 +6,9 @@
   "description": "Você recebe um item a sua escolha com preço de até T$ 2.000.",
   "requirements": [
     {
-     "type": "character_lvl",
-     "sub_type": "hard",
-     "value": 1
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 1
     }
   ],
   "effects": "ver_texto",

@@ -11,8 +11,8 @@
       "requirement": "estar_em_alcance_medio_de_um_lago_ou_rio",
       "costs": [
         {
-        "value": 1,
-        "type": "PM"
+          "value": 1,
+          "type": "PM"
         }
       ]
     },

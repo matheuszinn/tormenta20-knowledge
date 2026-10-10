@@ -4,7 +4,7 @@
   "type": "habilidade_de_classe",
   "sub_type": "poder_de_barbaro",
   "description": "Você pode gastar 1 PM para aumentar seu deslocamento em +6m por uma rodada.",
-  "requirements":null,
+  "requirements": null,
   "effects": [
     {
       "type": "displacement_improvement",
@@ -14,8 +14,8 @@
   ],
   "costs": [
     {
-    "value": 1,
-    "type": "PM"
+      "value": 1,
+      "type": "PM"
     }
   ]
 }

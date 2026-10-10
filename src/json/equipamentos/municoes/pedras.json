@@ -5,7 +5,9 @@
   "preco": 0.5,
   "quantidade": 20,
   "espacos": 1,
-  "armas_compativeis": ["funda"],
+  "armas_compativeis": [
+    "funda"
+  ],
   "especial": {
     "recarregar": "acao_movimento",
     "improvisada_dano_reduzido": true

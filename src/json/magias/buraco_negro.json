@@ -42,8 +42,9 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement":"fortitude",
+      "resistence_requirement": "fortitude",
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 188
 }

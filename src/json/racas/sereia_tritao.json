@@ -8,7 +8,12 @@
   "vision_range": null,
   "attribute_bonuses": {},
   "skill_bonuses": [],
-  "racial_abilities": ["cancao_dos_mares", "mestre_do_tridente", "transformacao_anfibia"],
+  "racial_abilities": [
+    "cancao_dos_mares",
+    "mestre_do_tridente",
+    "transformacao_anfibia"
+  ],
   "chosen_abilities_amount": 0,
-  "available_chosen_abilities": []
+  "available_chosen_abilities": [],
+  "page": 35
 }

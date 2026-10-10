@@ -8,5 +8,6 @@
   "description": "Você recebe Cura Acelerada 5 (somente após um dia de uso).",
   "efeito": {
     "cura_acelerada": 5
-  }
+  },
+  "page": 348
 }

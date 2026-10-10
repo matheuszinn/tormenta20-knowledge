@@ -8,5 +8,6 @@
     "bonus_dano": 2,
     "descricao_curta": "+2 ataque e +2 dano"
   },
-  "description": "A arma é encantada para desferir golpes precisos. Ela fornece +2 em testes de ataque e rolagens de dano."
+  "description": "A arma é encantada para desferir golpes precisos. Ela fornece +2 em testes de ataque e rolagens de dano.",
+  "page": 342
 }

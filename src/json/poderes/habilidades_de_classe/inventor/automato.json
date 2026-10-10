@@ -5,6 +5,6 @@
   "sub_type": "poder_de_inventor",
   "description": "Você fabrica um autômato, uma criatura mecânica que obedece a seus comandos. Ele um aliado Iniciante de um tipo a sua escolha entre ajudante, assassino, atirador, combatente, guardião, montaria ou vigilante. No 7º nível, ele muda para Veterano e, no 15º nível, para Mestre. Se o autômato for destruído, você pode fabricar um novo com uma semana de trabalho e T$ 100.",
   "requirements": null,
-  "effects":"ver_texto",
+  "effects": "ver_texto",
   "costs": null
 }

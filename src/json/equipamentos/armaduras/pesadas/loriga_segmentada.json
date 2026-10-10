@@ -13,5 +13,6 @@
   },
   "vestir_remover": "5_minutos",
   "dormir_fatigado": true,
-  "description": "Composta por tiras horizontais de metal, esta armadura pesada é muito utilizada por legionários do Império de Tauron."
+  "description": "Composta por tiras horizontais de metal, esta armadura pesada é muito utilizada por legionários do Império de Tauron.",
+  "page": 160
 }

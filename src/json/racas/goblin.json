@@ -6,9 +6,19 @@
   "movement": 9,
   "vision": "visao_no_escuro",
   "vision_range": null,
-  "attribute_bonuses": { "destreza": 2, "inteligencia": 1, "carisma": -1 },
+  "attribute_bonuses": {
+    "destreza": 2,
+    "inteligencia": 1,
+    "carisma": -1
+  },
   "skill_bonuses": [],
-  "racial_abilities": ["engenhoso", "espelunqueiro", "peste_esguia", "rato_das_ruas"],
+  "racial_abilities": [
+    "engenhoso",
+    "espelunqueiro",
+    "peste_esguia",
+    "rato_das_ruas"
+  ],
   "chosen_abilities_amount": 0,
-  "available_chosen_abilities": []
+  "available_chosen_abilities": [],
+  "page": 29
 }

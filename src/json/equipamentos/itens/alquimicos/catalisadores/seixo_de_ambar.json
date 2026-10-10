@@ -14,5 +14,6 @@
     "reducao_custo_pm": 1,
     "escola": "transmutação"
   },
-  "description": "Essa 'gema' feita de seiva de árvore fossilizada diminui o custo de magias de transmutação em –1 PM."
+  "description": "Essa 'gema' feita de seiva de árvore fossilizada diminui o custo de magias de transmutação em –1 PM.",
+  "page": 163
 }

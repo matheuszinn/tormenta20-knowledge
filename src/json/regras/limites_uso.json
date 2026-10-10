@@ -17,6 +17,8 @@
       "vestir": "acao_movimento",
       "despir": "acao_movimento"
     },
-    "excecoes": ["roupas sem benefício mecânico não contam"]
+    "excecoes": [
+      "roupas sem benefício mecânico não contam"
+    ]
   }
 }

@@ -5,7 +5,7 @@
   "sub_type": "poder_de_inventor",
   "description": "No 20º nível, você fabrica sua obra-prima, aquela pela qual seu nome será lembrado em eras futuras. Você é livre para criar as regras do item, mas ele deve ser aprovado pelo mestre. Como linha geral, ele pode ter os benefícios de um item superior com seis modificações e de um item mágico maior. Considera-se que você estava trabalhando no item e você não gasta dinheiro, tempo ou PM nele.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 20

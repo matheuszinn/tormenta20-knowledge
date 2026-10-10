@@ -9,5 +9,6 @@
     "Pode sofrer golpe de misericórdia"
   ],
   "condition_type": null,
-  "escalates_to": null
+  "escalates_to": null,
+  "page": 401
 }

@@ -13,14 +13,17 @@
       "requirement": "inimigo_agarrado",
       "costs": [
         {
-        "value": 1,
-        "type": "PM"
+          "value": 1,
+          "type": "PM"
         }
       ]
     },
     {
       "type": "manouver_test_improvement",
-      "manouver": ["derrubar", "agarrar"],
+      "manouver": [
+        "derrubar",
+        "agarrar"
+      ],
       "value": 2
     }
   ],

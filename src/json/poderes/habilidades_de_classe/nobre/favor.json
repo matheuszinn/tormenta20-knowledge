@@ -8,8 +8,9 @@
   "effects": "ver_texto",
   "costs": [
     {
-    "value": 5,
-    "type": "PM"
+      "value": 5,
+      "type": "PM"
     }
-  ]
+  ],
+  "page": 137
 }

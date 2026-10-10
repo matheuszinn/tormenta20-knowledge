@@ -6,5 +6,6 @@
   "description": "Você se torna devoto de uma divindade disponível para druidas (Allihanna, Megalokk ou Oceano). Você deve obedecer às Obrigações & Restrições de seu deus, mas, em troca, ganha os Poderes Concedidos dele. O nome desta habilidade muda de acordo com a divindade escolhida: Devoto de Allihanna, Devoto de Megalokk ou Devoto de Oceano.",
   "requirements": "ver_texto",
   "effects": "ver_texto",
-  "costs": null
+  "costs": null,
+  "page": 133
 }

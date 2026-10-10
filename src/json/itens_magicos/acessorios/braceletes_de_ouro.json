@@ -9,5 +9,6 @@
   "efeito": {
     "bonus_defesa": 8,
     "bonus_defesa_nao_acumula_armadura": true
-  }
+  },
+  "page": 348
 }

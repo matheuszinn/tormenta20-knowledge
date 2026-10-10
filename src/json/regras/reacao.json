@@ -1,0 +1,13 @@
+{
+  "id": "reacao",
+  "name": "Reações",
+  "description": "Uma reação acontece em resposta a outra coisa. Como ações livres, reações tomam tão pouco tempo que você pode realizar qualquer quantidade delas. A diferença é que uma ação livre é uma escolha consciente, executada no turno do personagem. Já uma reação é um reflexo ou uma resposta automática, que pode ocorrer mesmo fora do seu turno. Você pode reagir mesmo se não puder realizar ações normais, como quando estiver atordoado. Um teste de Percepção para perceber um troll escondido no pântano, ou um teste de Reflexos para escapar de uma explosão, são exemplos de reações.",
+  "sub_rules": [
+    {
+      "id": "ataque_de_oportunidade",
+      "name": "Ataque de Oportunidade",
+      "description": "Quando uma criatura em seu alcance natural executa certas ações descuidadas, você pode fazer um ataque corpo a corpo contra ela como uma reação. As ações que provocam ataque de oportunidade incluem: fazer um ataque à distância, lançar uma magia, mover-se para fora do alcance natural de um inimigo e levantar-se do chão."
+    }
+  ],
+  "page": 239
+}

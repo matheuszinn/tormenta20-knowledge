@@ -5,7 +5,7 @@
   "sub_type": "poder_de_barbaro",
   "description": "O bônus de Pele de Ferro aumenta para +5.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "soft",
       "value": 8

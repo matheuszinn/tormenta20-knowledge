@@ -13,8 +13,16 @@
   "energy": "positiva",
   "preferred_weapon": "Espada longa",
   "devotees": {
-    "races": ["aggelus"],
-    "classes": ["cavaleiros", "guerreiros", "inventores", "lutadores", "paladinos"]
+    "races": [
+      "aggelus"
+    ],
+    "classes": [
+      "cavaleiros",
+      "guerreiros",
+      "inventores",
+      "lutadores",
+      "paladinos"
+    ]
   },
   "granted_powers": [
     "ataque_piedoso",
@@ -22,5 +30,6 @@
     "dom_da_profecia",
     "dom_da_ressurreicao"
   ],
-  "obligations_restrictions": "Devotos de Thyatis são proibidos de matar criaturas inteligentes (Int –3 ou maior). Podem atacar e causar dano, mas jamais levar à morte. Por esse motivo, devotos de Thyatis preferem armas e ataques que apenas incapacitam seus oponentes ou causam dano não letal."
+  "obligations_restrictions": "Devotos de Thyatis são proibidos de matar criaturas inteligentes (Int –3 ou maior). Podem atacar e causar dano, mas jamais levar à morte. Por esse motivo, devotos de Thyatis preferem armas e ataques que apenas incapacitam seus oponentes ou causam dano não letal.",
+  "page": 110
 }

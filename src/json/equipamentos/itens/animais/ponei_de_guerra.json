@@ -8,11 +8,14 @@
   "parceiro": {
     "tipo": "montaria",
     "nivel": "iniciante",
-    "tamanhos_cavaleiro": ["pequeno"]
+    "tamanhos_cavaleiro": [
+      "pequeno"
+    ]
   },
   "combate": {
     "teste_cavalgar": null,
     "motivo": "Pôneis de guerra dispensam teste de Cavalgar em combate"
   },
-  "description": "Pônei treinado para combate, adequado para criaturas Pequenas. Pôneis de guerra dispensam o teste de Cavalgar para permanecer montado durante um combate."
+  "description": "Pônei treinado para combate, adequado para criaturas Pequenas. Pôneis de guerra dispensam o teste de Cavalgar para permanecer montado durante um combate.",
+  "page": 163
 }

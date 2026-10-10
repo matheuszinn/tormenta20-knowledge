@@ -14,5 +14,6 @@
     "capacidade_tamanho": "medio",
     "capacidade_espacos": 80
   },
-  "description": "Construída a partir de um único tronco de árvore, é a mais simples das embarcações. Tem as mesmas estatísticas de uma carroça, mas com deslocamento de natação."
+  "description": "Construída a partir de um único tronco de árvore, é a mais simples das embarcações. Tem as mesmas estatísticas de uma carroça, mas com deslocamento de natação.",
+  "page": 169
 }

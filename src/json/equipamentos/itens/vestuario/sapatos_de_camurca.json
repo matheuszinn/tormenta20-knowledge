@@ -10,5 +10,6 @@
   "efeito": {
     "bonus_acrobacia": 1
   },
-  "description": "Leves e resistentes, aprimoram o equilíbrio e a firmeza dos pés, fornecendo +1 em Acrobacia."
+  "description": "Leves e resistentes, aprimoram o equilíbrio e a firmeza dos pés, fornecendo +1 em Acrobacia.",
+  "page": 165
 }

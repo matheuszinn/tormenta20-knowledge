@@ -9,5 +9,6 @@
   "roll_min": 90,
   "roll_max": 92,
   "aprimoramento": "duração cena",
-  "description": "Poção que gera o efeito da magia Invisibilidade com aprimoramento para duração cena."
+  "description": "Poção que gera o efeito da magia Invisibilidade com aprimoramento para duração cena.",
+  "page": 347
 }

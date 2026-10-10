@@ -6,9 +6,18 @@
   "movement": 9,
   "vision": "baixa_luminosidade",
   "vision_range": null,
-  "attribute_bonuses": { "carisma": 2, "destreza": 1, "forca": -2 },
+  "attribute_bonuses": {
+    "carisma": 2,
+    "destreza": 1,
+    "forca": -2
+  },
   "skill_bonuses": [],
-  "racial_abilities": ["asas_de_borboleta", "espirito_da_natureza", "magia_das_fadas"],
+  "racial_abilities": [
+    "asas_de_borboleta",
+    "espirito_da_natureza",
+    "magia_das_fadas"
+  ],
   "chosen_abilities_amount": 0,
-  "available_chosen_abilities": []
+  "available_chosen_abilities": [],
+  "page": 36
 }

@@ -31,10 +31,10 @@
       "extra_details": {
         "effect": "area",
         "effect_details": {
-        "shape": "cones",
-        "dimention": "extenção",
-        "size": "4,5m",
-        "other_details": null
+          "shape": "cones",
+          "dimention": "extenção",
+          "size": "4,5m",
+          "other_details": null
         }
       }
     },
@@ -53,5 +53,6 @@
       "resistence_requirement": "vontade",
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 185
 }

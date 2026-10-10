@@ -5,11 +5,24 @@
   "effects": {
     "type": "passive",
     "skill_bonuses": [
-      {"skill": "Acrobacia", "base": 1, "scaling": "+1 por cada 2 outros poderes da Tormenta"},
-      {"skill": "Furtividade", "base": 1, "scaling": "+1 por cada 2 outros poderes da Tormenta"}
+      {
+        "skill": "Acrobacia",
+        "base": 1,
+        "scaling": "+1 por cada 2 outros poderes da Tormenta"
+      },
+      {
+        "skill": "Furtividade",
+        "base": 1,
+        "scaling": "+1 por cada 2 outros poderes da Tormenta"
+      }
     ],
     "save_bonuses": [
-      {"save": "Reflexos", "base": 1, "scaling": "+1 por cada 2 outros poderes da Tormenta"}
+      {
+        "save": "Reflexos",
+        "base": 1,
+        "scaling": "+1 por cada 2 outros poderes da Tormenta"
+      }
     ]
-  }
+  },
+  "page": 142
 }

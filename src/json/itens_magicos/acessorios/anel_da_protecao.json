@@ -8,5 +8,6 @@
   "description": "Este anel desvia ataques contra seu usuário. Você recebe +2 de Defesa.",
   "efeito": {
     "bonus_defesa": 2
-  }
+  },
+  "page": 348
 }

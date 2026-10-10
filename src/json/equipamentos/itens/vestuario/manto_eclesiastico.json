@@ -10,5 +10,6 @@
   "efeito": {
     "bonus_religiao": 1
   },
-  "description": "Um manto típico de igrejas e templos. Fornece +1 em Religião."
+  "description": "Um manto típico de igrejas e templos. Fornece +1 em Religião.",
+  "page": 165
 }

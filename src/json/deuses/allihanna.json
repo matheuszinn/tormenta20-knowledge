@@ -13,8 +13,16 @@
   "energy": "positiva",
   "preferred_weapon": "Bordão",
   "devotees": {
-    "races": ["dahllan", "elfos", "sílfides"],
-    "classes": ["bárbaros", "caçadores", "druidas"]
+    "races": [
+      "dahllan",
+      "elfos",
+      "sílfides"
+    ],
+    "classes": [
+      "bárbaros",
+      "caçadores",
+      "druidas"
+    ]
   },
   "granted_powers": [
     "compreender_os_ermos",
@@ -22,5 +30,6 @@
     "descanso_natural",
     "voz_da_natureza"
   ],
-  "obligations_restrictions": "Devotos de Allihanna não podem usar armaduras e escudos feitos de metal. Assim, você só pode usar armadura acolchoada, de couro, gibão de peles e escudo leve, ou itens feitos de materiais especiais não metálicos. Devotos de Allihanna não podem descansar em nenhuma comunidade maior que uma aldeia (não perdem seus poderes, mas também não recuperam pontos de vida ou mana). Por isso, sempre preferem o relento a um quarto de estalagem."
+  "obligations_restrictions": "Devotos de Allihanna não podem usar armaduras e escudos feitos de metal. Assim, você só pode usar armadura acolchoada, de couro, gibão de peles e escudo leve, ou itens feitos de materiais especiais não metálicos. Devotos de Allihanna não podem descansar em nenhuma comunidade maior que uma aldeia (não perdem seus poderes, mas também não recuperam pontos de vida ou mana). Por isso, sempre preferem o relento a um quarto de estalagem.",
+  "page": 103
 }

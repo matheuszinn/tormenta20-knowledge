@@ -5,7 +5,7 @@
   "sub_type": "poder_de_ladino",
   "description": "No 4º nível, seus instintos ficam tão apurados que você consegue reagir ao perigo antes que seus sentidos percebam. Você nunca fica surpreendido.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 4

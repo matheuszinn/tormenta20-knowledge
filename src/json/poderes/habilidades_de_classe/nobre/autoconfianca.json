@@ -5,7 +5,7 @@
   "sub_type": "poder_de_nobre",
   "description": "Você pode somar seu bônus de Carisma em vez de Destreza na Defesa (mas continua não podendo somar um bônus de atributo na Defesa quando usa armadura pesada).",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 1
@@ -27,5 +27,6 @@
       "attr": "car"
     }
   ],
-  "costs": null
+  "costs": null,
+  "page": 135
 }

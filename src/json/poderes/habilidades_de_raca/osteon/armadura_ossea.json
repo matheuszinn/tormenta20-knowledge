@@ -5,6 +5,10 @@
   "race": "osteon",
   "description": "Você recebe redução de corte, frio e perfuração 5.",
   "effects": {
-    "damage_reduction": { "corte": 5, "frio": 5, "perfuracao": 5 }
+    "damage_reduction": {
+      "corte": 5,
+      "frio": 5,
+      "perfuracao": 5
+    }
   }
 }

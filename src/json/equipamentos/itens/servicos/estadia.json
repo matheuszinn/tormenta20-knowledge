@@ -4,7 +4,9 @@
   "type": "servico",
   "categoria": "servico",
   "periodo": "noite",
-  "inclui": ["refeicao_comum"],
+  "inclui": [
+    "refeicao_comum"
+  ],
   "opcoes": [
     {
       "id": "comum",
@@ -38,5 +40,6 @@
       "description": "Um quarto grande, com colchão de algodão ou penas, cortinas nas janelas, uma bacia de água quente para banho e outros luxos. A refeição inclui carne, frutas, doces e uma taça de vinho de boa safra. Acomodações desta categoria estão disponíveis apenas nas melhores estalagens, normalmente apenas em cidades e metrópoles."
     }
   ],
-  "description": "Hospedagem em estalagem ou taverna. Os preços são por noite, incluem uma refeição comum e determinam sua recuperação de PV e PM."
+  "description": "Hospedagem em estalagem ou taverna. Os preços são por noite, incluem uma refeição comum e determinam sua recuperação de PV e PM.",
+  "page": 163
 }

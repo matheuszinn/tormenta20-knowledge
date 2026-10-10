@@ -13,5 +13,6 @@
   "efeito": {
     "dado_dano_extra": "mesmo tipo da magia"
   },
-  "description": "Uma flor comum em regiões montanhosas, especialmente nas Sanguinárias, possui formato parecido com uma presa de monstro. Suas propriedades místicas aumentam o dano de magias em um dado do mesmo tipo."
+  "description": "Uma flor comum em regiões montanhosas, especialmente nas Sanguinárias, possui formato parecido com uma presa de monstro. Suas propriedades místicas aumentam o dano de magias em um dado do mesmo tipo.",
+  "page": 162
 }

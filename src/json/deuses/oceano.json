@@ -13,8 +13,19 @@
   "energy": "qualquer",
   "preferred_weapon": "Tridente",
   "devotees": {
-    "races": ["dahllan", "hynne", "minotauros", "sereias", "tritões"],
-    "classes": ["bárbaros", "bucaneiros", "caçadores", "druidas"]
+    "races": [
+      "dahllan",
+      "hynne",
+      "minotauros",
+      "sereias",
+      "tritões"
+    ],
+    "classes": [
+      "bárbaros",
+      "bucaneiros",
+      "caçadores",
+      "druidas"
+    ]
   },
   "granted_powers": [
     "anfibio",
@@ -22,5 +33,6 @@
     "mestre_dos_mares",
     "sopro_do_mar"
   ],
-  "obligations_restrictions": "As únicas armas permitidas para devotos do Oceano são a azagaia, a lança, o tridente e a rede. Podem usar apenas armaduras leves. O devoto também não pode se manter afastado do oceano por mais de um mês."
+  "obligations_restrictions": "As únicas armas permitidas para devotos do Oceano são a azagaia, a lança, o tridente e a rede. Podem usar apenas armaduras leves. O devoto também não pode se manter afastado do oceano por mais de um mês.",
+  "page": 103
 }

@@ -11,7 +11,11 @@
   "efeito": {
     "aumento_bonus": 1,
     "tipo_magia": "arcana pessoal",
-    "bonus_afetados": ["Defesa", "testes de resistência"]
+    "bonus_afetados": [
+      "Defesa",
+      "testes de resistência"
+    ]
   },
-  "description": "Um conjunto de dedais interligados por correntes. Suas magias arcanas pessoais que concedem bônus na Defesa ou em testes de resistências têm esse bônus aumentado em +1."
+  "description": "Um conjunto de dedais interligados por correntes. Suas magias arcanas pessoais que concedem bônus na Defesa ou em testes de resistências têm esse bônus aumentado em +1.",
+  "page": 162
 }

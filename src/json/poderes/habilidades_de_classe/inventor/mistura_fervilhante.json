@@ -5,7 +5,7 @@
   "sub_type": "poder_de_inventor",
   "description": "Quando usa um item alquímico ou poção, você pode gastar 2 PM para dobrar a área de efeito dele.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 5
@@ -13,7 +13,10 @@
     {
       "type": "item_type",
       "sub_type": "soft",
-      "weapon": ["pocao", "alquimico"]
+      "weapon": [
+        "pocao",
+        "alquimico"
+      ]
     },
     {
       "type": "feature",
@@ -29,8 +32,8 @@
   ],
   "costs": [
     {
-    "value": 2,
-    "type": "PM"
+      "value": 2,
+      "type": "PM"
     }
   ]
 }

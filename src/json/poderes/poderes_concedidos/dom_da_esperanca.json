@@ -1,7 +1,9 @@
 {
   "id": "dom_da_esperanca",
   "name": "Dom da Esperança",
-  "deities": ["marah"],
+  "deities": [
+    "marah"
+  ],
   "description": "Você soma sua Sabedoria em seus PV em vez de Constituição, e se torna imune às condições alquebrado, esmorecido e frustrado.",
   "effects": {
     "type": "passive",
@@ -10,6 +12,11 @@
       "original": "Constituição",
       "new": "Sabedoria"
     },
-    "immunities": ["alquebrado", "esmorecido", "frustrado"]
-  }
+    "immunities": [
+      "alquebrado",
+      "esmorecido",
+      "frustrado"
+    ]
+  },
+  "page": 139
 }

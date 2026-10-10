@@ -1,7 +1,9 @@
 {
   "id": "espada_solar",
   "name": "Espada Solar",
-  "deities": ["azgher"],
+  "deities": [
+    "azgher"
+  ],
   "description": "Você pode gastar 1 PM para fazer uma arma corpo a corpo de corte que esteja empunhando causar +1d6 de dano por fogo até o fim da cena.",
   "effects": {
     "type": "active",
@@ -12,5 +14,6 @@
       "type": "fogo"
     },
     "duration": "cena"
-  }
+  },
+  "page": 139
 }

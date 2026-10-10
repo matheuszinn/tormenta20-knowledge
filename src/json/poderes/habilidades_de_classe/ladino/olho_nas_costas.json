@@ -5,12 +5,12 @@
   "sub_type": "poder_de_ladino",
   "description": "A partir do 8º nível, você consegue lutar contra diversos inimigos como se fossem apenas um. Você não pode ser flanqueado.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 8
     }
   ],
-  "effects":"ver_texto",
+  "effects": "ver_texto",
   "costs": null
 }

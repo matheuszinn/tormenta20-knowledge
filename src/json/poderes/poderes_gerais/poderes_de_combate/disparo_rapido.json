@@ -19,7 +19,10 @@
     {
       "type": "feature",
       "sub_type": "hard",
-      "id": ["estilo_de_disparo", "estilo_de_arremeso"]
+      "id": [
+        "estilo_de_disparo",
+        "estilo_de_arremeso"
+      ]
     }
   ],
   "effects": [
@@ -40,8 +43,8 @@
   ],
   "costs": [
     {
-    "value": 1,
-    "type": "acao_completa"
+      "value": 1,
+      "type": "acao_completa"
     }
   ]
 }

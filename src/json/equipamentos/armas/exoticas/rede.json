@@ -30,12 +30,19 @@
     "escapar": {
       "acao": "completa",
       "testes": [
-        { "pericia": "Força", "cd": 25 },
-        { "pericia": "Acrobacia", "cd": 20 }
+        {
+          "pericia": "Força",
+          "cd": 25
+        },
+        {
+          "pericia": "Acrobacia",
+          "cd": 20
+        }
       ]
     },
     "pv_rede": 5,
     "tamanho_maximo_alvo": "+1_categoria"
   },
-  "description": "A rede tem pequenos dentes em sua trama e uma corda para controlar os inimigos presos. Se você acertar um ataque com a rede, não causa dano. Em vez disso, a vítima fica enredada (deslocamento reduzido à metade, não pode correr nem fazer investidas e sofre –2 na Defesa e em testes de ataque). Enquanto você estiver segurando a corda, sempre que a vítima se mover você pode fazer um teste de Força oposto contra ela como uma reação. Se você vencer, a vítima só pode se mover até o limite da corda (alcance curto). A vítima pode se soltar com uma ação completa e um teste de Força contra CD 25 ou Acrobacia contra CD 20. A rede tem 5 pontos de vida e, se rasgar, qualquer criatura enredada se solta automaticamente. A rede só pode ser usada contra criaturas no máximo uma categoria de tamanho maior que você."
+  "description": "A rede tem pequenos dentes em sua trama e uma corda para controlar os inimigos presos. Se você acertar um ataque com a rede, não causa dano. Em vez disso, a vítima fica enredada (deslocamento reduzido à metade, não pode correr nem fazer investidas e sofre –2 na Defesa e em testes de ataque). Enquanto você estiver segurando a corda, sempre que a vítima se mover você pode fazer um teste de Força oposto contra ela como uma reação. Se você vencer, a vítima só pode se mover até o limite da corda (alcance curto). A vítima pode se soltar com uma ação completa e um teste de Força contra CD 25 ou Acrobacia contra CD 20. A rede tem 5 pontos de vida e, se rasgar, qualquer criatura enredada se solta automaticamente. A rede só pode ser usada contra criaturas no máximo uma categoria de tamanho maior que você.",
+  "page": 156
 }

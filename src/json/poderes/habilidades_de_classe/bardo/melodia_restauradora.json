@@ -14,13 +14,25 @@
   "effects": [
     {
       "type": "remove_codition",
-      "codition": ["abalado", "apavorado", "alquebrado", "atordoado", "cego", "confuso", "esmorecido", "exausto", "fatigado", "frustrado", "surdo"]
+      "codition": [
+        "abalado",
+        "apavorado",
+        "alquebrado",
+        "atordoado",
+        "cego",
+        "confuso",
+        "esmorecido",
+        "exausto",
+        "fatigado",
+        "frustrado",
+        "surdo"
+      ]
     }
   ],
   "costs": [
     {
-    "value": 2,
-    "type": "PM"
+      "value": 2,
+      "type": "PM"
     }
   ]
 }

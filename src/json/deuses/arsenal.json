@@ -15,8 +15,16 @@
   "energy": "qualquer",
   "preferred_weapon": "Martelo de guerra",
   "devotees": {
-    "races": ["anões", "minotauros"],
-    "classes": ["bárbaros", "cavaleiros", "guerreiros", "lutadores"]
+    "races": [
+      "anões",
+      "minotauros"
+    ],
+    "classes": [
+      "bárbaros",
+      "cavaleiros",
+      "guerreiros",
+      "lutadores"
+    ]
   },
   "granted_powers": [
     "conjurar_arma",
@@ -24,5 +32,6 @@
     "fe_guerreira",
     "sangue_de_ferro"
   ],
-  "obligations_restrictions": "Um devoto de Arsenal é proibido de ser derrotado em qualquer tipo de combate ou disputa (como um teste oposto para ver quem é mais forte). Caso seu grupo seja derrotado, isso também constitui uma violação das obrigações."
+  "obligations_restrictions": "Um devoto de Arsenal é proibido de ser derrotado em qualquer tipo de combate ou disputa (como um teste oposto para ver quem é mais forte). Caso seu grupo seja derrotado, isso também constitui uma violação das obrigações.",
+  "page": 103
 }

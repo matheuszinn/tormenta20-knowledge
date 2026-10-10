@@ -18,7 +18,10 @@
     },
     {
       "type": "manouver_improvement",
-      "manouver": ["derrubar", "empurrar"],
+      "manouver": [
+        "derrubar",
+        "empurrar"
+      ],
       "action": "livre"
     },
     {

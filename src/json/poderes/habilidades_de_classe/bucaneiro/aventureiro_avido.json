@@ -8,13 +8,17 @@
   "effects": [
     {
       "type": "extra_accion",
-      "action": ["padrao", "movimento"]
+      "action": [
+        "padrao",
+        "movimento"
+      ]
     }
   ],
   "costs": [
     {
-    "value": 5,
-    "type": "PM"
+      "value": 5,
+      "type": "PM"
     }
-  ]
+  ],
+  "page": 137
 }

@@ -5,7 +5,7 @@
   "sub_type": "poder_de_druida",
   "description": "Você pode lançar magias em forma selvagem.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 8

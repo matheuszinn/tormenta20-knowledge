@@ -1,11 +1,16 @@
 {
   "id": "teurgista_mistico",
   "name": "Teurgista Místico",
-  "deities": ["wynna"],
+  "deities": [
+    "wynna"
+  ],
   "description": "Até uma magia de cada círculo que você aprender poderá ser escolhida entre magias divinas (se você for um conjurador arcano) ou entre magias arcanas (se for um conjurador divino).",
-  "prerequisites": ["habilidade de classe Magias"],
+  "prerequisites": [
+    "habilidade de classe Magias"
+  ],
   "effects": {
     "type": "passive",
     "benefit": "pode escolher uma magia de cada círculo da lista oposta (arcana se for divino, divina se for arcano)"
-  }
+  },
+  "page": 133
 }

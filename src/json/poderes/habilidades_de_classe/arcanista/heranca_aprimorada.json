@@ -5,7 +5,7 @@
   "sub_type": "poder_de_arcanista",
   "description": "Você recebe a herança aprimorada de sua linhagem sobrenatural.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "soft",
       "value": 6

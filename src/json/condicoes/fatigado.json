@@ -8,5 +8,6 @@
     "Se ficar fatigado novamente → fica exausto"
   ],
   "condition_type": "cansaco",
-  "escalates_to": "exausto"
+  "escalates_to": "exausto",
+  "page": 401
 }

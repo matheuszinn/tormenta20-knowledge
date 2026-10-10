@@ -8,7 +8,10 @@
     {
       "type": "expertise",
       "sub_type": "hard",
-      "skill": ["misticismo", "religiao"]
+      "skill": [
+        "misticismo",
+        "religiao"
+      ]
     },
     {
       "type": "character_lvl",
@@ -37,8 +40,9 @@
   ],
   "costs": [
     {
-    "value": 10,
-    "type": "tibares_por_PM_do_custo_total"
+      "value": 10,
+      "type": "tibares_por_PM_do_custo_total"
     }
-  ]
+  ],
+  "page": 137
 }

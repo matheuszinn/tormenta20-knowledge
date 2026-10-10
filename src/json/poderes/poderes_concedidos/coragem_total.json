@@ -1,11 +1,19 @@
 {
   "id": "coragem_total",
   "name": "Coragem Total",
-  "deities": ["arsenal", "khalmyr", "lin_wu", "valkaria"],
+  "deities": [
+    "arsenal",
+    "khalmyr",
+    "lin_wu",
+    "valkaria"
+  ],
   "description": "Você é imune a efeitos de medo, mágicos ou não. Este poder não elimina fobias raciais (como o medo de altura dos minotauros).",
   "effects": {
     "type": "passive",
-    "immunities": ["medo"],
+    "immunities": [
+      "medo"
+    ],
     "exception": "não elimina fobias raciais"
-  }
+  },
+  "page": 139
 }

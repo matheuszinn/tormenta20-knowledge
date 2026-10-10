@@ -6,5 +6,6 @@
   "armor_penalty": false,
   "resistance_skill": true,
   "description": "Você usa esta perícia para resistir a efeitos que exigem determinação, como intimidação e encantamentos. A CD é determinada pelo efeito. Testes de Vontade são testes de resistência.",
-  "uses": []
+  "uses": [],
+  "page": 129
 }

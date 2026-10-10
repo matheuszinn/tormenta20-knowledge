@@ -8,7 +8,9 @@
     "size": "minúsculo",
     "hover_movement": 9,
     "fly_movement": 12,
-    "fly_cost_per_round": { "pm": 1 },
+    "fly_cost_per_round": {
+      "pm": 1
+    },
     "ignores_difficult_terrain": true,
     "immune_fall_damage": true
   }

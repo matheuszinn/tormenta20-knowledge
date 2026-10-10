@@ -18,5 +18,6 @@
       "d10": "d12"
     }
   },
-  "description": "Um líquido espesso, produzido através do sangue de criaturas demoníacas. Aumenta os dados de dano de magias de fogo em uma categoria — d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (o máximo)."
+  "description": "Um líquido espesso, produzido através do sangue de criaturas demoníacas. Aumenta os dados de dano de magias de fogo em uma categoria — d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (o máximo).",
+  "page": 163
 }

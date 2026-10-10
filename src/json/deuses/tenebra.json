@@ -13,8 +13,19 @@
   "energy": "negativa",
   "preferred_weapon": "Adaga",
   "devotees": {
-    "races": ["anões", "medusas", "qareen", "osteon", "sulfure", "trogs"],
-    "classes": ["arcanistas", "bardos", "ladinos"]
+    "races": [
+      "anões",
+      "medusas",
+      "qareen",
+      "osteon",
+      "sulfure",
+      "trogs"
+    ],
+    "classes": [
+      "arcanistas",
+      "bardos",
+      "ladinos"
+    ]
   },
   "granted_powers": [
     "caricia_sombria",
@@ -22,5 +33,6 @@
     "visao_nas_trevas",
     "zumbificar"
   ],
-  "obligations_restrictions": "Tenebra proíbe que seus devotos sejam tocados por Azgher, o odiado rival. O devoto deve se cobrir inteiramente durante o dia, sem expor ao sol nenhum pedaço de pele."
+  "obligations_restrictions": "Tenebra proíbe que seus devotos sejam tocados por Azgher, o odiado rival. O devoto deve se cobrir inteiramente durante o dia, sem expor ao sol nenhum pedaço de pele.",
+  "page": 103
 }

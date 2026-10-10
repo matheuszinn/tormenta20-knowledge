@@ -9,7 +9,10 @@
     {
       "type": "skill_improvement",
       "value": 5,
-      "skill": ["diplomacia", "intimidacao"]
+      "skill": [
+        "diplomacia",
+        "intimidacao"
+      ]
     }
   ],
   "costs": null

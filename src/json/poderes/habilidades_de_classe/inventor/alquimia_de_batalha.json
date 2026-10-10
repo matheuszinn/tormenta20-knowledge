@@ -8,7 +8,10 @@
     {
       "type": "item_type",
       "sub_type": "soft",
-      "item": ["alquimico_de_dano", "pocao_de_dano"]
+      "item": [
+        "alquimico_de_dano",
+        "pocao_de_dano"
+      ]
     },
     {
       "type": "feature",

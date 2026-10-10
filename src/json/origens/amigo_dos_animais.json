@@ -7,16 +7,30 @@
       "type": "choice",
       "text": "Animal de companhia",
       "options": [
-        { "text": "Cão de caça" },
-        { "text": "Cavalo" },
-        { "text": "Pônei" },
-        { "text": "Trobo" }
+        {
+          "text": "Cão de caça"
+        },
+        {
+          "text": "Cavalo"
+        },
+        {
+          "text": "Pônei"
+        },
+        {
+          "text": "Trobo"
+        }
       ]
     }
   ],
   "benefits": {
-    "skills": ["Adestramento", "Cavalgar"],
-    "powers": ["Amigo Especial"]
+    "skills": [
+      "Adestramento",
+      "Cavalgar"
+    ],
+    "powers": [
+      "Amigo Especial"
+    ]
   },
-  "unique_power": "amigo_especial"
+  "unique_power": "amigo_especial",
+  "page": 91
 }

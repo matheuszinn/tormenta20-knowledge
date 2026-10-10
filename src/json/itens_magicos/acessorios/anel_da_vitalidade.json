@@ -8,5 +8,6 @@
   "description": "Você recebe +10 PV (somente após um dia de uso).",
   "efeito": {
     "bonus_pv": 10
-  }
+  },
+  "page": 348
 }

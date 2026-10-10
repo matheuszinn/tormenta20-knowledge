@@ -17,5 +17,6 @@
       "type": "extra_move_action",
       "requirement": "primeiro_turno_do_combate"
     }
-  ]
+  ],
+  "page": 135
 }

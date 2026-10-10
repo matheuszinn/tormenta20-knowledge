@@ -26,6 +26,7 @@ def main
 
   # Seed all data
   puts "Seeding data..."
+  seed_livros(db)
   seed_racas(db)
   seed_habilidades_de_raca(db)
   seed_origens(db)
@@ -50,7 +51,6 @@ def main
   seed_condicoes(db)
   seed_pericias(db)
   seed_tabelas(db)
-  seed_livros(db)
   seed_indice_remissivo(db)
 
   db.close
@@ -86,6 +86,7 @@ def seed_habilidades_de_raca(db)
         (data["prerequisites"] || []).to_json
       ]
     )
+    register_indice_remissivo(db, data, "poderes")
     count += 1
   rescue StandardError => e
     puts "  Error importing #{File.basename(file)}: #{e.message}"
@@ -162,6 +163,7 @@ def seed_poderes_gerais(db)
         (data["requirements"] || data["prerequisites"] || []).to_json
       ]
     )
+    register_indice_remissivo(db, data, "poderes")
     count += 1
   rescue StandardError => e
     puts "  Error importing #{File.basename(file)}: #{e.message}"
@@ -202,6 +204,7 @@ def seed_habilidades_de_classe(db)
           (data["requirements"] || data["prerequisites"] || []).to_json
         ]
       )
+      register_indice_remissivo(db, data, "poderes")
       count += 1
     rescue StandardError => e
       puts "  Error importing #{File.basename(file)}: #{e.message}"
@@ -219,6 +222,7 @@ def seed_magias(db)
   Dir.glob(File.join(json_dir, "*.json")).each do |file|
     data = JSON.parse(File.read(file))
     insert_magia(db, data)
+    register_indice_remissivo(db, data, "magias")
     count += 1
   rescue StandardError
     next
@@ -306,6 +310,7 @@ def seed_armaduras(db)
         data["description"]
       ]
     )
+    register_indice_remissivo(db, data, "armaduras")
     count += 1
   rescue StandardError => e
     puts "  Error importing #{File.basename(file)}: #{e.message}"
@@ -343,6 +348,7 @@ def seed_armas(db)
         data["description"]
       ]
     )
+    register_indice_remissivo(db, data, "armas")
     count += 1
   rescue StandardError => e
     puts "  Error importing #{File.basename(file)}: #{e.message}"
@@ -375,6 +381,7 @@ def seed_itens(db)
         effects.to_json
       ]
     )
+    register_indice_remissivo(db, data, "itens")
     count += 1
   rescue StandardError => e
     puts "  Error importing #{File.basename(file)}: #{e.message}"
@@ -420,6 +427,7 @@ def seed_melhorias(db)
         (data["efeito"] || data["effects"] || {}).to_json
       ]
     )
+    register_indice_remissivo(db, data, "melhorias")
     count += 1
   rescue StandardError => e
     puts "  Error importing #{File.basename(file)}: #{e.message}"
@@ -450,6 +458,7 @@ def seed_encantamentos(db)
         (data["efeito"] || {}).to_json
       ]
     )
+    register_indice_remissivo(db, data, "encantamentos")
     count += 1
   rescue StandardError => e
     puts "  Error importing #{File.basename(file)}: #{e.message}"
@@ -473,6 +482,7 @@ def seed_pocoes(db)
         data["roll_min"], data["roll_max"], data["aprimoramento"], data["description"]
       ]
     )
+    register_indice_remissivo(db, data, "pocoes")
     count += 1
   rescue StandardError => e
     puts "  Error importing #{File.basename(file)}: #{e.message}"
@@ -495,6 +505,7 @@ def seed_acessorios(db)
         (data["efeito"] || {}).to_json
       ]
     )
+    register_indice_remissivo(db, data, "acessorios_magicos")
     count += 1
   rescue StandardError => e
     puts "  Error importing #{File.basename(file)}: #{e.message}"
@@ -537,6 +548,22 @@ def seed_livros(db)
   import_json_files(db, "livros", "livros", %w[id nome nome_curto])
 end
 
+def register_indice_remissivo(db, data, table)
+  return unless (page = data["page"] || data["pagina"])
+
+  livro_id = data["livro_id"] || data["book_id"] || "t20_eja"
+  termo = data["name"] || data["id"]
+  db.execute(
+    "INSERT INTO indice_remissivo (livro_id, termo, pagina, tabela, registro_id) " \
+    "VALUES (?, ?, ?, ?, ?) " \
+    "ON CONFLICT(livro_id, termo, pagina) DO UPDATE SET " \
+    "tabela = excluded.tabela, registro_id = excluded.registro_id",
+    [livro_id, termo, page.to_i, table, data["id"]]
+  )
+rescue StandardError => e
+  puts "  Error registering indice for #{data['id']}: #{e.message}"
+end
+
 def seed_indice_remissivo(db)
   json_path = File.join(JSON_BASE_PATH, "indice_remissivo")
   return unless Dir.exist?(json_path)
@@ -551,7 +578,11 @@ def seed_indice_remissivo(db)
       next unless entry["termo"] && entry["pagina"]
 
       db.execute(
-        "INSERT OR REPLACE INTO indice_remissivo (livro_id, termo, pagina, tabela, registro_id) VALUES (?, ?, ?, ?, ?)",
+        "INSERT INTO indice_remissivo (livro_id, termo, pagina, tabela, registro_id) " \
+        "VALUES (?, ?, ?, ?, ?) " \
+        "ON CONFLICT(livro_id, termo, pagina) DO UPDATE SET " \
+        "tabela = coalesce(excluded.tabela, indice_remissivo.tabela), " \
+        "registro_id = coalesce(excluded.registro_id, indice_remissivo.registro_id)",
         [livro_id, entry["termo"], entry["pagina"].to_i, entry["tabela"], entry["registro_id"]]
       )
       count += 1
@@ -580,6 +611,7 @@ def import_json_files(db, subdir, table, columns, extra: {}, transform: nil)
 
     placeholders = columns.map { "?" }.join(", ")
     db.execute("INSERT OR REPLACE INTO #{table} (#{columns.join(", ")}) VALUES (#{placeholders})", values)
+    register_indice_remissivo(db, data, table)
     count += 1
   rescue StandardError => e
     puts "  Error importing #{File.basename(file)}: #{e.message}"

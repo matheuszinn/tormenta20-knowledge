@@ -6,9 +6,15 @@
   "movement": 9,
   "vision": "normal",
   "vision_range": null,
-  "attribute_bonuses": { "carisma": -1 },
+  "attribute_bonuses": {
+    "carisma": -1
+  },
   "skill_bonuses": [],
-  "racial_abilities": ["cria_da_tormenta", "deformidade"],
+  "racial_abilities": [
+    "cria_da_tormenta",
+    "deformidade"
+  ],
   "chosen_abilities_amount": 0,
-  "available_chosen_abilities": []
+  "available_chosen_abilities": [],
+  "page": 30
 }

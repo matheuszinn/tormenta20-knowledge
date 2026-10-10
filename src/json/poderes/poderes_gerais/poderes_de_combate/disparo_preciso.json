@@ -8,7 +8,10 @@
     {
       "type": "feature",
       "sub_type": "hard",
-      "id": ["estilo_de_disparo", "estilo_de_arremesso"]
+      "id": [
+        "estilo_de_disparo",
+        "estilo_de_arremesso"
+      ]
     },
     {
       "type": "enemy_type",

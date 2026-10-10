@@ -5,10 +5,18 @@
   "sub_type": "poder_de_cavaleiro",
   "description": "Você pode gastar 1 PM para receber +2 na Defesa e nos testes de resistência até o início do seu próximo turno. A cada quatro níveis, pode gastar +1 PM para aumentar o bônus em +2.\nA partir do 7º nível, quando usa esta habilidade, você pode gastar 2 PM adicionais para fornecer o mesmo bônus a todos os aliados adjacentes. Por exemplo, pode gastar 4 PM ao todo para receber +4 na Defesa e nos testes de resistência e fornecer este mesmo bônus aos outros. A partir do 15º nível, você pode gastar 5 PM adicionais para fornecer o mesmo bônus a todos os aliados em alcance curto.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
-      "value": [1,5,7,9,13,15,17]
+      "value": [
+        1,
+        5,
+        7,
+        9,
+        13,
+        15,
+        17
+      ]
     }
   ],
   "effects": [
@@ -26,8 +34,8 @@
   ],
   "costs": [
     {
-    "value": 1,
-    "type": "PM"
+      "value": 1,
+      "type": "PM"
     }
   ]
 }

@@ -18,5 +18,6 @@
       "dano": "2d12"
     }
   },
-  "description": "Veneno poderoso, extraído de animais ou plantas perigosos. Contato, perde 2d12 PV por rodada durante 3 rodadas (perde 2d12 PV)."
+  "description": "Veneno poderoso, extraído de animais ou plantas perigosos. Contato, perde 2d12 PV por rodada durante 3 rodadas (perde 2d12 PV).",
+  "page": 163
 }

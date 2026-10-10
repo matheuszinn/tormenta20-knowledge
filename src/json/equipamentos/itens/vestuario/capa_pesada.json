@@ -10,5 +10,6 @@
   "efeito": {
     "bonus_fortitude": 1
   },
-  "description": "Uma capa de couro grossa e resistente. Protege e aquece o corpo, fornecendo +1 em Fortitude."
+  "description": "Uma capa de couro grossa e resistente. Protege e aquece o corpo, fornecendo +1 em Fortitude.",
+  "page": 165
 }

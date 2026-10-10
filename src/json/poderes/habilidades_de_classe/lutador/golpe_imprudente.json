@@ -15,7 +15,7 @@
     {
       "type": "defense_penalty",
       "value": -5,
-    "duration": "inicio_do_prox_turno"
+      "duration": "inicio_do_prox_turno"
     },
     {
       "type": "damage_improvement",

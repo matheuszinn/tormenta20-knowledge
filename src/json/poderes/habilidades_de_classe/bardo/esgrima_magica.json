@@ -13,7 +13,10 @@
     {
       "type": "weapon_type",
       "sub_type": "soft",
-      "weapon": ["leve", "uma_mao"]
+      "weapon": [
+        "leve",
+        "uma_mao"
+      ]
     }
   ],
   "effects": [

@@ -15,8 +15,17 @@
   "preferred_weapon": null,
   "preferred_weapon_note": "Devotos desta deusa não podem lançar a magia Arma Espiritual e similares",
   "devotees": {
-    "races": ["aggelus", "elfos", "hynne", "qareen"],
-    "classes": ["bardos", "nobres", "paladinos"]
+    "races": [
+      "aggelus",
+      "elfos",
+      "hynne",
+      "qareen"
+    ],
+    "classes": [
+      "bardos",
+      "nobres",
+      "paladinos"
+    ]
   },
   "granted_powers": [
     "aura_de_paz",
@@ -24,5 +33,6 @@
     "palavras_de_bondade",
     "talento_artistico"
   ],
-  "obligations_restrictions": "Devotos de Marah não podem causar dano, perda de PV e condições a criaturas, exceto enfeitiçado, fascinado e pasmo (fornecer bônus em dano também é proibido). Em combate, só podem recorrer a ações como proteger ou curar — ou fugir, render-se ou aceitar a morte. Um devoto de Marah jamais vai causar violência, nem mesmo para se salvar."
+  "obligations_restrictions": "Devotos de Marah não podem causar dano, perda de PV e condições a criaturas, exceto enfeitiçado, fascinado e pasmo (fornecer bônus em dano também é proibido). Em combate, só podem recorrer a ações como proteger ou curar — ou fugir, render-se ou aceitar a morte. Um devoto de Marah jamais vai causar violência, nem mesmo para se salvar.",
+  "page": 103
 }

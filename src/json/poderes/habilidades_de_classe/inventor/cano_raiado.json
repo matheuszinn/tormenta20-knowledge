@@ -5,7 +5,7 @@
   "sub_type": "poder_de_inventor",
   "description": "Quando usa uma arma de disparo feita por você mesmo, ela recebe +1 na margem de ameaça.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 5

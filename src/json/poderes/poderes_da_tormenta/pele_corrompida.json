@@ -5,9 +5,17 @@
   "effects": {
     "type": "passive",
     "damage_reduction": {
-      "types": ["ácido", "eletricidade", "fogo", "frio", "luz", "trevas"],
+      "types": [
+        "ácido",
+        "eletricidade",
+        "fogo",
+        "frio",
+        "luz",
+        "trevas"
+      ],
       "base": 2,
       "scaling": "+2 por cada 2 outros poderes da Tormenta"
     }
-  }
+  },
+  "page": 143
 }

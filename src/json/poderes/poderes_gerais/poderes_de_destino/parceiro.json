@@ -13,14 +13,21 @@
     {
       "type": "skill_training",
       "sub_type": "hard",
-      "skill": ["adestramento", "diplomacia"]
+      "skill": [
+        "adestramento",
+        "diplomacia"
+      ]
     }
   ],
   "effects": [
     {
       "type": "receive_partner",
-      "partner_type": ["animal", "humanoide"],
-      "details": "veja_descrição"    
+      "partner_type": [
+        "animal",
+        "humanoide"
+      ],
+      "details": "veja_descrição"
     }
-  ]
+  ],
+  "page": 136
 }

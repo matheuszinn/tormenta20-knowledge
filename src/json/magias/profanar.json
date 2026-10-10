@@ -27,7 +27,7 @@
       "description": "além do normal, mortos-vivos na área recebem +2 na Defesa e +2 em todos os testes.",
       "extra_details": null
     },
-     {
+    {
       "cost": 2,
       "type": "aumenta",
       "description": "aumenta os bônus para mortos-vivos em +1.",
@@ -58,5 +58,6 @@
       "resistence_requirement": null,
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 208
 }

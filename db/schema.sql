@@ -460,6 +460,7 @@ CREATE TABLE IF NOT EXISTS indice_remissivo (
 CREATE INDEX IF NOT EXISTS idx_indice_termo    ON indice_remissivo(termo);
 CREATE INDEX IF NOT EXISTS idx_indice_livro    ON indice_remissivo(livro_id);
 CREATE INDEX IF NOT EXISTS idx_indice_registro ON indice_remissivo(tabela, registro_id);
+CREATE UNIQUE INDEX IF NOT EXISTS idx_indice_livro_termo_pagina ON indice_remissivo(livro_id, termo, pagina);
 
 CREATE TRIGGER IF NOT EXISTS update_indice_remissivo_timestamp
 AFTER UPDATE ON indice_remissivo

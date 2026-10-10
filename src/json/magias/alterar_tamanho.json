@@ -16,7 +16,7 @@
   "effect_details": null,
   "counterspell": null,
   "duration": "1 dia",
-  "duration_details":null,
+  "duration_details": null,
   "resistence": null,
   "extra_costs": null,
   "description": "Esta magia aumenta ou diminui o tamanho de um item mundano em até três categorias (um objeto Enorme vira Pequeno, por exemplo). Você também pode mudar a consistência do item, deixando-o rígido como pedra ou flexível como seda (isso não altera sua RD ou PV, apenas suas propriedades físicas).",
@@ -25,7 +25,7 @@
       "cost": 1,
       "type": "aumenta",
       "description": "aumenta o número de alvos em +1",
-      "extra_details":null
+      "extra_details": null
     },
     {
       "cost": 2,
@@ -37,8 +37,7 @@
           "amount": 1,
           "type": "criatura"
         },
-        "effects":
-        {
+        "effects": {
           "type": "aumenta",
           "attribute": "for",
           "amount": "+4",
@@ -54,52 +53,49 @@
       "type": "muda",
       "description": "muda o alcance para toque e o alvo para 1 criatura. Em vez do normal, o alvo e seu equipamento diminuem de tamanho em uma categoria. O alvo também recebe Destreza +4. Um alvo involuntário pode fazer um teste de Fortitude para negar o efeito. Requer 3º círculo",
       "extra_details": {
-      "reqrirements": "3º círculo",
-      "extra_details": {
-        "range": "toque",
-        "target": {
-          "amount": 1,
-          "type": "criatura"
-        },
-        "effects":
-        {
-          "type": "aumenta",
-          "attribute": "des",
-          "amount": "+4",
-          "resistence": {
-            "effect": "nega",
-            "skill": "Fortitude"
+        "reqrirements": "3º círculo",
+        "extra_details": {
+          "range": "toque",
+          "target": {
+            "amount": 1,
+            "type": "criatura"
+          },
+          "effects": {
+            "type": "aumenta",
+            "attribute": "des",
+            "amount": "+4",
+            "resistence": {
+              "effect": "nega",
+              "skill": "Fortitude"
+            }
           }
         }
       }
-    }
-  },
+    },
     {
       "cost": "7",
       "type": "muda",
       "description": "muda o alcance para toque, o alvo para 1 criatura, a duração para permanente e a resistência para Fortitude anula. Em vez do normal, se falhar na resistência o alvo e seu equipamento têm seu tamanho mudado para Minúsculo. O alvo também tem seu valor de Força reduzido a 1 e suas formas de deslocamento reduzidas a 3m. Requer 4º círculo.",
       "extra_details": {
-      "reqrirements": "4º círculo",
-      "extra_details": {
-        "range": "toque",
-        "target": {
-          "amount": "1",
-          "type": "criatura"
-        },
-        "duration": "1 dia",
-        "resistence": {
-          "effect": "anula",
-          "skill": "Fortitude"
-        },
-        "effects":
-        {
-          "type": "diminui",
-          "attribute": "for,deslocamento",
-          "amount": "=1,3m"
-          
+        "reqrirements": "4º círculo",
+        "extra_details": {
+          "range": "toque",
+          "target": {
+            "amount": "1",
+            "type": "criatura"
+          },
+          "duration": "1 dia",
+          "resistence": {
+            "effect": "anula",
+            "skill": "Fortitude"
+          },
+          "effects": {
+            "type": "diminui",
+            "attribute": "for,deslocamento",
+            "amount": "=1,3m"
+          }
         }
       }
-    }
     }
   ],
   "effects": [
@@ -110,5 +106,6 @@
       "resistence_requirement": null,
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 185
 }

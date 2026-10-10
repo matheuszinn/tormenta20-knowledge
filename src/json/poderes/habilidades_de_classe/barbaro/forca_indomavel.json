@@ -8,14 +8,17 @@
   "effects": [
     {
       "type": "skill_improvement",
-      "skill": ["força", "atletismo"],
+      "skill": [
+        "força",
+        "atletismo"
+      ],
       "value": "lvl_de_personagem"
     }
   ],
   "costs": [
     {
-    "value": 1,
-    "type": "PM"
+      "value": 1,
+      "type": "PM"
     }
   ]
 }

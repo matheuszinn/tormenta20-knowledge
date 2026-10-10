@@ -5,10 +5,16 @@
   "sub_type": "poder_de_cacador",
   "description": "Você pode gastar uma ação de movimento e 1 PM para analisar uma criatura em alcance curto. Até o fim da cena, você recebe +1d4 nas rolagens de dano contra essa criatura. A cada quatro níveis, você pode gastar +1 PM para aumentar o bônus de dano (veja a tabela da classe).",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
-      "value": [1,5,9,13,17]
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
     },
     {
       "type": "range",
@@ -25,12 +31,13 @@
   ],
   "costs": [
     {
-    "value": 1,
-    "type": "PM"
+      "value": 1,
+      "type": "PM"
     },
     {
-    "value": 1,
-    "type": "acao_de_movimento"
+      "value": 1,
+      "type": "acao_de_movimento"
     }
-  ]
+  ],
+  "page": 136
 }

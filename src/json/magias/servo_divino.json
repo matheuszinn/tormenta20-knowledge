@@ -37,7 +37,7 @@
           "material_component_cost": "T$ 500",
           "pm_debuff": null,
           "pm_sacrifice": null
-        }  
+        }
       }
     },
     {
@@ -63,5 +63,6 @@
       "resistence_requirement": null,
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 212
 }

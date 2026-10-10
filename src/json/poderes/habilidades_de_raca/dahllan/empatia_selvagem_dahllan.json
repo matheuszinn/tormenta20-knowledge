@@ -6,7 +6,14 @@
   "description": "Você pode se comunicar com animais por meio de linguagem corporal e vocalizações. Você pode usar Adestramento para mudar atitude e persuasão com animais. Caso receba esta habilidade novamente, recebe +2 em Adestramento.",
   "effects": {
     "animal_communication": true,
-    "skill_use": { "skill": "adestramento", "for": "animais" },
-    "stackable_bonus": { "skill": "adestramento", "value": 2, "condition": "received_again" }
+    "skill_use": {
+      "skill": "adestramento",
+      "for": "animais"
+    },
+    "stackable_bonus": {
+      "skill": "adestramento",
+      "value": 2,
+      "condition": "received_again"
+    }
   }
 }

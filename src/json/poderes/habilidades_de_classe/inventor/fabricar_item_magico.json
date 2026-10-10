@@ -5,10 +5,14 @@
   "sub_type": "poder_de_inventor",
   "description": "No 9º nível, você recebe um item mágico menor e passa a poder fabricar itens mágicos menores. Veja o Capítulo 8: Recompensas para as regras de itens mágicos.\nNos níveis 13 e 17, você pode substituir esse item por um item mágico médio e maior, respectivamente, e passa a poder fabricar itens mágicos dessas categorias.\nConsidera-se que você estava trabalhando nos itens que recebe e você não gasta dinheiro, tempo ou pontos de mana neles (mas gasta em itens que fabricar futuramente)",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
-      "value": [9,13,17]
+      "value": [
+        9,
+        13,
+        17
+      ]
     }
   ],
   "effects": "ver_texto",

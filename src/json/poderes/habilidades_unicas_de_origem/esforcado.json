@@ -4,10 +4,14 @@
   "origin": "trabalhador",
   "description": "Você não teme trabalho duro, nem prazos apertados. Você recebe um bônus de +2 em todos os testes de perícias estendidos (incluindo perigos complexos).",
   "effects": {
-    "test_bonuses": [{
-      "type": "perícias estendidas",
-      "value": 2,
-      "includes": ["perigos complexos"]
-    }]
+    "test_bonuses": [
+      {
+        "type": "perícias estendidas",
+        "value": 2,
+        "includes": [
+          "perigos complexos"
+        ]
+      }
+    ]
   }
 }

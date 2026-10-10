@@ -8,7 +8,11 @@
     {
       "type": "under_condition",
       "sub_type": "soft",
-      "condition": ["caido", "desprevinido", "flanqueado"]
+      "condition": [
+        "caido",
+        "desprevinido",
+        "flanqueado"
+      ]
     }
   ],
   "effects": [

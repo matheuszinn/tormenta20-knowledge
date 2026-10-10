@@ -23,5 +23,6 @@
       }
     }
   },
-  "description": "Um composto químico volátil e inflamável. Você pode gastar uma ação padrão para atirar o frasco em uma criatura ou objeto em alcance curto, fazendo um ataque à distância de toque. Se acertar, o alvo sofre 1d6 pontos de dano de fogo e fica em chamas, sofrendo mais 1d6 pontos de dano de fogo por rodada até extinguir as chamas com uma ação completa e um teste de Reflexos (CD 15)."
+  "description": "Um composto químico volátil e inflamável. Você pode gastar uma ação padrão para atirar o frasco em uma criatura ou objeto em alcance curto, fazendo um ataque à distância de toque. Se acertar, o alvo sofre 1d6 pontos de dano de fogo e fica em chamas, sofrendo mais 1d6 pontos de dano de fogo por rodada até extinguir as chamas com uma ação completa e um teste de Reflexos (CD 15).",
+  "page": 162
 }

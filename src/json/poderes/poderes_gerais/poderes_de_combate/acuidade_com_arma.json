@@ -14,7 +14,10 @@
     {
       "type": "weapon_type",
       "sub_type": "soft",
-      "weapons": ["arma_leve_de_corpo_a_corpo", "arma_de_arremesso"]
+      "weapons": [
+        "arma_leve_de_corpo_a_corpo",
+        "arma_de_arremesso"
+      ]
     }
   ],
   "effects": [

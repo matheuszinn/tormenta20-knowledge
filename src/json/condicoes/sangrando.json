@@ -6,5 +6,6 @@
     "No início de cada turno: teste de Constituição CD 15 ou sofre 1d6 de dano"
   ],
   "condition_type": "metabolismo",
-  "escalates_to": null
+  "escalates_to": null,
+  "page": 401
 }

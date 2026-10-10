@@ -14,7 +14,10 @@
     {
       "type": "recovery_status_improvement",
       "skill": "mais_1_por_lvl",
-      "status": ["PM", "PV"]
+      "status": [
+        "PM",
+        "PV"
+      ]
     }
   ],
   "costs": null

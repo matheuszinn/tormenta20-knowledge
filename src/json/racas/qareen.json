@@ -6,9 +6,18 @@
   "movement": 9,
   "vision": "normal",
   "vision_range": null,
-  "attribute_bonuses": { "carisma": 2, "inteligencia": 1, "sabedoria": -1 },
+  "attribute_bonuses": {
+    "carisma": 2,
+    "inteligencia": 1,
+    "sabedoria": -1
+  },
   "skill_bonuses": [],
-  "racial_abilities": ["desejos", "resistencia_elemental", "tatuagem_mistica"],
+  "racial_abilities": [
+    "desejos",
+    "resistencia_elemental",
+    "tatuagem_mistica"
+  ],
   "chosen_abilities_amount": 0,
-  "available_chosen_abilities": []
+  "available_chosen_abilities": [],
+  "page": 32
 }

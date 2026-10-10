@@ -5,7 +5,7 @@
   "sub_type": "poder_de_inventor",
   "description": "A partir do 11º nível, você pode gastar uma ação completa para analisar um item. Você automaticamente descobre se o item é mágico, suas propriedades e como utilizá-las.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 11

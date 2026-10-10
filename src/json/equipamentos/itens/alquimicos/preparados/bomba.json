@@ -26,5 +26,6 @@
       "efeito": "reduz_metade"
     }
   },
-  "description": "Uma granada rudimentar. Para usar a bomba, você precisa empunhá-la, gastar uma ação de movimento para acender seu pavio e uma ação padrão para arremessá-la em um ponto em alcance curto. Criaturas a até 3m desse ponto sofrem 6d6 pontos de dano de impacto (Reflexos CD Des reduz à metade)."
+  "description": "Uma granada rudimentar. Para usar a bomba, você precisa empunhá-la, gastar uma ação de movimento para acender seu pavio e uma ação padrão para arremessá-la em um ponto em alcance curto. Criaturas a até 3m desse ponto sofrem 6d6 pontos de dano de impacto (Reflexos CD Des reduz à metade).",
+  "page": 166
 }

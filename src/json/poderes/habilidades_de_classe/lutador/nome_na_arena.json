@@ -5,7 +5,7 @@
   "sub_type": "poder_de_lutador",
   "description": "Você construiu uma reputação no circuito de lutas de Arton. Escolha uma perícia que represente a característica pela qual você é conhecido, como Atletismo para uma fama de musculoso ou Intimidação para uma fama de “malvado\". Uma vez por cena, você pode gastar uma ação de movimento para fazer um teste dessa perícia (CD 10) e impressionar os presentes. Se passar, você recebe +1 em todos os seus testes de perícias baseadas em Carisma até o fim da cena. Esse bônus aumenta em +1 para cada 5 pontos pelos quais o resultado do teste exceder a CD (+2 para um resultado 15 +3 para 20 e assim por diante). Como alternativa, você pode aplicar esse bônus em seu próximo teste de ataque.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 12
@@ -14,7 +14,7 @@
   "effects": "ver_texto",
   "costs": [
     {
-    "type": "acao_de_movimento"
+      "type": "acao_de_movimento"
     }
   ]
 }

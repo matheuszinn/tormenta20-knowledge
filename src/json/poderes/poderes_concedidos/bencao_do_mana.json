@@ -1,10 +1,13 @@
 {
   "id": "bencao_do_mana",
   "name": "Bênção do Mana",
-  "deities": ["wynna"],
+  "deities": [
+    "wynna"
+  ],
   "description": "Você recebe +1 PM a cada nível ímpar.",
   "effects": {
     "type": "passive",
     "pm_bonus": "+1 PM a cada nível ímpar"
-  }
+  },
+  "page": 138
 }

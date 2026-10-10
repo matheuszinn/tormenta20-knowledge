@@ -14,5 +14,6 @@
     "reducao_custo_pm": 1,
     "escola": "encantamento"
   },
-  "description": "Uma pitada de pó de um mineral cristalino puro, como quartzo ou topázio. Diminui o custo de magias de encantamento em –1 PM."
+  "description": "Uma pitada de pó de um mineral cristalino puro, como quartzo ou topázio. Diminui o custo de magias de encantamento em –1 PM.",
+  "page": 163
 }

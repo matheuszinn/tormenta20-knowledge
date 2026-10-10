@@ -1,7 +1,9 @@
 {
   "id": "percepcao_temporal",
   "name": "Percepção Temporal",
-  "deities": ["aharadak"],
+  "deities": [
+    "aharadak"
+  ],
   "description": "Você pode gastar 3 PM para somar sua Sabedoria (limitado por seu nível e não cumulativo com efeitos que somam este atributo) a seus ataques, Defesa e testes de Reflexos até o fim da cena.",
   "effects": {
     "type": "active",
@@ -9,9 +11,14 @@
     "duration": "cena",
     "attribute_bonus": {
       "attribute": "Sabedoria",
-      "applies_to": ["ataques", "Defesa", "Reflexos"],
+      "applies_to": [
+        "ataques",
+        "Defesa",
+        "Reflexos"
+      ],
       "limit": "nível",
       "stacking": "não cumulativo"
     }
-  }
+  },
+  "page": 140
 }

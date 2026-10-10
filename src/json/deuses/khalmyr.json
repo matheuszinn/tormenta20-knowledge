@@ -14,8 +14,16 @@
   "energy": "positiva",
   "preferred_weapon": "Espada longa",
   "devotees": {
-    "races": ["aggelus", "anões"],
-    "classes": ["cavaleiros", "guerreiros", "nobres", "paladinos"]
+    "races": [
+      "aggelus",
+      "anões"
+    ],
+    "classes": [
+      "cavaleiros",
+      "guerreiros",
+      "nobres",
+      "paladinos"
+    ]
   },
   "granted_powers": [
     "coragem_total",
@@ -23,5 +31,6 @@
     "espada_justiceira",
     "reparar_injustica"
   ],
-  "obligations_restrictions": "Devotos de Khalmyr não podem recusar pedidos de ajuda de pessoas inocentes. Também devem cumprir as ordens de superiores na hierarquia da igreja (devotos do Deus da Justiça de nível maior) e só podem usar itens mágicos permanentes criados por devotos do mesmo deus."
+  "obligations_restrictions": "Devotos de Khalmyr não podem recusar pedidos de ajuda de pessoas inocentes. Também devem cumprir as ordens de superiores na hierarquia da igreja (devotos do Deus da Justiça de nível maior) e só podem usar itens mágicos permanentes criados por devotos do mesmo deus.",
+  "page": 103
 }

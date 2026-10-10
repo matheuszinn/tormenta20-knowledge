@@ -5,7 +5,7 @@
   "sub_type": "poder_de_lutador",
   "description": "Quando usa a ação atacar para fazer um ataque desarmado, você pode gastar2 PM para atingir todas as criaturas adjacentes — incluindo aliados! Você deve usar este poder antes de rolar o ataque e compara o resultado de seu teste contra a Defesa de cada criatura.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 8
@@ -24,8 +24,8 @@
   "effects": "ver_texto",
   "costs": [
     {
-    "value": 2,
-    "type": "PM"
+      "value": 2,
+      "type": "PM"
     }
   ]
 }

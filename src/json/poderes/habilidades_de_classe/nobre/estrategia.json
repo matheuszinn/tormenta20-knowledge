@@ -5,7 +5,7 @@
   "sub_type": "poder_de_nobre",
   "description": "Você pode direcionar aliados em alcance curto. Gaste uma ação padrão e 1 PM por aliado que quiser direcionar (limitado pelo seu modificador de Carisma). No próximo turno do aliado, ele ganha uma ação de movimento.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 6
@@ -25,8 +25,8 @@
   "effects": "ver_texto",
   "costs": [
     {
-    "value": "1_por_aliado",
-    "type": "PM"
+      "value": "1_por_aliado",
+      "type": "PM"
     }
   ]
 }

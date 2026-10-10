@@ -18,7 +18,10 @@
     {
       "type": "targed_life",
       "sub_type": "soft",
-      "value": [0, "<0"] 
+      "value": [
+        0,
+        "<0"
+      ]
     }
   ],
   "effects": [
@@ -29,8 +32,9 @@
   ],
   "costs": [
     {
-    "value": 1,
-    "type": "PM"
+      "value": 1,
+      "type": "PM"
     }
-  ]
+  ],
+  "page": 135
 }

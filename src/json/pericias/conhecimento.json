@@ -18,5 +18,6 @@
       "trained_only": false,
       "description": "Você responde dúvidas gerais. Questões simples, como o ano de fundação de um reino, não exigem testes. Questões complexas, como saber o antídoto de um veneno, tem CD 20. Por fim, mistérios e enigmas, como a origem de uma antiga maldição, tem CD 30."
     }
-  ]
+  ],
+  "page": 123
 }

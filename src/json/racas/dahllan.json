@@ -6,9 +6,18 @@
   "movement": 9,
   "vision": "normal",
   "vision_range": null,
-  "attribute_bonuses": { "sabedoria": 2, "destreza": 1, "inteligencia": -1 },
+  "attribute_bonuses": {
+    "sabedoria": 2,
+    "destreza": 1,
+    "inteligencia": -1
+  },
   "skill_bonuses": [],
-  "racial_abilities": ["amiga_das_plantas", "armadura_de_allihanna", "empatia_selvagem_dahllan"],
+  "racial_abilities": [
+    "amiga_das_plantas",
+    "armadura_de_allihanna",
+    "empatia_selvagem_dahllan"
+  ],
   "chosen_abilities_amount": 0,
-  "available_chosen_abilities": []
+  "available_chosen_abilities": [],
+  "page": 27
 }

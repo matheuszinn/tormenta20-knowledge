@@ -6,9 +6,19 @@
   "movement": 6,
   "vision": "visao_no_escuro",
   "vision_range": null,
-  "attribute_bonuses": { "forca": 2, "constituicao": 1, "carisma": -1 },
+  "attribute_bonuses": {
+    "forca": 2,
+    "constituicao": 1,
+    "carisma": -1
+  },
   "skill_bonuses": [],
-  "racial_abilities": ["chassi", "criatura_artificial", "fonte_elemental", "proposito_de_criacao"],
+  "racial_abilities": [
+    "chassi",
+    "criatura_artificial",
+    "fonte_elemental",
+    "proposito_de_criacao"
+  ],
   "chosen_abilities_amount": 0,
-  "available_chosen_abilities": []
+  "available_chosen_abilities": [],
+  "page": 33
 }

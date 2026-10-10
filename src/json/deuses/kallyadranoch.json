@@ -15,8 +15,18 @@
   "energy": "negativa",
   "preferred_weapon": "Lança",
   "devotees": {
-    "races": ["elfos", "medusas", "sulfure"],
-    "classes": ["arcanistas", "cavaleiros", "guerreiros", "lutadores", "nobres"]
+    "races": [
+      "elfos",
+      "medusas",
+      "sulfure"
+    ],
+    "classes": [
+      "arcanistas",
+      "cavaleiros",
+      "guerreiros",
+      "lutadores",
+      "nobres"
+    ]
   },
   "granted_powers": [
     "aura_de_medo",
@@ -24,5 +34,6 @@
     "presas_primordiais",
     "servos_do_dragao"
   ],
-  "obligations_restrictions": "Para subir de nível, além de acumular XP suficiente, o devoto de Kally deve realizar uma oferenda em tesouro. O valor é igual à 20% da diferença do dinheiro inicial do nível que vai alcançar para o nível atual (por exemplo, T$ 80 para subir para o 4° nível). Sabe-se, também, de devotos malignos que sacrificam vítimas a Kally (não permitido para personagens jogadores)."
+  "obligations_restrictions": "Para subir de nível, além de acumular XP suficiente, o devoto de Kally deve realizar uma oferenda em tesouro. O valor é igual à 20% da diferença do dinheiro inicial do nível que vai alcançar para o nível atual (por exemplo, T$ 80 para subir para o 4° nível). Sabe-se, também, de devotos malignos que sacrificam vítimas a Kally (não permitido para personagens jogadores).",
+  "page": 105
 }

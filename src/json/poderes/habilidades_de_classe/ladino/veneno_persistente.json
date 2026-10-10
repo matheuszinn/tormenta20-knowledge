@@ -5,7 +5,7 @@
   "sub_type": "poder_de_ladino",
   "description": "Quando aplica uma dose de veneno a uma arma, este veneno dura por três ataques (em vez de apenas um).",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 8

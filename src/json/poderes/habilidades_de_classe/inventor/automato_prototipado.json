@@ -8,7 +8,10 @@
     {
       "type": "feature",
       "sub_type": "hard",
-      "id": ["automato", "engenhoqueiro"]
+      "id": [
+        "automato",
+        "engenhoqueiro"
+      ]
     },
     {
       "type": "skill_training",
@@ -23,7 +26,10 @@
     {
       "type": "caminho_do_arcanista",
       "sub_type": "hard",
-      "id": ["bruxo", "mago"]
+      "id": [
+        "bruxo",
+        "mago"
+      ]
     }
   ],
   "effects": [
@@ -35,11 +41,11 @@
   ],
   "costs": [
     {
-    "value": 2,
-    "type": "PM"
+      "value": 2,
+      "type": "PM"
     },
     {
-    "type": "acao_padrao"
+      "type": "acao_padrao"
     }
   ]
 }

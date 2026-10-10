@@ -14,5 +14,6 @@
     "bonus_cd_magias": 2,
     "escola": "abjuração"
   },
-  "description": "Um pequeno saco de couro com sal marinho. Fornece +2 na CD de magias de abjuração."
+  "description": "Um pequeno saco de couro com sal marinho. Fornece +2 na CD de magias de abjuração.",
+  "page": 167
 }

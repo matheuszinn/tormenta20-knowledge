@@ -15,8 +15,17 @@
   "energy": "qualquer",
   "preferred_weapon": "Bordão",
   "devotees": {
-    "races": ["golens", "kliren"],
-    "classes": ["arcanistas", "bardos", "inventores", "nobres", "paladinos"]
+    "races": [
+      "golens",
+      "kliren"
+    ],
+    "classes": [
+      "arcanistas",
+      "bardos",
+      "inventores",
+      "nobres",
+      "paladinos"
+    ]
   },
   "granted_powers": [
     "conhecimento_enciclopedico",
@@ -24,5 +33,6 @@
     "pesquisa_abencoada",
     "voz_da_civilizacao"
   ],
-  "obligations_restrictions": "Devotos de Tanna-Toh jamais podem recusar uma missão que envolva a busca por um novo conhecimento ou informação; investigar rumores sobre um livro perdido, procurar uma aldeia lendária, pesquisar os hábitos de uma criatura desconhecida... Além disso, o devoto sempre deve dizer a verdade e nunca pode se recusar a responder uma pergunta direta, pouco importando as consequências. É proibido para ele esconder qualquer conhecimento."
+  "obligations_restrictions": "Devotos de Tanna-Toh jamais podem recusar uma missão que envolva a busca por um novo conhecimento ou informação; investigar rumores sobre um livro perdido, procurar uma aldeia lendária, pesquisar os hábitos de uma criatura desconhecida... Além disso, o devoto sempre deve dizer a verdade e nunca pode se recusar a responder uma pergunta direta, pouco importando as consequências. É proibido para ele esconder qualquer conhecimento.",
+  "page": 109
 }

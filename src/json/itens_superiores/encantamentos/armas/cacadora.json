@@ -6,5 +6,6 @@
   "efeito": {
     "descricao_curta": "Ignora camuflagem leve/total e cobertura leve; armas à distância aumentam alcance"
   },
-  "description": "A arma persegue o alvo, anulando penalidades por camuflagem leve e total e por cobertura leve. Caso a arma seja de ataque à distância, seu alcance também aumenta em uma categoria."
+  "description": "A arma persegue o alvo, anulando penalidades por camuflagem leve e total e por cobertura leve. Caso a arma seja de ataque à distância, seu alcance também aumenta em uma categoria.",
+  "page": 341
 }

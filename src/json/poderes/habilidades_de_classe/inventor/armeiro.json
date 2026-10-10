@@ -8,7 +8,10 @@
     {
       "type": "skill_training",
       "sub_type": "hard",
-      "skill": ["luta", "oficio_armeiro"]
+      "skill": [
+        "luta",
+        "oficio_armeiro"
+      ]
     }
   ],
   "effects": [

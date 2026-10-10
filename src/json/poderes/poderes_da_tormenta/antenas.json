@@ -9,10 +9,19 @@
       "scaling": "+1 por cada 2 outros poderes da Tormenta"
     },
     "skill_bonuses": [
-      {"skill": "Percepção", "base": 1, "scaling": "+1 por cada 2 outros poderes da Tormenta"}
+      {
+        "skill": "Percepção",
+        "base": 1,
+        "scaling": "+1 por cada 2 outros poderes da Tormenta"
+      }
     ],
     "save_bonuses": [
-      {"save": "Vontade", "base": 1, "scaling": "+1 por cada 2 outros poderes da Tormenta"}
+      {
+        "save": "Vontade",
+        "base": 1,
+        "scaling": "+1 por cada 2 outros poderes da Tormenta"
+      }
     ]
-  }
+  },
+  "page": 142
 }

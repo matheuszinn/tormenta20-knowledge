@@ -8,7 +8,10 @@
     {
       "type": "attr_value",
       "sub_type": "hard",
-      "attr": ["int", "sab"],
+      "attr": [
+        "int",
+        "sab"
+      ],
       "value": 13
     },
     {

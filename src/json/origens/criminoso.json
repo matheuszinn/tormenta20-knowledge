@@ -7,14 +7,26 @@
       "type": "choice",
       "text": "Ferramenta de crime",
       "options": [
-        { "text": "Estojo de disfarces" },
-        { "text": "Gazua" }
+        {
+          "text": "Estojo de disfarces"
+        },
+        {
+          "text": "Gazua"
+        }
       ]
     }
   ],
   "benefits": {
-    "skills": ["Enganação", "Furtividade", "Ladinagem"],
-    "powers": ["Punguista", "Venefício"]
+    "skills": [
+      "Enganação",
+      "Furtividade",
+      "Ladinagem"
+    ],
+    "powers": [
+      "Punguista",
+      "Venefício"
+    ]
   },
-  "unique_power": "punguista"
+  "unique_power": "punguista",
+  "page": 95
 }

@@ -6,9 +6,16 @@
   "movement": 9,
   "vision": "visao_no_escuro",
   "vision_range": null,
-  "attribute_bonuses": { "destreza": 2, "inteligencia": 1 },
+  "attribute_bonuses": {
+    "destreza": 2,
+    "inteligencia": 1
+  },
   "skill_bonuses": [],
-  "racial_abilities": ["heranca_divina", "sombras_profanas"],
+  "racial_abilities": [
+    "heranca_divina",
+    "sombras_profanas"
+  ],
   "chosen_abilities_amount": 0,
-  "available_chosen_abilities": []
+  "available_chosen_abilities": [],
+  "page": 24
 }

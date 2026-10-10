@@ -8,5 +8,6 @@
   "description": "Este manto de tecido grosso e pesado protege seu usuário. Você recebe +2 em testes de resistência.",
   "efeito": {
     "bonus_saves": 2
-  }
+  },
+  "page": 348
 }

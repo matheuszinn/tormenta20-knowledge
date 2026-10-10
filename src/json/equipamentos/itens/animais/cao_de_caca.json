@@ -11,8 +11,12 @@
     "requisito_pericia": "Adestramento",
     "alternativo": {
       "tipo": "montaria",
-      "tamanhos_cavaleiro": ["pequeno", "minusculo"]
+      "tamanhos_cavaleiro": [
+        "pequeno",
+        "minusculo"
+      ]
     }
   },
-  "description": "Este cachorro valente e leal pode ser usado como parceiro perseguidor por personagens treinados em Adestramento ou montaria por personagens Pequenos e Minúsculos."
+  "description": "Este cachorro valente e leal pode ser usado como parceiro perseguidor por personagens treinados em Adestramento ou montaria por personagens Pequenos e Minúsculos.",
+  "page": 168
 }

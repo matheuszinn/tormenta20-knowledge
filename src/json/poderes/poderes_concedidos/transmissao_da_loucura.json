@@ -1,7 +1,9 @@
 {
   "id": "transmissao_da_loucura",
   "name": "Transmissão da Loucura",
-  "deities": ["nimb"],
+  "deities": [
+    "nimb"
+  ],
   "description": "Você pode lançar Sussurros Insanos (CD Car). Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
   "effects": {
     "type": "passive",
@@ -13,5 +15,6 @@
       "spell": "Sussurros Insanos",
       "reduction": 1
     }
-  }
+  },
+  "page": 141
 }

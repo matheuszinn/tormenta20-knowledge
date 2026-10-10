@@ -6,5 +6,6 @@
   "efeito": {
     "descricao_curta": "+5 em Acrobacia; ignora penalidade de armadura para Acrobacia"
   },
-  "description": "Você recebe +5 em Acrobacia e ignora a penalidade de armadura do item para testes dessa perícia."
+  "description": "Você recebe +5 em Acrobacia e ignora a penalidade de armadura do item para testes dessa perícia.",
+  "page": 344
 }

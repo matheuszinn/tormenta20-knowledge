@@ -8,5 +8,6 @@
   "description": "Este diamante lapidado preso em uma corrente de platina deflete ataques contra seu usuário. Você recebe +5 na Defesa.",
   "efeito": {
     "bonus_defesa": 5
-  }
+  },
+  "page": 349
 }

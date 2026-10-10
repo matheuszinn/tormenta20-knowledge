@@ -42,5 +42,6 @@
       "trained_only": false,
       "description": "A CD é 20 + custo em PM da magia. Lançar uma magia arcana usando armadura exige um teste. Esse teste sofre penalidade de armadura. Se falhar, a magia não funciona, mas gasta pontos de mana mesmo assim."
     }
-  ]
+  ],
+  "page": 127
 }

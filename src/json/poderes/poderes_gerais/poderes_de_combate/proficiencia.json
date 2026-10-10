@@ -4,12 +4,12 @@
   "type": "poder_geral",
   "sub_type": "poder_de_combate",
   "description": "Escolha uma proficiência: armas marciais, armas de fogo, armaduras pesadas ou escudos (se for proficiente em armas marciais, você também pode escolher armas exóticas). Você recebe essa proficiência. Você pode escolher este poder outras vezes para proficiências diferentes.",
-  "requirements": [
-  ],
+  "requirements": [],
   "effects": [
     {
       "type": "receive_feature",
       "feature": "a_sua_scolha"
     }
-  ]
+  ],
+  "page": 135
 }

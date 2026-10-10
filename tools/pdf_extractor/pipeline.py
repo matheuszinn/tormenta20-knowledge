@@ -141,6 +141,110 @@ def slugify(text: str) -> str:
     return text
 
 
+ENTITY_TYPE_TO_TABLE = {
+    "racas": "racas",
+    "classes": "classes",
+    "origens": "origens",
+    "divindades": "divindades",
+    "pericias": "pericias",
+    "magias": "magias",
+    "poderes": "poderes",
+    "poderes_combate": "poderes",
+    "poderes_destino": "poderes",
+    "poderes_magia": "poderes",
+    "poderes_concedidos": "poderes",
+    "poderes_tormenta": "poderes",
+    "armas": "armas",
+    "armaduras": "armaduras",
+    "itens_gerais": "itens",
+    "condicoes": "condicoes",
+    "itens_superiores": "melhorias",
+    "pocoes_pergaminhos": "pocoes",
+    "acessorios": "acessorios_magicos",
+}
+
+ENTITY_TYPE_TO_DIR = {
+    "racas": "racas",
+    "classes": "classes",
+    "origens": "origens",
+    "divindades": "deuses",
+    "pericias": "pericias",
+    "magias": "magias",
+    "condicoes": "condicoes",
+    "armas": "equipamentos/armas",
+    "armaduras": "equipamentos/armaduras",
+    "itens_gerais": "equipamentos/itens",
+    "poderes_combate": "poderes/poderes_gerais",
+    "poderes_destino": "poderes/poderes_gerais",
+    "poderes_magia": "poderes/poderes_gerais",
+    "poderes_concedidos": "poderes/poderes_concedidos",
+    "poderes_tormenta": "poderes/poderes_da_tormenta",
+    "pocoes_pergaminhos": "itens_magicos/pocoes",
+    "acessorios": "itens_magicos/acessorios",
+}
+
+
+def update_indice_remissivo(
+    livro_id: str,
+    termo: str,
+    pagina: int,
+    tabela: Optional[str] = None,
+    registro_id: Optional[str] = None,
+    index_dir: Optional[Path] = None
+) -> bool:
+    """
+    Atualiza ou insere uma entrada no índice remissivo JSON do livro especificado.
+    """
+    if index_dir is None:
+        index_dir = Path(__file__).parent.parent.parent / "src" / "json" / "indice_remissivo"
+
+    index_dir.mkdir(parents=True, exist_ok=True)
+    index_file = index_dir / f"{livro_id}.json"
+
+    entries = []
+    if index_file.exists():
+        try:
+            with open(index_file, "r", encoding="utf-8") as f:
+                entries = json.load(f)
+        except Exception as e:
+            print(f"Aviso ao carregar {index_file}: {e}")
+            entries = []
+
+    # Procura entrada existente por (tabela, registro_id) ou (termo, pagina)
+    found = False
+    for entry in entries:
+        if registro_id and entry.get("registro_id") == registro_id and entry.get("tabela") == tabela:
+            entry["pagina"] = pagina
+            entry["termo"] = termo
+            found = True
+            break
+        elif entry.get("termo", "").strip().lower() == termo.strip().lower() and entry.get("pagina") == pagina:
+            if tabela:
+                entry["tabela"] = tabela
+            if registro_id:
+                entry["registro_id"] = registro_id
+            found = True
+            break
+
+    if not found:
+        new_entry = {
+            "termo": termo,
+            "pagina": pagina,
+        }
+        if tabela:
+            new_entry["tabela"] = tabela
+        if registro_id:
+            new_entry["registro_id"] = registro_id
+        entries.append(new_entry)
+
+    entries.sort(key=lambda x: slugify(x.get("termo", "")))
+
+    with open(index_file, "w", encoding="utf-8") as f:
+        json.dump(entries, f, ensure_ascii=False, indent=2)
+
+    return True
+
+
 def validate_json_structure(data: dict, entity_type: str) -> tuple[bool, list[str]]:
     """
     Valida a estrutura básica do JSON.
@@ -248,7 +352,9 @@ def run_pipeline(
     output_dir: str = None,
     dry_run: bool = False,
     toc_start: int = 3,
-    toc_end: int = 6
+    toc_end: int = 6,
+    livro_id: str = "t20_eja",
+    update_index: bool = True
 ) -> dict:
     """
     Executa o pipeline completo.
@@ -262,6 +368,8 @@ def run_pipeline(
         dry_run: Se True, não salva arquivos
         toc_start: Página inicial do índice
         toc_end: Página final do índice
+        livro_id: ID do livro no banco de dados (padrão: "t20_eja")
+        update_index: Se True, sincroniza o índice remissivo JSON
 
     Returns:
         Estatísticas de execução
@@ -282,22 +390,24 @@ def run_pipeline(
     # Inicializar cliente LLM
     client = LLMClient(model=model)
 
-    if not client.check_connection():
-        print("Erro: Ollama não está rodando.")
-        print("Inicie com: ollama serve")
-        sys.exit(1)
+    if not dry_run:
+        if not client.check_connection():
+            print("Erro: Ollama não está rodando.")
+            print("Inicie com: ollama serve")
+            sys.exit(1)
 
-    available_models = client.list_models()
-    if model not in [m.split(":")[0] for m in available_models]:
-        print(f"Aviso: Modelo '{model}' pode não estar instalado.")
-        print(f"Modelos disponíveis: {available_models}")
-        print(f"Instale com: ollama pull {model}")
+        available_models = client.list_models()
+        if model not in [m.split(":")[0] for m in available_models]:
+            print(f"Aviso: Modelo '{model}' pode não estar instalado.")
+            print(f"Modelos disponíveis: {available_models}")
+            print(f"Instale com: ollama pull {model}")
 
     # Preparar diretório de saída
     if output_dir:
         output_path = Path(output_dir)
     else:
-        output_path = Path(__file__).parent.parent.parent / "src" / "json" / entity_type
+        sub_dir = ENTITY_TYPE_TO_DIR.get(entity_type, entity_type)
+        output_path = Path(__file__).parent.parent.parent / "src" / "json" / sub_dir
     output_path.mkdir(parents=True, exist_ok=True)
 
     print(f"\n{'='*60}")
@@ -306,6 +416,7 @@ def run_pipeline(
     print(f"PDF: {pdf_path}")
     print(f"Seção: {section}")
     print(f"Tipo: {entity_type}")
+    print(f"Livro ID: {livro_id}")
     print(f"Modelo: {model}")
     print(f"Saída: {output_path}")
     print(f"{'='*60}\n")
@@ -328,7 +439,8 @@ def run_pipeline(
     if dry_run:
         print("Modo dry-run: mostrando entidades encontradas")
         for entity in entities:
-            print(f"  - {entity['header']}")
+            page_info = f" (pág. {entity['page']})" if entity.get("page") else ""
+            print(f"  - {entity['header']}{page_info}")
         return stats
 
     # Processar cada entidade
@@ -336,6 +448,7 @@ def run_pipeline(
     for entity in tqdm(entities, desc="Processando"):
         header = entity["header"]
         content = entity["content"]
+        page = entity.get("page")
 
         json_data, errors = process_entity(client, content, entity_type)
 
@@ -344,6 +457,11 @@ def run_pipeline(
             if "id" not in json_data or not json_data["id"]:
                 json_data["id"] = slugify(header)
 
+            if page is not None:
+                json_data["page"] = page
+            if livro_id:
+                json_data["livro_id"] = livro_id
+
             # Salvar arquivo
             filename = f"{json_data['id']}.json"
             filepath = output_path / filename
@@ -351,8 +469,21 @@ def run_pipeline(
             with open(filepath, 'w', encoding='utf-8') as f:
                 json.dump(json_data, f, ensure_ascii=False, indent=2)
 
+            # Atualizar índice remissivo
+            if update_index and page is not None:
+                tabela = ENTITY_TYPE_TO_TABLE.get(entity_type, entity_type)
+                termo = json_data.get("name") or header
+                update_indice_remissivo(
+                    livro_id=livro_id,
+                    termo=termo,
+                    pagina=page,
+                    tabela=tabela,
+                    registro_id=json_data["id"]
+                )
+
             stats["success"] += 1
-            tqdm.write(f"✓ {header} -> {filename}")
+            page_str = f" (pág. {page})" if page else ""
+            tqdm.write(f"✓ {header}{page_str} -> {filename}")
         else:
             stats["failed"] += 1
             stats["errors"].append({
@@ -394,7 +525,7 @@ Exemplos:
   # Extrair classes usando modelo específico
   python pipeline.py tormenta20.pdf classes classes --model llama3
 
-  # Dry-run para ver entidades sem processar
+  # Dry-run para ver entidades e páginas sem processar
   python pipeline.py tormenta20.pdf magias magias --dry-run
 
 Tipos de entidade disponíveis:
@@ -410,6 +541,10 @@ Tipos de entidade disponíveis:
                         help=f"Modelo LLM a usar (padrão: {DEFAULT_MODEL})")
     parser.add_argument("--output-dir", "-o",
                         help="Diretório de saída para os JSONs")
+    parser.add_argument("--livro-id", default="t20_eja",
+                        help="ID do livro no banco de dados (padrão: t20_eja)")
+    parser.add_argument("--no-update-index", action="store_true",
+                        help="Não atualiza o arquivo src/json/indice_remissivo/<livro_id>.json")
     parser.add_argument("--dry-run", "-n", action="store_true",
                         help="Não processa, apenas mostra entidades encontradas")
     parser.add_argument("--list-sections", "-l", action="store_true",
@@ -442,7 +577,9 @@ Tipos de entidade disponíveis:
         output_dir=args.output_dir,
         dry_run=args.dry_run,
         toc_start=args.toc_start,
-        toc_end=args.toc_end
+        toc_end=args.toc_end,
+        livro_id=args.livro_id,
+        update_index=not args.no_update_index
     )
 
 

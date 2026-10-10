@@ -5,7 +5,7 @@
   "sub_type": "poder_de_cavaleiro",
   "description": "No 20º nível, sua virtude vence a morte. Se for reduzido a 0 ou menos PV, você pode continuar consciente e agindo normalmente. Se fizer isso, deve gastar 5 PM no início de cada um de seus turnos. Caso contrário, cai inconsciente ou morto, conforme seus PV atuais.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 20
@@ -14,8 +14,8 @@
   "effects": "ver_texto",
   "costs": [
     {
-    "value": "5_por_turno",
-    "type": "PM"
+      "value": "5_por_turno",
+      "type": "PM"
     }
   ]
 }

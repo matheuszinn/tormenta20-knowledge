@@ -11,7 +11,11 @@
   "origem": "pétalas trituradas de flores que nascem apenas na Pondsmânia",
   "efeito": {
     "pm_extras_aprimoramentos": 2,
-    "escolas": ["encantamento", "ilusão"]
+    "escolas": [
+      "encantamento",
+      "ilusão"
+    ]
   },
-  "description": "Uma bolsa com pó multicolorido, fabricado a partir das pétalas trituradas de flores que nascem apenas na Pondsmânia. Quando lança uma magia de encantamento ou ilusão, você recebe +2 PM para gastar em aprimoramentos."
+  "description": "Uma bolsa com pó multicolorido, fabricado a partir das pétalas trituradas de flores que nascem apenas na Pondsmânia. Quando lança uma magia de encantamento ou ilusão, você recebe +2 PM para gastar em aprimoramentos.",
+  "page": 165
 }

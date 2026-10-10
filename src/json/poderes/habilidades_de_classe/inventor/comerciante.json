@@ -5,7 +5,7 @@
   "sub_type": "poder_de_inventor",
   "description": "No 3º nível, você pode vender itens 10% mais caro (não cumulativo com barganha).",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 3

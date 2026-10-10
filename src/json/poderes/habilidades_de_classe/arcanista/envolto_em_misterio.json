@@ -9,7 +9,10 @@
     {
       "type": "bonus",
       "value": 5,
-      "duration": ["enganacao", "intimidacao"]
+      "duration": [
+        "enganacao",
+        "intimidacao"
+      ]
     }
   ]
 }

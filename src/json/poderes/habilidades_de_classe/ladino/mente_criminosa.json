@@ -16,7 +16,10 @@
     {
       "type": "add_attr_to_skill",
       "attr": "int",
-      "skill": ["ladinagem", "furtividade"]
+      "skill": [
+        "ladinagem",
+        "furtividade"
+      ]
     }
   ],
   "costs": null

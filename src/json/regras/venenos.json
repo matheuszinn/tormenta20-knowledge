@@ -41,5 +41,6 @@
   "condicao": {
     "nome": "envenenada",
     "nota": "Curar esta condição encerra quaisquer efeitos de veneno (mas não recupera PV perdidos)"
-  }
+  },
+  "page": 167
 }

@@ -8,5 +8,6 @@
   "cd_fabricacao": 15,
   "uso": "vestido",
   "conta_como_vestido": false,
-  "description": "Uma bolsa de lona com tiras para ser carregada nas costas. Não conta como item vestido."
+  "description": "Uma bolsa de lona com tiras para ser carregada nas costas. Não conta como item vestido.",
+  "page": 161
 }

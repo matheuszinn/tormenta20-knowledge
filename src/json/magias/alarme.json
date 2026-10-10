@@ -30,16 +30,15 @@
       "cost": 2,
       "type": "muda",
       "description": "muda o alcance para pessoal. A área é emanada a partir de você.",
-      "extra_details": {
-       }
+      "extra_details": {}
     },
     {
       "cost": 5,
       "type": "outro",
       "description": "além do normal, você também percebe qualquer efeito de adivinhação que seja usado dentro da área ou atravesse a área. Você pode fazer um teste oposto de Misticismo contra quem usou o efeito; se passar, tem um vislumbre de seu rosto e uma ideia aproximada de sua localização (“três dias de viagem ao norte\", por exemplo).",
       "extra_details": {
-      "extra_skill": "misticismo"
-       }
+        "extra_skill": "misticismo"
+      }
     },
     {
       "cost": 5,
@@ -66,5 +65,6 @@
       "resistence_requirement": null,
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 184
 }

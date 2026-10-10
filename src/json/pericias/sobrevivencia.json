@@ -30,5 +30,6 @@
       "trained_only": true,
       "description": "Você pode identificar e seguir rastros. A CD é 15 para solo macio (neve, lama), 20 para solo comum (grama, terra) e 25 para solo duro (rocha ou piso de interiores). A CD diminui em –5 se você estiver rastreando um grupo grande ou criaturas Enormes ou Colossais, mas aumenta em +5 em visibilidade precária. Enquanto rastreia, seu deslocamento é reduzido à metade. A cada dia desde a criação dos rastros, a CD aumenta em +1."
     }
-  ]
+  ],
+  "page": 129
 }

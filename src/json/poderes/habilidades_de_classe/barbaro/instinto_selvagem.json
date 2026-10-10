@@ -5,17 +5,24 @@
   "sub_type": "poder_de_barbaro",
   "description": "No 3º nível, você recebe +1 em Percepção e Reflexos. A cada seis níveis, esse bônus aumenta em +1.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "soft",
-      "value": [3,9,15]
+      "value": [
+        3,
+        9,
+        15
+      ]
     }
   ],
   "effects": [
     {
       "type": "skill_improvement",
       "value": 1,
-      "feature": ["percepcao", "reflexos"]
+      "feature": [
+        "percepcao",
+        "reflexos"
+      ]
     }
   ]
 }

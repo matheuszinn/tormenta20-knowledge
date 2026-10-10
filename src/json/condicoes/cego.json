@@ -9,5 +9,6 @@
     "Todos os alvos têm cobertura total contra seus ataques"
   ],
   "condition_type": "sentidos",
-  "escalates_to": null
+  "escalates_to": null,
+  "page": 400
 }

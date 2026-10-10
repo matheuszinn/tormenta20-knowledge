@@ -24,7 +24,11 @@
     },
     {
       "type": "damege_type",
-      "damege": ["letal", "nao_letal"]
+      "damege": [
+        "letal",
+        "nao_letal"
+      ]
     }
-  ]
+  ],
+  "page": 134
 }

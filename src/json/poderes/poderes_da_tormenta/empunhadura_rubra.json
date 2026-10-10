@@ -7,7 +7,12 @@
     "cost": "1 PM",
     "duration": "cena",
     "skill_bonuses": [
-      {"skill": "Luta", "base": 1, "scaling": "+1 por cada 2 outros poderes da Tormenta"}
+      {
+        "skill": "Luta",
+        "base": 1,
+        "scaling": "+1 por cada 2 outros poderes da Tormenta"
+      }
     ]
-  }
+  },
+  "page": 143
 }

@@ -7,14 +7,27 @@
       "type": "choice",
       "text": "Ferramenta de guilda",
       "options": [
-        { "text": "Gazua" },
-        { "text": "Instrumentos de ofício (à sua escolha)" }
+        {
+          "text": "Gazua"
+        },
+        {
+          "text": "Instrumentos de ofício (à sua escolha)"
+        }
       ]
     }
   ],
   "benefits": {
-    "skills": ["Diplomacia", "Enganação", "Misticismo", "Ofício"],
-    "powers": ["Foco em Perícia", "Rede de Contatos"]
+    "skills": [
+      "Diplomacia",
+      "Enganação",
+      "Misticismo",
+      "Ofício"
+    ],
+    "powers": [
+      "Foco em Perícia",
+      "Rede de Contatos"
+    ]
   },
-  "unique_power": "rede_de_contatos"
+  "unique_power": "rede_de_contatos",
+  "page": 98
 }

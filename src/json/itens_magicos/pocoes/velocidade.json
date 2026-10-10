@@ -9,5 +9,6 @@
   "roll_min": 76,
   "roll_max": 77,
   "aprimoramento": null,
-  "description": "Poção que gera o efeito da magia Velocidade."
+  "description": "Poção que gera o efeito da magia Velocidade.",
+  "page": 347
 }

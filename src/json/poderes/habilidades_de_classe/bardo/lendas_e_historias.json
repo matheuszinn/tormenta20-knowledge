@@ -15,13 +15,18 @@
   "effects": [
     {
       "type": "reroll_skill_teste",
-      "skill": ["conhecimento", "misticismo", "nobreza", "religiao"]
+      "skill": [
+        "conhecimento",
+        "misticismo",
+        "nobreza",
+        "religiao"
+      ]
     }
   ],
   "costs": [
     {
-    "value": 1,
-    "type": "PM"
+      "value": 1,
+      "type": "PM"
     }
   ]
 }

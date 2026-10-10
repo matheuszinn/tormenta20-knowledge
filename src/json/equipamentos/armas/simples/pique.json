@@ -11,7 +11,10 @@
   "alcance": null,
   "tipo_dano": "perfuracao",
   "espacos": 2,
-  "habilidades": ["alongada"],
+  "habilidades": [
+    "alongada"
+  ],
   "especial": null,
-  "description": "Essencialmente uma lança muito longa. O pique é uma arma alongada."
+  "description": "Essencialmente uma lança muito longa. O pique é uma arma alongada.",
+  "page": 156
 }

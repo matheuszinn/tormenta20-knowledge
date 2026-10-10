@@ -1,7 +1,9 @@
 {
   "id": "caricia_sombria",
   "name": "Carícia Sombria",
-  "deities": ["tenebra"],
+  "deities": [
+    "tenebra"
+  ],
   "description": "Você pode gastar 1 PM e uma ação padrão para cobrir sua mão com energia negativa e tocar uma criatura em alcance corpo a corpo. A criatura sofre 2d6 pontos de dano de trevas (Fortitude CD Sab reduz à metade) e você recupera PV iguais à metade do dano causado. Você pode aprender Toque Vampírico como uma magia divina. Se fizer isso, o custo dela diminui em –1 PM.",
   "effects": {
     "type": "active",
@@ -22,5 +24,6 @@
       "spell": "Toque Vampírico",
       "reduction": 1
     }
-  }
+  },
+  "page": 138
 }

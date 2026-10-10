@@ -5,7 +5,7 @@
   "sub_type": "poder_de_arcanista",
   "description": "Escolha uma escola de magia. O custo para lançar magias dessa escola diminui em –1 PM. Pré-requisitos: Especialista em Escola com a escola escolhida, 8º nível de arcanista.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "soft",
       "value": 8

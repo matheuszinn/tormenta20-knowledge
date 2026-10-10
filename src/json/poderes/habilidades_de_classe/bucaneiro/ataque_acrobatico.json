@@ -5,11 +5,13 @@
   "sub_type": "poder_de_bucaneiro",
   "description": "Quando se aproxima de um inimigo com uma pirueta ou pulo (em termos de jogo, usando Acrobacia ou Atletismo para se mover) e o ataca no mesmo turno, você recebe +2 em seu teste de ataque e na rolagem de dano.",
   "requirements": [
-     
     {
       "type": "moviment_type",
       "sub_type": "soft",
-      "moviment": ["acrobacia", "atletismo"]
+      "moviment": [
+        "acrobacia",
+        "atletismo"
+      ]
     }
   ],
   "effects": [

@@ -6,7 +6,10 @@
   "effects": {
     "healing_bonus": {
       "attribute": "Sabedoria",
-      "applies_to": ["habilidades de cura", "itens mundanos de cura"]
+      "applies_to": [
+        "habilidades de cura",
+        "itens mundanos de cura"
+      ]
     }
   }
 }

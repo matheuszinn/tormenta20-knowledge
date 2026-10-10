@@ -6,9 +6,19 @@
   "movement": 9,
   "vision": "normal",
   "vision_range": null,
-  "attribute_bonuses": { "forca": 2, "constituicao": 1, "sabedoria": -1 },
+  "attribute_bonuses": {
+    "forca": 2,
+    "constituicao": 1,
+    "sabedoria": -1
+  },
   "skill_bonuses": [],
-  "racial_abilities": ["chifres", "couro_rigido", "faro", "medo_de_altura"],
+  "racial_abilities": [
+    "chifres",
+    "couro_rigido",
+    "faro",
+    "medo_de_altura"
+  ],
   "chosen_abilities_amount": 0,
-  "available_chosen_abilities": []
+  "available_chosen_abilities": [],
+  "page": 31
 }

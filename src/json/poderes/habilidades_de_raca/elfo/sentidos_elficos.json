@@ -7,8 +7,14 @@
   "effects": {
     "vision": "visao_na_penumbra",
     "skill_bonus": [
-      { "skill": "misticismo", "value": 2 },
-      { "skill": "percepcao", "value": 2 }
+      {
+        "skill": "misticismo",
+        "value": 2
+      },
+      {
+        "skill": "percepcao",
+        "value": 2
+      }
     ]
   }
 }

@@ -18,5 +18,6 @@
       "trained_only": false,
       "description": "Você escuta barulhos sutis. Uma conversa casual próxima tem CD 0. Ouvir pessoas sussurrando tem CD 15. Ouvir do outro lado de uma porta aumenta a CD em +10. Você pode fazer testes de Percepção para ouvir mesmo que esteja dormindo, mas sofre –10 no teste; um sucesso faz você acordar. Perceber criaturas que não possam ser vistas tem CD 20, ou +10 no teste de Furtividade da criatura, o que for maior."
     }
-  ]
+  ],
+  "page": 128
 }

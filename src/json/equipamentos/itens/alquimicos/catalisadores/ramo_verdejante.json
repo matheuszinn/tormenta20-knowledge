@@ -12,5 +12,6 @@
   "efeito": {
     "bonus_cura_por_dado": 1
   },
-  "description": "Esta combinação de ervas potencializa magias de cura, aumentando sua cura em +1 PV por dado."
+  "description": "Esta combinação de ervas potencializa magias de cura, aumentando sua cura em +1 PV por dado.",
+  "page": 167
 }

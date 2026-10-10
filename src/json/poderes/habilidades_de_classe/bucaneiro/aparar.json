@@ -8,7 +8,10 @@
     {
       "type": "weapon_type",
       "sub_type": "soft",
-      "weapon": ["leve", "agil"]
+      "weapon": [
+        "leve",
+        "agil"
+      ]
     },
     {
       "type": "feature",
@@ -19,8 +22,8 @@
   "effects": null,
   "costs": [
     {
-    "value": 1,
-    "type": "PM"
+      "value": 1,
+      "type": "PM"
     }
   ]
 }

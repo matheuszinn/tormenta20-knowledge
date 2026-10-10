@@ -5,7 +5,7 @@
   "sub_type": "poder_de_guerreiro",
   "description": "Uma vez por dia, você pode gastar uma hora e 3 PM para escolher um poder de guerreiro ou de combate cujos pré-requisitos cumpra. Você recebe os benefícios desse poder até o próximo dia.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 10
@@ -19,11 +19,11 @@
   "effects": "ver_texto",
   "costs": [
     {
-    "value": 3,
-    "type": "PM"
+      "value": 3,
+      "type": "PM"
     },
     {
-    "type": "uma_hora"
+      "type": "uma_hora"
     }
   ]
 }

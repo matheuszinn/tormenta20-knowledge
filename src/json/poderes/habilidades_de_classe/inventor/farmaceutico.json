@@ -5,7 +5,7 @@
   "sub_type": "poder_de_inventor",
   "description": "Quando usa um item alquímico que cure pontos de vida, você pode gastar uma quantidade de PM a sua escolha (limitado pelo seu bônus de Inteligência). Para cada PM que gastar, o item cura um dado extra do mesmo tipo.",
   "requirements": [
-     {
+    {
       "type": "item_type",
       "sub_type": "soft",
       "item": "alquimico_de_cura"
@@ -30,8 +30,8 @@
   ],
   "costs": [
     {
-    "value": "a_sua_escolha",
-    "type": "PM"
+      "value": "a_sua_escolha",
+      "type": "PM"
     }
   ]
 }

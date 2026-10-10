@@ -5,7 +5,7 @@
   "sub_type": "poder_de_bucaneiro",
   "description": "Quando chega em uma comunidade portuária, você pode gastar 2 PM para fazer um teste de Carisma (CD 10). Se passar, encontra um amigo para o qual pode pedir um favor (veja a perícia Diplomacia) ou que pode ajudá-lo como um aliado por uma cena.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 6
@@ -17,11 +17,11 @@
       "value": 13
     }
   ],
-  "effects": null, 
+  "effects": null,
   "costs": [
     {
-    "value": 2,
-    "type": "PM"
+      "value": 2,
+      "type": "PM"
     }
   ]
 }

@@ -38,7 +38,7 @@
       "description": "cria uma cabana mobiliada para até 10 criaturas Médias (descanso confortável). Há duas janelas e uma porta (PV 15, RD 5 e o mesmo efeito de Tranca Arcana). Paredes têm PV 200 e RD 5.",
       "extra_details": {
         "target": "cabana_mobiliada"
-      }    
+      }
     },
     {
       "cost": 3,
@@ -67,5 +67,6 @@
       "resistence_requirement": null,
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 209
 }

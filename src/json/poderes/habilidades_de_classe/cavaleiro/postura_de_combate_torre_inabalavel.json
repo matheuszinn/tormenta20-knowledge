@@ -4,16 +4,16 @@
   "type": "habilidade_de_classe",
   "sub_type": "poder_de_cavaleiro",
   "description": "Você assume uma postura defensiva que o torna imune a qualquer tentativa de tirá-lo do lugar, de forma mundana ou mágica. Enquanto mantiver a postura, você não pode se deslocar, mas recebe um bônus na Defesa igual a seu bônus de Constituição e pode substituir testes de Reflexos e Vontade por testes de Fortitude.",
-  "requirements":null,
+  "requirements": null,
   "effects": "ver_texto",
   "costs": [
     {
-    "value": 2,
-    "type": "PM"
+      "value": 2,
+      "type": "PM"
     },
     {
-     "action": "moviment",
-     "type": "acao" 
+      "action": "moviment",
+      "type": "acao"
     }
   ]
 }

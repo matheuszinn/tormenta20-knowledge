@@ -6,5 +6,6 @@
   "efeito": {
     "descricao_curta": "Uma vez por rodada: gaste 1 PM para se tornar alvo de um ataque a um aliado adjacente"
   },
-  "description": "Uma vez por rodada, se um aliado adjacente for alvo de um ataque, você pode gastar 1 PM para se tornar o alvo do ataque, que então é resolvido normalmente."
+  "description": "Uma vez por rodada, se um aliado adjacente for alvo de um ataque, você pode gastar 1 PM para se tornar o alvo do ataque, que então é resolvido normalmente.",
+  "page": 345
 }

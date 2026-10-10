@@ -8,13 +8,17 @@
   "effects": [
     {
       "type": "reroll_skill_dice",
-      "skill": ["diplomacia", "intuicao", "nobreza"]
+      "skill": [
+        "diplomacia",
+        "intuicao",
+        "nobreza"
+      ]
     }
   ],
   "costs": [
     {
-    "value": 1,
-    "type": "PM"
+      "value": 1,
+      "type": "PM"
     }
   ]
 }

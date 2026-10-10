@@ -28,10 +28,10 @@
       "extra_details": {
         "range": "toque",
         "target": {
-    "amount": 5,
-    "up_to": true,
-    "type": "criaturas_voluntarias"
-  }
+          "amount": 5,
+          "up_to": true,
+          "type": "criaturas_voluntarias"
+        }
       }
     }
   ],
@@ -43,5 +43,6 @@
       "resistence_requirement": null,
       "extra_requirements": null
     }
-  ]
+  ],
+  "page": 199
 }

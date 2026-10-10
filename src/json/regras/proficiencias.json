@@ -12,7 +12,16 @@
       "id": "marciais",
       "name": "Armas Marciais",
       "description": "Espadas, machados e outras armas de uso específico de combatentes.",
-      "classes_proficientes": ["bárbaro", "bardo", "bucaneiro", "caçador", "cavaleiro", "guerreiro", "nobre", "paladino"]
+      "classes_proficientes": [
+        "bárbaro",
+        "bardo",
+        "bucaneiro",
+        "caçador",
+        "cavaleiro",
+        "guerreiro",
+        "nobre",
+        "paladino"
+      ]
     },
     {
       "id": "exoticas",
@@ -27,6 +36,9 @@
   ],
   "regras": {
     "penalidade_nao_proficiente": -5,
-    "proficiencia_universal": ["ataques desarmados", "armas naturais"]
+    "proficiencia_universal": [
+      "ataques desarmados",
+      "armas naturais"
+    ]
   }
 }

@@ -14,5 +14,6 @@
       "penalidade_sem_item": -5
     }
   },
-  "description": "Uma barra fina de ferro, com a ponta torta ou em forma de gancho. Um personagem sem este item sofre –5 em testes de Ladinagem para abrir fechaduras."
+  "description": "Uma barra fina de ferro, com a ponta torta ou em forma de gancho. Um personagem sem este item sofre –5 em testes de Ladinagem para abrir fechaduras.",
+  "page": 164
 }

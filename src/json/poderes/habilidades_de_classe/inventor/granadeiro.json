@@ -14,7 +14,10 @@
   "effects": [
     {
       "type": "throw_item",
-      "item": ["pocao", "item_alquimico"],
+      "item": [
+        "pocao",
+        "item_alquimico"
+      ],
       "range": "medio"
     }
   ],

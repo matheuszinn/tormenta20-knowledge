@@ -9,9 +9,15 @@
   "dano": "1d10",
   "critico": "x3",
   "alcance": null,
-  "tipo_dano": ["corte", "perfuracao"],
+  "tipo_dano": [
+    "corte",
+    "perfuracao"
+  ],
   "espacos": 2,
-  "habilidades": ["alongada"],
+  "habilidades": [
+    "alongada"
+  ],
   "especial": null,
-  "description": "Uma haste de madeira com 2m de comprimento e uma lâmina de machado na ponta. A alabarda é uma arma alongada."
+  "description": "Uma haste de madeira com 2m de comprimento e uma lâmina de machado na ponta. A alabarda é uma arma alongada.",
+  "page": 152
 }

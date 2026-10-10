@@ -15,5 +15,6 @@
     "dano": "1d6",
     "tipo_dano": "acido"
   },
-  "description": "Um frasco de vidro com um preparado corrosivo. Você pode gastar uma ação padrão para atirar o frasco em um alvo em alcance curto, fazendo um ataque à distância de toque. Se acertar, causa 1d6 de dano de ácido."
+  "description": "Um frasco de vidro com um preparado corrosivo. Você pode gastar uma ação padrão para atirar o frasco em um alvo em alcance curto, fazendo um ataque à distância de toque. Se acertar, causa 1d6 de dano de ácido.",
+  "page": 162
 }

@@ -5,7 +5,7 @@
   "sub_type": "poder_de_inventor",
   "description": "Quando usa uma arma corpo a corpo feita por você mesmo, o dano dela aumenta em um passo.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 5

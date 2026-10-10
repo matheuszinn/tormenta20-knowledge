@@ -5,7 +5,7 @@
   "sub_type": "poder_de_ladino",
   "description": "Quando causa dano com um ataque furtivo em uma criatura capaz de lançar magias, você pode “roubar\" uma magia que já a tenha visto lançar. Você precisa pagar 1 PM por círculo da magia e pode roubar magias de até 4º círculo. Até o final da cena, você pode lançar a magia roubada (atributo-chave Inteligência).",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 13
@@ -31,8 +31,8 @@
   ],
   "costs": [
     {
-    "value": "1_por_circulo",
-    "type": "PM"
+      "value": "1_por_circulo",
+      "type": "PM"
     }
   ]
 }

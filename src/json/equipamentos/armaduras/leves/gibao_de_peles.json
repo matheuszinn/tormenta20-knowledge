@@ -9,5 +9,6 @@
   "espacos": 2,
   "especial": null,
   "vestir_remover": "acao_completa",
-  "description": "Usada principalmente por bárbaros e selvagens, esta armadura é formada por várias camadas de peles e couro de animais."
+  "description": "Usada principalmente por bárbaros e selvagens, esta armadura é formada por várias camadas de peles e couro de animais.",
+  "page": 160
 }
