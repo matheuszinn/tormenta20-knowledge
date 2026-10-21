@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "parcial",
     "skill": "vontade"
   },
@@ -67,7 +67,7 @@
       "type": "condição",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": "vontade",
+      "resistance_requirement": "vontade",
       "extra_requirements": null
     }
   ],

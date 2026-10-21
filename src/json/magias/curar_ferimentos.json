@@ -17,7 +17,7 @@
   "counterspell": "infligir_ferimentos",
   "duration": "instantânea",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Você canaliza energia positiva que recupera 2d8+2 pontos de vida na criatura tocada. Como mortos-vivos usam energia negativa, cura mágica causa dano de luz a eles (Vontade reduz à metade). Curar Ferimentos anula Infligir Ferimentos.",
   "enhancements": [
@@ -37,7 +37,7 @@
           "up_to": null,
           "type": "morto-vivo"
         },
-        "resistence": {
+        "resistance": {
           "effect": "reduz_à_metade",
           "skill": "vontade"
         }
@@ -78,7 +78,7 @@
       "type": "bônus",
       "attribute": "pv",
       "amount": "2d8+2",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

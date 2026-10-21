@@ -15,14 +15,14 @@
   "effect": "area_3m",
   "effect_details": {
     "shape": "esfera",
-    "dimention": "raio",
+    "dimension": "raio",
     "size": "3m_yq",
     "other_details": null
   },
   "counterspell": null,
   "duration": "sustentada",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Você é cercado por uma barreira invisível com 3m de raio que acompanha seus movimentos. Qualquer magia ou habilidade mágica que entre na área da barreira é suprimida enquanto estiver lá.\nCriaturas convocadas que entrem em um Campo Antimagia desaparecem. Elas reaparecem na mesma posição quando a duração do Campo termina — supondo que a duração da magia que as convocou ainda não tenha terminado.\nCriaturas mágicas, como elementais, ou construtos imbuídos com magia durante sua criação, como golens, não são diretamente afetados pelo Campo Antimagia. Entretanto, como qualquer criatura, não poderão usar magias ou habilidades mágicas dentro dele.\nDissipar Magia não dissipa um Campo Antimagia, e dois Campos na mesma área não se neutralizam. Artefatos e deuses maiores não são afetados por um Campo Antimagia.",
   "enhancements": null,
@@ -31,7 +31,7 @@
       "type": "bloqueio",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

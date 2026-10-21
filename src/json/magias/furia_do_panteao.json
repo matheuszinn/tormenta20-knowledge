@@ -15,14 +15,14 @@
   "effect": "area",
   "effect_details": {
     "shape": "nuvem",
-    "dimention": "lado",
+    "dimension": "lado",
     "size": "90m_yq",
     "other_details": null
   },
   "counterspell": null,
   "duration": "sustentada",
   "duration_details": "a magia escala nas três primeiras rodadas, veja texto",
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Você cria uma nuvem de tempestade, com trovões e relâmpagos. Enquanto você sustenta a magia, ela gera os seguintes efeitos, sempre no início do seu turno.\n1ª rodada (quando você lança a magia): trovões ribombam. Criaturas na área sofrem 6d6 pontos de dano de impacto e ficam surdas por uma rodada.\n2ª rodada: relâmpagos caem. Até seis criaturas a sua escolha na área sofrem 10d8 pontos de dano de eletricidade.\n3º rodada em diante: chuva gélida e ventos causam 6d6 pontos de dano de frio por rodada. Além disso, reduzem a visibilidade (como a magia Névoa), transformam toda a área em terreno difícil e tornam ataques à distância impossíveis. Por fim, a área conta como condição terrível para conjuradores lançarem magias.",
   "enhancements": null,
@@ -31,7 +31,7 @@
       "type": "dano",
       "attribute": "pv",
       "amount": "6d6,10d8,6d6",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

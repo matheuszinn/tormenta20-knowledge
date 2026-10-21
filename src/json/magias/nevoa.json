@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena",
   "duration_details": "Um vento forte dispersa a névoa em 4 rodadas e um vendaval a dispersa em 1 rodada.",
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Uma névoa espessa eleva-se de um ponto a sua escolha, obscurecendo toda a visão — criaturas a até 1,5m têm camuflagem e criaturas a partir de 3m têm camuflagem total. Um vento forte dispersa a névoa em 4 rodadas e um vendaval a dispersa em 1 rodada. Esta magia não funciona sob a água.",
   "enhancements": [
@@ -40,7 +40,7 @@
       "type": "outro",
       "description": "além do normal, a nuvem tem um cheiro horrível. No início de seus turnos, qualquer criatura dentro dela, ou qualquer criatura com faro em alcance curto da nuvem, deve fazer um teste de Fortitude. Se falhar, fica enjoada por uma rodada.",
       "extra_details": {
-        "resistence": {
+        "resistance": {
           "effect": "parcial",
           "skill": "fortitude"
         }
@@ -70,7 +70,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

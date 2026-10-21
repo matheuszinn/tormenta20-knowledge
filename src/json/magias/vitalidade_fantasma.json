@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "instantânea",
   "duration_details": "os PV temporários desaparecem ao final da cena",
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Você suga energia vital da terra, recebendo 2d8 pontos de vida temporários. Os PV temporários desaparecem ao final da cena.",
   "enhancements": [
@@ -36,7 +36,7 @@
         "effects": "area",
         "effect_details": {
           "shape": "esfera",
-          "dimention": "raio",
+          "dimension": "raio",
           "size": "6m_9q",
           "other_details": "o centro da ewsfera é o conjurador"
         }
@@ -48,7 +48,7 @@
       "type": "aumenta_temporariamente",
       "attribute": "pv",
       "amount": "2d8",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

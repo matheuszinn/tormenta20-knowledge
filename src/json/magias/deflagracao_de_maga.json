@@ -15,14 +15,14 @@
   "effect": "area_",
   "effect_details": {
     "shape": "esfera",
-    "dimention": "raio",
+    "dimension": "raio",
     "size": "15m_yq",
     "other_details": null
   },
   "counterspell": null,
   "duration": "instantânea",
   "duration_details": "Os itens magicos de quem passar no teste de resistencia voltam ao normal após um dia",
-  "resistence": {
+  "resistance": {
     "effect": "parcial",
     "skill": "fortitude"
   },
@@ -47,7 +47,7 @@
       "type": "dano_de_essencia",
       "attribute": "pv",
       "amount": "150",
-      "resistence_requirement": "fortitude",
+      "resistance_requirement": "fortitude",
       "extra_requirements": null
     }
   ]

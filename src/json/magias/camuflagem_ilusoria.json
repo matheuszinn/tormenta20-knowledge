@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "O alvo fica com sua imagem nublada, como se vista através de um líquido. Ele recebe camuflagem.",
   "enhancements": [
@@ -43,7 +43,7 @@
       "type": "camuflagem",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

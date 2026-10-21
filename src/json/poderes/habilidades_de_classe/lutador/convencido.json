@@ -7,9 +7,9 @@
   "requirements": null,
   "effects": [
     {
-      "type": "resistence_test_improvement",
+      "type": "resistance_test_improvement",
       "value": 5,
-      "resistence": "encantamento"
+      "resistance": "encantamento"
     }
   ],
   "costs": null

@@ -71,6 +71,21 @@ module Tormenta20
       #   @return [ActiveRecord::Relation<Poder>]
       scope :poderes_tormenta, -> { where(type: "poder_tormenta") }
 
+      # @!method poderes_combate
+      #   Filter combat powers.
+      #   @return [ActiveRecord::Relation<Poder>]
+      scope :poderes_combate, -> { where(type: "poder_combate") }
+
+      # @!method poderes_destino
+      #   Filter destiny powers.
+      #   @return [ActiveRecord::Relation<Poder>]
+      scope :poderes_destino, -> { where(type: "poder_destino") }
+
+      # @!method poderes_magia
+      #   Filter magic powers.
+      #   @return [ActiveRecord::Relation<Poder>]
+      scope :poderes_magia, -> { where(type: "poder_magia") }
+
       # @!method poderes_classe
       #   Filter class powers.
       #   @return [ActiveRecord::Relation<Poder>]
@@ -80,6 +95,11 @@ module Tormenta20
       #   Filter general powers.
       #   @return [ActiveRecord::Relation<Poder>]
       scope :poderes_gerais, -> { where(type: "poder_geral") }
+
+      # @!method habilidades_de_raca
+      #   Filter racial abilities.
+      #   @return [ActiveRecord::Relation<Poder>]
+      scope :habilidades_de_raca, -> { where(type: "habilidade_de_raca") }
 
       # @!method by_type(type)
       #   Filter powers by type.

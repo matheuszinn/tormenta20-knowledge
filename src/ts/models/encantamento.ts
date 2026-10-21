@@ -1,5 +1,6 @@
 import { BaseModel } from "./base.js"
 import { Query } from "../query.js"
+import { getBookReferenceFor, getBookReferencesFor, type BookReference } from "./concerns/book_referenceable.js"
 
 const TABLE = "encantamentos"
 
@@ -28,6 +29,12 @@ export class Encantamento extends BaseModel {
   get prerequisitos(): unknown[] { return BaseModel.json(this._row.prerequisitos, []) }
   /** JSON object with mechanical effects. */
   get efeito(): Record<string, unknown> { return BaseModel.json(this._row.efeito, {}) }
+
+  /** Returns the sourcebook page reference, or `null` if not indexed. */
+  bookReference(): BookReference | null { return getBookReferenceFor(this.id, TABLE) }
+
+  /** Returns all sourcebook page references (multi-source), or an empty array if not indexed. */
+  bookReferences(): BookReference[] { return getBookReferencesFor(this.id, TABLE) }
 
   toH() {
     return {

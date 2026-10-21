@@ -55,3 +55,14 @@ export type { RacaSize, RacaVision } from "./models/raca.js"
 export type { CondicaoType } from "./models/condicao.js"
 export type { PericiaAtributo } from "./models/pericia.js"
 export type { EncantamentoCategoria } from "./models/encantamento.js"
+
+/**
+ * Knowledge Engine namespace.
+ *
+ * Exported as a namespace (`Knowledge.*`) rather than flattened into the root
+ * so the search API surface stays cleanly separated from the data models and
+ * avoids name collisions with future root exports. Access types and adapters
+ * via `Knowledge.toSearchResult`, `Knowledge.entityTypeFor`,
+ * `Knowledge.SearchResult`, etc.
+ */
+export * as Knowledge from "./knowledge/index.js"

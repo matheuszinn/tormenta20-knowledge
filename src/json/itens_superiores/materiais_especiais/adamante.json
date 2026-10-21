@@ -31,6 +31,13 @@
       }
     }
   },
+  "applicable_to": [
+    "arma",
+    "armadura_leve",
+    "armadura_pesada",
+    "escudo",
+    "esoterico"
+  ],
   "description": "Encontrado apenas em meteoritos (e por isso também chamado de 'ferro-meteórico'), o adamante é um metal escuro, fosco e mais denso que o aço.",
   "page": 172
 }

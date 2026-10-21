@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "1_rodada",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Você amplia sua percepção, antecipando movimentos dos inimigos e achando brechas em sua defesa. Quando faz um teste de ataque, você rola dois dados e usa o melhor resultado.",
   "enhancements": [
@@ -65,7 +65,7 @@
       "type": "amplia",
       "attribute": "percepção",
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ]

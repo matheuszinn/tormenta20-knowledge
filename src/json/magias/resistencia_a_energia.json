@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Ao lançar esta magia, escolha entre ácido, eletricidade, fogo, frio, luz ou trevas. O alvo recebe resistência 10 contra a energia escolhida, passando a ignorar os 10 primeiros pontos de dano de cada ataque feito com essa energia (veja mais em Tormenta20, página 392).",
   "enhancements": [
@@ -74,7 +74,7 @@
       "type": "resistência",
       "attribute": null,
       "amount": "10",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

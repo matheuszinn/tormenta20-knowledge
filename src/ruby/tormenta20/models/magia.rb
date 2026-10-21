@@ -146,11 +146,11 @@ module Tormenta20
       #
       # @return [Hash, nil] Effect details or nil if no effect info exists
       def effect_details_info
-        return nil unless effect_shape || effect_dimention || effect_size
+        return nil unless effect_shape || effect_dimension || effect_size
 
         {
           shape: effect_shape,
-          dimention: effect_dimention,
+          dimension: effect_dimension,
           size: effect_size,
           other_details: effect_other_details
         }.compact
@@ -159,12 +159,12 @@ module Tormenta20
       # Get resistance information as a structured hash.
       #
       # @return [Hash, nil] Resistance info or nil if no resistance exists
-      def resistence_info
-        return nil unless resistence_effect || resistence_skill
+      def resistance_info
+        return nil unless resistance_effect || resistance_skill
 
         {
-          effect: resistence_effect,
-          skill: resistence_skill
+          effect: resistance_effect,
+          skill: resistance_skill
         }.compact
       end
 
@@ -202,7 +202,7 @@ module Tormenta20
           counterspell: counterspell,
           duration: duration,
           duration_details: duration_details,
-          resistence: resistence_info,
+          resistance: resistance_info,
           extra_costs: extra_costs_info,
           description: description,
           enhancements: enhancements,

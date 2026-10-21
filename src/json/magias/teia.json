@@ -15,14 +15,14 @@
   "effect": "area",
   "effect_details": {
     "shape": "cubo",
-    "dimention": "lado",
+    "dimension": "lado",
     "size": "6m_9q",
     "other_details": null
   },
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "anula",
     "skill": "reflexos"
   },
@@ -53,7 +53,7 @@
       "type": "condição",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": "reflexos",
+      "resistance_requirement": "reflexos",
       "extra_requirements": null
     }
   ],

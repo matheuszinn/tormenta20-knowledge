@@ -15,14 +15,14 @@
   "effect": "area",
   "effect_details": {
     "shape": "cubo",
-    "dimention": "lado",
+    "dimension": "lado",
     "size": "1,5m_yq",
     "other_details": null
   },
   "counterspell": null,
   "duration": "cena",
   "duration_details": "a magia é dissipada se você sair do alcance",
-  "resistence": {
+  "resistance": {
     "effect": "desacredita",
     "skill": "vontade"
   },
@@ -68,7 +68,7 @@
         "effect": "area",
         "effect_details": {
           "shape": "esfera",
-          "dimention": "raio",
+          "dimension": "raio",
           "size": "30m_yq",
           "other_details": null
         }
@@ -97,7 +97,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": "vontade",
+      "resistance_requirement": "vontade",
       "extra_requirements": null
     }
   ],

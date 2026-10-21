@@ -15,14 +15,14 @@
   "effect": "longo_90m_60q",
   "effect_details": {
     "shape": "esfera",
-    "dimention": "raio",
+    "dimension": "raio",
     "size": "90m_yq",
     "other_details": null
   },
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Esta magia pode encontrar uma criatura ou objeto a sua escolha. Você pode pensar em termos gerais (“um elfo\" “algo de metal\") ou específicos (“Gwen, a elfa\" “uma espada longa\"). A magia indica a direção e distância da criatura ou objeto mais próximo desse tipo, caso esteja ao alcance. Você pode movimentar- -se para continuar procurando. Procurar algo muito específico (“a espada longa encantada do Barão Rulyn\") exige que você tenha em mente uma imagem precisa do objeto; caso a imagem não seja muito próxima da verdade, a magia falha, mas você gasta os PM mesmo assim. Esta magia pode ser bloqueada por uma fina camada de chumbo.",
   "enhancements": [
@@ -50,7 +50,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

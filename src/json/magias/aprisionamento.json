@@ -18,7 +18,7 @@
   "condition": "aprimoramento 5º circulo",
   "duration": "permanente",
   "duration_details": "até o alvo cumprir a condição establecida",
-  "resistence": {
+  "resistance": {
     "effect": "anula",
     "skill": "vontade"
   },
@@ -70,7 +70,7 @@
       "type": "aprisiona",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": "vontade",
+      "resistance_requirement": "vontade",
       "extra_requirements": null
     }
   ],

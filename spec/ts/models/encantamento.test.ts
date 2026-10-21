@@ -26,8 +26,14 @@ describe("Encantamento", () => {
       Encantamento.armas().all().forEach((e) => expect(e.categoria).toBe("arma"))
     })
 
-    it("armadurasEscudos returns only armadura", () => {
-      Encantamento.armadurasEscudos().all().forEach((e) => expect(e.categoria).toBe("armadura"))
+    it("armadurasEscudos returns a non-empty set of armadura enchantments", () => {
+      const result = Encantamento.armadurasEscudos().all()
+      expect(result.length).toBeGreaterThan(0)
+      result.forEach((e) => expect(e.categoria).toBe("armadura"))
+    })
+
+    it("armas + armadurasEscudos cover every encantamento", () => {
+      expect(Encantamento.armas().count() + Encantamento.armadurasEscudos().count()).toBe(Encantamento.count())
     })
 
     it("escudoOnly returns only shield-exclusive enchantments", () => {

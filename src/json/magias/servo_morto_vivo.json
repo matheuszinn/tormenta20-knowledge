@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "instantânea",
   "duration_details": "os mortos-vivos duram até serem destruidos",
-  "resistence": null,
+  "resistance": null,
   "extra_costs": {
     "material_component": "ônix negro inserido no olho ou boca do cadáver",
     "material_component_cost": "T$ 100",
@@ -72,7 +72,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

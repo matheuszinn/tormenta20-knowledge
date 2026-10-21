@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "instantânea",
   "duration_details": "a depender do teste de resistencia o efeito da magia pode durar até o fim da cena ou por uma rodada",
-  "resistence": {
+  "resistance": {
     "effect": "parcial",
     "skill": "vontade"
   },
@@ -32,7 +32,7 @@
         "effect": "area",
         "effect_details": {
           "shape": "esferas",
-          "dimention": "raio",
+          "dimension": "raio",
           "size": "6m_yq",
           "other_details": null
         },
@@ -63,7 +63,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": "vontade",
+      "resistance_requirement": "vontade",
       "extra_requirements": null
     }
   ],

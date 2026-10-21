@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Pela duração da magia, você sabe a posição e condição (PV atuais, se estão sob efeito de magia...) das criaturas escolhidas. Depois de lançada, a distância entre você e os alvos não importa — a magia só deixa de detectar um alvo se ele morrer ou viajar para outro plano.",
   "enhancements": [
@@ -39,7 +39,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

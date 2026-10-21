@@ -15,6 +15,10 @@
       "recuperacao_pm_curas": 1
     }
   },
+  "applicable_to": [
+    "arma",
+    "esoterico"
+  ],
   "page": 401,
   "livro_id": "ameacas_de_arton"
 }

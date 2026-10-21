@@ -11,7 +11,7 @@
     "type": "criatura"
   },
   "duration": "instantânea",
-  "resistence": {
+  "resistance": {
     "effect": "Fortitude parcial",
     "skill": "fortitude"
   },

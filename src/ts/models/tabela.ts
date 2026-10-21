@@ -1,5 +1,6 @@
 import { BaseModel } from "./base.js"
 import { Query } from "../query.js"
+import { getBookReferenceFor, getBookReferencesFor, type BookReference } from "./concerns/book_referenceable.js"
 
 const TABLE = "tabelas"
 
@@ -25,6 +26,12 @@ export class Tabela extends BaseModel {
   get headers(): string[] { return BaseModel.json(this._row.headers, []) }
   /** Array of row arrays, each containing string values in header order. */
   get rows(): unknown[][] { return BaseModel.json(this._row.rows, []) }
+
+  /** Returns the sourcebook page reference, or `null` if not indexed. */
+  bookReference(): BookReference | null { return getBookReferenceFor(this.id, TABLE) }
+
+  /** Returns all sourcebook page references (multi-source), or an empty array if not indexed. */
+  bookReferences(): BookReference[] { return getBookReferencesFor(this.id, TABLE) }
 
   toH() {
     return { id: this.id, name: this.name, description: this.description, headers: this.headers, rows: this.rows }

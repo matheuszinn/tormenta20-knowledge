@@ -13,7 +13,7 @@
   "counterspell": null,
   "duration": "veja_texto",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": "veja_texto",
   "description": "Você pede a sua divindade para interceder diretamente. Você pode:\n• Curar todos os PV e condições de até 10 criaturas em alcance longo.\n• Dissipar os efeitos de qualquer magia de 4º círculo ou menor.\nNormalmente, Intervenção Divina não exige sacrifício de PM — mas você pode implorar por algo mais poderoso. Nesse caso, a magia requer o sacrifício de 2 PM e pode fazer coisas como:\n• Criar um item mundano de até T$ 25.000.\n• Duplicar os efeitos de qualquer magia de até 4º círculo. Caso a magia precise de um componente material para ser lançada, ainda é necessário providenciar o componente.\n• Proteger uma cidade de um desastre, como uma erupção vulcânica, enchente ou terremoto.\n• Ressuscitar uma criatura em alcance longo que tenha morrido há até uma rodada. A criatura acorda com 1 PV.\n• Qualquer outra coisa que o mestre autorize, conforme os desejos e objetivos da divindade do conjurador.",
   "enhancements": null,
@@ -22,7 +22,7 @@
       "type": "veja_texto",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

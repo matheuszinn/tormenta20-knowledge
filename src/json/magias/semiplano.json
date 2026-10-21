@@ -15,14 +15,14 @@
   "effect": "area_semiplano",
   "effect_details": {
     "shape": "outros",
-    "dimention": "lado",
+    "dimension": "lado",
     "size": "30m_yq",
     "other_details": null
   },
   "counterspell": null,
   "duration": "1_dia",
   "duration_details": "pode gastar uma ação de movimento para voltar o plano material",
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Você cria uma dimensão particular. Você pode entrar nela gastando uma ação padrão e 1 PM, desaparecendo do plano material como se tivesse se teletransportado. Você pode levar criaturas voluntárias e objetos que esteja tocando, ao custo de 1 PM por criatura ou 200kg. Uma vez no semiplano, você pode gastar uma ação completa para voltar ao plano material, no mesmo local onde estava. Caso conheça a magia Viagem Planar, pode lançá-la para voltar ao plano material em outro local. Você escolhe a forma e a aparência do semiplano — uma caverna, um asteroide que singra o éter, um palacete de cristal etc. Ele contém ar, luz e calor, mas além disso é vazio.",
   "enhancements": [
@@ -58,7 +58,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

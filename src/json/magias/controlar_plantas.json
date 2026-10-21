@@ -15,14 +15,14 @@
   "effect": "area",
   "effect_details": {
     "shape": "quadrado",
-    "dimention": "lado",
+    "dimension": "lado",
     "size": "9m_yq",
     "other_details": null
   },
   "counterspell": null,
   "duration": "cena",
   "duration_details": "um dos aprimoramentos é capaz de dissipar a magia",
-  "resistence": {
+  "resistance": {
     "effect": "anula",
     "skill": "reflexos"
   },
@@ -62,7 +62,7 @@
       "extra_details": {
         "range": "pessoal",
         "target": "voce",
-        "resistence_requirement": null
+        "resistance_requirement": null
       }
     }
   ],
@@ -71,7 +71,7 @@
       "type": "terreno",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": "reflexos",
+      "resistance_requirement": "reflexos",
       "extra_requirements": "estar em area com vegetação"
     }
   ],

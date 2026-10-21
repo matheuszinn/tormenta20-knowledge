@@ -12,32 +12,32 @@
       "amount": 8,
       "up_to": true,
       "type": "objeto",
-      "dimention": "minusculo|pequeno"
+      "dimension": "minusculo|pequeno"
     },
     {
       "amount": 4,
       "up_to": true,
       "type": "objeto",
-      "dimention": "médio"
+      "dimension": "médio"
     },
     {
       "amount": 2,
       "up_to": true,
       "type": "objeto",
-      "dimention": "grande"
+      "dimension": "grande"
     },
     {
       "amount": 1,
       "up_to": false,
       "type": "objeto",
-      "dimention": "enorme"
+      "dimension": "enorme"
     }
   ],
   "effect": null,
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "description": "Você concede vida a objetos inanimados. Cada objeto se torna um aliado sob seu controle (tipo escolhido da lista de tamanho, não conta em seu limite de aliados). Com uma ação de movimento, você pode comandar mentalmente qualquer objeto animado dentro do alcance para que auxilie você ou outra criatura. Objetos animados têm Força, Destreza e PV de acordo com seu tamanho; todos os outros atributos são nulos, eles não têm valor de Defesa ou testes de resistência, falham automaticamente em testes opostos e são imunes a doenças, fadiga, sangramento, sono e veneno. Diferente de aliados comuns, um objeto pode ser alvo de um ataque direto.\nEsta magia não afeta itens mágicos, nem objetos que estejam sendo carregados por outra criatura.",
   "enhancements": [
     {
@@ -54,31 +54,31 @@
   ],
   "effects": [
     {
-      "dimention": "minusculo",
+      "dimension": "minusculo",
       "attribute": "for,des,pv",
       "amount": "4,18,5",
       "type": "assassino_ou_combatente_iniciante"
     },
     {
-      "dimention": "pequeno",
+      "dimension": "pequeno",
       "attribute": "for,des,pv",
       "amount": "6,14,10",
       "type": "combatente_ou_guardião_iniciante"
     },
     {
-      "dimention": "médio",
+      "dimension": "médio",
       "attribute": "for,des,pv",
       "amount": "10,12,20",
       "type": "combatente_ou_guardião_veterano"
     },
     {
-      "dimention": "grande",
+      "dimension": "grande",
       "attribute": "for,des,pv",
       "amount": "14,10,40",
       "type": "fortão_ou_guardião_ou_montaria_veterano"
     },
     {
-      "dimention": "enorme",
+      "dimension": "enorme",
       "attribute": "for,des,pv",
       "amount": "18,6,60",
       "type": "fortão_ou_guardião_ou_montaria_mestre"

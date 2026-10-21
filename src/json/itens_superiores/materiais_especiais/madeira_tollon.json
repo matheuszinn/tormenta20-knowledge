@@ -37,6 +37,11 @@
       "resistencia_magia": 2
     }
   },
+  "applicable_to": [
+    "arma",
+    "escudo",
+    "esoterico"
+  ],
   "description": "A Floresta de Tollon produz um tipo de madeira negra, dura como aço e dotada de propriedades mágicas. Apenas armas de madeira — arcos, bordões, clavas, lanças, piques e tacapes —, escudos leves e esotéricos podem ser feitos com madeira Tollon.",
   "page": 173
 }

@@ -6,29 +6,46 @@
   "preco": null,
   "espacos": 0,
   "description": "Hiena gigante treinada como montaria de guerra, mais agressiva e leal que a hiena comum. O hienodonte é um parceiro montaria (Grande) — suas estatísticas também são usadas quando uma hiena é tratada como montaria (ver hiena.json).",
-  "page": 122,
+  "page": 120,
   "livro_id": "ameacas_de_arton",
   "parceiro": {
-    "tipo": ["montaria"],
+    "tipo": [
+      "montaria"
+    ],
     "porte": "grande",
     "pagina_criatura": 121,
     "patamares": {
       "iniciante": {
         "movement": [
-          { "type": "caminhada", "value": 12, "unit": "m" }
+          {
+            "type": "caminhada",
+            "value": 12,
+            "unit": "m"
+          }
         ],
         "extra_actions": [
-          { "type": "acao_movimento_extra", "frequency": "por_turno", "condition": "apenas_deslocar" }
+          {
+            "type": "acao_movimento_extra",
+            "frequency": "por_turno",
+            "condition": "apenas_deslocar"
+          }
         ]
       },
       "veterano": {
         "powers": [
-          { "id": "oportunismo", "condition": "if already possessed: -1 PM custo" }
+          {
+            "id": "oportunismo",
+            "condition": "if already possessed: -1 PM custo"
+          }
         ]
       },
       "mestre": {
         "maneuvers": [
-          { "manobra": "derrubar", "action": "livre", "frequency": "1x_rodada" }
+          {
+            "manobra": "derrubar",
+            "action": "livre",
+            "frequency": "1x_rodada"
+          }
         ]
       }
     }

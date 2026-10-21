@@ -28,6 +28,13 @@
       "reducao_dano_proximo_dano": 5
     }
   },
-  "page": 401,
+  "applicable_to": [
+    "arma",
+    "armadura_leve",
+    "armadura_pesada",
+    "escudo",
+    "esoterico"
+  ],
+  "page": 399,
   "livro_id": "ameacas_de_arton"
 }

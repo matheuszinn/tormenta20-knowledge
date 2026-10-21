@@ -9,29 +9,52 @@
   "page": 398,
   "livro_id": "ameacas_de_arton",
   "parceiro": {
-    "tipo": ["montaria"],
+    "tipo": [
+      "montaria"
+    ],
     "porte": "grande",
-    "pagina_criatura": 217,
+    "pagina_criatura": 215,
     "patamares": {
       "iniciante": {
         "movement": [
-          { "type": "caminhada", "value": 12, "unit": "m" }
+          {
+            "type": "caminhada",
+            "value": 12,
+            "unit": "m"
+          }
         ],
         "terreno": [
-          { "type": "ignora", "terrain": "terreno_dificil_natural" }
+          {
+            "type": "ignora",
+            "terrain": "terreno_dificil_natural"
+          }
         ]
       },
       "veterano": {
         "damage": [
-          { "type": "bonus_dano_impacto", "value": "2d6", "range": "adjacente", "custo_pm": 1, "frequency": "1x_rodada" }
+          {
+            "type": "bonus_dano_impacto",
+            "value": "2d6",
+            "range": "adjacente",
+            "custo_pm": 1,
+            "frequency": "1x_rodada"
+          }
         ]
       },
       "mestre": {
         "movement": [
-          { "type": "caminhada", "value": 15, "unit": "m" }
+          {
+            "type": "caminhada",
+            "value": 15,
+            "unit": "m"
+          }
         ],
         "saving_throw": [
-          { "type": "teste_resistencia", "value": 5, "condition": "contra efeitos de clima (calor, frio, metabólicos)" }
+          {
+            "type": "teste_resistencia",
+            "value": 5,
+            "condition": "contra efeitos de clima (calor, frio, metabólicos)"
+          }
         ]
       }
     }

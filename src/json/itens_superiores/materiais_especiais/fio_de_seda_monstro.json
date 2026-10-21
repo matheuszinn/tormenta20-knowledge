@@ -13,6 +13,10 @@
       "defesa": 1
     }
   },
+  "applicable_to": [
+    "armadura_leve",
+    "vestuario"
+  ],
   "page": 402,
   "livro_id": "ameacas_de_arton"
 }

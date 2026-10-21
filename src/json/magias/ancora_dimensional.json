@@ -15,14 +15,14 @@
   "effect": "alvo",
   "effect_details": {
     "shape": "campo_de_força",
-    "dimention": null,
+    "dimension": null,
     "size": null,
     "other_details": "cor_de_esmeralda"
   },
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "O alvo é envolvido por um campo de força cor de esmeralda que impede movimento planar. Isso inclui magias de convocação (como Salto Dimensional e Teletransporte), viagens astrais e a habilidade incorpóreo.",
   "enhancements": [
@@ -35,7 +35,7 @@
         "range": "médio_30m_20q",
         "range_details": {
           "shape": "esfera",
-          "dimention": "raio",
+          "dimension": "raio",
           "size": "3m"
         }
       }
@@ -46,7 +46,7 @@
       "description": "muda o efeito para criar um fio de energia cor de esmeralda que prende o alvo a um ponto no espaço dentro do alcance. O ponto precisa ser fixo, mas não precisa de apoio ou superfície (pode simplesmente flutuar no ar). O alvo não pode se afastar mais de 3m do ponto, nem fisicamente, nem com movimento planar. O fio possui 20 PV e RD 20 (mas pode ser dissipado por efeitos que libertam criaturas, como o Julgamento Divino: Libertação do paladino).",
       "extra_details": {
         "effect": "fio_de_energia",
-        "dimention": "extensão",
+        "dimension": "extensão",
         "size": "3m",
         "counterspell": "julgamento_divino_libertação_do_paladino"
       }
@@ -57,7 +57,7 @@
       "description": "como acima, mas em vez de um fio, cria uma corrente de energia, com 20 PV e RD 40.",
       "extra_details": {
         "effect": "corrente_de_energia",
-        "dimention": "extensão",
+        "dimension": "extensão",
         "size": "3m",
         "counterspell": "julgamento_divino_libertação_do_paladino"
       }
@@ -70,7 +70,7 @@
         "effect": "área",
         "effect_details": {
           "shape": "cubo",
-          "dimention": "lado",
+          "dimension": "lado",
           "size": "9m"
         },
         "extra_costs": {
@@ -86,7 +86,7 @@
       "extra_details": {
         "range": "médio",
         "effect": "esfera",
-        "dimention": "raio",
+        "dimension": "raio",
         "size": "3m",
         "extra_effects": "fio_de_energia"
       }
@@ -97,7 +97,7 @@
       "type": "impedir_movimento",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

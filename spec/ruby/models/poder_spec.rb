@@ -82,6 +82,38 @@ RSpec.describe Tormenta20::Models::Poder do
       end
     end
 
+    describe ".poderes_combate" do
+      it "returns a non-empty set of poder_combate only" do
+        result = described_class.poderes_combate
+        expect(result.count).to be_positive
+        result.each { |poder| expect(poder.type).to eq("poder_combate") }
+      end
+    end
+
+    describe ".poderes_destino" do
+      it "returns a non-empty set of poder_destino only" do
+        result = described_class.poderes_destino
+        expect(result.count).to be_positive
+        result.each { |poder| expect(poder.type).to eq("poder_destino") }
+      end
+    end
+
+    describe ".poderes_magia" do
+      it "returns a non-empty set of poder_magia only" do
+        result = described_class.poderes_magia
+        expect(result.count).to be_positive
+        result.each { |poder| expect(poder.type).to eq("poder_magia") }
+      end
+    end
+
+    describe ".habilidades_de_raca" do
+      it "returns a non-empty set of habilidade_de_raca only" do
+        result = described_class.habilidades_de_raca
+        expect(result.count).to be_positive
+        result.each { |poder| expect(poder.type).to eq("habilidade_de_raca") }
+      end
+    end
+
     describe ".by_type" do
       it "filters by type" do
         type = "poder_concedido"

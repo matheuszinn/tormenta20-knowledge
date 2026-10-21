@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Esta magia cria uma película protetora invisível, mas tangível, fornecendo +4 na Defesa. Esse bônus é cumulativo com outras magias, mas não com bônus fornecido por armaduras.",
   "enhancements": [
@@ -33,7 +33,7 @@
             "type": "bônus",
             "attribute": "ca",
             "amount": "+6",
-            "resistence_requirement": null,
+            "resistance_requirement": null,
             "extra_requirements": null
           }
         ]
@@ -49,7 +49,7 @@
             "type": "bônus",
             "attribute": "ca",
             "amount": "+1",
-            "resistence_requirement": null,
+            "resistance_requirement": null,
             "extra_requirements": null
           }
         ]
@@ -70,7 +70,7 @@
       "type": "bônus",
       "attribute": "ca",
       "amount": "+4",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

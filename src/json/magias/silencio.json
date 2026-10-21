@@ -15,14 +15,14 @@
   "effect": "curto_6m_9q",
   "effect_details": {
     "shape": "esfera",
-    "dimention": "raio",
+    "dimension": "raio",
     "size": "6m_yq",
     "other_details": null
   },
   "counterspell": null,
   "duration": "sustentada",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Um silêncio sepulcral recai sobre a área e nenhum som é produzido nela. Enquanto estiverem na área, todas as criaturas ficam surdas. Além disso, como lançar magias exige palavras mágicas, normalmente nenhuma magia pode ser lançada dentro da área.",
   "enhancements": [
@@ -52,7 +52,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

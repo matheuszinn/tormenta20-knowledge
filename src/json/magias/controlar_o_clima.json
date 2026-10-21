@@ -15,14 +15,14 @@
   "effect": "area_",
   "effect_details": {
     "shape": "esfera",
-    "dimention": "raio",
+    "dimension": "raio",
     "size": "x2_y2",
     "other_details": null
   },
   "counterspell": null,
   "duration": "4_dias_12_horas",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Você muda o clima da área onde se encontra, podendo criar qualquer condição climática: chuva, neve, ventos, névoas... Veja Tormenta20, página 253, para os efeitos em jogo do clima.",
   "enhancements": [
@@ -40,7 +40,7 @@
       "type": "muda",
       "attribute": "clima",
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

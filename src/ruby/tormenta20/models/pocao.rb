@@ -23,7 +23,7 @@ module Tormenta20
     # @!attribute [rw] pm_cost
     #   @return [Integer] PM cost of the replicated spell effect
     # @!attribute [rw] categoria
-    #   @return [String] Power tier: +"menor"+, +"media"+, or +"maior"+
+    #   @return [String] Power tier: +"menor"+, +"medio"+, or +"maior"+
     # @!attribute [rw] preco
     #   @return [Integer, nil] Price in tibares
     # @!attribute [rw] roll_min

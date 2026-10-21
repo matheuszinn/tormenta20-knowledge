@@ -116,7 +116,7 @@ MAGIAS = [
         "execution": "padrão",
         "range": "pessoal",
         "duration": "sustentada",
-        "resistence": {
+        "resistance": {
             "effect": "Reflexos reduz parcial",
             "skill": "reflexos"
         },
@@ -139,7 +139,7 @@ MAGIAS = [
         "range": "curto",
         "target": {"amount": 1, "type": "criatura"},
         "duration": "instantânea",
-        "resistence": {
+        "resistance": {
             "effect": "Fortitude parcial",
             "skill": "fortitude"
         },
@@ -177,7 +177,7 @@ MAGIAS = [
         "range": "pessoal",
         "area": "linha de 9m",
         "duration": "instantânea",
-        "resistence": {
+        "resistance": {
             "effect": "Reflexos reduz à metade",
             "skill": "reflexos"
         },
@@ -199,7 +199,7 @@ MAGIAS = [
         "range": "pessoal",
         "area": "linha de 60m ou duas linhas de 30m em V",
         "duration": "instantânea",
-        "resistence": {
+        "resistance": {
             "effect": "Reflexos parcial",
             "skill": "reflexos"
         },

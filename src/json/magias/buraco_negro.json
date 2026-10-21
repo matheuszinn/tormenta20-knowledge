@@ -17,7 +17,7 @@
   "counterspell": "null",
   "duration": "3_rodadas",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "parcial",
     "skill": "fortitude|..."
   },
@@ -42,7 +42,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": "fortitude",
+      "resistance_requirement": "fortitude",
       "extra_requirements": null
     }
   ],

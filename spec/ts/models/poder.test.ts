@@ -42,6 +42,24 @@ describe("Poder", () => {
       result.forEach((p) => expect(p.type).toBe("poder_combate"))
     })
 
+    it("poderesDestino returns only poder_destino", () => {
+      const result = Poder.poderesDestino().all()
+      expect(result.length).toBeGreaterThan(0)
+      result.forEach((p) => expect(p.type).toBe("poder_destino"))
+    })
+
+    it("poderesMagia returns only poder_magia", () => {
+      const result = Poder.poderesMagia().all()
+      expect(result.length).toBeGreaterThan(0)
+      result.forEach((p) => expect(p.type).toBe("poder_magia"))
+    })
+
+    it("habilidadesDeRaca returns only habilidade_de_raca", () => {
+      const result = Poder.habilidadesDeRaca().all()
+      expect(result.length).toBeGreaterThan(0)
+      result.forEach((p) => expect(p.type).toBe("habilidade_de_raca"))
+    })
+
     it("poderesClasse returns only poder_classe", () => {
       const result = Poder.poderesClasse().all()
       expect(result.length).toBeGreaterThan(0)

@@ -14,6 +14,10 @@
     },
     "nota_preco": "Como cimitarra de lanajuste custa +T$ 600; quando aplicada como espada de coral para o efeito de sangramento em crítico, custa +T$ 1.800 adicionais."
   },
-  "page": 402,
+  "applicable_to": [
+    "arma",
+    "arma_alternativo"
+  ],
+  "page": 400,
   "livro_id": "ameacas_de_arton"
 }

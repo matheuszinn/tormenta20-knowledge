@@ -15,6 +15,10 @@
       "intimidacao": 2
     }
   },
+  "applicable_to": [
+    "arma",
+    "armadura"
+  ],
   "page": 402,
   "livro_id": "ameacas_de_arton"
 }

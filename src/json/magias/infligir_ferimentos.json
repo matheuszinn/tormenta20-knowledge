@@ -17,7 +17,7 @@
   "counterspell": "curar_ferimentos",
   "duration": "instantânea",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "reduz_à_metade",
     "skill": "fortitude"
   },
@@ -63,7 +63,7 @@
       "type": "dano",
       "attribute": "pv",
       "amount": "2d8+2",
-      "resistence_requirement": "fortitude",
+      "resistance_requirement": "fortitude",
       "extra_requirements": null
     }
   ],

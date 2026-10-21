@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "instantânea",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Esta magia diz se uma ação que você tomará em até uma hora trará resultados bons ou ruins. O mestre rola 1d6 em segredo; com um resultado 2 a 6, você recebe uma das seguintes respostas: “felicidade\" (a ação trará bons resultados); “miséria\" (a ação trará maus resultados); “felicidade e miséria\" (para ambos) ou “nada\" (para ações que não trarão resultados bons ou ruins). Veja Tormenta20, p. 173, para um exemplo. Com um resultado 1, a magia falha e oferece o resultado \"nada\". Lançar esta magia múltiplas vezes sobre o mesmo assunto gera sempre o primeiro resultado.",
   "enhancements": [
@@ -55,7 +55,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

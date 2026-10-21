@@ -7,7 +7,7 @@
   "requirements": null,
   "effects": [
     {
-      "type": "reroll_resistence_test",
+      "type": "reroll_resistance_test",
       "requirement": "estar_em_alcance_medio_de_um_lago_ou_rio",
       "costs": [
         {

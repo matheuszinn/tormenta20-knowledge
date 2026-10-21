@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Você muda sua aparência e forma — incluindo seu equipamento — para qualquer outra criatura, existente ou imaginada. Independentemente da forma escolhida, você recebe +20 em testes de Enganação para disfarce. Características não mencionadas não mudam.\nSe mudar para uma forma humanoide, pode mudar o tipo de dano físico de suas armas (se usa uma maça e transformá-la em espada, ela pode causar dano de corte, por exemplo). Se quiser, pode assumir uma forma humanoide com uma categoria de tamanho acima ou abaixo da sua; nesse caso aplique os modificadores em Furtividade e testes de manobra.\nSe mudar para outras formas, você pode escolher uma Forma Selvagem do druida (veja Tormenta20, página 63). Nesse caso você não pode atacar com suas armas, falar ou lançar magias até voltar ao normal, mas recebe uma ou mais armas naturais e os bônus da forma selvagem escolhida.",
   "enhancements": [
@@ -46,7 +46,7 @@
           "up_to": null,
           "type": "criatura"
         },
-        "resistence": {
+        "resistance": {
           "effect": "anula",
           "skill": "vontade"
         }
@@ -63,7 +63,7 @@
           "up_to": null,
           "type": "criatura"
         },
-        "resistence": {
+        "resistance": {
           "effect": "anula",
           "skill": "vontade"
         },
@@ -100,7 +100,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

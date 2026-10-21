@@ -1,5 +1,6 @@
 import { BaseModel } from "./base.js"
 import { Query } from "../query.js"
+import { getBookReferenceFor, getBookReferencesFor, type BookReference } from "./concerns/book_referenceable.js"
 
 const TABLE = "pocoes"
 
@@ -24,7 +25,7 @@ export class Pocao extends BaseModel {
   get spellId(): string { return this._row.spell_id as string }
   /** PM cost of the replicated spell effect. */
   get pmCost(): number { return this._row.pm_cost as number }
-  /** Power tier: `"menor"`, `"media"`, or `"maior"`. */
+  /** Power tier: `"menor"`, `"medio"`, or `"maior"`. */
   get categoria(): string { return this._row.categoria as string }
   /** Price in tibares. */
   get preco(): number { return (this._row.preco as number) ?? 0 }
@@ -35,6 +36,12 @@ export class Pocao extends BaseModel {
   /** Enhancement level identifier, or `null`. */
   get aprimoramento(): string | null { return (this._row.aprimoramento as string) ?? null }
   get description(): string | null { return (this._row.description as string) ?? null }
+
+  /** Returns the sourcebook page reference, or `null` if not indexed. */
+  bookReference(): BookReference | null { return getBookReferenceFor(this.id, TABLE) }
+
+  /** Returns all sourcebook page references (multi-source), or an empty array if not indexed. */
+  bookReferences(): BookReference[] { return getBookReferencesFor(this.id, TABLE) }
 
   toH() {
     return {
@@ -53,7 +60,7 @@ export class Pocao extends BaseModel {
   static count(): number { return Pocao.query().count() }
 
   static menores(): Query<Pocao> { return Pocao.query().where("categoria = ?", "menor") }
-  static medias(): Query<Pocao> { return Pocao.query().where("categoria = ?", "media") }
+  static medias(): Query<Pocao> { return Pocao.query().where("categoria = ?", "medio") }
   static maiores(): Query<Pocao> { return Pocao.query().where("categoria = ?", "maior") }
   static pocoes(): Query<Pocao> { return Pocao.query().where("subtipo = ?", "pocao") }
   static oleos(): Query<Pocao> { return Pocao.query().where("subtipo = ?", "oleo") }

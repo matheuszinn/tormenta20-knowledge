@@ -35,7 +35,7 @@ Acesso: `Tormenta20.magias`
 |----------|------|-----------|
 | `effect` | String | Efeito principal |
 | `effect_shape` | String | Forma do efeito |
-| `effect_dimention` | String | Dimensão |
+| `effect_dimension` | String | Dimensão |
 | `effect_size` | String | Tamanho |
 | `effect_other_details` | String | Outros detalhes |
 | `area_effect` | String | Efeito de área |
@@ -45,8 +45,8 @@ Acesso: `Tormenta20.magias`
 
 | Atributo | Tipo | Descrição |
 |----------|------|-----------|
-| `resistence_effect` | String | Efeito da resistência |
-| `resistence_skill` | String | Perícia para resistência |
+| `resistance_effect` | String | Efeito da resistência |
+| `resistance_skill` | String | Perícia para resistência |
 
 ### Atributos de Custo Extra
 
@@ -123,7 +123,7 @@ magia.target_info          # Hash com info do alvo
 magia.effect_details_info  # Hash com detalhes do efeito
 # => { shape: "esfera", size: "6m" }
 
-magia.resistence_info      # Hash com info de resistência
+magia.resistance_info      # Hash com info de resistência
 # => { effect: "reduz", skill: "Reflexos" }
 
 magia.extra_costs_info     # Hash com custos extras

@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena(desc)",
   "duration_details": "só acaba a magia quando o alvo fica inconsciente, se o espectro for dissipado ou ao término da cena",
-  "resistence": {
+  "resistance": {
     "effect": "parcial",
     "skill": "vontade,fortitude"
   },
@@ -29,7 +29,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": "vontade,fortitude",
+      "resistance_requirement": "vontade,fortitude",
       "extra_requirements": null
     }
   ]

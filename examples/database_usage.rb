@@ -124,8 +124,8 @@ puts "Target: #{target}"
 puts ""
 
 # Access resistance info
-if spell.resistence_info
-  puts "Resistance: #{spell.resistence_info}"
+if spell.resistance_info
+  puts "Resistance: #{spell.resistance_info}"
 else
   puts "No resistance save"
 end

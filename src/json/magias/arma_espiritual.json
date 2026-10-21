@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena",
   "duration_details": "a magia se dissipa se o conjurador morrer",
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Você invoca a arma preferida de sua divindade (se tiver uma), que surge flutuando a seu lado. Uma vez por rodada, quando você sofre um ataque corpo a corpo, pode usar uma reação para que a arma cause automaticamente 2d6 pontos de dano do tipo dela no oponente que fez o ataque. Esta magia se dissipa se você morrer.",
   "enhancements": [
@@ -71,7 +71,7 @@
       "type": "aumenta|muda|outro",
       "attribute": "pv|pm...",
       "amount": "+10",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

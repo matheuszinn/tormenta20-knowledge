@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "sustentada",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Você se torna uma máquina de combate, ficando mais forte, rápido e resistente. Você recebe +6 na Defesa, testes de ataque e rolagens de dano corpo a corpo, e 30 PV temporários. Durante a Transformação de Guerra você não pode lançar magias, mas se torna proficiente em todas as armas.",
   "enhancements": [
@@ -46,7 +46,7 @@
       "type": "bônus",
       "attribute": "def,pv_temporarios",
       "amount": "+6,30",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

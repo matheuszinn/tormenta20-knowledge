@@ -15,6 +15,10 @@
       "magias_luz_dano": 2
     }
   },
+  "applicable_to": [
+    "arma",
+    "esoterico"
+  ],
   "page": 402,
   "livro_id": "ameacas_de_arton"
 }

@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "1 dia",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Esta magia aumenta ou diminui o tamanho de um item mundano em até três categorias (um objeto Enorme vira Pequeno, por exemplo). Você também pode mudar a consistência do item, deixando-o rígido como pedra ou flexível como seda (isso não altera sua RD ou PV, apenas suas propriedades físicas).",
   "enhancements": [
@@ -41,7 +41,7 @@
           "type": "aumenta",
           "attribute": "for",
           "amount": "+4",
-          "resistence": {
+          "resistance": {
             "effect": "nega",
             "skill": "Fortitude"
           }
@@ -64,7 +64,7 @@
             "type": "aumenta",
             "attribute": "des",
             "amount": "+4",
-            "resistence": {
+            "resistance": {
               "effect": "nega",
               "skill": "Fortitude"
             }
@@ -85,7 +85,7 @@
             "type": "criatura"
           },
           "duration": "1 dia",
-          "resistence": {
+          "resistance": {
             "effect": "anula",
             "skill": "Fortitude"
           },
@@ -103,7 +103,7 @@
       "type": "aumenta_ou_diminui",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

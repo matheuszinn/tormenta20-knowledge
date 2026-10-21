@@ -9,11 +9,15 @@ require "json"
 require "sqlite3"
 require "fileutils"
 
+require_relative "../db/seeds_helpers"
+
 DB_PATH = File.expand_path("../db/tormenta20.sqlite3", __dir__)
 SCHEMA_PATH = File.expand_path("../db/schema.sql", __dir__)
 JSON_BASE_PATH = File.expand_path("../src/json", __dir__)
 
 def main
+  check_no_needs_review!
+
   puts "Building Tormenta20 database..."
 
   # Remove existing database
@@ -63,7 +67,8 @@ def seed_racas(db)
   import_json_files(db, "racas", "racas",
                     %w[id name description size movement vision vision_range
                        attribute_bonuses skill_bonuses racial_abilities
-                       chosen_abilities_amount available_chosen_abilities])
+                       chosen_abilities_amount available_chosen_abilities
+                       page livro_id longevidade devotos])
 end
 
 def seed_habilidades_de_raca(db)
@@ -238,7 +243,7 @@ def insert_magia(db, data)
              (raw_target.is_a?(Array) ? raw_target.first || {} : {})
            end
   effect_details = data["effect_details"].is_a?(Hash) ? data["effect_details"] : {}
-  resistence = data["resistence"].is_a?(Hash) ? data["resistence"] : {}
+  resistance = data["resistance"].is_a?(Hash) ? data["resistance"] : {}
   extra_costs = data["extra_costs"].is_a?(Hash) ? data["extra_costs"] : {}
 
   sql = <<~SQL
@@ -246,9 +251,9 @@ def insert_magia(db, data)
       id, name, type, circle, school, execution, execution_details, range,
       duration, duration_details, counterspell, description,
       target_amount, target_up_to, target_type,
-      effect, effect_shape, effect_dimention, effect_size, effect_other_details,
+      effect, effect_shape, effect_dimension, effect_size, effect_other_details,
       area_effect, area_effect_details,
-      resistence_effect, resistence_skill,
+      resistance_effect, resistance_skill,
       extra_costs_material_component, extra_costs_material_cost,
       extra_costs_pm_debuff, extra_costs_pm_sacrifice,
       enhancements, effects
@@ -265,10 +270,10 @@ def insert_magia(db, data)
                       else
                         (target["up_to"] ? 1 : 0)
                       end, target["type"],
-    data["effect"], effect_details["shape"], effect_details["dimention"],
+    data["effect"], effect_details["shape"], effect_details["dimension"],
     effect_details["size"], effect_details["other_details"],
     data["area_effect"], data["area_effect_details"],
-    resistence["effect"], resistence["skill"],
+    resistance["effect"], resistance["skill"],
     extra_costs["material_component"], extra_costs["material_component_cost"],
     extra_costs["pm_debuff"], extra_costs["pm_sacrifice"],
     (data["enhancements"] || []).to_json, (data["effects"] || []).to_json
@@ -362,12 +367,14 @@ def seed_itens(db)
   return unless Dir.exist?(base_dir)
 
   count = 0
-  base_keys = %w[id name categoria preco espacos description]
   Dir.glob(File.join(base_dir, "**", "*.json")).each do |file|
     data = JSON.parse(File.read(file))
     next if data["id"].nil?
 
-    effects = data.reject { |k, _| base_keys.include?(k) }
+    # Mirror src/ts/seeder.ts: effects holds only partner blocks (plus the
+    # item's structured effect, which most files store under `efeito`), never
+    # item metadata like type/page/livro_id.
+    effects = Tormenta20::Seeds.build_item_effects(data)
 
     db.execute(
       "INSERT OR REPLACE INTO itens (id, name, category, price, weight, description, effects) VALUES (?, ?, ?, ?, ?, ?, ?)",
@@ -404,7 +411,14 @@ end
 
 def seed_materiais_especiais(db)
   import_json_files(db, "itens_superiores/materiais_especiais", "materiais_especiais",
-                    %w[id name description applicable_to price_modifier effects])
+                    %w[id name description applicable_to price_modifier effects],
+                    transform: lambda { |data|
+                      # Mirror src/ts/seeder.ts key mapping.
+                      data["applicable_to"] ||= []
+                      data["price_modifier"] ||= data.delete("precos_adicionais")
+                      data["effects"] ||= data.delete("efeitos")
+                      data
+                    })
 end
 
 def seed_melhorias(db)
@@ -561,7 +575,7 @@ def register_indice_remissivo(db, data, table)
     [livro_id, termo, page.to_i, table, data["id"]]
   )
 rescue StandardError => e
-  puts "  Error registering indice for #{data['id']}: #{e.message}"
+  puts "  Error registering indice for #{data["id"]}: #{e.message}"
 end
 
 def seed_indice_remissivo(db)
@@ -592,6 +606,42 @@ def seed_indice_remissivo(db)
   end
 
   puts "  Imported #{count} entradas de índice remissivo"
+end
+
+# Refuses to build when any JSON file still carries a `needs_review` flag.
+# Remove the flag (after fixing the data) or delete the file before building.
+def check_no_needs_review!
+  flagged = []
+  Dir.glob(File.join(JSON_BASE_PATH, "**", "*.json")).sort.each do |file|
+    data = JSON.parse(File.read(file))
+    find_needs_review(data, "$", []).each do |path|
+      flagged << "#{file.sub("#{JSON_BASE_PATH}/", "")} at #{path}"
+    end
+  rescue StandardError => e
+    flagged << "#{file.sub("#{JSON_BASE_PATH}/", "")} (unparseable: #{e.message})"
+  end
+
+  return if flagged.empty?
+
+  warn "Refusing to build: #{flagged.size} file(s) still need review:"
+  flagged.each { |f| warn "  - #{f}" }
+  exit 1
+end
+
+def find_needs_review(value, path, out)
+  case value
+  when Hash
+    value.each do |key, val|
+      if key == "needs_review" && !val.nil? && val != false
+        out << path
+      else
+        find_needs_review(val, "#{path}.#{key}", out)
+      end
+    end
+  when Array
+    value.each_with_index { |val, i| find_needs_review(val, "#{path}[#{i}]", out) }
+  end
+  out
 end
 
 def import_json_files(db, subdir, table, columns, extra: {}, transform: nil)

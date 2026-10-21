@@ -8,7 +8,7 @@
   "range": "pessoal",
   "area": "linha de 9m",
   "duration": "instantânea",
-  "resistence": {
+  "resistance": {
     "effect": "Reflexos reduz à metade",
     "skill": "reflexos"
   },

@@ -15,14 +15,14 @@
   "effect": "area_30m",
   "effect_details": {
     "shape": "esfera",
-    "dimention": "raio",
+    "dimension": "raio",
     "size": "x30_y30",
     "other_details": null
   },
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": null,
     "skill": "varia_de_acordo_com_texto"
   },
@@ -41,7 +41,7 @@
       "type": "controle",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ]

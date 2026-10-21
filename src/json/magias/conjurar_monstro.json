@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "sustentada",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Esta magia conjura um monstro Pequeno com For 14, Des 17 e os outros atributos nulos. Ele tem desl. 9m, 20 PV, não tem Defesa (ataques contra ele acertam automaticamente), tem Reflexos igual ao seu e é imune a efeitos que pedem um teste de Fortitude ou Vontade. Você escolhe a aparência e o tipo de dano do monstro, entre corte, impacto e perfuração.\nO monstro age no seu próximo turno e pode fazer uma ação de movimento por rodada. Você pode usar uma ação padrão para dar uma das ordens a seguir a ele.\nMover: o monstro se movimenta o dobro do deslocamento nessa rodada.\nAtacar: o monstro ataca um alvo em alcance corpo a corpo. O ataque acerta automaticamente e causa 2d4+2 pontos de dano.\nLançar Magia: o monstro serve como ponto de origem para uma magia lançada por você com execução de uma ação padrão ou menor. Ele pode descarregar um Toque Chocante em um inimigo distante, ou mesmo “cuspir\" uma Bola de Fogo! Você gasta PM normalmente para lançar a magia.\nOutros usos criativos para monstros conjurados ficam a critério do mestre. Você só pode ter um monstro conjurado por esta magia por vez e o monstro não age sem receber uma ordem. Para os aprimoramentos desta magia, veja a carta de continuação.",
   "enhancements": [
@@ -111,7 +111,7 @@
       "type": "convoca",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ]

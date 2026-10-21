@@ -15,14 +15,14 @@
   "effect": "area",
   "effect_details": {
     "shape": "esfera",
-    "dimention": "raio",
+    "dimension": "raio",
     "size": "6m_yq",
     "other_details": null
   },
   "counterspell": null,
   "duration": "instantânea",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "parcial",
     "skill": "fortitude"
   },
@@ -34,7 +34,7 @@
       "type": "dano",
       "attribute": "pv",
       "amount": "varia",
-      "resistence_requirement": "fortitude",
+      "resistance_requirement": "fortitude",
       "extra_requirements": null
     }
   ],

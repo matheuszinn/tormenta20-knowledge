@@ -8,7 +8,7 @@
   "range": "pessoal",
   "area": "linha de 60m ou duas linhas de 30m em V",
   "duration": "instantânea",
-  "resistence": {
+  "resistance": {
     "effect": "Reflexos parcial",
     "skill": "reflexos"
   },

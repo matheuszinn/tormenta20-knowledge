@@ -15,14 +15,14 @@
   "effect": "area_6m",
   "effect_details": {
     "shape": "cone",
-    "dimention": null,
+    "dimension": null,
     "size": "6m_yq",
     "other_details": null
   },
   "counterspell": null,
   "duration": "cena",
   "duration_details": "quem passar no teste de resitencia muda a duração para uma rodada",
-  "resistence": {
+  "resistance": {
     "effect": "parcial",
     "skill": "vontade"
   },
@@ -55,7 +55,7 @@
       "type": "status",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": "vontade",
+      "resistance_requirement": "vontade",
       "extra_requirements": null
     }
   ],

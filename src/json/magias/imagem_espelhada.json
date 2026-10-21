@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena",
   "duration_details": "Cada vez que um ataque contra você erra, uma das imagens desaparece",
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Três cópias ilusórias suas aparecem. As duplicatas ficam ao seu redor e imitam suas ações, tornando difícil para um inimigo saber quem atacar. Você recebe +6 na Defesa. Cada vez que um ataque contra você erra, uma das imagens desaparece e o bônus na Defesa diminui em 2. Um oponente deve ver as cópias para ser confundido. Se você estiver invisível, ou o atacante fechar os olhos, você não recebe o bônus (mas o atacante ainda sofre penalidades normais por não enxergar).",
   "enhancements": [
@@ -41,7 +41,7 @@
       "type": "bonus",
       "attribute": "def",
       "amount": "+6",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": "você precisa estar visível para receber o bonus na defesa"
     }
   ],

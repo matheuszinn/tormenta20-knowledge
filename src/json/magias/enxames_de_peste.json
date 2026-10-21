@@ -15,14 +15,14 @@
   "effect": "area",
   "effect_details": {
     "shape": "quadrado",
-    "dimention": "lado",
+    "dimension": "lado",
     "size": "1,5m_yq",
     "other_details": null
   },
   "counterspell": null,
   "duration": "sustentada",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "reduz_à_metade|",
     "skill": "fortitude"
   },
@@ -40,7 +40,7 @@
       "type": "muda",
       "description": "muda a resistência para Reflexos reduz à metade e o enxame para criaturas maiores, como gatos, guaxinins, compsognatos ou kobolds. Ele causa 3d12 pontos de dano (a sua escolha entre corte, impacto ou perfuração). O resto da magia segue normal.",
       "extra_details": {
-        "resistence": {
+        "resistance": {
           "effect": "reduz_à_metade",
           "skill": "reflexos"
         }
@@ -64,7 +64,7 @@
       "type": "muda",
       "description": "muda a resistência para Reflexos reduz à metade e o enxame para criaturas elementais. Ele causa 5d12 pontos do dano (a sua escolha entre ácido, eletricidade, fogo ou frio). O resto da magia segue normal. Requer 4º círculo.",
       "extra_details": {
-        "resistence": {
+        "resistance": {
           "effect": "reduz_à_metade",
           "skill": "reflexos"
         },
@@ -81,7 +81,7 @@
       "type": "dano",
       "attribute": "pv",
       "amount": "2d12",
-      "resistence_requirement": "fortitude",
+      "resistance_requirement": "fortitude",
       "extra_requirements": null
     }
   ],

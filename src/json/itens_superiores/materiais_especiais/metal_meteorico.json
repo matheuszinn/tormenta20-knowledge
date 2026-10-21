@@ -15,6 +15,10 @@
       "rd_magica": 5
     }
   },
+  "applicable_to": [
+    "arma",
+    "armadura_pesada"
+  ],
   "page": 402,
   "livro_id": "ameacas_de_arton"
 }

@@ -4,7 +4,7 @@
   "categoria": "artefato",
   "preco": 0,
   "description": "Este artefato lefeu é um machado de guerra gigante atroz pungente anticriatura (não lefeu) magnífico de matéria vermelha. Ataques com ele ignoram redução de dano, fortificação e imunidade a acertos críticos. Além disso, em seus golpes distorcem a vítima: uma criatura atingida pela arma perde 1 ponto cumulativo de um atributo aleatório permanentemente (Fort CD For evita). Um não lefeu que empunhe o Rompedor fica debilitado até o fim da cena.",
-  "page": 405,
+  "page": 403,
   "efeito": {
     "ignora_rd_fortificacao_critico": true,
     "dreno_atributo_cumulativo": "1 ponto permanente de atributo aleatório",

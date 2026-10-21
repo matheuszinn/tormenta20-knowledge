@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "parcial",
     "skill": "vontade"
   },
@@ -74,7 +74,7 @@
       "type": "aumenta|muda|outro",
       "attribute": "pv|pm...",
       "amount": "+10",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

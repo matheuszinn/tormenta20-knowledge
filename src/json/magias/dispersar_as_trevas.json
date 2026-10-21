@@ -15,14 +15,14 @@
   "effect": "area",
   "effect_details": {
     "shape": "esfera",
-    "dimention": "raio",
+    "dimension": "raio",
     "size": "6m_yq",
     "other_details": null
   },
   "counterspell": "anular_a_luz",
   "duration": "instantânea",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Esta magia cria um forte brilho (multicolorido ou de uma cor que remeta a sua divindade) que causa diversos efeitos. Todas as magias de 3º círculo ou menor ativas na área são dissipadas se você passar num teste de Religião contra a CD de cada magia. Seus aliados na área recebem +4 em testes de resistência e resistência a trevas 10 até o fim da cena, protegidos por uma aura sutil da mesma cor. Inimigos na área ficam cegos por 1d4 rodadas. Dispersar as Trevas anula Anular a Luz.",
   "enhancements": [
@@ -68,7 +68,7 @@
       "type": "bônus",
       "attribute": "resistência,resistência_a_trevas",
       "amount": "+4,10",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

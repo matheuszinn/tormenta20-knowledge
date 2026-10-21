@@ -17,6 +17,11 @@
       "magias_agua_frio_cd": 1
     }
   },
+  "applicable_to": [
+    "armadura",
+    "escudo",
+    "esoterico"
+  ],
   "page": 401,
   "livro_id": "ameacas_de_arton"
 }

@@ -6,33 +6,62 @@
   "preco": null,
   "espacos": 0,
   "description": "Cavalo adaptado ao frio extremo das Uivantes, com espessa camada de gordura sob o couro. Feroz e agressivo, mas dócil em cativeiro. Montaria favorita entre nativos das Uivantes e ao longo do Rio dos Deuses.",
-  "page": 216,
+  "page": 214,
   "livro_id": "ameacas_de_arton",
   "parceiro": {
-    "tipo": ["montaria"],
+    "tipo": [
+      "montaria"
+    ],
     "porte": "grande",
     "pagina_criatura": 216,
     "patamares": {
       "iniciante": {
         "movement": [
-          { "type": "caminhada", "value": 9, "unit": "m" },
-          { "type": "natacao", "value": 12, "unit": "m" }
+          {
+            "type": "caminhada",
+            "value": 9,
+            "unit": "m"
+          },
+          {
+            "type": "natacao",
+            "value": 12,
+            "unit": "m"
+          }
         ],
         "defense": [
-          { "type": "reducao_dano", "damage_type": "frio", "value": 5 }
+          {
+            "type": "reducao_dano",
+            "damage_type": "frio",
+            "value": 5
+          }
         ]
       },
       "veterano": {
         "damage": [
-          { "type": "bonus_dano_corporal", "damage_type": "frio", "value": "2d6", "trigger": "ao_acertar", "custo_pm": 1, "frequency": "1x_rodada" }
+          {
+            "type": "bonus_dano_corporal",
+            "damage_type": "frio",
+            "value": "2d6",
+            "trigger": "ao_acertar",
+            "custo_pm": 1,
+            "frequency": "1x_rodada"
+          }
         ]
       },
       "mestre": {
         "defense": [
-          { "type": "reducao_dano", "damage_type": "frio", "value": 10 }
+          {
+            "type": "reducao_dano",
+            "damage_type": "frio",
+            "value": 10
+          }
         ],
         "extra_actions": [
-          { "type": "acao_movimento_extra", "frequency": "por_turno", "condition": "apenas_deslocar" }
+          {
+            "type": "acao_movimento_extra",
+            "frequency": "por_turno",
+            "condition": "apenas_deslocar"
+          }
         ]
       }
     }

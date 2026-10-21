@@ -30,8 +30,8 @@ Resposta esperada: resultados encontrados nos dados da biblioteca, com descriç�
 
 ### MVP — incluído
 
-- **Adicionar o livro "Ameaças de Arton" à base de dados**, incluindo criaturas, monstros e NPCs com seus atributos, habilidades, estatísticas e referências bibliográficas.
-- Auditar e normalizar as referências a livro/página já adicionadas ao repositório.
+- ~~**Adicionar o livro "Ameaças de Arton" à base de dados**, incluindo criaturas, monstros e NPCs com seus atributos, habilidades, estatísticas e referências bibliográficas.~~ **Cancelado** — Etapa 0.5 do plano descartada (vide §11). O livro está parcialmente integrado como **fonte** (registry, índice remissivo, racas/magias/acessorios/materiais/melhorias/regras adicionais que carregam `livro_id:"ameacas_de_arton"`), mas **sem** a tabela `criaturas`, schema de monstros/NPCs ou extração de stat blocks.
+- Auditar e normalizar as referências a livro/página já adicionadas ao repositório. ✓ Etapa 0 + Round 1 + Round 2 de drift cleanup (ver `docs/knowledge-query.md` §0.1).
 - API TypeScript de consulta local ao SQLite distribuído com a biblioteca.
 - Busca por nome, texto, categoria/tipo e filtros simples.
 - Resultados com identificador, tipo, descrição, relevância e fontes.
@@ -126,6 +126,7 @@ export type EntityType =
   | 'encantamento'
   | 'material_especial'
   | 'pocao'
+  | 'acessorio_magico'  // acessórios mágicos (itens_magicos/acessorios/) — distinct from pocao
   | 'magia'
   | 'poder'
   | 'classe'
@@ -134,8 +135,10 @@ export type EntityType =
   | 'divindade'
   | 'condicao'
   | 'regra'
-  | 'criatura'          // monstros e criaturas (Ameaças de Arton)
-  | 'npc';              // NPCs notáveis (Ameaças de Arton)
+  | 'pericia'           // perícias (pericias/) — added post-SPEC §5.1
+  | 'tabela'            // tabelas genéricas (tabelas/) — added post-SPEC §5.1
+  | 'criatura'          // monstros e criaturas (Ameaças de Arton) — placeholder; Etapa 0.5 cancelada, sem tabela no schema
+  | 'npc';              // NPCs notáveis (Ameaças de Arton) — placeholder; Etapa 0.5 cancelada, sem tabela no schema
 
 export interface SourceReference {
   bookId?: string;
@@ -441,70 +444,76 @@ A biblioteca deve exportar funções e tipos públicos de um ponto de entrada es
 
 ## 11. Plano de implementação por PRs/etapas
 
-### Etapa 0 — audit e baseline
+### Etapa 0 — audit e baseline — ✓ CONCLUÍDA
 
-- Inspecionar os métodos atuais de acesso ao banco e de referências bibliográficas.
-- Adicionar fixtures de consultas reais e documentar lacunas.
-- Confirmar testes e builds atuais sem modificações.
-- **Gap identificado:** o `seeds.rb` não importa registros da tabela `livros`, embora o schema a defina. Corrigir para que o seed popule os livros a partir de `src/json/livros/`.
+- Inspecionar os métodos atuais de acesso ao banco e de referências bibliográficas. ✓
+- Adicionar fixtures de consultas reais e documentar lacunas. ✓ (ver `docs/knowledge-query.md` §9)
+- Confirmar testes e builds atuais sem modificações. ✓ (320 Ruby + 171 TS)
+- **Gap identificado:** o `seeds.rb` não importa registros da tabela `livros`, embora o schema a defina. Corrigir para que o seed popule os livros a partir de `src/json/livros/`. ✓ (`db/seeds.rb:46-80`, `db/seeds.rb:381`, `db/seeds.rb:412`)
 
-**Saída:** documento de auditoria e baseline verde.
+**Bônus pós-Etapa 0 (não estava no SPEC, veio da auditoria):**
+- Round 1 de drift cleanup: TS↔Ruby em `armas.properties`/`itens.effects`/`melhorias.effects`; `bookReference` por `tabela`; FK em `racas.livro_id`; cobertura de 9 modelos TS. +50 Ruby / +22 TS.
+- Round 2 de drift cleanup: `db/seeds.rb` cobre todas 21 tabelas; TS auto-registra `page` em `indice_remissivo`; 4 scope drifts alinhados. +38 Ruby / +13 TS.
+- Round 3 de últimos detritos: typo `dimention` → `dimension` em 6 camadas atômicas; comentário stale em `db/schema.sql:316`; helper `getBookReferencesFor` (TS) e `book_references` (Ruby) para multi-fonte explícita. +4 Ruby / +7 TS.
 
-### Etapa 0.5 — adição do livro Ameaças de Arton
+**Saída:** documento de auditoria (`docs/knowledge-query.md`) e baseline verde (324 Ruby + 178 TS = 502 tests).
 
-**Objetivo:** expandir a base de dados para além do Livro Básico, incluindo o conteúdo completo do suplemento "Ameaças de Arton" antes de construir as interfaces de consulta. Isso garante que a busca e a validação de qualidade já operem sobre um corpus multi-livro.
+### Etapa 0.5 — adição do livro Ameaças de Arton — ✗ CANCELADA
 
-#### Pré-requisitos
+> **Decisão registrada**: esta etapa está fora do escopo. Não serão
+> criadas `criaturas` no JSON, no schema, nos modelos nem nos seeders.
+> A busca operará sobre a base atual (Livro Básico + Ameaças como
+> livro registrado/índice remissivo/racas/magias/acessorios/regras
+> adicionais). As perguntas 11–14 do conjunto de avaliação (§12) ficam
+> fora do escopo da API.
 
-- Etapa 0 concluída (auditoria e baseline verde).
-- Acesso ao conteúdo do livro "Ameaças de Arton" para extração dos dados.
+A etapa permanece documentada abaixo para referência, mas as tarefas
+estão marcadas como **não-aplicáveis**. Se for revivida no futuro,
+será necessário reabrir a Etapa 0.5 como um capítulo independente.
 
-#### Tarefas
+#### Pré-requisitos (cancelados)
 
-- [ ] Registrar o livro na base: criar `src/json/livros/ameacas_de_arton.json` com `id`, `nome`, `nome_curto`.
-- [ ] Corrigir o seed para importar todos os livros de `src/json/livros/` na tabela `livros` (gap identificado na Etapa 0).
-- [ ] Criar a tabela `criaturas` no schema SQL com os campos necessários:
-  - `id`, `name`, `description`, `tipo` (monstro, NPC, animal, constructo, morto-vivo, etc.)
-  - `nivel_de_desafio` (ND), `tamanho`, `tipo_criatura`
-  - `atributos` (JSON: FOR, DES, CON, INT, SAB, CAR)
-  - `defesa`, `pontos_de_vida`, `deslocamento`
-  - `ataques` (JSON), `habilidades` (JSON), `tesouros` (JSON)
-  - `resistencias` (JSON), `imunidades` (JSON), `vulnerabilidades` (JSON)
-  - `descricao_combate`, `descricao_habitat`
-  - `livro_id` (FK para `livros`), `pagina` (referência bibliográfica)
-- [ ] Extrair **todas** as criaturas, monstros e NPCs do livro "Ameaças de Arton" em arquivos JSON individuais em `src/json/criaturas/`.
-- [ ] Para cada criatura, incluir: estatísticas completas, habilidades especiais, descrição de combate, habitat e referência de página.
-- [ ] Criar o seed de importação para criaturas (`import_criaturas` no `seeds.rb`).
-- [ ] Criar o índice remissivo do livro "Ameaças de Arton" em `src/json/indice_remissivo/ameacas_de_arton.json`, associando termos a páginas, tabelas e registro_ids.
-- [ ] Adicionar o modelo Ruby/TypeScript correspondente (`Criatura` / `Creature`).
-- [ ] Atualizar os modelos públicos TypeScript para incluir os novos `EntityType`: `'criatura'` e `'npc'`.
-- [ ] Validar que o build e os testes existentes continuam passando após a adição.
-- [ ] Criar testes para ao menos 5 criaturas representativas (variando ND, tipo e complexidade de habilidades).
+- ✅ Etapa 0 concluída (auditoria e baseline verde).
+- ~~Acesso ao conteúdo do livro "Ameaças de Arton" para extração dos dados.~~
 
-#### Decisões de schema
+#### Tarefas (todas canceladas)
 
-- O campo `tipo` da criatura deve seguir a categorização do livro (ex: constructo, morto-vivo, animal, monstro, humanóide, etc.).
-- Criaturas com variantes (ex: diferentes NDs) devem ser registros separados com IDs distintos.
-- NPCs notáveis que possuem stat block completo devem ser registrados com `tipo = 'npc'`.
-- Habilidades especiais de criaturas que sejam equivalentes a poderes ou magias existentes devem referenciar o `id` correspondente quando possível, sem duplicar a descrição.
+- ~~Registrar o livro na base: criar `src/json/livros/ameacas_de_arton.json` com `id`, `nome`, `nome_curto`.~~ ✓ Já existe.
+- ~~Corrigir o seed para importar todos os livros de `src/json/livros/` na tabela `livros`.~~ ✓ Já existe.
+- ~~Criar a tabela `criaturas` no schema SQL.~~ **Não-aplicável**.
+- ~~Extrair todas as criaturas/monstros/NPCs do livro.~~ **Não-aplicável**.
+- ~~Criar o seed de importação para criaturas.~~ **Não-aplicável**.
+- ~~Criar o índice remissivo do livro.~~ ✓ Já existe (268 entries).
+- ~~Adicionar o modelo Ruby/TypeScript correspondente.~~ **Não-aplicável**.
+- ~~Atualizar `EntityType` com `'criatura'` e `'npc'`.~~ **Não-aplicável**.
 
-#### Regras de extração
+### Etapa 1 — modelo de resultado e resolução de fontes — ✓ CONCLUÍDA (foundation)
 
-- Não inventar dados ausentes no livro. Se uma criatura não lista tesouro ou habitat, o campo deve ser nulo ou vazio.
-- Preservar a grafia e nomenclatura original do livro.
-- Cada JSON deve incluir `livro_id: "ameacas_de_arton"` e `pagina` com o número correto.
-- A extração deve ser verificável: todo dado extraído deve ser rastreável à página de origem.
+> **Trabalho já feito em Round 3** (não-Etapa 1): existe um helper de
+> resolução de fonte multi-página exposto por modelo:
+> - TS: `getBookReferenceFor(registroId, tabela)` (primeira) e
+>   `getBookReferencesFor(registroId, tabela): BookReference[]` (todas),
+>   em `src/ts/models/concerns/book_referenceable.ts`. 19 modelos
+>   expõem `bookReference()` (singular) e `bookReferences()` (plural).
+> - Ruby: `BookReferenceable#book_reference` (string `"T20 - EJA, p. 56"`)
+>   e `#book_references` (array de hashes), em
+>   `src/ruby/tormenta20/concerns/book_referenceable.rb`.
 
-**Saída:** banco SQLite contendo todas as criaturas e NPCs do livro "Ameaças de Arton", com referências bibliográficas, índice remissivo e testes de integridade passando.
+**Implementado nesta Etapa 1:**
+- `src/ts/knowledge/types.ts` — tipos `EntityType` (21 valores, incluindo `pericia`/`tabela`/`acessorio_magico` que faltavam no SPEC §5.1), `SourceReference`, `SearchResult`, `SearchOptions`, `SearchResponse`, `GetEntityOptions`, `MatchChannel`.
+- `src/ts/knowledge/sources.ts` — adapter `toSourceReference(ref)` mapeando `BookReference` interno (Português: `livro`/`pagina`/`formatted`) para o `SourceReference` público (Inglês: `bookId`/`bookName`/`bookAbbreviation`/`page`/`formatted`).
+- `src/ts/knowledge/entity.ts` — adapter `toSearchResult(model, tableName)` com `TABLE_TO_ENTITY_TYPE` (19 tabelas); recusa mapear `indice_remissivo` e `livros` (metadata; não-definition).
+- `src/ts/index.ts` — `export * as Knowledge from "./knowledge/index.js"` (namespace para evitar colisões no root).
+- `src/ts/models/concerns/book_referenceable.ts` — `BookReference` estendido com `bookId`/`bookAbbreviation` (aditivo, não quebra callers).
+- Specs: `spec/ts/knowledge/{types,sources,entity}.test.ts` — 27 testes cobrindo a `adaga` (armas p152), `allihanna` (divindades p103), `espinhosa` (melhorias p401 + p171 — multi-fonte explícita), `bola_de_fogo` (magias p188 vs pocoes p347 — tabela scoping), `amuleto_da_robustez` (acessorios_magicos).
 
-### Etapa 1 — modelo de resultado e resolução de fontes (inclui criaturas)
+- Criar tipos `SearchResult` e `SourceReference` compatíveis com o modelo atual. ✓
+- Empacotar o resultado de `bookReferences()` em `SearchResult.sources`. ✓
+- Centralizar a resolução de livros/páginas num único módulo de domínio (`src/ts/knowledge/`). ✓
+- Preservar múltiplas referências e ausências de referência. ✓ (`sources: []` quando sem index; helper plural quando multi-página).
+- Garantir que entidades de ambos os livros (`t20_eja`, `ameacas_de_arton`) são corretamente resolvidas com `bookId`, `bookName` e `page`. ✓
 
-- Criar tipos `SearchResult` e `SourceReference` compatíveis com o modelo atual.
-- Centralizar a resolução de livros/páginas num módulo único.
-- Preservar múltiplas referências e ausências de referência.
-- Garantir que criaturas do livro "Ameaças de Arton" são corretamente resolvidas com `bookId`, `bookName` e `page`.
-
-**Saída:** uma função de entidade consegue retornar os dados e suas fontes consistentemente, incluindo entidades de múltiplos livros.
+**Saída:** uma função de entidade consegue retornar os dados e suas fontes consistentemente, incluindo entidades de múltiplos livros. ✓
 
 ### Etapa 2 — API de busca programática
 
@@ -568,10 +577,10 @@ Criar testes com dados reais do banco e anotar os resultados esperados manualmen
 8. "Quais requisitos o poder X possui?"
 9. "Quais entidades mencionam um termo sinônimo ou acentuado?"
 10. "Busque uma expressão que não exista e retorne lista vazia."
-11. "Quais criaturas de ND 5 ou superior existem no livro Ameaças de Arton?"
-12. "Quais monstros são mortos-vivos?"
-13. "Encontre criaturas que tenham resistência a fogo."
-14. "Onde o monstro X aparece no livro Ameaças de Arton?"
+11. ~~"Quais criaturas de ND 5 ou superior existem no livro Ameaças de Arton?"~~ **Fora de escopo** (Etapa 0.5 cancelada — sem tabela `criaturas`).
+12. ~~"Quais monstros são mortos-vivos?"~~ **Fora de escopo**.
+13. ~~"Encontre criaturas que tenham resistência a fogo."~~ **Fora de escopo**.
+14. ~~"Onde o monstro X aparece no livro Ameaças de Arton?"~~ **Fora de escopo**.
 
 Para cada caso, verificar:
 
@@ -594,7 +603,7 @@ Para cada caso, verificar:
 - [ ] O MCP funciona por stdio e não escreve logs em stdout.
 - [ ] Testes existentes continuam passando; novos módulos têm testes automatizados.
 - [ ] Documentação inclui setup, configuração de cliente MCP, exemplos e limitações conhecidas.
-- [ ] O livro "Ameaças de Arton" está integrado: criaturas consultáveis, fontes rastreáveis, índice remissivo presente.
+- ~~[ ] O livro "Ameaças de Arton" está integrado: criaturas consultáveis, fontes rastreáveis, índice remissivo presente.~~ **Ajustado**: criaturas fora de escopo; o livro está integrado como **fonte** (registry, índice remissivo, racas/magias/acessorios/regras adicionais que carregam `livro_id:"ameacas_de_arton"`).
 - [ ] Buscas retornam entidades de múltiplos livros com as fontes corretas.
 
 ## 14. Riscos e decisões a evitar
@@ -606,7 +615,7 @@ Para cada caso, verificar:
 - **Não duplicar fontes/páginas.** Centralizar resolução e manter o dado original como autoridade.
 - **Não assumir que todas as entidades têm páginas.** Fonte ausente deve ser representada como ausente e coberta por teste.
 - **Não implementar regras derivadas silenciosamente.** Diferença entre texto original, extração estruturada e inferência deve permanecer explícita.
-- **Não inventar stat blocks de criaturas.** Cada campo deve vir diretamente do livro. Campos ausentes devem ser nulos, não preenchidos por suposição.
+- ~~**Não inventar stat blocks de criaturas.**~~ **Substituído por**: Não inventar dados de Ameaças de Arton. Toda referência a Ameaças (livro, índice remissivo, racas, magias, acessorios, materiais, melhorias, regras adicionais) que entra na base deve ter origem rastreável.
 
 ## 15. Decisões em aberto para ajustar localmente
 

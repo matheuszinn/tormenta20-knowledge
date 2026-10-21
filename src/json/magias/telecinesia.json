@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "veja_texto",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Ao lançar a magia, escolha uma das opções a seguir. Força Contínua: você move uma criatura ou objeto com até 200kg, a até 6m por rodada. O peso pode ser movido em qualquer direção dentro do alcance. Ele cai no chão se sair do alcance ou a magia terminar. Duração: sustentada.\nEmpurrão Violento: nesta versão a energia mágica é expelida de uma única vez e arremessa até 10 objetos, ou um peso total de 200kg, o que for menor. Os objetos devem estar a até 3m uns dos outros. Objetos arremessados podem atingir criaturas em seu caminho, causando de 1 ponto de dano de impacto por 10kg (objetos macios, sem pontas ou sem fio) até 1d6 pontos de dano por 10kg (objetos duros, pontudos ou afiados). Criaturas atingidas têm direito a um teste de Reflexos para reduzir o dano à metade. Criaturas dentro da capacidade de peso da magia podem ser arremessadas. Uma criatura arremessada contra uma superfície sólida sofre 1d6 pontos de dano de impacto para cada 3m que “voou\" (incluindo outras criaturas; nesse caso, ambas sofrem o dano). Duração: instantânea.\nEm qualquer opção da magia, uma criatura pode anular o efeito sobre ela, ou sobre um objeto que possua, passando num teste de Vontade.",
   "enhancements": [
@@ -33,7 +33,7 @@
       "type": "veja_texto",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

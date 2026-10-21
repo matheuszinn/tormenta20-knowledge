@@ -15,14 +15,14 @@
   "effect": "alvo",
   "effect_details": {
     "shape": "outros",
-    "dimention": "raio",
+    "dimension": "raio",
     "size": "6m_yq",
     "other_details": null
   },
   "counterspell": "luz",
   "duration": "cena",
   "duration_details": "criaturas involuntárias tem direito ao teste de vontade para anular a magia.",
-  "resistence": {
+  "resistance": {
     "effect": "anula",
     "skill": "vontade"
   },
@@ -59,7 +59,7 @@
           "up_to": null,
           "type": "criatura"
         },
-        "resistence": {
+        "resistance": {
           "effect": "parcial",
           "skill": "fortitude"
         },
@@ -82,7 +82,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": "vontade",
+      "resistance_requirement": "vontade",
       "extra_requirements": null
     }
   ],

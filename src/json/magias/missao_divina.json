@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "1_semana_ou_descarregar",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "anula_veja_texto",
     "skill": "vontade"
   },
@@ -54,7 +54,7 @@
       "type": "penalidade_cumulativa",
       "attribute": "todas_os_teste_e_rolagens",
       "amount": "-2",
-      "resistence_requirement": "vontade",
+      "resistance_requirement": "vontade",
       "extra_requirements": null
     }
   ],

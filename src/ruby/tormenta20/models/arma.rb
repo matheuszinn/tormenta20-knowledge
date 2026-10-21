@@ -84,20 +84,20 @@ module Tormenta20
       scope :by_damage_type, ->(t) { where(damage_type: t) }
 
       # @!method ranged
-      #   Filter ranged weapons only (weapons with a range value).
+      #   Filter ranged weapons only (weapons with a non-empty range value).
       #   @return [ActiveRecord::Relation<Arma>]
-      scope :ranged, -> { where.not(range: nil) }
+      scope :ranged, -> { where("range IS NOT NULL AND range != ''") }
 
       # @!method melee
-      #   Filter melee weapons only (weapons without a range value).
+      #   Filter melee weapons only (weapons without a range value, treating empty strings as melee).
       #   @return [ActiveRecord::Relation<Arma>]
-      scope :melee, -> { where(range: nil) }
+      scope :melee, -> { where("range IS NULL OR range = ''") }
 
       # Check if this weapon is ranged.
       #
-      # @return [Boolean] true if the weapon has a range value
+      # @return [Boolean] true if the weapon has a non-empty range value
       def ranged?
-        !range.nil?
+        !range.to_s.empty?
       end
 
       # Convert the weapon to a hash representation.

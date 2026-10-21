@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "instantânea",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "anula",
     "skill": "vontade"
   },
@@ -32,7 +32,7 @@
         "effect": "area",
         "effect_details": {
           "shape": "cones",
-          "dimention": "extenção",
+          "dimension": "extensão",
           "size": "4,5m",
           "other_details": null
         }
@@ -50,7 +50,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": "vontade",
+      "resistance_requirement": "vontade",
       "extra_requirements": null
     }
   ],

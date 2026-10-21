@@ -13,7 +13,7 @@
   "counterspell": null,
   "duration": "veja_texto",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": "veja_texto",
   "description": "Esta é a mais poderosa das magias arcanas, permitindo alterar a realidade a seu bel-prazer. Você pode:\n• Dissipa qualquer magia de 4º círculo ou menor.\n• Transportar até 10 criaturas voluntárias em alcance longo para qualquer outro local.\n• Desfazer um acontecimento recente. Isto permite que um teste realizado por uma criatura em alcance longo na última rodada seja refeito. Por exemplo, se um aliado morreu devido a um ataque, você pode obrigar o atacante a refazer esse ataque.\nNormalmente, Desejo não exige sacrifício de PM — mas você pode desejar por algo mais poderoso. Nesse caso, a magia requer o sacrifício de 2 PM e pode fazer coisas como:\n• Criar um item mundano de até T$ 25.000.\n• Duplicar os efeitos de uma magia de até 4º círculo (componentes materiais ainda são necessários).\n• Aumentar um atributo de uma criatura em +1 (máximo +5 para um mesmo atributo por esta magia).\nDesejo pode gerar efeitos ainda mais poderosos, mas tenha cuidado! Desejar a fortuna de um rei pode transportá-lo para a sala de tesouro real, onde você será preso ou morto; desejar ser imortal pode transformá- lo em morto-vivo, e assim por diante. Outros efeitos devem ser decididos pelo mestre.",
   "enhancements": null,
@@ -22,7 +22,7 @@
       "type": null,
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

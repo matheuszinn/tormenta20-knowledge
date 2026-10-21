@@ -25,7 +25,7 @@
       "action": "livre"
     },
     {
-      "type": "enemy_resistence_penalty",
+      "type": "enemy_resistance_penalty",
       "value": -2,
       "range": "medio",
       "duration": "proximo_turno"

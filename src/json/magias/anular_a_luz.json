@@ -15,14 +15,14 @@
   "effect": "area",
   "effect_details": {
     "shape": "esfera",
-    "dimention": "raio",
+    "dimension": "raio",
     "size": "6m_qy",
     "other_details": null
   },
   "counterspell": null,
   "duration": "rodadas",
   "duration_details": "1d4",
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Esta magia cria uma onda de escuridão que causa diversos efeitos. Todas as magias de 3º  círculo ou menor ativas na área são dissipadas se você passar num teste de Religião contra a CD de cada magia. Seus aliados na área são protegidos por uma aura sombria e recebem +4 na Defesa até o fim da cena. Inimigos na área ficam enjoados por 1d4 rodadas (apenas uma vez pela magia). Anular a Luz anula Dispersar as Trevas.",
   "enhancements": [
@@ -54,14 +54,14 @@
       "type": "anula",
       "attribute": "magias",
       "skill": "religiao",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     },
     {
       "type": "aumenta",
       "attribute": "def",
       "amount": "+4",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

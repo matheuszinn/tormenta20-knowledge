@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "anula",
     "skill": "vontade"
   },
@@ -51,7 +51,7 @@
       "type": "outro",
       "attribute": "adestramento_diplomacia",
       "amount": "+10",
-      "resistence_requirement": "vontade",
+      "resistance_requirement": "vontade",
       "extra_requirements": null
     }
   ],

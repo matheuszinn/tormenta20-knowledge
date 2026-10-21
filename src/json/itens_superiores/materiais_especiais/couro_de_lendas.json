@@ -15,6 +15,10 @@
       "reducao_dano": 1
     }
   },
+  "applicable_to": [
+    "armadura_leve",
+    "escudo"
+  ],
   "page": 402,
   "livro_id": "ameacas_de_arton"
 }

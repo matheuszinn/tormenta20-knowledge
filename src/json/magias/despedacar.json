@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "instantânea",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "parcial,anula",
     "skill": "fortitude,reflexos"
   },
@@ -74,7 +74,7 @@
       "type": "dano",
       "attribute": "pv",
       "amount": "1d8+2",
-      "resistence_requirement": "fortitude_ou_reflexos",
+      "resistance_requirement": "fortitude_ou_reflexos",
       "extra_requirements": null
     }
   ],

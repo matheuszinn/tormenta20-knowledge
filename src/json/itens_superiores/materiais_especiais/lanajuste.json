@@ -28,6 +28,13 @@
       "magia_dano_corte_rerola_1": true
     }
   },
-  "page": 402,
+  "applicable_to": [
+    "arma",
+    "armadura_leve",
+    "armadura_pesada",
+    "escudo",
+    "esoterico"
+  ],
+  "page": 400,
   "livro_id": "ameacas_de_arton"
 }

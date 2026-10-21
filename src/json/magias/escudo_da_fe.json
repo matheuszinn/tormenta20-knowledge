@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "1_turno",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Um escudo místico se manifesta momentaneamente para bloquear um golpe. O alvo recebe +2 na Defesa.",
   "enhancements": [
@@ -69,7 +69,7 @@
       "type": "bônus",
       "attribute": "def",
       "amount": "+2",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

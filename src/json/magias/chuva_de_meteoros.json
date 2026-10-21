@@ -15,14 +15,14 @@
   "effect": "area",
   "effect_details": {
     "shape": "esfera",
-    "dimention": "raio",
+    "dimension": "raio",
     "size": "9m_yq",
     "other_details": null
   },
   "counterspell": null,
   "duration": "instantânea",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "reduz_à_metade|",
     "skill": "reflexos"
   },
@@ -47,7 +47,7 @@
       "type": "dano",
       "attribute": "pv",
       "amount": "20d6",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "veja_texto",
   "duration_details": "se sair do transe a magia acaba",
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Você entra nos sonhos de uma criatura. Uma vez lá, pode conversar com ela até que ela acorde. Se o alvo não estiver dormindo quando você lançar a magia, você pode permanecer em transe até que ele adormeça. Durante o transe, você fica indefeso e sem consciência dos arredores. Você pode sair do transe quando quiser, mas a magia termina.",
   "enhancements": [
@@ -45,7 +45,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

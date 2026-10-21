@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "1_dia",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Você desperta a consciência de um animal ou planta, que passa a ajudá-lo. O alvo se torna um aliado veterano de um tipo a sua escolha entre ajudante, combatente, fortão, guardião, médico ou perseguidor. Se usar esta magia em um aliado que já possua, seu nível de poder aumenta em um passo (iniciante para veterano, veterano para mestre). Se já for um aliado mestre, fornece um bônus adicional de outro tipo de aliado iniciante (entre as escolhas acima). O alvo ganha Inteligência 3d6 +1d4 de Carisma e pode falar os idiomas que você conhece.\nSe não quiser ter o alvo como aliado, você pode pedir que ele proteja um local específico, atacando invasores (nesse caso, use as estatísticas apropriadas à criatura; plantas usam as estatísticas de entes).",
   "enhancements": [
@@ -52,7 +52,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ]

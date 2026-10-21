@@ -20,7 +20,7 @@
   ],
   "effects": [
     {
-      "type": "resistence_test",
+      "type": "resistance_test",
       "test": "vontade",
       "attr": "car",
       "description": "Se falhar, perderá sua ação",

@@ -9,26 +9,45 @@
   "page": 398,
   "livro_id": "ameacas_de_arton",
   "parceiro": {
-    "tipo": ["montaria"],
+    "tipo": [
+      "montaria"
+    ],
     "porte": "grande",
-    "pagina_criatura": 225,
+    "pagina_criatura": 223,
     "patamares": {
       "iniciante": {
         "movement": [
-          { "type": "caminhada", "value": 12, "unit": "m" }
+          {
+            "type": "caminhada",
+            "value": 12,
+            "unit": "m"
+          }
         ],
         "damage": [
-          { "type": "bonus_dano_corporal", "value": "1d6", "frequency": "1x_rodada" }
+          {
+            "type": "bonus_dano_corporal",
+            "value": "1d6",
+            "frequency": "1x_rodada"
+          }
         ]
       },
       "veterano": {
         "maneuvers": [
-          { "manobra": "agarrar", "action": "livre", "frequency": "1x_rodada", "condition": "uma mão permanece livre; apenas um inimigo agarrado por vez" }
+          {
+            "manobra": "agarrar",
+            "action": "livre",
+            "frequency": "1x_rodada",
+            "condition": "uma mão permanece livre; apenas um inimigo agarrado por vez"
+          }
         ]
       },
       "mestre": {
         "damage": [
-          { "type": "bonus_dano_corporal", "value": "1d10", "frequency": "1x_rodada" }
+          {
+            "type": "bonus_dano_corporal",
+            "value": "1d10",
+            "frequency": "1x_rodada"
+          }
         ]
       }
     }

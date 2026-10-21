@@ -15,14 +15,14 @@
   "effect": "disco_de_energia",
   "effect_details": {
     "shape": "disco",
-    "dimention": "diâmetro",
+    "dimension": "diâmetro",
     "size": "1,5m_yq",
     "other_details": null
   },
   "counterspell": null,
   "duration": "sustentada",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Esta poderosa magia manifesta um disco de energia que lembra uma roda de engenho e flutua no ponto em que foi conjurado. O disco é intangível, imune a dano e não pode ser movido. Enquanto estiver ativo, tenta absorver qualquer magia lançada em alcance médio dele, como uma ação automática de contramágica, usando seu teste de Misticismo. Caso vença o teste, o engenho não só anula a magia como absorve os PM usados para lançá-la, acumulando PM temporários. No seu turno, se estiver ao alcance do disco, você pode gastar PM guardados nele para lançar magias.",
   "enhancements": [
@@ -46,7 +46,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

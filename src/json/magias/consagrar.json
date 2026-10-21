@@ -15,14 +15,14 @@
   "effect": "area_9m",
   "effect_details": {
     "shape": "esfera",
-    "dimention": "raio",
+    "dimension": "raio",
     "size": "9m_yq",
     "other_details": null
   },
   "counterspell": "profanar",
   "duration": "1_dia",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Esta magia enche a área com energia positiva. Efeitos de luz que curam pontos de vida ou canalizam energia positiva têm seus efeitos maximizados. Por exemplo, Curar Ferimentos cura automaticamente 18 PV em alvos dentro da área. Esta magia não pode ser lançada em uma área contendo um símbolo visível dedica-do a uma divindade que não a sua. Consagrar anula Profanar.",
   "enhancements": [
@@ -59,7 +59,7 @@
       "type": "buff",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

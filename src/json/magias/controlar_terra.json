@@ -15,14 +15,14 @@
   "effect": "alvo",
   "effect_details": {
     "shape": "cubos",
-    "dimention": "lado",
+    "dimension": "lado",
     "size": "1,5m_yq",
     "other_details": null
   },
   "counterspell": null,
   "duration": "instantânea",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "varia_de_acordo_com_texto",
     "skill": "varia_de_acordo_com_texto"
   },
@@ -57,7 +57,7 @@
       "type": "controle",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

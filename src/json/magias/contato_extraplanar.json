@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "1_dia",
   "duration_details": "A magia termina quando você ficar sem dados para rolar, sem PM ou no fim do dia (o que acontecer primeiro).",
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Sua mente viaja até outro plano de existência, onde entra em contato com seres extraplanares como gênios, demônios ou elementais. Você firma um contrato com uma dessas entidades para que o auxilie durante o dia, em troca de se alimentar de seu mana. Quando a magia é lançada, você recebe 6d6 dados de auxílio. En-quanto a magia durar, sempre que for realizar um teste de perícia, você pode gastar qualquer quantidade desses d6 e adicionar o resultado rolado como bônus no teste. No entanto, esse auxílio tem um preço: sempre que rolar um “6\" num desses d6, a entidade “suga\" 1 PM de você. A magia termina quando você ficar sem dados para rolar, sem PM ou no fim do dia (o que acontecer primeiro).",
   "enhancements": [
@@ -41,7 +41,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

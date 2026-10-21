@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "instantânea",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "description": "Envia um aviso telepático para uma criatura, mesmo que não possa vê-la nem tenha linha de efeito. Escolha um: Alerta: o alvo recebe +5 em seu próximo teste de Iniciativa e de Percepção dentro da cena. Mensagem: o alvo recebe uma mensagem sua de até 25 palavras. Vocês devem ter um idioma em comum para o alvo poder entendê-lo. Localização: o alvo sabe onde você está naquele momento. Se você mudar de posição, ele não saberá.",
   "enhancements": [
     {
@@ -51,7 +51,7 @@
       "type": "bônus",
       "skill": "iniciativa,percepção",
       "amount": "+5",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     },
     {
@@ -59,7 +59,7 @@
       "type": "comunicação",
       "skill": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     },
     {
@@ -67,7 +67,7 @@
       "type": "posição",
       "skill": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

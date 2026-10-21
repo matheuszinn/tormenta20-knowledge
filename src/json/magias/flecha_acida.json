@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "instantânea",
   "duration_details": "se falhar no teste o alvo também fica coberto por um muco corrosivo durante duas rodadas",
-  "resistence": {
+  "resistance": {
     "effect": "parcial",
     "skill": "reflexos"
   },
@@ -48,7 +48,7 @@
       "type": "dano",
       "attribute": "pv",
       "amount": "4d6",
-      "resistence_requirement": "reflexos",
+      "resistance_requirement": "reflexos",
       "extra_requirements": null
     }
   ],

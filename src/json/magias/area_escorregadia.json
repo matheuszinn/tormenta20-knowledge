@@ -15,14 +15,14 @@
   "effect": "area_3m",
   "effect_details": {
     "shape": "quadrado",
-    "dimention": "lado",
+    "dimension": "lado",
     "size": "3m",
     "other_details": null
   },
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "ver_texto",
     "skill": "reflexos"
   },
@@ -54,7 +54,7 @@
       "attribute": "cd",
       "skill": "acrobacia",
       "amount": "10",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

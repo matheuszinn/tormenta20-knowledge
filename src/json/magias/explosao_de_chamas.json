@@ -15,14 +15,14 @@
   "effect": "area",
   "effect_details": {
     "shape": "cone",
-    "dimention": "extenção",
+    "dimension": "extensão",
     "size": "6m_yq",
     "other_details": null
   },
   "counterspell": null,
   "duration": "instantânea",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "reduz_à_metade",
     "skill": "reflexos"
   },
@@ -40,7 +40,7 @@
           "up_to": null,
           "type": "objeto"
         },
-        "resistence": {
+        "resistance": {
           "effect": "anula",
           "skill": "reflexos"
         }
@@ -57,7 +57,7 @@
       "type": "muda",
       "description": "muda a resistência para Reflexos parcial. Se passar, a criatura reduz o dano à metade; se falhar, fica em chamas (veja Condições, em Tormenta20, página 393).",
       "extra_details": {
-        "resistence": {
+        "resistance": {
           "effect": "parcial",
           "skill": "reflexos"
         }
@@ -69,7 +69,7 @@
       "type": "dano",
       "attribute": "pv",
       "amount": "2d6",
-      "resistence_requirement": "reflexos",
+      "resistance_requirement": "reflexos",
       "extra_requirements": null
     }
   ],

@@ -31,8 +31,20 @@ RSpec.describe Tormenta20::Models::Encantamento do
     end
 
     describe ".armaduras_escudos" do
-      it "returns only armadura enchantments" do
-        described_class.armaduras_escudos.each { |e| expect(e.categoria).to eq("armadura") }
+      it "returns only armadura enchantments (canonical value, not 'armadura_escudo')" do
+        result = described_class.armaduras_escudos
+        expect(result.count).to be_positive
+        result.each { |e| expect(e.categoria).to eq("armadura") }
+      end
+
+      it "together with .armas covers every encantamento" do
+        expect(described_class.armas.count + described_class.armaduras_escudos.count).to eq(described_class.count)
+      end
+    end
+
+    describe "categoria values" do
+      it "only uses the canonical values 'arma' and 'armadura'" do
+        expect(described_class.distinct.pluck(:categoria)).to contain_exactly("arma", "armadura")
       end
     end
 

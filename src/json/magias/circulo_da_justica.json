@@ -15,14 +15,14 @@
   "effect": "area",
   "effect_details": {
     "shape": "esfera",
-    "dimention": "lado",
+    "dimension": "lado",
     "size": "9m_yq",
     "other_details": null
   },
   "counterspell": null,
   "duration": "1_dia",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "parcial",
     "skill": "vontade"
   },
@@ -38,7 +38,7 @@
         "range": "pessoal",
         "target": "voce",
         "duration": "cena",
-        "resistence": null
+        "resistance": null
       }
     },
     {
@@ -68,7 +68,7 @@
       "type": "penalidade",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": "vontade",
+      "resistance_requirement": "vontade",
       "extra_requirements": null
     }
   ],

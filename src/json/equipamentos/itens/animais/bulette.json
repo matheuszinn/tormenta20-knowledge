@@ -9,30 +9,56 @@
   "page": 398,
   "livro_id": "ameacas_de_arton",
   "parceiro": {
-    "tipo": ["montaria"],
+    "tipo": [
+      "montaria"
+    ],
     "porte": "grande",
-    "pagina_criatura": 105,
+    "pagina_criatura": 103,
     "patamares": {
       "iniciante": {
         "movement": [
-          { "type": "caminhada", "value": 9, "unit": "m" },
-          { "type": "escavacao", "value": 6, "unit": "m" }
+          {
+            "type": "caminhada",
+            "value": 9,
+            "unit": "m"
+          },
+          {
+            "type": "escavacao",
+            "value": 6,
+            "unit": "m"
+          }
         ],
         "damage": [
-          { "type": "bonus_dano_corporal", "value": "1d6", "frequency": "1x_rodada" }
+          {
+            "type": "bonus_dano_corporal",
+            "value": "1d6",
+            "frequency": "1x_rodada"
+          }
         ]
       },
       "veterano": {
         "damage": [
-          { "type": "bonus_dano_corporal", "value": "1d10", "frequency": "1x_rodada" }
+          {
+            "type": "bonus_dano_corporal",
+            "value": "1d10",
+            "frequency": "1x_rodada"
+          }
         ]
       },
       "mestre": {
         "movement": [
-          { "type": "escavacao", "value": 12, "unit": "m" }
+          {
+            "type": "escavacao",
+            "value": 12,
+            "unit": "m"
+          }
         ],
         "damage": [
-          { "type": "bonus_dano_corporal", "value": "2d8", "frequency": "1x_rodada" }
+          {
+            "type": "bonus_dano_corporal",
+            "value": "2d8",
+            "frequency": "1x_rodada"
+          }
         ]
       }
     }

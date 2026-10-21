@@ -144,7 +144,7 @@ CREATE TABLE IF NOT EXISTS magias (
   -- Effect information
   effect TEXT,
   effect_shape TEXT,
-  effect_dimention TEXT,
+  effect_dimension TEXT,
   effect_size TEXT,
   effect_other_details TEXT,
 
@@ -153,8 +153,8 @@ CREATE TABLE IF NOT EXISTS magias (
   area_effect_details TEXT,
 
   -- Resistance information
-  resistence_effect TEXT,
-  resistence_skill TEXT,
+  resistance_effect TEXT,
+  resistance_skill TEXT,
 
   -- Extra costs
   extra_costs_material_component TEXT,
@@ -313,7 +313,7 @@ CREATE TABLE IF NOT EXISTS encantamentos (
   id TEXT PRIMARY KEY,
   name TEXT NOT NULL,
   description TEXT,
-  categoria TEXT NOT NULL,           -- 'arma' | 'armadura_escudo'
+  categoria TEXT NOT NULL,           -- 'arma' | 'armadura'
   escudo_only INTEGER DEFAULT 0,     -- boolean: only for shields
   conta_como_dois INTEGER DEFAULT 0, -- boolean: counts as two enchantments
   prerequisitos JSON DEFAULT '[]',
@@ -389,7 +389,7 @@ CREATE TABLE IF NOT EXISTS racas (
   chosen_abilities_amount INTEGER DEFAULT 0,
   available_chosen_abilities JSON DEFAULT '[]',
   page INTEGER,
-  livro_id TEXT,
+  livro_id TEXT REFERENCES livros(id),
   longevidade TEXT,
   devotos JSON DEFAULT '[]',
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP,

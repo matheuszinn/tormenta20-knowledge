@@ -43,7 +43,12 @@ describe("Arma", () => {
 
     it("melee returns weapons with no range", () => {
       const result = Arma.melee().all()
+      expect(result.length).toBeGreaterThan(0)
       result.forEach((a) => expect(a.range).toBeNull())
+    })
+
+    it("melee + ranged cover every arma", () => {
+      expect(Arma.melee().count() + Arma.ranged().count()).toBe(Arma.count())
     })
 
     it("ranged returns weapons with a range", () => {

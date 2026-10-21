@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cenar",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Ao lançar a magia, escolha um dos efeitos.\nChamejar: o alvo é armas, armas naturais ou ataques desarmados escolhidos. Eles causam +1d6 de dano de fogo.\nEsquentar: o alvo é 1 objeto, que começa a esquentar. Ele sofre 1d6 pontos de dano de fogo por rodada e causa o mesmo dano a qualquer criatura o tocando. Uma criatura pode gastar uma ação completa para resfriar o objeto e cancelar a magia.\nExtinguir: o alvo é 1 chama Grande ou menor, que é apagada. Uma nuvem de fumaça com 3m de raio surge onde estava a chama, fornecendo camuflagem.\nModelar: o alvo é 1 chama Grande ou menor. A cada rodada, você pode gastar uma ação livre para movimentá-la 9m. Se atravessar um espaço ocupado, causa 2d6 pontos de dano de fogo (uma vez por rodada).",
   "enhancements": [
@@ -27,7 +27,7 @@
       "description": "muda a duração para sustentada e a resistência para Reflexos reduz à metade. Em vez do normal, a cada rodada, você pode gastar uma ação de movimento para projetar uma labareda, causando 4d6 pontos de dano de fogo (Ref reduz à metade) em um alvo em alcance curto a partir da chama.",
       "extra_details": {
         "duration": "sustentada",
-        "resistence": {
+        "resistance": {
           "effect": "reduz_à_metade",
           "skill": "reflexos"
         }
@@ -49,7 +49,7 @@
           "up_to": null,
           "type": "criatura_composta_por_fogo_lava_ou_magma"
         },
-        "resistence": {
+        "resistance": {
           "effect": "parcial",
           "skill": "fortitude"
         }
@@ -61,7 +61,7 @@
       "type": "controle",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

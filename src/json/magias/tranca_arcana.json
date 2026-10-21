@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "permanente",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": {
     "material_component": "chave de bronze",
     "material_component_cost": "T$ 25",
@@ -68,7 +68,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

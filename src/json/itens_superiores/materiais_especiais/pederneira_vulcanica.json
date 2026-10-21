@@ -15,6 +15,10 @@
       "recarregar_acao": "reduz um passo"
     }
   },
+  "applicable_to": [
+    "arma",
+    "arma_de_fogo"
+  ],
   "page": 402,
   "livro_id": "ameacas_de_arton"
 }

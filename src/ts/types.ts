@@ -82,7 +82,7 @@ export interface Magia {
   counterspell: string | null
   duration: string
   duration_details: string | null
-  resistence: { effect: string; skill: string } | null
+  resistance: { effect: string; skill: string } | null
   extra_costs: unknown | null
   description: string
   enhancements: MagiaEnhancement[]
@@ -100,7 +100,7 @@ export interface MagiaEffect {
   type: string
   attribute?: string
   amount?: string
-  resistence_requirement?: string | null
+  resistance_requirement?: string | null
   extra_requirements?: unknown | null
 }
 

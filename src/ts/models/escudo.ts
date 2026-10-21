@@ -1,6 +1,6 @@
 import { BaseModel } from "./base.js"
 import { Query } from "../query.js"
-import { getBookReference, type BookReference } from "./concerns/book_referenceable.js"
+import { getBookReferenceFor, getBookReferencesFor, type BookReference } from "./concerns/book_referenceable.js"
 
 const TABLE = "escudos"
 
@@ -27,7 +27,10 @@ export class Escudo extends BaseModel {
   get description(): string | null { return (this._row.description as string) ?? null }
 
   /** Returns the sourcebook page reference, or `null` if not indexed. */
-  bookReference(): BookReference | null { return getBookReference(this.id) }
+  bookReference(): BookReference | null { return getBookReferenceFor(this.id, TABLE) }
+
+  /** Returns all sourcebook page references (multi-source), or an empty array if not indexed. */
+  bookReferences(): BookReference[] { return getBookReferencesFor(this.id, TABLE) }
 
   toH() {
     return {

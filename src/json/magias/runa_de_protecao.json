@@ -15,14 +15,14 @@
   "effect": "area_passagem",
   "effect_details": {
     "shape": null,
-    "dimention": "largura",
+    "dimension": "largura",
     "size": "6m_9q",
     "other_details": null
   },
   "counterspell": null,
   "duration": "permanente_descarregar",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "reduz_à_metade",
     "skill": "nenhum_ou_reflexos"
   },
@@ -70,7 +70,7 @@
       "type": "dano",
       "attribute": "pv",
       "amount": "6d6",
-      "resistence_requirement": "nenhuma_ou_reflexos",
+      "resistance_requirement": "nenhuma_ou_reflexos",
       "extra_requirements": null
     }
   ],

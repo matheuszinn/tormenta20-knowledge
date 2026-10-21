@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "1_dia",
   "duration_details": "a magia acaba se você ficar sem dados",
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Após uma breve união com a natureza local, você obtém informações e intuições sobre a região em que está, numa distância equivalente a um dia de viagem. Você recebe 6d4 dados de auxílio. Enquanto a magia durar, sempre que for realizar um teste de perícia em áreas naturais, você pode gastar qualquer quantidade desses d4 e adicionar o resultado rolado como bônus no teste. A magia termina se você ficar sem dados.",
   "enhancements": [
@@ -54,7 +54,7 @@
       "type": "informação",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

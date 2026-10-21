@@ -1,5 +1,6 @@
 import { BaseModel } from "./base.js"
 import { Query } from "../query.js"
+import { getBookReferenceFor, getBookReferencesFor, type BookReference } from "./concerns/book_referenceable.js"
 
 const TABLE = "regras"
 
@@ -18,6 +19,12 @@ export class Regra extends BaseModel {
   get description(): string | null { return (this._row.description as string) ?? null }
   /** JSON object with structured rule data (schema varies per entry). */
   get data(): Record<string, unknown> { return BaseModel.json(this._row.data, {}) }
+
+  /** Returns the sourcebook page reference, or `null` if not indexed. */
+  bookReference(): BookReference | null { return getBookReferenceFor(this.id, TABLE) }
+
+  /** Returns all sourcebook page references (multi-source), or an empty array if not indexed. */
+  bookReferences(): BookReference[] { return getBookReferencesFor(this.id, TABLE) }
 
   toH() {
     return { id: this.id, name: this.name, description: this.description, data: this.data }

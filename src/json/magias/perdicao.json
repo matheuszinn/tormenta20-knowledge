@@ -17,7 +17,7 @@
   "counterspell": "benca",
   "duration": "cena",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Amaldiçoa os alvos, que recebem –1 em testes de ataque e rolagens de dano. Perdição anula Bênção.",
   "enhancements": [
@@ -33,7 +33,7 @@
       "type": "penalidade",
       "attribute": "testes_de_ataque_rolagens_de_dano",
       "amount": "-1",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "instantânea",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "reduz_à_metade",
     "skill": "fortitude"
   },
@@ -36,7 +36,7 @@
           "type": "voce"
         },
         "duration": "cena",
-        "resistence": null
+        "resistance": null
       }
     },
     {
@@ -63,7 +63,7 @@
       "type": "dano",
       "attribute": "pv",
       "amount": "4d6+For",
-      "resistence_requirement": "fortitude",
+      "resistance_requirement": "fortitude",
       "extra_requirements": null
     }
   ],

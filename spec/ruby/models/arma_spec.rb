@@ -64,14 +64,22 @@ RSpec.describe Tormenta20::Models::Arma do
     end
 
     describe ".melee" do
-      it "returns weapons with no range" do
-        described_class.melee.each { |a| expect(a.range).to be_nil }
+      it "returns a non-empty set of weapons with no usable range" do
+        result = described_class.melee
+        expect(result.count).to be_positive
+        result.each { |a| expect(a.range.to_s).to be_empty }
+      end
+
+      it "melee + ranged covers every arma" do
+        expect(described_class.melee.count + described_class.ranged.count).to eq(described_class.count)
       end
     end
 
     describe ".ranged" do
-      it "returns weapons with a range" do
-        described_class.ranged.each { |a| expect(a.range).not_to be_nil }
+      it "returns a non-empty set of weapons with a range" do
+        result = described_class.ranged
+        expect(result.count).to be_positive
+        result.each { |a| expect(a.range.to_s).not_to be_empty }
       end
     end
   end

@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "sustentada",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Esta magia transforma uma porção de um elemento inerte em uma criatura elemental Grande do tipo do elemento alvo. Por exemplo, lançar esta magia numa fogueira ou tocha cria um elemental do fogo. Você pode criar elementais do ar água, fogo e terra com essa magia. O elemental obedece a todos os seus comandos e pode funcionar como um aliado mestre do tipo destruidor (mas sem custo em PM) e mais um tipo entre os indicados na lista abaixo. Somente você pode ser auxiliado pelo elemental e ele não conta em seu limite de aliados.\nAr: assassino, perseguidor ou vigilante. Dano de eletricidade.\nÁgua: ajudante, guardião ou médico. Dano de frio.\nFogo: atirador, combatente ou fortão. Dano de fogo.\nTerra: combatente, guardião ou montaria. Dano de impacto.",
   "enhancements": [
@@ -41,7 +41,7 @@
       "type": "convoca",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

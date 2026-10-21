@@ -30,6 +30,19 @@ RSpec.describe Tormenta20::Models::Pocao do
       end
     end
 
+    describe ".medias" do
+      it "returns only medio category (canonical value, not 'media')" do
+        result = described_class.medias
+        expect(result.count).to be_positive
+        result.each { |p| expect(p.categoria).to eq("medio") }
+      end
+
+      it "menores + medias + maiores covers every pocao" do
+        total = described_class.menores.count + described_class.medias.count + described_class.maiores.count
+        expect(total).to eq(described_class.count)
+      end
+    end
+
     describe ".pocoes" do
       it "returns only pocao subtipo" do
         described_class.pocoes.each { |p| expect(p.subtipo).to eq("pocao") }

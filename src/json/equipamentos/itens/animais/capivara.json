@@ -9,27 +9,48 @@
   "page": 398,
   "livro_id": "ameacas_de_arton",
   "parceiro": {
-    "tipo": ["montaria"],
+    "tipo": [
+      "montaria"
+    ],
     "porte": "medio",
-    "pagina_criatura": 213,
+    "pagina_criatura": 211,
     "patamares": {
       "iniciante": {
         "movement": [
-          { "type": "caminhada", "value": 9, "unit": "m" },
-          { "type": "natacao", "value": 12, "unit": "m" }
+          {
+            "type": "caminhada",
+            "value": 9,
+            "unit": "m"
+          },
+          {
+            "type": "natacao",
+            "value": 12,
+            "unit": "m"
+          }
         ],
         "extra_actions": [
-          { "type": "acao_movimento_extra", "frequency": "por_turno", "condition": "apenas_deslocar" }
+          {
+            "type": "acao_movimento_extra",
+            "frequency": "por_turno",
+            "condition": "apenas_deslocar"
+          }
         ]
       },
       "veterano": {
         "powers": [
-          { "id": "aparencia_inofensiva", "condition": "if already possessed: CD to resist +2" }
+          {
+            "id": "aparencia_inofensiva",
+            "condition": "if already possessed: CD to resist +2"
+          }
         ]
       },
       "mestre": {
         "damage": [
-          { "type": "bonus_dano_corporal", "value": "1d6", "frequency": "1x_rodada" }
+          {
+            "type": "bonus_dano_corporal",
+            "value": "1d6",
+            "frequency": "1x_rodada"
+          }
         ]
       }
     }

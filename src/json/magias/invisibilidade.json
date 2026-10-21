@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "1_rodada",
   "duration_details": "A magia termina se o alvo faz um ataque ou usa uma habilidade hostil",
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "O alvo fica invisível, incluindo seu equipamento. Ele recebe camuflagem total e +20 em testes de Furtividade. Como o normal, criaturas que não possam vê-lo ficam desprevenidas contra seus ataques.\nA magia termina se o alvo faz um ataque ou usa uma habilidade hostil. Causar dano indiretamente não é considerado um ataque. Ações contra objetos livres não dissipam a Invisibilidade.\nLuz carregada pelo alvo não fica invisível, mas objetos apanhados por ele sim. Objetos soltos voltam a ser visíveis, bem como qualquer parte deles que se estenda além de seu alcance corpo a corpo natural.",
   "enhancements": [
@@ -75,7 +75,7 @@
       "attribute": null,
       "skill": "furtividade",
       "amount": "+20",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

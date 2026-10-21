@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "sustentada",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "anula",
     "skill": "fortitude"
   },
@@ -38,7 +38,7 @@
       "description": "muda a duração para permanente e resistência para Fortitude parcial. Se passar, a criatura ainda sofre os efeitos da maldição, mas por 1 rodada. Requer 4º círculo.",
       "extra_details": {
         "duration": "permanente",
-        "resistence": {
+        "resistance": {
           "effect": "parcial",
           "skill": "fortitude"
         },
@@ -51,7 +51,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": "fortitude",
+      "resistance_requirement": "fortitude",
       "extra_requirements": null
     }
   ],

@@ -1,6 +1,6 @@
 import { BaseModel } from "./base.js"
 import { Query } from "../query.js"
-import { getBookReference, type BookReference } from "./concerns/book_referenceable.js"
+import { getBookReferenceFor, getBookReferencesFor, type BookReference } from "./concerns/book_referenceable.js"
 
 const TABLE = "magias"
 
@@ -57,9 +57,9 @@ export class Magia extends BaseModel {
   /**
    * Returns resistance information (saving throw), or `null` if the spell allows no save.
    */
-  resistenceInfo(): { effect: string; skill: string } | null {
-    const e = this._row.resistence_effect as string
-    const s = this._row.resistence_skill as string
+  resistanceInfo(): { effect: string; skill: string } | null {
+    const e = this._row.resistance_effect as string
+    const s = this._row.resistance_skill as string
     if (!e && !s) return null
     return { effect: e, skill: s }
   }
@@ -78,14 +78,17 @@ export class Magia extends BaseModel {
   }
 
   /** Returns the sourcebook page reference, or `null` if not indexed. */
-  bookReference(): BookReference | null { return getBookReference(this.id) }
+  bookReference(): BookReference | null { return getBookReferenceFor(this.id, TABLE) }
+
+  /** Returns all sourcebook page references (multi-source), or an empty array if not indexed. */
+  bookReferences(): BookReference[] { return getBookReferencesFor(this.id, TABLE) }
 
   toH() {
     return {
       id: this.id, name: this.name, type: this.type, circle: this.circle, school: this.school,
       execution: this.execution, execution_details: this.executionDetails, range: this.range,
       duration: this.duration, duration_details: this.durationDetails, counterspell: this.counterspell,
-      description: this.description, target: this.targetInfo(), resistence: this.resistenceInfo(),
+      description: this.description, target: this.targetInfo(), resistance: this.resistanceInfo(),
       extra_costs: this.extraCostsInfo(), enhancements: this.enhancements, effects: this.effects,
     }
   }

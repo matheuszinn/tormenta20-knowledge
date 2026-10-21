@@ -15,14 +15,14 @@
   "effect": "area_9m",
   "effect_details": {
     "shape": "esfera",
-    "dimention": "raio",
+    "dimension": "raio",
     "size": "9m",
     "other_details": null
   },
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "parcial",
     "skill": "vontade"
   },
@@ -39,9 +39,9 @@
   "effects": [
     {
       "type": "bônus",
-      "attribute": "def,resistence",
+      "attribute": "def,resistance",
       "amount": "+5|+10",
-      "resistence_requirement": "vontade",
+      "resistance_requirement": "vontade",
       "extra_requirements": null
     }
   ],

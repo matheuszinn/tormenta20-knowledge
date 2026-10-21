@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "1_dia",
   "duration_details": "você pode retornar ao seu corpo como uma ação livre",
-  "resistence": {
+  "resistance": {
     "effect": "anula",
     "skill": "vontade"
   },
@@ -48,7 +48,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": "vontade",
+      "resistance_requirement": "vontade",
       "extra_requirements": null
     }
   ],

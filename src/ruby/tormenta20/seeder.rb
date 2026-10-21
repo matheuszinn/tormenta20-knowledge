@@ -207,7 +207,7 @@ module Tormenta20
                    (raw_target.is_a?(Array) ? raw_target.first || {} : {})
                  end
         effect_details = data[:effect_details].is_a?(Hash) ? data[:effect_details] : {}
-        resistence = data[:resistence].is_a?(Hash) ? data[:resistence] : {}
+        resistance = data[:resistance].is_a?(Hash) ? data[:resistance] : {}
         extra_costs = data[:extra_costs].is_a?(Hash) ? data[:extra_costs] : {}
 
         Models::Magia.find_or_initialize_by(id: data[:id]).tap do |magia|
@@ -233,15 +233,15 @@ module Tormenta20
 
           magia.effect = data[:effect]
           magia.effect_shape = effect_details[:shape]
-          magia.effect_dimention = effect_details[:dimention]
+          magia.effect_dimension = effect_details[:dimension]
           magia.effect_size = effect_details[:size]
           magia.effect_other_details = effect_details[:other_details]
 
           magia.area_effect = data[:area_effect]
           magia.area_effect_details = data[:area_effect_details]
 
-          magia.resistence_effect = resistence[:effect]
-          magia.resistence_skill = resistence[:skill]
+          magia.resistance_effect = resistance[:effect]
+          magia.resistance_skill = resistance[:skill]
 
           magia.extra_costs_material_component = extra_costs[:material_component]
           magia.extra_costs_material_cost = extra_costs[:material_component_cost]

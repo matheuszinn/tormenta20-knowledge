@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena",
   "duration_details": "se você ou seus aliados tomarem qualquer ação hostil contra o alvo, a magia é dissipada e o alvo retorna à atitude que tinha antes (ou piorada, de acordo com o mestre)",
-  "resistence": {
+  "resistance": {
     "effect": "anula",
     "skill": "vontade"
   },
@@ -51,7 +51,7 @@
       "attribute": null,
       "skill": "diplomacia",
       "amount": "+10",
-      "resistence_requirement": "vontade",
+      "resistance_requirement": "vontade",
       "extra_requirements": null
     }
   ],

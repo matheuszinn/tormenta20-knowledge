@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena",
   "duration_details": "Se você tentar se aproximar além do limite de 3m, rompe a cúpula e a magia é dissipada.",
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "",
   "enhancements": [
@@ -47,7 +47,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

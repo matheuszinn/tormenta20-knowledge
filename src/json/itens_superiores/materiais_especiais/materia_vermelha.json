@@ -54,6 +54,13 @@
       }
     }
   },
+  "applicable_to": [
+    "arma",
+    "armadura_leve",
+    "armadura_pesada",
+    "escudo",
+    "esoterico"
+  ],
   "imunes_efeito_chance_falha": [
     "lefeu"
   ],

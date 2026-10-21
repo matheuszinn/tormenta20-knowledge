@@ -84,7 +84,7 @@
           "type": "string",
           "description": "Shape of the area effect (esfera, cone, linha, etc.)"
         },
-        "dimention": {
+        "dimension": {
           "type": "string",
           "description": "Dimension measurement type (raio, diâmetro, etc.)"
         },
@@ -118,7 +118,7 @@
       "type": ["string", "null"],
       "description": "Additional details about the duration"
     },
-    "resistence": {
+    "resistance": {
       "type": ["object", "null"],
       "description": "Saving throw/resistance information",
       "required": ["effect", "skill"],
@@ -207,7 +207,7 @@
                 "type": "string",
                 "description": "Special requirements for this enhancement"
               },
-              "resistence": {
+              "resistance": {
                 "type": "object",
                 "description": "Modified resistance information",
                 "properties": {
@@ -262,7 +262,7 @@
             "type": ["string", "null"],
             "description": "Amount of the effect (can be a dice formula like '6d6' or a number like '+4')"
           },
-          "resistence_requirement": {
+          "resistance_requirement": {
             "type": ["string", "null"],
             "description": "Resistance check required for this effect"
           },

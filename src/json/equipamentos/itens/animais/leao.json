@@ -9,32 +9,61 @@
   "page": 398,
   "livro_id": "ameacas_de_arton",
   "parceiro": {
-    "tipo": ["montaria"],
+    "tipo": [
+      "montaria"
+    ],
     "porte": "grande",
-    "pagina_criatura": 220,
+    "pagina_criatura": 218,
     "patamares": {
       "iniciante": {
         "movement": [
-          { "type": "caminhada", "value": 12, "unit": "m" }
+          {
+            "type": "caminhada",
+            "value": 12,
+            "unit": "m"
+          }
         ],
         "damage": [
-          { "type": "bonus_dano_corporal", "value": "1d6", "frequency": "1x_rodada" }
+          {
+            "type": "bonus_dano_corporal",
+            "value": "1d6",
+            "frequency": "1x_rodada"
+          }
         ]
       },
       "veterano": {
         "movement": [
-          { "type": "caminhada", "value": 12, "unit": "m" }
+          {
+            "type": "caminhada",
+            "value": 12,
+            "unit": "m"
+          }
         ],
         "damage": [
-          { "type": "bonus_dano_corporal", "value": "1d6", "frequency": "1x_rodada", "trigger": "investida", "multiplier": 2, "condition": "quando faz uma investida, o bônus dobra" }
+          {
+            "type": "bonus_dano_corporal",
+            "value": "1d6",
+            "frequency": "1x_rodada",
+            "trigger": "investida",
+            "multiplier": 2,
+            "condition": "quando faz uma investida, o bônus dobra"
+          }
         ]
       },
       "mestre": {
         "movement": [
-          { "type": "caminhada", "value": 15, "unit": "m" }
+          {
+            "type": "caminhada",
+            "value": 15,
+            "unit": "m"
+          }
         ],
         "damage": [
-          { "type": "bonus_dano_corporal", "value": "1d10", "frequency": "1x_rodada" }
+          {
+            "type": "bonus_dano_corporal",
+            "value": "1d10",
+            "frequency": "1x_rodada"
+          }
         ]
       }
     }

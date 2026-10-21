@@ -35,7 +35,75 @@ function loadJsonDir<T>(dir: string): T[] {
     .filter((p) => (p as Record<string, unknown>).id !== "")
 }
 
+function listJsonFiles(dir: string): string[] {
+  const results: string[] = []
+  for (const entry of readdirSync(dir)) {
+    const full = join(dir, entry)
+    if (statSync(full).isDirectory()) {
+      results.push(...listJsonFiles(full))
+    } else if (entry.endsWith(".json")) {
+      results.push(full)
+    }
+  }
+  return results.sort()
+}
+
+function findNeedsReview(value: unknown, path: string, out: string[]): void {
+  if (Array.isArray(value)) {
+    value.forEach((v, i) => findNeedsReview(v, `${path}[${i}]`, out))
+  } else if (value && typeof value === "object") {
+    for (const [k, v] of Object.entries(value)) {
+      if (k === "needs_review" && v !== null && v !== false) out.push(path)
+      else findNeedsReview(v, path ? `${path}.${k}` : k, out)
+    }
+  }
+}
+
+// Refuses to seed when any JSON file still carries a `needs_review` flag.
+// Remove the flag (after fixing the data) or delete the file before building.
+function assertNoNeedsReview(): void {
+  const flagged: string[] = []
+  for (const file of listJsonFiles(JSON_DIR)) {
+    try {
+      const paths: string[] = []
+      findNeedsReview(readJson<unknown>(file), "$", paths)
+      for (const p of paths) flagged.push(`${file.replace(`${JSON_DIR}/`, "")} at ${p}`)
+    } catch (e) {
+      flagged.push(`${file.replace(`${JSON_DIR}/`, "")} (unparseable: ${(e as Error).message})`)
+    }
+  }
+  if (flagged.length > 0) {
+    console.error(`Refusing to seed: ${flagged.length} file(s) still need review:`)
+    for (const f of flagged) console.error(`  - ${f}`)
+    throw new Error("needs_review flags present; fix the data and remove the flags before building")
+  }
+}
+
+// Mirrors Ruby `bin/build_db`'s `register_indice_remissivo`. Any entity whose
+// JSON carries a `page` (or `pagina`) is auto-registered in the remissive
+// index, so the TS seeder produces the same `indice_remissivo` table as Ruby.
+export function registerIndiceRemissivo(
+  db: Database.Database,
+  data: Record<string, unknown>,
+  table: string,
+): void {
+  const page = data.page ?? data.pagina
+  if (page == null) return
+
+  const livroId = (data.livro_id ?? data.book_id ?? "t20_eja") as string
+  const termo = (data.name ?? data.id) as string
+  const stmt = db.prepare(
+    `INSERT INTO indice_remissivo (livro_id, termo, pagina, tabela, registro_id)
+     VALUES (?, ?, ?, ?, ?)
+     ON CONFLICT(livro_id, termo, pagina) DO UPDATE SET
+       tabela = excluded.tabela,
+       registro_id = excluded.registro_id`,
+  )
+  stmt.run(livroId, termo, Number(page), table, (data.id as string) ?? null)
+}
+
 export function seed(): void {
+  assertNoNeedsReview()
   const db = new Database(DB_PATH)
   db.pragma("journal_mode = WAL")
   db.pragma("foreign_keys = OFF")
@@ -55,20 +123,20 @@ export function seed(): void {
     }))
   })
 
-  seedRacas(insert)
-  seedOrigens(insert)
-  seedDivindades(insert)
-  seedClasses(insert)
-  seedPoderes(insert)
-  seedMagias(insert)
-  seedEquipamentos(insert)
-  seedItensSuperiores(insert)
-  seedCondicoes(insert)
-  seedPericias(insert)
-  seedRegras(insert)
-  seedTabelas(insert)
-  seedLivros(insert)
-  seedItensmagicos(insert)
+  seedRacas(db, insert)
+  seedOrigens(db, insert)
+  seedDivindades(db, insert)
+  seedClasses(db, insert)
+  seedPoderes(db, insert)
+  seedMagias(db, insert)
+  seedEquipamentos(db, insert)
+  seedItensSuperiores(db, insert)
+  seedCondicoes(db, insert)
+  seedPericias(db, insert)
+  seedRegras(db, insert)
+  seedTabelas(db, insert)
+  seedLivros(db, insert)
+  seedItensmagicos(db, insert)
   seedIndiceRemissivo()
 
   db.pragma("foreign_keys = ON")
@@ -76,7 +144,7 @@ export function seed(): void {
   console.log("✓ Tormenta 20 database seeded successfully")
 }
 
-function seedRacas(insert: ReturnType<typeof Database.prototype.transaction>): void {
+function seedRacas(db: Database.Database, insert: ReturnType<typeof Database.prototype.transaction>): void {
   const racas = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "racas"))
   insert("racas", racas.map((r) => ({
     id: r.id, name: r.name, description: r.description ?? null,
@@ -89,17 +157,19 @@ function seedRacas(insert: ReturnType<typeof Database.prototype.transaction>): v
     page: r.page ?? null, livro_id: r.livro_id ?? null,
     longevidade: r.longevidade ?? null, devotos: r.devotos ?? [],
   })))
+  racas.forEach((r) => registerIndiceRemissivo(db, r, "racas"))
 }
 
-function seedOrigens(insert: ReturnType<typeof Database.prototype.transaction>): void {
+function seedOrigens(db: Database.Database, insert: ReturnType<typeof Database.prototype.transaction>): void {
   const origens = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "origens"))
   insert("origens", origens.map((o) => ({
     id: o.id, name: o.name, description: o.description ?? null,
     items: o.items ?? [], benefits: o.benefits ?? {}, unique_power: o.unique_power ?? null,
   })))
+  origens.forEach((o) => registerIndiceRemissivo(db, o, "origens"))
 }
 
-function seedDivindades(insert: ReturnType<typeof Database.prototype.transaction>): void {
+function seedDivindades(db: Database.Database, insert: ReturnType<typeof Database.prototype.transaction>): void {
   const divs = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "deuses"))
   insert("divindades", divs.map((d) => ({
     id: d.id, name: d.name, title: d.title ?? null, description: d.description ?? null,
@@ -108,9 +178,10 @@ function seedDivindades(insert: ReturnType<typeof Database.prototype.transaction
     devotees: d.devotees ?? {}, granted_powers: d.granted_powers ?? [],
     obligations_restrictions: d.obligations_restrictions ?? null,
   })))
+  divs.forEach((d) => registerIndiceRemissivo(db, d, "divindades"))
 }
 
-function seedClasses(insert: ReturnType<typeof Database.prototype.transaction>): void {
+function seedClasses(db: Database.Database, insert: ReturnType<typeof Database.prototype.transaction>): void {
   const classes = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "classes"))
   insert("classes", classes.map((c) => ({
     id: c.id, name: c.name,
@@ -120,6 +191,7 @@ function seedClasses(insert: ReturnType<typeof Database.prototype.transaction>):
     progression: c.progression ?? [],
     spellcasting: c.spellcasting && Object.keys(c.spellcasting as object).length > 0 ? c.spellcasting : null,
   })))
+  classes.forEach((c) => registerIndiceRemissivo(db, c, "classes"))
 }
 
 const PODER_DIR_TYPE_MAP: Record<string, string> = {
@@ -132,9 +204,10 @@ const PODER_DIR_TYPE_MAP: Record<string, string> = {
   poderes_de_magia: "poder_magia",
 }
 
-function seedPoderes(insert: ReturnType<typeof Database.prototype.transaction>): void {
+function seedPoderes(db: Database.Database, insert: ReturnType<typeof Database.prototype.transaction>): void {
   const poderesDir = join(JSON_DIR, "poderes")
   const rows: Record<string, unknown>[] = []
+  const originals: Record<string, unknown>[] = []
 
   for (const topDir of readdirSync(poderesDir)) {
     const topPath = join(poderesDir, topDir)
@@ -147,6 +220,7 @@ function seedPoderes(insert: ReturnType<typeof Database.prototype.transaction>):
         const type = PODER_DIR_TYPE_MAP[subDir] ?? "poder_geral"
         const files = loadJsonFiles<Record<string, unknown>>(subPath)
         rows.push(...files.map((p) => mapPoder(p, type, null, null)))
+        originals.push(...files)
       }
       continue
     }
@@ -157,6 +231,7 @@ function seedPoderes(insert: ReturnType<typeof Database.prototype.transaction>):
         if (!statSync(classPath).isDirectory()) continue
         const files = loadJsonDir<Record<string, unknown>>(classPath)
         rows.push(...files.map((p) => mapPoder(p, "poder_classe", null, classDir)))
+        originals.push(...files)
       }
       continue
     }
@@ -169,9 +244,13 @@ function seedPoderes(insert: ReturnType<typeof Database.prototype.transaction>):
         if (statSync(subPath).isDirectory()) {
           const files = loadJsonDir<Record<string, unknown>>(subPath)
           rows.push(...files.map((p) => mapPoder(p, type, null, null)))
+          originals.push(...files)
         } else if (subDir.endsWith(".json")) {
           const p = readJson<Record<string, unknown>>(subPath)
-          if ((p.id as string) !== "") rows.push(mapPoder(p, type, null, null))
+          if ((p.id as string) !== "") {
+            rows.push(mapPoder(p, type, null, null))
+            originals.push(p)
+          }
         }
       }
       continue
@@ -180,14 +259,17 @@ function seedPoderes(insert: ReturnType<typeof Database.prototype.transaction>):
     if (topDir === "habilidades_unicas_de_origem") {
       const files = loadJsonDir<Record<string, unknown>>(topPath)
       rows.push(...files.map((p) => mapPoder(p, type, (p.origin as string) ?? null, null)))
+      originals.push(...files)
       continue
     }
 
     const files = loadJsonFiles<Record<string, unknown>>(topPath)
     rows.push(...files.map((p) => mapPoder(p, type, null, null)))
+    originals.push(...files)
   }
 
   insert("poderes", rows)
+  originals.forEach((p) => registerIndiceRemissivo(db, p, "poderes"))
 }
 
 function mapPoder(p: Record<string, unknown>, type: string, originId: string | null, classId: string | null): Record<string, unknown> {
@@ -201,7 +283,7 @@ function mapPoder(p: Record<string, unknown>, type: string, originId: string | n
   }
 }
 
-function seedMagias(insert: ReturnType<typeof Database.prototype.transaction>): void {
+function seedMagias(db: Database.Database, insert: ReturnType<typeof Database.prototype.transaction>): void {
   const magias = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "magias"))
   insert("magias", magias.map((m) => {
     const target = Array.isArray(m.target) ? m.target[0] : (m.target as Record<string, unknown> | null)
@@ -213,16 +295,17 @@ function seedMagias(insert: ReturnType<typeof Database.prototype.transaction>): 
       target_amount: target?.amount ?? null,
       target_up_to: target?.up_to ? 1 : 0,
       target_type: target?.type ?? null,
-      effect: m.effect ?? null, effect_shape: null, effect_dimention: null,
+      effect: m.effect ?? null, effect_shape: null, effect_dimension: null,
       effect_size: null, effect_other_details: m.effect_details ?? null,
       area_effect: null, area_effect_details: null,
-      resistence_effect: (m.resistence as Record<string, unknown>)?.effect ?? null,
-      resistence_skill: (m.resistence as Record<string, unknown>)?.skill ?? null,
+      resistance_effect: (m.resistance as Record<string, unknown>)?.effect ?? null,
+      resistance_skill: (m.resistance as Record<string, unknown>)?.skill ?? null,
       extra_costs_material_component: null, extra_costs_material_cost: null,
       extra_costs_pm_debuff: null, extra_costs_pm_sacrifice: null,
       enhancements: m.enhancements ?? [], effects: m.effects ?? [],
     }
   }))
+  magias.forEach((m) => registerIndiceRemissivo(db, m, "magias"))
 }
 
 const ARMA_CATEGORY_MAP: Record<string, string> = {
@@ -232,11 +315,17 @@ const ARMA_CATEGORY_MAP: Record<string, string> = {
   fogo: "fogo",
 }
 
-function seedEquipamentos(insert: ReturnType<typeof Database.prototype.transaction>): void {
-  const eqDir = join(JSON_DIR, "equipamentos")
+// Pure JSON→row mappers, exported so specs can assert the transform without
+// running the destructive seeder against a real database.
+export type RecordArmaRow = Record<string, unknown>
+export type RecordItemRow = Record<string, unknown>
+export type RecordMelhoriaRow = Record<string, unknown>
 
-  const armas = loadJsonFiles<Record<string, unknown>>(join(eqDir, "armas"))
-  insert("armas", armas.map((a) => ({
+export function mapArma(a: Record<string, unknown>): RecordArmaRow {
+  // Ruby `bin/build_db` merges `habilidades` and `especial` into `properties`
+  // via `[data["habilidades"], data["especial"]].flatten.compact`.
+  const properties = [a.habilidades, a.especial].flat().filter(Boolean)
+  return {
     id: a.id, name: a.name,
     category: ARMA_CATEGORY_MAP[a.proficiencia as string] ?? a.proficiencia,
     price: a.preco ?? 0,
@@ -245,9 +334,53 @@ function seedEquipamentos(insert: ReturnType<typeof Database.prototype.transacti
     critical: a.critico ?? null,
     range: a.alcance === "corpo_a_corpo" || !a.alcance ? null : a.alcance,
     weight: a.espacos ?? 0,
-    properties: a.habilidades ?? [],
+    properties,
     description: a.description ?? null,
-  })))
+  }
+}
+
+export function mapItem(i: Record<string, unknown>): RecordItemRow {
+  // `efeito` is the house style for 86 of ~165 item files; `effects` is the DB
+  // column name. Prefer the primary `effects` key when present, else fall back
+  // to `efeito` (which otherwise gets dropped).
+  const effects: Record<string, unknown> =
+    (i.effects as Record<string, unknown> | undefined) ??
+    (i.efeito as Record<string, unknown> | undefined) ??
+    {}
+  // Animal partner blocks (parceiro, besta_de_carga, alternativo, restricoes,
+  // isento_restricao_cavalgar_combate) live in JSON but only become queryable
+  // via the DB if we copy them into the effects JSON column here.
+  if (i.parceiro !== undefined) effects.parceiro = i.parceiro
+  if (i.besta_de_carga !== undefined) effects.besta_de_carga = i.besta_de_carga
+  if (i.alternativo !== undefined) effects.alternativo = i.alternativo
+  if (i.restricoes !== undefined) effects.restricoes = i.restricoes
+  if (i.isento_restricao_cavalgar_combate === true) {
+    effects.isento_restricao_cavalgar_combate = true
+  }
+  return {
+    id: i.id, name: i.name, category: i.category ?? null,
+    price: i.preco ?? i.price ?? 0,
+    weight: i.espacos ?? i.weight ?? 0,
+    description: i.description ?? null,
+    effects,
+  }
+}
+
+export function mapMelhoria(m: Record<string, unknown>): RecordMelhoriaRow {
+  // Ruby `bin/build_db` reads `data["efeito"] || data["effects"] || {}`.
+  return {
+    id: m.id, name: m.name, description: m.description ?? null,
+    applicable_to: m.applicable_to ?? [], price: m.price ?? 0,
+    effects: (m.efeito ?? m.effects ?? {}) as Record<string, unknown>,
+  }
+}
+
+function seedEquipamentos(db: Database.Database, insert: ReturnType<typeof Database.prototype.transaction>): void {
+  const eqDir = join(JSON_DIR, "equipamentos")
+
+  const armas = loadJsonFiles<Record<string, unknown>>(join(eqDir, "armas"))
+  insert("armas", armas.map(mapArma))
+  armas.forEach((a) => registerIndiceRemissivo(db, a, "armas"))
 
   const armaduras = loadJsonFiles<Record<string, unknown>>(join(eqDir, "armaduras"))
   insert("armaduras", armaduras.map((a) => ({
@@ -259,6 +392,7 @@ function seedEquipamentos(insert: ReturnType<typeof Database.prototype.transacti
     properties: a.habilidades ?? a.properties ?? [],
     description: a.description ?? null,
   })))
+  armaduras.forEach((a) => registerIndiceRemissivo(db, a, "armaduras"))
 
   const escudos = loadJsonFiles<Record<string, unknown>>(join(eqDir, "escudos"))
   insert("escudos", escudos.map((e) => ({
@@ -270,47 +404,27 @@ function seedEquipamentos(insert: ReturnType<typeof Database.prototype.transacti
     properties: e.habilidades ?? e.properties ?? [],
     description: e.description ?? null,
   })))
+  escudos.forEach((e) => registerIndiceRemissivo(db, e, "escudos"))
 
   const itens = loadJsonFiles<Record<string, unknown>>(join(eqDir, "itens"))
-  insert("itens", itens.map((i) => {
-    const effects: Record<string, unknown> =
-      (i.effects as Record<string, unknown> | undefined) ?? {}
-    // Animal partner blocks (parceiro, besta_de_carga, alternativo, restricoes,
-    // isento_restricao_cavalgar_combate) live in JSON but only become queryable
-    // via the DB if we copy them into the effects JSON column here.
-    if (i.parceiro !== undefined) effects.parceiro = i.parceiro
-    if (i.besta_de_carga !== undefined) effects.besta_de_carga = i.besta_de_carga
-    if (i.alternativo !== undefined) effects.alternativo = i.alternativo
-    if (i.restricoes !== undefined) effects.restricoes = i.restricoes
-    if (i.isento_restricao_cavalgar_combate === true) {
-      effects.isento_restricao_cavalgar_combate = true
-    }
-    return {
-      id: i.id, name: i.name, category: i.category ?? null,
-      price: i.preco ?? i.price ?? 0,
-      weight: i.espacos ?? i.weight ?? 0,
-      description: i.description ?? null,
-      effects,
-    }
-  }))
+  insert("itens", itens.map(mapItem))
+  itens.forEach((i) => registerIndiceRemissivo(db, i, "itens"))
 }
 
-function seedItensSuperiores(insert: ReturnType<typeof Database.prototype.transaction>): void {
+function seedItensSuperiores(db: Database.Database, insert: ReturnType<typeof Database.prototype.transaction>): void {
   const dir = join(JSON_DIR, "itens_superiores")
 
   const materiais = loadJsonDir<Record<string, unknown>>(join(dir, "materiais_especiais"))
   insert("materiais_especiais", materiais.map((m) => ({
     id: m.id, name: m.name, description: m.description ?? null,
-    applicable_to: [], price_modifier: m.precos_adicionais ?? m.price_modifier ?? {},
+    applicable_to: m.applicable_to ?? [], price_modifier: m.precos_adicionais ?? m.price_modifier ?? {},
     effects: m.efeitos ?? m.effects ?? {},
   })))
+  materiais.forEach((m) => registerIndiceRemissivo(db, m, "materiais_especiais"))
 
   const melhorias = loadJsonFiles<Record<string, unknown>>(join(dir, "melhorias"))
-  insert("melhorias", melhorias.map((m) => ({
-    id: m.id, name: m.name, description: m.description ?? null,
-    applicable_to: m.applicable_to ?? [], price: m.price ?? 0,
-    effects: m.effects ?? {},
-  })))
+  insert("melhorias", melhorias.map(mapMelhoria))
+  melhorias.forEach((m) => registerIndiceRemissivo(db, m, "melhorias"))
 
   const encantamentos = loadJsonFiles<Record<string, unknown>>(join(dir, "encantamentos"))
   insert("encantamentos", encantamentos.map((e) => ({
@@ -321,18 +435,20 @@ function seedItensSuperiores(insert: ReturnType<typeof Database.prototype.transa
     prerequisitos: e.prerequisitos ?? [],
     efeito: e.efeito ?? {},
   })))
+  encantamentos.forEach((e) => registerIndiceRemissivo(db, e, "encantamentos"))
 }
 
-function seedCondicoes(insert: ReturnType<typeof Database.prototype.transaction>): void {
+function seedCondicoes(db: Database.Database, insert: ReturnType<typeof Database.prototype.transaction>): void {
   const condicoes = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "condicoes"))
   insert("condicoes", condicoes.map((c) => ({
     id: c.id, name: c.name, description: c.description ?? null,
     effects: c.effects ?? [], condition_type: c.condition_type ?? c.tipo ?? null,
     escalates_to: c.escalates_to ?? null,
   })))
+  condicoes.forEach((c) => registerIndiceRemissivo(db, c, "condicoes"))
 }
 
-function seedPericias(insert: ReturnType<typeof Database.prototype.transaction>): void {
+function seedPericias(db: Database.Database, insert: ReturnType<typeof Database.prototype.transaction>): void {
   const pericias = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "pericias"))
   insert("pericias", pericias.map((p) => ({
     id: p.id, name: p.name, atributo: p.atributo,
@@ -341,18 +457,22 @@ function seedPericias(insert: ReturnType<typeof Database.prototype.transaction>)
     resistance_skill: p.resistance_skill ? 1 : 0,
     description: p.description ?? null, uses: p.uses ?? [],
   })))
+  pericias.forEach((p) => registerIndiceRemissivo(db, p, "pericias"))
 }
 
-function seedRegras(insert: ReturnType<typeof Database.prototype.transaction>): void {
+function seedRegras(db: Database.Database, insert: ReturnType<typeof Database.prototype.transaction>): void {
   if (!existsDir(join(JSON_DIR, "regras"))) return
   const regras = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "regras"))
   insert("regras", regras.map((r) => {
     const { id, name, description, ...rest } = r
     return { id, name, description: description ?? null, data: rest }
   }))
+  // Ruby's `seed_regras` transform moves everything except id/name/description
+  // into `data`, so `register_indice_remissivo` never sees a top-level `page`
+  // and skips regras. We mirror that observed behaviour (no registration).
 }
 
-function seedTabelas(insert: ReturnType<typeof Database.prototype.transaction>): void {
+function seedTabelas(db: Database.Database, insert: ReturnType<typeof Database.prototype.transaction>): void {
   if (!existsDir(join(JSON_DIR, "tabelas"))) return
   const tabelas = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "tabelas"))
   insert("tabelas", tabelas.map((t) => ({
@@ -360,17 +480,19 @@ function seedTabelas(insert: ReturnType<typeof Database.prototype.transaction>):
     headers: t.headers ?? [],
     rows: t.rows ?? [],
   })))
+  tabelas.forEach((t) => registerIndiceRemissivo(db, t, "tabelas"))
 }
 
-function seedLivros(insert: ReturnType<typeof Database.prototype.transaction>): void {
+function seedLivros(db: Database.Database, insert: ReturnType<typeof Database.prototype.transaction>): void {
   if (!existsDir(join(JSON_DIR, "livros"))) return
   const livros = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "livros"))
   insert("livros", livros.map((l) => ({
     id: l.id, nome: l.nome, nome_curto: l.nome_curto,
   })))
+  livros.forEach((l) => registerIndiceRemissivo(db, l, "livros"))
 }
 
-function seedItensmagicos(insert: ReturnType<typeof Database.prototype.transaction>): void {
+function seedItensmagicos(db: Database.Database, insert: ReturnType<typeof Database.prototype.transaction>): void {
   const base = join(JSON_DIR, "itens_magicos")
 
   if (existsDir(join(base, "pocoes"))) {
@@ -381,6 +503,7 @@ function seedItensmagicos(insert: ReturnType<typeof Database.prototype.transacti
       roll_min: p.roll_min ?? null, roll_max: p.roll_max ?? null,
       aprimoramento: p.aprimoramento ?? null, description: p.description ?? null,
     })))
+    pocoes.forEach((p) => registerIndiceRemissivo(db, p, "pocoes"))
   }
 
   if (existsDir(join(base, "acessorios"))) {
@@ -390,6 +513,7 @@ function seedItensmagicos(insert: ReturnType<typeof Database.prototype.transacti
       roll_min: a.roll_min ?? null, roll_max: a.roll_max ?? null,
       description: a.description ?? null, efeito: a.efeito ?? {},
     })))
+    acessorios.forEach((a) => registerIndiceRemissivo(db, a, "acessorios_magicos"))
   }
 }
 

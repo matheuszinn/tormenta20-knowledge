@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Você recebe 30 PV temporários, mas apenas contra dano de corte, impacto ou perfuração.",
   "enhancements": [
@@ -63,7 +63,7 @@
       "type": "bonus_temporario",
       "attribute": "pv",
       "amount": "30",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

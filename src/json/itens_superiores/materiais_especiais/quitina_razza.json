@@ -30,6 +30,13 @@
       "dado_extra_dano_magia_no_maximo": true
     }
   },
+  "applicable_to": [
+    "arma",
+    "armadura_leve",
+    "armadura_pesada",
+    "escudo",
+    "esoterico"
+  ],
   "page": 401,
   "livro_id": "ameacas_de_arton"
 }

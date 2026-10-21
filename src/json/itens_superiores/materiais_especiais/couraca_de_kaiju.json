@@ -24,6 +24,13 @@
       "exclui_reducao_dano_e_resistencia": true
     }
   },
-  "page": 401,
+  "applicable_to": [
+    "arma",
+    "armadura_leve",
+    "armadura_pesada",
+    "escudo",
+    "esoterico"
+  ],
+  "page": 399,
   "livro_id": "ameacas_de_arton"
 }

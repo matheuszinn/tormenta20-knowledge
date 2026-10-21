@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "parcial",
     "skill": "fortitude"
   },
@@ -30,7 +30,7 @@
       "description": "muda o alcance para toque e a resistência para Fortitude anula. Em vez do normal, ao tocar o alvo, sua mão emana um brilho púrpura. O alvo fica fatigado. Note que, como efeitos de magia não acumulam, lançar este truque duas vezes contra o mesmo alvo não irá deixá-lo exausto.",
       "extra_details": {
         "range": "toque",
-        "resistence": {
+        "resistance": {
           "effect": "anula",
           "skill": "fortitude"
         }
@@ -58,7 +58,7 @@
       "type": "aumenta|muda|outro",
       "attribute": "pv|pm...",
       "amount": "+10",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ]

@@ -23,7 +23,7 @@
   ],
   "effects": [
     {
-      "type": "resistence_test_improvement",
+      "type": "resistance_test_improvement",
       "value": 2,
       "duration": "permanente"
     }

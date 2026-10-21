@@ -15,14 +15,14 @@
   "effect": "area_domo",
   "effect_details": {
     "shape": "domo",
-    "dimention": "raio",
+    "dimension": "raio",
     "size": "6m_9q",
     "other_details": null
   },
   "counterspell": null,
   "duration": "1_dia",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Cria um domo imóvel, quase opaco por fora e transparente por dentro. Ele protege contra calor, frio e forças pequenas (vento, chuva...), mas não contra qualquer coisa capaz de causar dano (flechas, Bolas de Fogo...). Criaturas dentro dele têm camuflagem total contra ataques de fora, e podem entrar e sair livremente. As condições de descanso no domo são normais.",
   "enhancements": [
@@ -64,7 +64,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Ao lançar a magia, escolha um dos efeitos.\nFortalecer: item recebe +5 na RD e dobra seus PV. Além disso, armas têm seu dano aumentado em um passo e escudos têm sua Defesa aumentada em +2.\nModelar: muda a forma do alvo. Transforma um galho em espada, um tronco em uma caixa... Não pode criar mecanismos complexos ou consumíveis.\nRepelir: o alvo é repelido por você. Se for uma arma, ataques feitos com ela contra você falham automaticamente. Um objeto que vá atingi-lo vai desviar ou parar adjacente a você, sem lhe causar dano.\nRetorcer: torna o alvo imprestável. Armas e itens retorcidos impõem –2 em testes, um escudo deixa de fornecer bônus, uma porta emperra, um barco começa a afundar e naufraga ao final da cena.",
   "enhancements": [
@@ -62,7 +62,7 @@
       "type": "controle",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

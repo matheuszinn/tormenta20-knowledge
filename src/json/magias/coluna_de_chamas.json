@@ -15,14 +15,14 @@
   "effect": "area",
   "effect_details": {
     "shape": "cilindro",
-    "dimention": "lado,altura",
+    "dimension": "lado,altura",
     "size": "3m,30m",
     "other_details": null
   },
   "counterspell": null,
   "duration": "instantânea",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "reduz_à_metade|",
     "skill": "reflexos"
   },
@@ -47,7 +47,7 @@
       "type": "dano",
       "attribute": "pv",
       "amount": "6d6+6d6",
-      "resistence_requirement": "reflexos",
+      "resistance_requirement": "reflexos",
       "extra_requirements": null
     }
   ],

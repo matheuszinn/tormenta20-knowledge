@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Sua pele ganha aspecto e dureza de rocha. Você recebe resistência a dano 5.",
   "enhancements": [
@@ -62,7 +62,7 @@
           "type": "criatura"
         },
         "duration": "1d4_rodadas",
-        "resistence": {
+        "resistance": {
           "effect": "anula",
           "skill": "fortitude"
         },
@@ -81,7 +81,7 @@
           "type": "criatura"
         },
         "duration": "permanente",
-        "resistence": {
+        "resistance": {
           "effect": "anula",
           "skill": "fortitude"
         },
@@ -94,7 +94,7 @@
       "type": "bonus",
       "attribute": "resistencia_a_dano",
       "amount": "5",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

@@ -34,6 +34,13 @@
       "aumento_cd_magia": 2
     }
   },
+  "applicable_to": [
+    "arma",
+    "armadura_leve",
+    "armadura_pesada",
+    "escudo",
+    "esoterico"
+  ],
   "description": "Metal raro e valioso, o mitral é prateado, brilhante e mais leve que aço. Itens de mitral ocupam –1 espaço (mínimo 1).",
   "page": 173
 }

@@ -20,6 +20,12 @@
       "resistencia_impacto": 2
     }
   },
+  "applicable_to": [
+    "arma",
+    "armadura_leve",
+    "armadura_pesada",
+    "escudo"
+  ],
   "page": 401,
   "livro_id": "ameacas_de_arton"
 }

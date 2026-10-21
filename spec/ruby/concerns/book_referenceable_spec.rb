@@ -22,12 +22,16 @@ RSpec.describe Tormenta20::Concerns::BookReferenceable do
   describe "when no index entry exists" do
     before do
       allow(Tormenta20::Models::IndiceRemissivo).to receive(:includes).and_return(
-        double(find_by: nil)
+        double(where: double(order: []), find_by: nil)
       )
     end
 
     it "#book_reference returns nil" do
       expect(classe.book_reference).to be_nil
+    end
+
+    it "#book_references returns an empty array" do
+      expect(classe.book_references).to eq([])
     end
 
     it "#page returns nil" do
@@ -54,12 +58,18 @@ RSpec.describe Tormenta20::Concerns::BookReferenceable do
 
     before do
       allow(Tormenta20::Models::IndiceRemissivo).to receive(:includes).and_return(
-        double(find_by: entry)
+        double(where: double(order: [entry]), find_by: entry)
       )
     end
 
     it "#book_reference returns formatted string" do
       expect(classe.book_reference).to eq("T20 - EJA, p. 56")
+    end
+
+    it "#book_references returns every formatted entry" do
+      expect(classe.book_references).to eq(
+        [{ livro: "T20 - EJA", pagina: 56, formatted: "T20 - EJA, p. 56" }]
+      )
     end
 
     it "#page returns the page number" do
@@ -76,18 +86,40 @@ RSpec.describe Tormenta20::Concerns::BookReferenceable do
   end
 
   describe "memoization" do
-    it "only queries the database once per instance" do
-      relation = double(find_by: nil)
+    it "only runs the book_references query once per instance" do
+      relation = double(where: double(order: []), find_by: nil)
       allow(Tormenta20::Models::IndiceRemissivo).to receive(:includes).and_return(relation)
 
       # Force fresh instance without memoized value
       fresh = Tormenta20::Models::Classe.first
 
+      fresh.book_references
+      fresh.book_references
       fresh.book_reference
-      fresh.book_reference
-      fresh.page
 
       expect(Tormenta20::Models::IndiceRemissivo).to have_received(:includes).once
+    end
+  end
+
+  describe "with the real database" do
+    it "#book_references lists every source of a multi-source entity, in order" do
+      melhoria = Tormenta20::Models::Melhoria.find("espinhosa")
+
+      expect(melhoria.book_references).to eq(
+        [
+          { livro: "T20 - Ameaças", pagina: 401, formatted: "T20 - Ameaças, p. 401" },
+          { livro: "T20 - EJA", pagina: 171, formatted: "T20 - EJA, p. 171" }
+        ]
+      )
+      expect(melhoria.book_reference).to eq("T20 - Ameaças, p. 401")
+    end
+
+    it "#book_references scopes by tabela when the same id exists in two tables" do
+      magia = Tormenta20::Models::Magia.find("bola_de_fogo")
+      pocao = Tormenta20::Models::Pocao.find("bola_de_fogo")
+
+      expect(magia.book_references.map { |r| r[:pagina] }).to eq([188])
+      expect(pocao.book_references.map { |r| r[:pagina] }).to eq([347])
     end
   end
 end

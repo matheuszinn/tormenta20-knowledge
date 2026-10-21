@@ -17,7 +17,7 @@
   "counterspell": "consagrar",
   "duration": "1_dia",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Esta magia enche a área com energia negativa. Efeitos que causam dano de trevas ou canalizam energia negativa têm o dano dobrado dentro da área. Esta magia não pode ser lançada em uma área contendo um símbolo visível dedicado a uma divindade que não a sua. Profanar anula Consagrar.",
   "enhancements": [
@@ -55,7 +55,7 @@
       "type": "aumenta|muda|outro",
       "attribute": "pv|pm...",
       "amount": "+10",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

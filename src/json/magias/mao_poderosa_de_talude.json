@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "sustentada",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Esta magia cria uma mão flutuante de tamanho Grande que sempre se posiciona entre você e um oponente a sua escolha. A mão fornece cobertura (+5 na Defesa) contra esse oponente. Nada é capaz de enganar a mão — coisas como escuridão, invisibilidade, metamorfose e disfarces mundanos não a impedem de protegê-lo. A mão tem Defesa 20 e PV e resistências iguais aos seus. Com uma ação de movimento, você pode comandar a mão para que o proteja de outro oponente ou para que realize uma das ações a seguir.\nAgarrar: a mão usa uma manobra agarrar contra o oponente, com bônus de +20. A mão mantém o oponente agarrado, mas não causa dano.\nEsmagar: a mão esmaga um oponente já agarrado, causando 2d6+12 pontos de dano.\nEmpurrar: a mão afasta o oponente, usando uma manobra empurrar com bônus de +20. A mão sempre acompanha o oponente para empurrá-lo até a distância máxima que conseguir, dentro do alcance da magia.",
   "enhancements": [
@@ -33,21 +33,21 @@
       "type": "agarrar",
       "attribute": null,
       "amount": "+20",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     },
     {
       "type": "dano",
       "attribute": "pv",
       "amount": "2d6+12",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     },
     {
       "type": "empurrar",
       "attribute": null,
       "amount": "+20",
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ]

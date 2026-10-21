@@ -15,16 +15,16 @@ module Tormenta20
     #   Tormenta20.encantamentos.where(categoria: "arma")
     #
     # @example Find all armor/shield enchantments
-    #   Tormenta20.encantamentos.where(categoria: "armadura_escudo")
+    #   Tormenta20.encantamentos.where(categoria: "armadura")
     class Encantamento < Base
       self.table_name = "encantamentos"
 
       validates :id, presence: true, uniqueness: true
       validates :name, presence: true
-      validates :categoria, presence: true, inclusion: { in: %w[arma armadura_escudo] }
+      validates :categoria, presence: true, inclusion: { in: %w[arma armadura] }
 
       scope :armas, -> { where(categoria: "arma") }
-      scope :armaduras_escudos, -> { where(categoria: "armadura_escudo") }
+      scope :armaduras_escudos, -> { where(categoria: "armadura") }
       scope :escudo_only, -> { where(escudo_only: true) }
 
       def to_h

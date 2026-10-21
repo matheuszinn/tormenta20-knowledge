@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "desacredita",
     "skill": "vontade"
   },
@@ -85,7 +85,7 @@
       "attribute": null,
       "skill": "enganação",
       "amount": "+10",
-      "resistence_requirement": "vontade",
+      "resistance_requirement": "vontade",
       "extra_requirements": null
     }
   ],

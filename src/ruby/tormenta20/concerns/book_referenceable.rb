@@ -14,12 +14,22 @@ module Tormenta20
     #   guerreiro.book            # => "T20 - EJA"
     #   guerreiro.full_book       # => "Tormenta 20 - Edição Jogo do Ano"
     module BookReferenceable
-      # "T20 - EJA, p. 215" — nil se não houver entrada no índice.
-      def book_reference
-        entry = _indice_entry
-        return nil unless entry
+      # Todas as referências do registro (uma por linha em `indice_remissivo`),
+      # em ordem de `livro_id` e `pagina`. Array vazio se não houver entrada.
+      #
+      # @return [Array<Hash>] cada item: `{ livro:, pagina:, formatted: }`
+      def book_references
+        @book_references ||= Models::IndiceRemissivo
+                             .includes(:livro)
+                             .where(tabela: self.class.table_name, registro_id: id.to_s)
+                             .order(:livro_id, :pagina)
+                             .map { |e| { livro: e.livro.nome_curto, pagina: e.pagina, formatted: "#{e.livro.nome_curto}, p. #{e.pagina}" } }
+      end
 
-        "#{entry.livro.nome_curto}, p. #{entry.pagina}"
+      # "T20 - EJA, p. 215" — primeira referência; nil se não houver entrada no
+      # índice. Para a lista completa use {#book_references}.
+      def book_reference
+        book_references.first&.dig(:formatted)
       end
 
       # Número da página (Integer) — nil se não indexado.

@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena_descarregar",
   "duration_details": "a magia acaba quando o espirito conjurado cumpre sua tarefa",
-  "resistence": null,
+  "resistance": null,
   "extra_costs": {
     "material_component": "pagamento",
     "material_component_cost": "T$ 100",
@@ -60,7 +60,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

@@ -25,6 +25,13 @@
       "reducao_dano_espiritos_e_mortos_vivos": 5
     }
   },
-  "page": 402,
+  "applicable_to": [
+    "arma",
+    "armadura_leve",
+    "armadura_pesada",
+    "escudo",
+    "esoterico"
+  ],
+  "page": 400,
   "livro_id": "ameacas_de_arton"
 }

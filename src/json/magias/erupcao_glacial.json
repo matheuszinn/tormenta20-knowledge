@@ -15,14 +15,14 @@
   "effect": "area",
   "effect_details": {
     "shape": "quadrado",
-    "dimention": "lado",
+    "dimension": "lado",
     "size": "6m_yq",
     "other_details": null
   },
   "counterspell": null,
   "duration": "instantânea",
   "duration_details": "as estacas sao destruidas por qualquer quantidade de dano de fogo mágico",
-  "resistence": {
+  "resistance": {
     "effect": "parcial",
     "skill": "reflexos"
   },
@@ -43,7 +43,7 @@
         "effect": "area",
         "effect_details": {
           "shape": "cilindro",
-          "dimention": "raio,altura",
+          "dimension": "raio,altura",
           "size": "6m_yq",
           "other_details": null
         },
@@ -57,7 +57,7 @@
       "type": "dano",
       "attribute": "pv",
       "amount": "4d6+4d6",
-      "resistence_requirement": "reflexos",
+      "resistance_requirement": "reflexos",
       "extra_requirements": null
     }
   ],

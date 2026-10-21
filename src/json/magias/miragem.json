@@ -15,14 +15,14 @@
   "effect": "longo_90m_60q",
   "effect_details": {
     "shape": "cubo",
-    "dimention": "lado",
+    "dimension": "lado",
     "size": "90m_60q",
     "other_details": null
   },
   "counterspell": null,
   "duration": "1_dia",
   "duration_details": null,
-  "resistence": {
+  "resistance": {
     "effect": "desacredita",
     "skill": "vontade"
   },
@@ -55,7 +55,7 @@
       "type": "ilusão",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": "vontade",
+      "resistance_requirement": "vontade",
       "extra_requirements": null
     }
   ],

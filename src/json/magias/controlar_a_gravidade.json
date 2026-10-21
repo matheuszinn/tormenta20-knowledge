@@ -15,14 +15,14 @@
   "effect": "area_12m",
   "effect_details": {
     "shape": "cubo",
-    "dimention": "lado",
+    "dimension": "lado",
     "size": "x12_y12",
     "other_details": null
   },
   "counterspell": null,
   "duration": "sustentada",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Você controla os efeitos da gravidade dentro da área.Ao lançar a magia, escolha um dos efeitos abaixo.Enquanto a magia durar, você pode usar uma ação padrão para mudar o efeito.\nAumentar: no início de seus turnos, cada criatura na área deve fazer um teste de Atletismo. Se passar, fica fatigada. Se falhar, fica fatigada e caída.\nInverter: criaturas e objetos “caiem\" para cima, atingindo o topo (12m) em uma rodada. Se um obstáculo (como um teto) impedir o movimento das criaturas, elas sofrem 1d6 pontos de dano de impacto para cada 1,5m de “queda\". Elas podem então se levantar e caminhar no obstáculo, de cabeça para baixo. Se não houver obstáculo, as criaturas e objetos ficam ﬂutuando no topo da área, sem poder sair do lugar (criaturas voadoras podem se movimentar normalmente). Alguém adjacente a algo que possa agarrar tem direito a um teste de Reﬂexos para evitar a “queda\". A criatura deve ficar presa pela duração da magia; caso contrário “cairá\".\nReduzir: criaturas ou objetos livres com até 100kg ﬂutuam para cima e para baixo conforme sua vontade, com deslocamento de voo 6m. Criaturas na área recebem +20 de bônus em testes de Atletismo para escalar e saltar. Uma criatura levitando fica instável, sofrendo –2 em ataques.",
   "enhancements": null,
@@ -31,7 +31,7 @@
       "type": "controle",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

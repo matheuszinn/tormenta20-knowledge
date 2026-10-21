@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "sustentada",
   "duration_details": "Os mortos-vivos desaparecem quando são reduzidos a 0 PV ou no fim da cena.",
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Seis esqueletos de tamanho Médio feitos de energia negativa emergem do chão em espaços desocupados escolhidos por você dentro do alcance. Você pode usar uma ação de movimento para fazer os mortos-vivos andarem ou uma ação padrão para fazê-los causar dano a criaturas adjacentes. Os mortos-vivos desaparecem quando são reduzidos a 0 PV ou no fim da cena. Os mortos-vivos não agem sem receber uma ordem. Usos criativos para criaturas invocadas fora de combate ficam a critério do mestre.",
   "enhancements": [
@@ -63,7 +63,7 @@
       "type": "conjura",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ]

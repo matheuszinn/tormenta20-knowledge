@@ -16,6 +16,10 @@
       "pecas_necessarias": 3
     }
   },
-  "page": 401,
+  "applicable_to": [
+    "armadura_leve",
+    "armadura_pesada"
+  ],
+  "page": 399,
   "livro_id": "ameacas_de_arton"
 }

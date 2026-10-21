@@ -9,49 +9,80 @@
   "page": 398,
   "livro_id": "ameacas_de_arton",
   "parceiro": {
-    "tipo": ["especial", "montaria"],
+    "tipo": [
+      "especial",
+      "montaria"
+    ],
     "porte": "medio",
-    "pagina_criatura": 122,
+    "pagina_criatura": 120,
     "patamares": {
       "iniciante": {
         "skill_bonus": [
-          { "skill": "Furtividade", "value": 2 },
-          { "skill": "Sobrevivência", "value": 2 }
+          {
+            "skill": "Furtividade",
+            "value": 2
+          },
+          {
+            "skill": "Sobrevivência",
+            "value": 2
+          }
         ]
       },
       "veterano": {
         "powers": [
-          { "id": "oportunismo", "condition": "if already possessed: -1 PM custo" }
+          {
+            "id": "oportunismo",
+            "condition": "if already possessed: -1 PM custo"
+          }
         ]
       },
       "mestre": {
         "powers": [
-          { "id": "sentidos_aguçados" }
+          {
+            "id": "sentidos_aguçados"
+          }
         ]
       }
     }
   },
   "alternativo": {
-    "tipo": ["montaria"],
+    "tipo": [
+      "montaria"
+    ],
     "porte": "grande",
     "estatisticas_referem_a": "hienodonte",
     "patamares": {
       "iniciante": {
         "movement": [
-          { "type": "caminhada", "value": 12, "unit": "m" }
+          {
+            "type": "caminhada",
+            "value": 12,
+            "unit": "m"
+          }
         ],
         "extra_actions": [
-          { "type": "acao_movimento_extra", "frequency": "por_turno", "condition": "apenas_deslocar" }
+          {
+            "type": "acao_movimento_extra",
+            "frequency": "por_turno",
+            "condition": "apenas_deslocar"
+          }
         ]
       },
       "veterano": {
         "powers": [
-          { "id": "oportunismo", "condition": "if already possessed: -1 PM custo" }
+          {
+            "id": "oportunismo",
+            "condition": "if already possessed: -1 PM custo"
+          }
         ]
       },
       "mestre": {
         "maneuvers": [
-          { "manobra": "derrubar", "action": "livre", "frequency": "1x_rodada" }
+          {
+            "manobra": "derrubar",
+            "action": "livre",
+            "frequency": "1x_rodada"
+          }
         ]
       }
     }

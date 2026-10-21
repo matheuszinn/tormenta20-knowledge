@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "1_dia",
   "duration_details": "a magia termina se o alvo chegar a 0 pontos de vida",
-  "resistence": {
+  "resistance": {
     "effect": "anula",
     "skill": "fortitude"
   },
@@ -36,7 +36,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": "fortitude",
+      "resistance_requirement": "fortitude",
       "extra_requirements": null
     }
   ],

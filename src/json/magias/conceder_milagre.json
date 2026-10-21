@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "permanente",
   "duration_details": "você sofre uma penalidade de -3 PM até que o alvo lance a magia que ganhou de você.",
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Você transfere um pouco de seu poder divino a outra criatura. Escolha uma magia de até 2º círculo que você conheça; o alvo pode lançar essa magia uma vez, sem pagar o custo base dela em PM (aprimoramentos podem ser usados, mas o alvo deve gastar seus próprios PM). Você sofre uma penalidade de –3 PM até que o alvo lance a magia que ganhou.",
   "enhancements": [
@@ -33,7 +33,7 @@
       "type": "transfere",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],

@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": "veja_texto",
+  "resistance": "veja_texto",
   "extra_costs": null,
   "description": "Cria uma barreira de até 30m de comprimento e 3m de altura (ou vice-versa), ou uma cúpula de 3m de raio.\nFogo. Um lado da muralha emite ondas de calor, que causam 2d6 pontos de dano de fogo em criaturas a até 6m, quando surge e no início de seus turnos. Atravessar a muralha causa 8d6 pontos de dano de fogo. Caso seja criada em uma área onde existem criaturas, elas sofrem 8d6 pontos de dano, mas podem fazer um teste de Reflexos para reduzir o dano à metade e escapar para um lado.\nGelo. Na forma de cúpula, pode prender criaturas, mas elas têm direito a um teste de Reflexos para escapar antes que a cúpula se forme. Cada trecho de 3m da muralha tem Defesa 8, 40 PV e RD 5 e é vulnerável a fogo. Uma criatura que atravesse um trecho rompido da muralha sofre 4d6 pontos de dano de frio.",
   "enhancements": [
@@ -42,14 +42,14 @@
       "type": "dano",
       "attribute": "pv",
       "amount": "veja_texto",
-      "resistence_requirement": "reflexos",
+      "resistance_requirement": "reflexos",
       "extra_requirements": null
     },
     {
       "type": "dano",
       "attribute": "pv",
       "amount": "veja_texto",
-      "resistence_requirement": "reflexos",
+      "resistance_requirement": "reflexos",
       "extra_requirements": null
     }
   ],

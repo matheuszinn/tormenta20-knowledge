@@ -55,7 +55,7 @@ const magia = Magia.find("bola_de_fogo")!
 magia.targetInfo()
 // => { amount: 1, upTo: false, type: "criatura" } | null
 
-magia.resistenceInfo()
+magia.resistanceInfo()
 // => { effect: "reduz", skill: "Reflexos" } | null
 
 magia.extraCostsInfo()

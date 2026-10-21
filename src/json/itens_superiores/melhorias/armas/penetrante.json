@@ -2,13 +2,17 @@
   "id": "penetrante",
   "name": "Penetrante",
   "type": "melhoria",
-  "applicable_to": ["arma"],
+  "applicable_to": [
+    "arma"
+  ],
   "price": null,
-  "prerequisites": ["cruel"],
+  "prerequisites": [
+    "cruel"
+  ],
   "effects": {
     "ignora_reducao_dano": 5
   },
   "description": "A arma ignora 5 pontos da redução de dano. Pré-requisito: cruel.",
-  "page": 401,
+  "page": 399,
   "livro_id": "ameacas_de_arton"
 }

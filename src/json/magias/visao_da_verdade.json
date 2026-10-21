@@ -17,7 +17,7 @@
   "counterspell": null,
   "duration": "cena",
   "duration_details": null,
-  "resistence": null,
+  "resistance": null,
   "extra_costs": null,
   "description": "Você enxerga a forma real das coisas. Você pode ver através de camuflagem (normal e total), escuridão (normal e mágica) e efeitos de ilusão e transmutação (enxergando a verdade como formas translúcidas ou sobrepostas).",
   "enhancements": [
@@ -58,7 +58,7 @@
       "type": "outro",
       "attribute": null,
       "amount": null,
-      "resistence_requirement": null,
+      "resistance_requirement": null,
       "extra_requirements": null
     }
   ],
